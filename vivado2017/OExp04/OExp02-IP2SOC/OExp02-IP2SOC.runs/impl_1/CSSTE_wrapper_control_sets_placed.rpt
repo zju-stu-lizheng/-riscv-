@@ -1,0 +1,197 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu May 20 19:06:02 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file CSSTE_wrapper_control_sets_placed.rpt
+| Design       : CSSTE_wrapper
+| Device       : xc7k160t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   130 |
+| Unused register locations in slices containing registers |    99 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              32 |           15 |
+| No           | No                    | Yes                    |              75 |           22 |
+| No           | Yes                   | No                     |              43 |           16 |
+| Yes          | No                    | No                     |             144 |           74 |
+| Yes          | No                    | Yes                    |            1221 |          618 |
+| Yes          | Yes                   | No                     |              74 |           20 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------+----------------------------------------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+|         Clock Signal        |                                         Enable Signal                                        |                      Set/Reset Signal                     | Slice Load Count | Bel Load Count |
++-----------------------------+----------------------------------------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U6/inst/M2/EN_i_1_n_0                                                                | CSSTE_i/U9/inst/rst                                       |                1 |              1 |
+|  CSSTE_i/U8/inst/clkdiv[11] |                                                                                              |                                                           |                1 |              1 |
+|  CSSTE_i/U8/inst/clkdiv[11] |                                                                                              | CSSTE_i/U9/inst/rst                                       |                1 |              1 |
+|  CSSTE_i/U8/inst/clkdiv[6]  |                                                                                              |                                                           |                1 |              1 |
+|  CSSTE_i/U8/inst/clkdiv[9]  |                                                                                              |                                                           |                1 |              1 |
+|  CSSTE_i/U8/inst/clkdiv[9]  |                                                                                              | CSSTE_i/U9/inst/rst                                       |                1 |              1 |
+|  CSSTE_i/U8/inst/clkdiv[6]  |                                                                                              | CSSTE_i/U9/inst/rst                                       |                1 |              2 |
+| ~CSSTE_i/U8/inst/Clk_CPU    |                                                                                              | CSSTE_i/U9/inst/rst                                       |                1 |              4 |
+| ~CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/U7/inst/LED_P2S/shift_count[3]_i_1_n_0                                               | CSSTE_i/U9/inst/rst                                       |                2 |              4 |
+| ~CSSTE_i/U8/inst/Clk_CPU    |                                                                                              |                                                           |                3 |              5 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U6/inst/M2/shift_count[5]_i_1_n_0                                                    | CSSTE_i/U9/inst/rst                                       |                2 |              6 |
+| ~CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/U10/inst/counter_Ctrl                                                                | CSSTE_i/U9/inst/rst                                       |                1 |              6 |
+|  CSSTE_i/U8/inst/clkdiv[1]  | CSSTE_i/U11/inst__0/vga_controller/v_count                                                   | CSSTE_i/U9/inst/rst                                       |                4 |             10 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_50                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_51                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_53                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_15                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_58                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_41                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_47                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_17                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_52                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_54                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_26                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_27                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_37                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_56                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_57                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_19                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_22                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_40                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_25                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_42                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_59                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_3                                                   |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_31                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_6                                                   |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_34                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_28                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_60                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_61                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_62                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_63                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_11                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_29                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_55                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_64                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_13                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_49                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_65                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_12                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_18                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_14                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_21                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_16                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_23                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_24                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_10                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_32                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_33                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_30                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_35                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_67                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_66                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_8                                                   |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_9                                                   |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_68                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_20                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_36                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_38                                                  |                                                           |                4 |             12 |
+|  CSSTE_i/U8/inst/clkdiv[1]  |                                                                                              | CSSTE_i/U9/inst/rst                                       |                7 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_44                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_45                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_43                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_39                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_4                                                   |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_46                                                  |                                                           |                4 |             12 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U11/inst__0/vga_debugger/Blue[0]_48                                                  |                                                           |                4 |             12 |
+| ~CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/U7/inst/LED_P2S/buffer[0]_i_1_n_0                                                    |                                                           |                2 |             16 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U9/inst/pulse_out[3]_i_2_n_0                                                         |                                                           |                4 |             16 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/U4/inst/GPIOf0000000_we                                                              | CSSTE_i/U9/inst/rst                                       |                8 |             18 |
+|  clk_100mhz_IBUF_BUFG       |                                                                                              |                                                           |                9 |             24 |
+|  clk_100mhz_IBUF_BUFG       |                                                                                              | CSSTE_i/U11/inst__0/vga_debugger/display_addr[11]_i_1_n_0 |                9 |             31 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[17][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               16 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[19][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               18 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[12][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               17 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[16][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               15 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[11][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               17 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[14][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               14 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[15][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               17 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[20][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               18 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[21][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               16 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[9][31]_i_1_n_0                                    | CSSTE_i/U9/inst/rst                                       |               12 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[25][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               20 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[30][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               15 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[22][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               20 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[8][31]_i_1_n_0                                    | CSSTE_i/U9/inst/rst                                       |               17 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[2][31]_i_1_n_0                                    | CSSTE_i/U9/inst/rst                                       |               21 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[5][31]_i_1_n_0                                    | CSSTE_i/U9/inst/rst                                       |               17 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[4][31]_i_1_n_0                                    | CSSTE_i/U9/inst/rst                                       |               18 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[7][31]_i_1_n_0                                    | CSSTE_i/U9/inst/rst                                       |               20 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[23][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               19 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[31][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               24 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[24][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               14 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[6][31]_i_1_n_0                                    | CSSTE_i/U9/inst/rst                                       |               20 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[3][31]_i_1_n_0                                    | CSSTE_i/U9/inst/rst                                       |               18 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[28][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               14 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[27][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               21 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[26][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               19 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register                                                   | CSSTE_i/U9/inst/rst                                       |               24 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[29][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               11 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[10][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               15 |             32 |
+| ~CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/U10/inst/counter0_Lock                                                               | CSSTE_i/U9/inst/rst                                       |               12 |             32 |
+| ~CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/U10/inst/counter1_Lock                                                               | CSSTE_i/U9/inst/rst                                       |               13 |             32 |
+| ~CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/U10/inst/counter2_Lock                                                               | CSSTE_i/U9/inst/rst                                       |               13 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[13][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               15 |             32 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U9/inst/rst_counter[0]_i_1_n_0                                                       | CSSTE_i/U9/inst/counter[0]_i_1_n_0                        |                8 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/IP2CPU_0/inst/DataPath/m3/register[18][31]_i_1_n_0                                   | CSSTE_i/U9/inst/rst                                       |               14 |             32 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U9/inst/sel                                                                          | CSSTE_i/U9/inst/counter[0]_i_1_n_0                        |                8 |             32 |
+|  CSSTE_i/U8/inst/clkdiv[6]  | CSSTE_i/U10/inst/counter0[31]                                                                | CSSTE_i/U9/inst/rst                                       |               11 |             32 |
+|  CSSTE_i/U8/inst/Clk_CPU    |                                                                                              | CSSTE_i/U9/inst/rst                                       |                9 |             32 |
+|  CSSTE_i/U8/inst/clkdiv[11] | CSSTE_i/U10/inst/counter2[32]_i_1_n_0                                                        | CSSTE_i/U9/inst/rst                                       |                9 |             33 |
+|  CSSTE_i/U8/inst/clkdiv[9]  | CSSTE_i/U10/inst/counter1[32]_i_1_n_0                                                        | CSSTE_i/U9/inst/rst                                       |               10 |             33 |
+|  clk_100mhz_IBUF_BUFG       |                                                                                              | CSSTE_i/U9/inst/rst                                       |                9 |             35 |
+| ~CSSTE_i/U8/inst/Clk_CPU    | CSSTE_i/U4/inst/GPIOe0000000_we                                                              |                                                           |               40 |             48 |
+|  clk_100mhz_IBUF_BUFG       | CSSTE_i/U6/inst/M2/buffer[0]_i_1_n_0                                                         |                                                           |               28 |             64 |
+| ~clk_100mhz_IBUF_BUFG       | CSSTE_i/U3/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_0_255_0_0_i_1_n_0    |                                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG       | CSSTE_i/U3/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_256_511_0_0_i_1_n_0  |                                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG       | CSSTE_i/U3/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_512_767_0_0_i_1_n_0  |                                                           |               32 |            128 |
+| ~clk_100mhz_IBUF_BUFG       | CSSTE_i/U3/U0/synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg_768_1023_0_0_i_1_n_0 |                                                           |               32 |            128 |
++-----------------------------+----------------------------------------------------------------------------------------------+-----------------------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     6 |
+| 2      |                     1 |
+| 4      |                     2 |
+| 5      |                     1 |
+| 6      |                     2 |
+| 10     |                     1 |
+| 12     |                    65 |
+| 16+    |                    52 |
++--------+-----------------------+
+
+

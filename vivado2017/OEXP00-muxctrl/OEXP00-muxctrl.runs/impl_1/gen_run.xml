@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k160tffg676-2L" LaunchTime="1614861860">
+  <File Type="ROUTE-PWR" Name="OEXP01_muxctrl_wrapper_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="OEXP01_muxctrl_wrapper.tcl"/>
+  <File Type="PWROPT-DCP" Name="OEXP01_muxctrl_wrapper_pwropt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="OEXP01_muxctrl_wrapper_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="OEXP01_muxctrl_wrapper_reports.tcl"/>
+  <File Type="BG-DRC" Name="OEXP01_muxctrl_wrapper.drc"/>
+  <File Type="OPT-HWDEF" Name="OEXP01_muxctrl_wrapper.hwdef"/>
+  <File Type="OPT-DCP" Name="OEXP01_muxctrl_wrapper_opt.dcp"/>
+  <File Type="OPT-DRC" Name="OEXP01_muxctrl_wrapper_drc_opted.rpt"/>
+  <File Type="PLACE-DCP" Name="OEXP01_muxctrl_wrapper_placed.dcp"/>
+  <File Type="PLACE-IO" Name="OEXP01_muxctrl_wrapper_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="OEXP01_muxctrl_wrapper_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="OEXP01_muxctrl_wrapper_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="OEXP01_muxctrl_wrapper_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="OEXP01_muxctrl_wrapper_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="OEXP01_muxctrl_wrapper_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="OEXP01_muxctrl_wrapper_physopt.dcp"/>
+  <File Type="BG-BIT" Name="OEXP01_muxctrl_wrapper.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="OEXP01_muxctrl_wrapper_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="OEXP01_muxctrl_wrapper_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="OEXP01_muxctrl_wrapper_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="OEXP01_muxctrl_wrapper_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="OEXP01_muxctrl_wrapper_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="OEXP01_muxctrl_wrapper_drc_routed.rpx"/>
+  <File Type="BITSTR-MSK" Name="OEXP01_muxctrl_wrapper.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="OEXP01_muxctrl_wrapper_methodology_drc_routed.rpt"/>
+  <File Type="BG-BGN" Name="OEXP01_muxctrl_wrapper.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="OEXP01_muxctrl_wrapper_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-RBT" Name="OEXP01_muxctrl_wrapper.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="OEXP01_muxctrl_wrapper_methodology_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="OEXP01_muxctrl_wrapper.bin"/>
+  <File Type="ROUTE-PWR-RPX" Name="OEXP01_muxctrl_wrapper_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="OEXP01_muxctrl_wrapper_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="OEXP01_muxctrl_wrapper_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="OEXP01_muxctrl_wrapper_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="OEXP01_muxctrl_wrapper_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="OEXP01_muxctrl_wrapper_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="OEXP01_muxctrl_wrapper_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="OEXP01_muxctrl_wrapper.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="OEXP01_muxctrl_wrapper_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="OEXP01_muxctrl_wrapper_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="OEXP01_muxctrl_wrapper.nky"/>
+  <File Type="BITSTR-BMM" Name="OEXP01_muxctrl_wrapper_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="OEXP01_muxctrl_wrapper.mmi"/>
+  <File Type="BITSTR-LTX" Name="OEXP01_muxctrl_wrapper.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="OEXP01_muxctrl_wrapper.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/OEXP01_muxctrl/OEXP01_muxctrl.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/OEXP01_muxctrl/hdl/OEXP01_muxctrl_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="OEXP01_muxctrl_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/muxctrl.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

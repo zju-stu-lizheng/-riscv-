@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jun  1 19:27:07 2021
+# Process ID: 5348
+# Current directory: D:/V20/Pipeline/SOC_P1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent816 D:\V20\Pipeline\SOC_P1\SOC_NEW.xpr
+# Log file: D:/V20/Pipeline/SOC_P1/vivado.log
+# Journal file: D:/V20/Pipeline/SOC_P1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/V20/Pipeline/SOC_P1/SOC_NEW.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/CSSTE/CSSTE.bd}
+startgroup
+set_property -dict [list CONFIG.coefficient_file {D:/V20/Pipeline/SOC_P1/COE/I_mem.coe}] [get_bd_cells ROM_B]
+endgroup
+startgroup
+set_property -dict [list CONFIG.coefficient_file {D:/V20/Pipeline/SOC_P1/COE/D_mem.coe}] [get_bd_cells RAM_Data]
+endgroup
+export_ip_user_files -of_objects  [get_files d:/V20/Pipeline/SOC_P1/COE/PPL_mem_1.coe] -no_script -reset -force -quiet
+remove_files  d:/V20/Pipeline/SOC_P1/COE/PPL_mem_1.coe
+open_bd_design {D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd}
+startgroup
+set_property -dict [list CONFIG.coefficient_file {D:/V20/Pipeline/SOC_P1/COE/PPL_mem_1.coe}] [get_bd_cells ROM]
+endgroup
+startgroup
+set_property -dict [list CONFIG.coefficient_file {D:/V20/Pipeline/SOC_P1/COE/D_mem.coe}] [get_bd_cells RAM]
+endgroup
+save_bd_design
+current_bd_design [get_bd_designs CSSTE]
+save_bd_design
+current_bd_design [get_bd_designs SCPU_SIM]
+generate_target Simulation [get_files D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd]
+export_ip_user_files -of_objects [get_files D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd] -directory D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/sim_scripts -ip_user_files_dir D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files -ipstatic_source_dir D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/V20/Pipeline/SOC_P1/SOC_NEW.cache/compile_simlib/modelsim} {questa=D:/V20/Pipeline/SOC_P1/SOC_NEW.cache/compile_simlib/questa} {riviera=D:/V20/Pipeline/SOC_P1/SOC_NEW.cache/compile_simlib/riviera} {activehdl=D:/V20/Pipeline/SOC_P1/SOC_NEW.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+source SCPU_tb.tcl
+current_wave_config {Untitled 1}
+add_wave {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/x0}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/ra}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/sp}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/gp}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/tp}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/t0}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/t1}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/t2}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/s0}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/s1}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/a0}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/a1}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/a2}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/a3}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/a4}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/a5}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/a6}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/a7}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/s2}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/s3}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/s4}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/s5}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/s6}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/s7}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/s8}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/s9}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/s10}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/s11}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/t3}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/t4}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/t5}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/BB/t6}} 
+current_wave_config {Untitled 1}
+add_wave {{/SCPU_tb/u/SCPU_SIM_i/Data_out_WB}} {{/SCPU_tb/u/SCPU_SIM_i/MemRW_EX_0}} {{/SCPU_tb/u/SCPU_SIM_i/PC_out_EX}} {{/SCPU_tb/u/SCPU_SIM_i/PC_out_ID}} {{/SCPU_tb/u/SCPU_SIM_i/clk}} {{/SCPU_tb/u/SCPU_SIM_i/inst_ID}} {{/SCPU_tb/u/SCPU_SIM_i/rst}} 
+relaunch_sim
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/V20/Pipeline/SOC_P1/SOC_NEW.runs/impl_1/CSSTE_wrapper.bit} [get_hw_devices xc7k160t_0]
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {D:/V20/Pipeline/SOC_P1/SOC_NEW.runs/impl_1/CSSTE_wrapper.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+open_bd_design {D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/CSSTE/CSSTE.bd}

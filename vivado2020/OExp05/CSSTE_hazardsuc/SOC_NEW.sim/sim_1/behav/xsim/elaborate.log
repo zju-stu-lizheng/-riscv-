@@ -1,0 +1,44 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto a9dad49d401d41c6a87071758a78c593 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SCPU_tb_behav xil_defaultlib.SCPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'MIO_ready' is not connected on this instance [D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/a0d5/Pipeline_ID.v:80]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.SCPU_SIM_xlslice_0_1
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.SCPU_SIM_util_vector_logic_0_0
+Compiling module xil_defaultlib.SCPU_SIM_xlslice_0_0
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.PC_CTRL
+Compiling module xil_defaultlib.Pipeline_IF
+Compiling module xil_defaultlib.IF_reg_ID
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.Pipeline_ID
+Compiling module xil_defaultlib.ID_reg_EX
+Compiling module xil_defaultlib.ADC32
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Pipeline_EX
+Compiling module xil_defaultlib.EX_reg_MEM
+Compiling module xil_defaultlib.Pipeline_MEM
+Compiling module xil_defaultlib.MEM_reg_WB
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.Pipeline_WB
+Compiling module xil_defaultlib.Pipeline_CPU
+Compiling module xil_defaultlib.SCPU_SIM_Pipeline_CPU_0_0
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.SCPU_SIM_dist_mem_gen_0_1
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.SCPU_SIM_dist_mem_gen_0_0
+Compiling module xil_defaultlib.SCPU_SIM
+Compiling module xil_defaultlib.SCPU_SIM_wrapper
+Compiling module xil_defaultlib.SCPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SCPU_tb_behav

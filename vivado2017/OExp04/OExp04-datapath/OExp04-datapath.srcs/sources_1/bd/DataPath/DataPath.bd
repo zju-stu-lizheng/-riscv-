@@ -1,0 +1,793 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x196EA1BC30D68702",
+      "device": "xc7k160tffg676-2L",
+      "name": "DataPath",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2020.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "ImmGen_0": "",
+      "add_32_0": "",
+      "add_32_1": "",
+      "MUX2T1_32_0": "",
+      "MUX4T1_32_0": "",
+      "MUX2T1_32_1": "",
+      "MUX2T1_32_2": "",
+      "regs_0": "",
+      "PC": "",
+      "ALU_wrapper_0": "",
+      "and_2": "",
+      "PC4": "",
+      "vcc": "",
+      "inst19_15": "",
+      "inst24_20": "",
+      "inst11_7": ""
+    },
+    "ports": {
+      "ImmSel": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "inst_field": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "Branch": {
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "PortType": {
+            "value": "undef",
+            "value_src": "ip_prop"
+          },
+          "PortType.PROP_SRC": {
+            "value": "false",
+            "value_src": "ip_prop"
+          }
+        }
+      },
+      "Jump": {
+        "direction": "I"
+      },
+      "Data_in": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "MemtoReg": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "ALUSrc_B": {
+        "direction": "I"
+      },
+      "ALU_operation": {
+        "direction": "I",
+        "left": "2",
+        "right": "0"
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "rst",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "DataPath_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "rst": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "PC_out": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "Data_out": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "ALU_out": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "RegWrite": {
+        "direction": "I"
+      },
+      "a0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a4": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a5": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a6": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a7": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "gp": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "ra": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s10": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s11": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s4": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s5": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s6": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s7": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s8": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s9": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "sp": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t4": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t5": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t6": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "tp": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "x0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      }
+    },
+    "components": {
+      "ImmGen_0": {
+        "vlnv": "xilinx.com:user:ImmGen:1.0",
+        "xci_name": "DataPath_ImmGen_0_0"
+      },
+      "add_32_0": {
+        "vlnv": "xilinx.com:user:add_32:1.0",
+        "xci_name": "DataPath_add_32_0_0"
+      },
+      "add_32_1": {
+        "vlnv": "xilinx.com:user:add_32:1.0",
+        "xci_name": "DataPath_add_32_0_1"
+      },
+      "MUX2T1_32_0": {
+        "vlnv": "xilinx.com:user:MUX2T1_32:1.0",
+        "xci_name": "DataPath_MUX2T1_32_0_0"
+      },
+      "MUX4T1_32_0": {
+        "vlnv": "xilinx.com:user:MUX4T1_32:1.0",
+        "xci_name": "DataPath_MUX4T1_32_0_0"
+      },
+      "MUX2T1_32_1": {
+        "vlnv": "xilinx.com:user:MUX2T1_32:1.0",
+        "xci_name": "DataPath_MUX2T1_32_1_0"
+      },
+      "MUX2T1_32_2": {
+        "vlnv": "xilinx.com:user:MUX2T1_32:1.0",
+        "xci_name": "DataPath_MUX2T1_32_1_1"
+      },
+      "regs_0": {
+        "vlnv": "xilinx.com:user:regs:1.0",
+        "xci_name": "DataPath_regs_0_0"
+      },
+      "PC": {
+        "vlnv": "xilinx.com:user:REG32:1.0",
+        "xci_name": "DataPath_REG32_0_0"
+      },
+      "ALU_wrapper_0": {
+        "vlnv": "xilinx.com:user:ALU_wrapper:1.0",
+        "xci_name": "DataPath_ALU_wrapper_0_0"
+      },
+      "and_2": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "DataPath_util_vector_logic_0_0",
+        "parameters": {
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "PC4": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "DataPath_xlconstant_0_0",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "4"
+          },
+          "CONST_WIDTH": {
+            "value": "32"
+          }
+        }
+      },
+      "vcc": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "DataPath_xlconstant_0_1"
+      },
+      "inst19_15": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "DataPath_xlslice_0_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "19"
+          },
+          "DIN_TO": {
+            "value": "15"
+          },
+          "DOUT_WIDTH": {
+            "value": "5"
+          }
+        }
+      },
+      "inst24_20": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "DataPath_xlslice_0_1",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "24"
+          },
+          "DIN_TO": {
+            "value": "20"
+          },
+          "DOUT_WIDTH": {
+            "value": "5"
+          }
+        }
+      },
+      "inst11_7": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "DataPath_xlslice_0_2",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "11"
+          },
+          "DIN_TO": {
+            "value": "7"
+          },
+          "DOUT_WIDTH": {
+            "value": "5"
+          }
+        }
+      }
+    },
+    "nets": {
+      "ImmSel_0_1": {
+        "ports": [
+          "ImmSel",
+          "ImmGen_0/ImmSel"
+        ]
+      },
+      "inst_field_0_1": {
+        "ports": [
+          "inst_field",
+          "ImmGen_0/inst_field",
+          "inst19_15/Din",
+          "inst24_20/Din",
+          "inst11_7/Din"
+        ]
+      },
+      "Op1_0_1": {
+        "ports": [
+          "Branch",
+          "and_2/Op1"
+        ]
+      },
+      "s_0_1": {
+        "ports": [
+          "Jump",
+          "MUX2T1_32_1/s"
+        ]
+      },
+      "I1_0_1": {
+        "ports": [
+          "Data_in",
+          "MUX4T1_32_0/I1"
+        ]
+      },
+      "s_0_2": {
+        "ports": [
+          "MemtoReg",
+          "MUX4T1_32_0/s"
+        ]
+      },
+      "s_0_3": {
+        "ports": [
+          "ALUSrc_B",
+          "MUX2T1_32_2/s"
+        ]
+      },
+      "ALU_operation_0_1": {
+        "ports": [
+          "ALU_operation",
+          "ALU_wrapper_0/ALU_operation"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk",
+          "regs_0/clk",
+          "PC/clk"
+        ]
+      },
+      "rst_0_1": {
+        "ports": [
+          "rst",
+          "regs_0/rst",
+          "PC/rst"
+        ]
+      },
+      "PC4_dout": {
+        "ports": [
+          "PC4/dout",
+          "add_32_1/b"
+        ]
+      },
+      "PC_Q": {
+        "ports": [
+          "PC/Q",
+          "PC_out",
+          "add_32_1/a",
+          "add_32_0/a"
+        ]
+      },
+      "regs_0_Rs2_data": {
+        "ports": [
+          "regs_0/Rs2_data",
+          "Data_out",
+          "MUX2T1_32_2/I0"
+        ]
+      },
+      "ALU_wrapper_0_res": {
+        "ports": [
+          "ALU_wrapper_0/res",
+          "ALU_out",
+          "MUX4T1_32_0/I0"
+        ]
+      },
+      "ImmGen_0_Imm_out": {
+        "ports": [
+          "ImmGen_0/Imm_out",
+          "add_32_0/b",
+          "MUX2T1_32_2/I1"
+        ]
+      },
+      "ALU_wrapper_0_zero": {
+        "ports": [
+          "ALU_wrapper_0/zero",
+          "and_2/Op2"
+        ]
+      },
+      "and_2_Res": {
+        "ports": [
+          "and_2/Res",
+          "MUX2T1_32_0/s"
+        ]
+      },
+      "add_32_1_c": {
+        "ports": [
+          "add_32_1/c",
+          "MUX2T1_32_0/I0",
+          "MUX4T1_32_0/I2",
+          "MUX4T1_32_0/I3"
+        ]
+      },
+      "add_32_0_c": {
+        "ports": [
+          "add_32_0/c",
+          "MUX2T1_32_0/I1",
+          "MUX2T1_32_1/I1"
+        ]
+      },
+      "MUX2T1_32_0_o": {
+        "ports": [
+          "MUX2T1_32_0/o",
+          "MUX2T1_32_1/I0"
+        ]
+      },
+      "inst19_15_Dout": {
+        "ports": [
+          "inst19_15/Dout",
+          "regs_0/Rs1_addr"
+        ]
+      },
+      "inst24_20_Dout": {
+        "ports": [
+          "inst24_20/Dout",
+          "regs_0/Rs2_addr"
+        ]
+      },
+      "inst11_7_Dout": {
+        "ports": [
+          "inst11_7/Dout",
+          "regs_0/Wt_addr"
+        ]
+      },
+      "RegWrite_0_1": {
+        "ports": [
+          "RegWrite",
+          "regs_0/RegWrite"
+        ]
+      },
+      "MUX4T1_32_0_o": {
+        "ports": [
+          "MUX4T1_32_0/o",
+          "regs_0/Wt_data"
+        ]
+      },
+      "vcc_dout": {
+        "ports": [
+          "vcc/dout",
+          "PC/CE"
+        ]
+      },
+      "MUX2T1_32_1_o": {
+        "ports": [
+          "MUX2T1_32_1/o",
+          "PC/D"
+        ]
+      },
+      "regs_0_Rs1_data": {
+        "ports": [
+          "regs_0/Rs1_data",
+          "ALU_wrapper_0/A"
+        ]
+      },
+      "MUX2T1_32_2_o": {
+        "ports": [
+          "MUX2T1_32_2/o",
+          "ALU_wrapper_0/B"
+        ]
+      },
+      "regs_0_a0": {
+        "ports": [
+          "regs_0/a0",
+          "a0"
+        ]
+      },
+      "regs_0_a1": {
+        "ports": [
+          "regs_0/a1",
+          "a1"
+        ]
+      },
+      "regs_0_a2": {
+        "ports": [
+          "regs_0/a2",
+          "a2"
+        ]
+      },
+      "regs_0_a3": {
+        "ports": [
+          "regs_0/a3",
+          "a3"
+        ]
+      },
+      "regs_0_a4": {
+        "ports": [
+          "regs_0/a4",
+          "a4"
+        ]
+      },
+      "regs_0_a5": {
+        "ports": [
+          "regs_0/a5",
+          "a5"
+        ]
+      },
+      "regs_0_a6": {
+        "ports": [
+          "regs_0/a6",
+          "a6"
+        ]
+      },
+      "regs_0_a7": {
+        "ports": [
+          "regs_0/a7",
+          "a7"
+        ]
+      },
+      "regs_0_gp": {
+        "ports": [
+          "regs_0/gp",
+          "gp"
+        ]
+      },
+      "regs_0_ra": {
+        "ports": [
+          "regs_0/ra",
+          "ra"
+        ]
+      },
+      "regs_0_s0": {
+        "ports": [
+          "regs_0/s0",
+          "s0"
+        ]
+      },
+      "regs_0_s1": {
+        "ports": [
+          "regs_0/s1",
+          "s1"
+        ]
+      },
+      "regs_0_s10": {
+        "ports": [
+          "regs_0/s10",
+          "s10"
+        ]
+      },
+      "regs_0_s11": {
+        "ports": [
+          "regs_0/s11",
+          "s11"
+        ]
+      },
+      "regs_0_s2": {
+        "ports": [
+          "regs_0/s2",
+          "s2"
+        ]
+      },
+      "regs_0_s3": {
+        "ports": [
+          "regs_0/s3",
+          "s3"
+        ]
+      },
+      "regs_0_s4": {
+        "ports": [
+          "regs_0/s4",
+          "s4"
+        ]
+      },
+      "regs_0_s5": {
+        "ports": [
+          "regs_0/s5",
+          "s5"
+        ]
+      },
+      "regs_0_s6": {
+        "ports": [
+          "regs_0/s6",
+          "s6"
+        ]
+      },
+      "regs_0_s7": {
+        "ports": [
+          "regs_0/s7",
+          "s7"
+        ]
+      },
+      "regs_0_s8": {
+        "ports": [
+          "regs_0/s8",
+          "s8"
+        ]
+      },
+      "regs_0_s9": {
+        "ports": [
+          "regs_0/s9",
+          "s9"
+        ]
+      },
+      "regs_0_sp": {
+        "ports": [
+          "regs_0/sp",
+          "sp"
+        ]
+      },
+      "regs_0_t0": {
+        "ports": [
+          "regs_0/t0",
+          "t0"
+        ]
+      },
+      "regs_0_t1": {
+        "ports": [
+          "regs_0/t1",
+          "t1"
+        ]
+      },
+      "regs_0_t2": {
+        "ports": [
+          "regs_0/t2",
+          "t2"
+        ]
+      },
+      "regs_0_t3": {
+        "ports": [
+          "regs_0/t3",
+          "t3"
+        ]
+      },
+      "regs_0_t4": {
+        "ports": [
+          "regs_0/t4",
+          "t4"
+        ]
+      },
+      "regs_0_t5": {
+        "ports": [
+          "regs_0/t5",
+          "t5"
+        ]
+      },
+      "regs_0_t6": {
+        "ports": [
+          "regs_0/t6",
+          "t6"
+        ]
+      },
+      "regs_0_tp": {
+        "ports": [
+          "regs_0/tp",
+          "tp"
+        ]
+      },
+      "regs_0_x0": {
+        "ports": [
+          "regs_0/x0",
+          "x0"
+        ]
+      }
+    }
+  }
+}

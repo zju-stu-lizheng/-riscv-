@@ -1,0 +1,270 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x7F6E1AB5FE16C7E4",
+      "device": "xc7k160tffg676-2L",
+      "name": "scpu_sim",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2020.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "ROM": "",
+      "RAM_B": "",
+      "NOT1": "",
+      "Addr11_2": "",
+      "PC11_2": "",
+      "Pipeline_CPU_0": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "rst",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "scpu_sim_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "rst": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "Data_out_WB_0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "MemRW_EX_0": {
+        "direction": "O"
+      },
+      "PC_out_EX_0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "PC_out_ID_0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "inst_ID_0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      }
+    },
+    "components": {
+      "ROM": {
+        "vlnv": "xilinx.com:ip:dist_mem_gen:8.0",
+        "xci_name": "scpu_sim_RAM_B_0",
+        "parameters": {
+          "coefficient_file": {
+            "value": "../../../../../../coe/h.coe"
+          },
+          "data_width": {
+            "value": "32"
+          },
+          "depth": {
+            "value": "1024"
+          },
+          "memory_type": {
+            "value": "rom"
+          }
+        }
+      },
+      "RAM_B": {
+        "vlnv": "xilinx.com:ip:dist_mem_gen:8.0",
+        "xci_name": "scpu_sim_dist_mem_gen_0_0",
+        "parameters": {
+          "coefficient_file": {
+            "value": "../../../../../../coe/D_mem.coe"
+          },
+          "data_width": {
+            "value": "32"
+          },
+          "depth": {
+            "value": "1024"
+          }
+        }
+      },
+      "NOT1": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "scpu_sim_util_vector_logic_0_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "Addr11_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "scpu_sim_xlslice_0_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "11"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DOUT_WIDTH": {
+            "value": "10"
+          }
+        }
+      },
+      "PC11_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "scpu_sim_xlslice_0_1",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "11"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DOUT_WIDTH": {
+            "value": "10"
+          }
+        }
+      },
+      "Pipeline_CPU_0": {
+        "vlnv": "xilinx.com:user:Pipeline_CPU:1.0",
+        "xci_name": "scpu_sim_Pipeline_CPU_0_0"
+      }
+    },
+    "nets": {
+      "clk_0_1": {
+        "ports": [
+          "clk",
+          "NOT1/Op1",
+          "Pipeline_CPU_0/clk"
+        ]
+      },
+      "rst_0_1": {
+        "ports": [
+          "rst",
+          "Pipeline_CPU_0/rst"
+        ]
+      },
+      "NOT1_Res": {
+        "ports": [
+          "NOT1/Res",
+          "RAM_B/clk"
+        ]
+      },
+      "RAM_B_spo": {
+        "ports": [
+          "RAM_B/spo",
+          "Pipeline_CPU_0/Data_in"
+        ]
+      },
+      "ROM_spo": {
+        "ports": [
+          "ROM/spo",
+          "Pipeline_CPU_0/inst_IF"
+        ]
+      },
+      "PC11_2_Dout": {
+        "ports": [
+          "PC11_2/Dout",
+          "ROM/a"
+        ]
+      },
+      "Addr11_2_Dout": {
+        "ports": [
+          "Addr11_2/Dout",
+          "RAM_B/a"
+        ]
+      },
+      "Pipeline_CPU_0_MemRW_Mem": {
+        "ports": [
+          "Pipeline_CPU_0/MemRW_Mem",
+          "RAM_B/we"
+        ]
+      },
+      "Pipeline_CPU_0_Addr_out": {
+        "ports": [
+          "Pipeline_CPU_0/Addr_out",
+          "Addr11_2/Din"
+        ]
+      },
+      "Pipeline_CPU_0_Data_out": {
+        "ports": [
+          "Pipeline_CPU_0/Data_out",
+          "RAM_B/d"
+        ]
+      },
+      "Pipeline_CPU_0_PC_out_IF": {
+        "ports": [
+          "Pipeline_CPU_0/PC_out_IF",
+          "PC11_2/Din"
+        ]
+      },
+      "Pipeline_CPU_0_Data_out_WB": {
+        "ports": [
+          "Pipeline_CPU_0/Data_out_WB",
+          "Data_out_WB_0"
+        ]
+      },
+      "Pipeline_CPU_0_MemRW_EX": {
+        "ports": [
+          "Pipeline_CPU_0/MemRW_EX",
+          "MemRW_EX_0"
+        ]
+      },
+      "Pipeline_CPU_0_PC_out_EX": {
+        "ports": [
+          "Pipeline_CPU_0/PC_out_EX",
+          "PC_out_EX_0"
+        ]
+      },
+      "Pipeline_CPU_0_PC_out_ID": {
+        "ports": [
+          "Pipeline_CPU_0/PC_out_ID",
+          "PC_out_ID_0"
+        ]
+      },
+      "Pipeline_CPU_0_inst_ID": {
+        "ports": [
+          "Pipeline_CPU_0/inst_ID",
+          "inst_ID_0"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1184 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF59773B6610118CF",
+      "device": "xc7k160tffg676-2L",
+      "name": "CSSTE",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2020.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "U8": "",
+      "U6": "",
+      "U10": "",
+      "U4": "",
+      "U5": "",
+      "U9": "",
+      "U7": "",
+      "U1": "",
+      "U11": "",
+      "U2": "",
+      "dist_mem_gen_0": "",
+      "div1": "",
+      "div25": "",
+      "sw0": "",
+      "BTN_Y0": "",
+      "util_vector_logic_0": "",
+      "util_vector_logic_1": "",
+      "div31_31": "",
+      "xlconcat_1": "",
+      "b64_0": "",
+      "b2_0": "",
+      "sw2": "",
+      "sw8": "",
+      "PC11_2": "",
+      "div6": "",
+      "div9": "",
+      "div11": "",
+      "sw7_5": "",
+      "PC31_2": "",
+      "div20": ""
+    },
+    "ports": {
+      "RSTN": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "clk_100mhz": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "RSTN",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "CSSTE_clk_100mhz",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "BTN_y": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "SW": {
+        "direction": "I",
+        "left": "15",
+        "right": "0"
+      },
+      "SEG_PEN": {
+        "direction": "O"
+      },
+      "seg_clk": {
+        "type": "clk",
+        "direction": "O",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "CSSTE_SSeg7_Dev_0_0_seg_clk",
+            "value_src": "default_prop"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "seg_clrn": {
+        "direction": "O"
+      },
+      "seg_sout": {
+        "direction": "O"
+      },
+      "LED_PEN": {
+        "direction": "O"
+      },
+      "led_clk": {
+        "type": "clk",
+        "direction": "O",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "CSSTE_SPIO_0_0_led_clk",
+            "value_src": "default_prop"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "led_clrn": {
+        "direction": "O"
+      },
+      "led_sout": {
+        "direction": "O"
+      },
+      "HSYNC": {
+        "direction": "O"
+      },
+      "VSYNC": {
+        "direction": "O"
+      },
+      "Red": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "Green": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "Blue": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      }
+    },
+    "components": {
+      "U8": {
+        "vlnv": "xilinx.com:user:clk_div:1.0",
+        "xci_name": "CSSTE_clk_div_0_0"
+      },
+      "U6": {
+        "vlnv": "xilinx.com:user:SSeg7_Dev:1.0",
+        "xci_name": "CSSTE_SSeg7_Dev_0_0"
+      },
+      "U10": {
+        "vlnv": "xilinx.com:user:Counter_x:1.0",
+        "xci_name": "CSSTE_Counter_x_0_0"
+      },
+      "U4": {
+        "vlnv": "xilinx.com:user:MIO_BUS:1.0",
+        "xci_name": "CSSTE_MIO_BUS_0_0"
+      },
+      "U5": {
+        "vlnv": "xilinx.com:user:Multi_8CH32:1.0",
+        "xci_name": "CSSTE_Multi_8CH32_0_0"
+      },
+      "U9": {
+        "vlnv": "xilinx.com:user:SAnti_jitter:1.0",
+        "xci_name": "CSSTE_SAnti_jitter_0_0"
+      },
+      "U7": {
+        "vlnv": "xilinx.com:user:SPIO:1.0",
+        "xci_name": "CSSTE_SPIO_0_0"
+      },
+      "U1": {
+        "vlnv": "xilinx.com:user:SCPU:1.0",
+        "xci_name": "CSSTE_SCPU_0_0"
+      },
+      "U11": {
+        "vlnv": "xilinx.com:user:VGA:1.0",
+        "xci_name": "CSSTE_VGA_0_0"
+      },
+      "U2": {
+        "vlnv": "xilinx.com:ip:dist_mem_gen:8.0",
+        "xci_name": "CSSTE_dist_mem_gen_0_0",
+        "parameters": {
+          "coefficient_file": {
+            "value": "../../../../../../COE/I_mem_more.coe"
+          },
+          "data_width": {
+            "value": "16"
+          },
+          "depth": {
+            "value": "64"
+          },
+          "memory_type": {
+            "value": "rom"
+          }
+        }
+      },
+      "dist_mem_gen_0": {
+        "vlnv": "xilinx.com:ip:dist_mem_gen:8.0",
+        "xci_name": "CSSTE_dist_mem_gen_0_1",
+        "parameters": {
+          "coefficient_file": {
+            "value": "../../../../../../COE/D_mem.coe"
+          },
+          "data_width": {
+            "value": "32"
+          },
+          "depth": {
+            "value": "1024"
+          }
+        }
+      },
+      "div1": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "CSSTE_div20_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "1"
+          },
+          "DIN_TO": {
+            "value": "1"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "div25": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "CSSTE_div20_1",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "25"
+          },
+          "DIN_TO": {
+            "value": "25"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "sw0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "CSSTE_sw7_5_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "0"
+          },
+          "DIN_TO": {
+            "value": "0"
+          },
+          "DIN_WIDTH": {
+            "value": "16"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "BTN_Y0": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "CSSTE_sw9_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "0"
+          },
+          "DIN_TO": {
+            "value": "0"
+          },
+          "DIN_WIDTH": {
+            "value": "4"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_0": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "CSSTE_util_vector_logic_0_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "util_vector_logic_1": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "CSSTE_util_vector_logic_0_1",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "div31_31": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "CSSTE_xlconcat_0_0",
+        "parameters": {
+          "IN0_WIDTH": {
+            "value": "32"
+          },
+          "IN1_WIDTH": {
+            "value": "32"
+          },
+          "dout_width": {
+            "value": "64"
+          }
+        }
+      },
+      "xlconcat_1": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "CSSTE_xlconcat_0_1",
+        "parameters": {
+          "dout_width": {
+            "value": "32"
+          }
+        }
+      },
+      "b64_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "CSSTE_xlconstant_0_0",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "b2_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "CSSTE_xlconstant_0_1",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          },
+          "CONST_WIDTH": {
+            "value": "2"
+          }
+        }
+      },
+      "sw2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "CSSTE_xlslice_0_1",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "2"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DIN_WIDTH": {
+            "value": "16"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "sw8": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "CSSTE_xlslice_0_2",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "8"
+          },
+          "DIN_TO": {
+            "value": "8"
+          },
+          "DIN_WIDTH": {
+            "value": "16"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "PC11_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "CSSTE_xlslice_0_3",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "11"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DOUT_WIDTH": {
+            "value": "10"
+          }
+        }
+      },
+      "div6": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "CSSTE_xlslice_0_4",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "6"
+          },
+          "DIN_TO": {
+            "value": "6"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "div9": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "CSSTE_xlslice_0_5",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "9"
+          },
+          "DIN_TO": {
+            "value": "9"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "div11": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "CSSTE_xlslice_0_6",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "11"
+          },
+          "DIN_TO": {
+            "value": "11"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "sw7_5": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "CSSTE_xlslice_0_7",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "7"
+          },
+          "DIN_TO": {
+            "value": "5"
+          },
+          "DIN_WIDTH": {
+            "value": "16"
+          },
+          "DOUT_WIDTH": {
+            "value": "3"
+          }
+        }
+      },
+      "PC31_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "CSSTE_xlslice_0_8",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "31"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DOUT_WIDTH": {
+            "value": "30"
+          }
+        }
+      },
+      "div20": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "CSSTE_xlslice_0_9",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "20"
+          },
+          "DIN_TO": {
+            "value": "20"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      }
+    },
+    "nets": {
+      "RSTN_1": {
+        "ports": [
+          "RSTN",
+          "U9/RSTN"
+        ]
+      },
+      "clk_100mhz_1": {
+        "ports": [
+          "clk_100mhz",
+          "U8/clk",
+          "U6/clk",
+          "U4/clk",
+          "U9/clk",
+          "U11/clk_100m",
+          "util_vector_logic_1/Op1"
+        ]
+      },
+      "BTN_y_1": {
+        "ports": [
+          "BTN_y",
+          "U9/Key_y"
+        ]
+      },
+      "SW_1": {
+        "ports": [
+          "SW",
+          "U9/SW"
+        ]
+      },
+      "U9_BTN_OK": {
+        "ports": [
+          "U9/BTN_OK",
+          "U4/BTN",
+          "BTN_Y0/Din"
+        ]
+      },
+      "U9_SW_OK": {
+        "ports": [
+          "U9/SW_OK",
+          "U4/SW",
+          "sw0/Din",
+          "sw2/Din",
+          "sw8/Din",
+          "sw7_5/Din"
+        ]
+      },
+      "sw2_Dout": {
+        "ports": [
+          "sw2/Dout",
+          "U8/SW2"
+        ]
+      },
+      "sw8_Dout": {
+        "ports": [
+          "sw8/Dout",
+          "U8/SW8"
+        ]
+      },
+      "U9_rst": {
+        "ports": [
+          "U9/rst",
+          "U8/rst",
+          "U6/rst",
+          "U10/rst",
+          "U4/rst",
+          "U5/rst",
+          "U7/rst",
+          "U1/rst",
+          "U11/rst"
+        ]
+      },
+      "util_vector_logic_1_Res": {
+        "ports": [
+          "util_vector_logic_1/Res",
+          "dist_mem_gen_0/clk"
+        ]
+      },
+      "U8_Clk_CPU": {
+        "ports": [
+          "U8/Clk_CPU",
+          "U1/clk",
+          "util_vector_logic_0/Op1"
+        ]
+      },
+      "util_vector_logic_0_Res": {
+        "ports": [
+          "util_vector_logic_0/Res",
+          "U10/clk",
+          "U5/clk",
+          "U7/clk"
+        ]
+      },
+      "SCPU_0_PC_out": {
+        "ports": [
+          "U1/PC_out",
+          "U5/data7",
+          "U11/pc",
+          "PC11_2/Din",
+          "PC31_2/Din"
+        ]
+      },
+      "PC11_2_Dout": {
+        "ports": [
+          "PC11_2/Dout",
+          "U2/a"
+        ]
+      },
+      "U2_spo": {
+        "ports": [
+          "U2/spo",
+          "U5/data2",
+          "U1/inst_in",
+          "U11/inst"
+        ]
+      },
+      "U8_clkdiv": {
+        "ports": [
+          "U8/clkdiv",
+          "div1/Din",
+          "div25/Din",
+          "div31_31/In0",
+          "div31_31/In1",
+          "div6/Din",
+          "div9/Din",
+          "div11/Din",
+          "div20/Din"
+        ]
+      },
+      "div6_Dout": {
+        "ports": [
+          "div6/Dout",
+          "U10/clk0"
+        ]
+      },
+      "div9_Dout": {
+        "ports": [
+          "div9/Dout",
+          "U10/clk1"
+        ]
+      },
+      "div11_Dout": {
+        "ports": [
+          "div11/Dout",
+          "U10/clk2"
+        ]
+      },
+      "U10_counter0_OUT": {
+        "ports": [
+          "U10/counter0_OUT",
+          "U4/counter0_out"
+        ]
+      },
+      "U10_counter1_OUT": {
+        "ports": [
+          "U10/counter1_OUT",
+          "U4/counter1_out"
+        ]
+      },
+      "U10_counter2_OUT": {
+        "ports": [
+          "U10/counter2_OUT",
+          "U4/counter2_out"
+        ]
+      },
+      "U10_counter_out": {
+        "ports": [
+          "U10/counter_out",
+          "U4/counter_out",
+          "U5/data3"
+        ]
+      },
+      "SCPU_0_MemRW": {
+        "ports": [
+          "U1/MemRW",
+          "U4/mem_w",
+          "U11/mem_wen"
+        ]
+      },
+      "SCPU_0_Data_out": {
+        "ports": [
+          "U1/Data_out",
+          "U4/Cpu_data2bus",
+          "U5/data5"
+        ]
+      },
+      "SCPU_0_Addr_out": {
+        "ports": [
+          "U1/Addr_out",
+          "U4/addr_bus",
+          "U5/data4",
+          "U11/alu_res",
+          "U11/dmem_addr"
+        ]
+      },
+      "U4_Cpu_data4bus": {
+        "ports": [
+          "U4/ram_data_in",
+          "U11/dmem_i_data",
+          "dist_mem_gen_0/d"
+        ]
+      },
+      "U4_GPIOe0000000_we": {
+        "ports": [
+          "U4/GPIOe0000000_we",
+          "U5/EN"
+        ]
+      },
+      "U4_counter_we": {
+        "ports": [
+          "U4/counter_we",
+          "U10/counter_we"
+        ]
+      },
+      "U4_data_ram_we": {
+        "ports": [
+          "U4/data_ram_we",
+          "dist_mem_gen_0/we"
+        ]
+      },
+      "U4_Peripheral_in": {
+        "ports": [
+          "U4/Peripheral_in",
+          "U10/counter_val",
+          "U5/Data0",
+          "U7/P_Data"
+        ]
+      },
+      "U4_ram_addr": {
+        "ports": [
+          "U4/ram_addr",
+          "dist_mem_gen_0/a"
+        ]
+      },
+      "RAM_B_0_douta": {
+        "ports": [
+          "dist_mem_gen_0/spo",
+          "U4/ram_data_out",
+          "U11/dmem_o_data"
+        ]
+      },
+      "xlconstant_0_dout": {
+        "ports": [
+          "b64_0/dout",
+          "U5/LES"
+        ]
+      },
+      "sw7_5_Dout": {
+        "ports": [
+          "sw7_5/Dout",
+          "U5/Test"
+        ]
+      },
+      "PC31_2_Dout": {
+        "ports": [
+          "PC31_2/Dout",
+          "xlconcat_1/In0"
+        ]
+      },
+      "xlconcat_1_dout": {
+        "ports": [
+          "xlconcat_1/dout",
+          "U5/data1"
+        ]
+      },
+      "div31_31_dout": {
+        "ports": [
+          "div31_31/dout",
+          "U5/point_in"
+        ]
+      },
+      "U4_GPIOf0000000_we": {
+        "ports": [
+          "U4/GPIOf0000000_we",
+          "U7/EN"
+        ]
+      },
+      "div20_Dout": {
+        "ports": [
+          "div20/Dout",
+          "U6/Start",
+          "U7/Start"
+        ]
+      },
+      "U7_LED_out": {
+        "ports": [
+          "U7/LED_out",
+          "U4/led_out"
+        ]
+      },
+      "U7_counter_set": {
+        "ports": [
+          "U7/counter_set",
+          "U10/counter_ch"
+        ]
+      },
+      "div1_Dout": {
+        "ports": [
+          "div1/Dout",
+          "U11/clk_25m"
+        ]
+      },
+      "sw0_Dout": {
+        "ports": [
+          "sw0/Dout",
+          "U6/SW0"
+        ]
+      },
+      "div25_Dout": {
+        "ports": [
+          "div25/Dout",
+          "U6/flash"
+        ]
+      },
+      "Multi_8CH32_0_Disp_num": {
+        "ports": [
+          "U5/Disp_num",
+          "U6/Hexs"
+        ]
+      },
+      "Multi_8CH32_0_LE_out": {
+        "ports": [
+          "U5/LE_out",
+          "U6/LES"
+        ]
+      },
+      "Multi_8CH32_0_point_out": {
+        "ports": [
+          "U5/point_out",
+          "U6/point"
+        ]
+      },
+      "U6_SEG_PEN": {
+        "ports": [
+          "U6/SEG_PEN",
+          "SEG_PEN"
+        ]
+      },
+      "U6_seg_clk": {
+        "ports": [
+          "U6/seg_clk",
+          "seg_clk"
+        ]
+      },
+      "U6_seg_clrn": {
+        "ports": [
+          "U6/seg_clrn",
+          "seg_clrn"
+        ]
+      },
+      "U6_seg_sout": {
+        "ports": [
+          "U6/seg_sout",
+          "seg_sout"
+        ]
+      },
+      "U7_LED_PEN": {
+        "ports": [
+          "U7/LED_PEN",
+          "LED_PEN"
+        ]
+      },
+      "U7_led_clk": {
+        "ports": [
+          "U7/led_clk",
+          "led_clk"
+        ]
+      },
+      "U7_led_clrn": {
+        "ports": [
+          "U7/led_clrn",
+          "led_clrn"
+        ]
+      },
+      "U7_led_sout": {
+        "ports": [
+          "U7/led_sout",
+          "led_sout"
+        ]
+      },
+      "VGA_0_hs": {
+        "ports": [
+          "U11/hs",
+          "HSYNC"
+        ]
+      },
+      "VGA_0_vs": {
+        "ports": [
+          "U11/vs",
+          "VSYNC"
+        ]
+      },
+      "VGA_0_vga_r": {
+        "ports": [
+          "U11/vga_r",
+          "Red"
+        ]
+      },
+      "VGA_0_vga_g": {
+        "ports": [
+          "U11/vga_g",
+          "Green"
+        ]
+      },
+      "VGA_0_vga_b": {
+        "ports": [
+          "U11/vga_b",
+          "Blue"
+        ]
+      },
+      "U4_Cpu_data4bus1": {
+        "ports": [
+          "U4/Cpu_data4bus",
+          "U5/data6",
+          "U1/Data_in"
+        ]
+      },
+      "b2_0_dout": {
+        "ports": [
+          "b2_0/dout",
+          "xlconcat_1/In1"
+        ]
+      },
+      "U1_t6": {
+        "ports": [
+          "U1/t6",
+          "U11/t6"
+        ]
+      },
+      "U1_t5": {
+        "ports": [
+          "U1/t5",
+          "U11/t5"
+        ]
+      },
+      "U1_t4": {
+        "ports": [
+          "U1/t4",
+          "U11/t4"
+        ]
+      },
+      "U1_t3": {
+        "ports": [
+          "U1/t3",
+          "U11/t3"
+        ]
+      },
+      "U1_s11": {
+        "ports": [
+          "U1/s11",
+          "U11/s11"
+        ]
+      },
+      "U1_s10": {
+        "ports": [
+          "U1/s10",
+          "U11/s10"
+        ]
+      },
+      "U1_s9": {
+        "ports": [
+          "U1/s9",
+          "U11/s9"
+        ]
+      },
+      "U1_s8": {
+        "ports": [
+          "U1/s8",
+          "U11/s8"
+        ]
+      },
+      "U1_s7": {
+        "ports": [
+          "U1/s7",
+          "U11/s7"
+        ]
+      },
+      "U1_s6": {
+        "ports": [
+          "U1/s6",
+          "U11/s6"
+        ]
+      },
+      "U1_s5": {
+        "ports": [
+          "U1/s5",
+          "U11/s5"
+        ]
+      },
+      "U1_s4": {
+        "ports": [
+          "U1/s4",
+          "U11/s4"
+        ]
+      },
+      "U1_s3": {
+        "ports": [
+          "U1/s3",
+          "U11/s3"
+        ]
+      },
+      "U1_s2": {
+        "ports": [
+          "U1/s2",
+          "U11/s2"
+        ]
+      },
+      "U1_a7": {
+        "ports": [
+          "U1/a7",
+          "U11/a7"
+        ]
+      },
+      "U1_a6": {
+        "ports": [
+          "U1/a6",
+          "U11/a6"
+        ]
+      },
+      "U1_a5": {
+        "ports": [
+          "U1/a5",
+          "U11/a5"
+        ]
+      },
+      "U1_a4": {
+        "ports": [
+          "U1/a4",
+          "U11/a4"
+        ]
+      },
+      "U1_a3": {
+        "ports": [
+          "U1/a3",
+          "U11/a3"
+        ]
+      },
+      "U1_a2": {
+        "ports": [
+          "U1/a2",
+          "U11/a2"
+        ]
+      },
+      "U1_a1": {
+        "ports": [
+          "U1/a1",
+          "U11/a1"
+        ]
+      },
+      "U1_a0": {
+        "ports": [
+          "U1/a0",
+          "U11/a0"
+        ]
+      },
+      "U1_s1": {
+        "ports": [
+          "U1/s1",
+          "U11/s1"
+        ]
+      },
+      "U1_s0": {
+        "ports": [
+          "U1/s0",
+          "U11/s0"
+        ]
+      },
+      "U1_t2": {
+        "ports": [
+          "U1/t2",
+          "U11/t2"
+        ]
+      },
+      "U1_t1": {
+        "ports": [
+          "U1/t1",
+          "U11/t1"
+        ]
+      },
+      "U1_t0": {
+        "ports": [
+          "U1/t0",
+          "U11/t0"
+        ]
+      },
+      "U1_tp": {
+        "ports": [
+          "U1/tp",
+          "U11/tp"
+        ]
+      },
+      "U1_gp": {
+        "ports": [
+          "U1/gp",
+          "U11/gp"
+        ]
+      },
+      "U1_sp": {
+        "ports": [
+          "U1/sp",
+          "U11/sp"
+        ]
+      },
+      "U1_ra": {
+        "ports": [
+          "U1/ra",
+          "U11/ra"
+        ]
+      },
+      "U1_x0": {
+        "ports": [
+          "U1/x0",
+          "U11/x0"
+        ]
+      },
+      "BTN_Y0_Dout": {
+        "ports": [
+          "BTN_Y0/Dout",
+          "U8/STEP"
+        ]
+      }
+    },
+    "comments": {
+      "/": {
+        "comment_0": "BTN_OK[0]",
+        "comment_20": "Addr_out[31:0]",
+        "comment_15": ".",
+        "comment_21": "Data_out[31:0]",
+        "comment_1": "~clk_100mhz",
+        "comment_22": "Data_in[31:0]",
+        "comment_3": "PC[11:2]",
+        "comment_16": ".",
+        "comment_17": "{2'b0,PC[31:2]}",
+        "comment_18": "inst[31:0]",
+        "comment_19": "Counter_out[31:0]",
+        "comment_9": "sw[7:5]]",
+        "comment_10": ".",
+        "comment_23": ".",
+        "comment_24": "."
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/new/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/Alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/new/DataPath_more.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_more
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/new/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/new/SCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/SCPU_ctrl_more.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl_more
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sim_1/imports/new/IP2CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_tb

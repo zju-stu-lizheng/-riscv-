@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat May  8 16:27:39 2021
+# Process ID: 27764
+# Current directory: D:/ISE/vivado/OExp02-IP2SOC
+# Command line: wbtcv.exe -mode batch -source D:/ISE/vivado/OExp04/OExp04-ExtSCPU/OExp04-ExtSCPU.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: D:/ISE/vivado/OExp02-IP2SOC/webtalk.log
+# Journal file: D:/ISE/vivado/OExp02-IP2SOC\webtalk.jou
+#-----------------------------------------------------------
+source D:/ISE/vivado/OExp04/OExp04-ExtSCPU/OExp04-ExtSCPU.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat May  8 16:27:41 2021...

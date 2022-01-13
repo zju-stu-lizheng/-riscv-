@@ -1,0 +1,593 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xB8991D2683F0E847",
+      "device": "xc7k160tffg676-2L",
+      "name": "SCPU_SIM",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2020.2"
+    },
+    "design_tree": {
+      "PC_11_2": "",
+      "Addr_11_2": "",
+      "CLK_Not": "",
+      "ROM": "",
+      "RAM": "",
+      "Pipeline_CPU_0": ""
+    },
+    "ports": {
+      "a0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a4": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a5": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a6": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a7": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I"
+      },
+      "gp": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "ra": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "rst": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "s0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s10": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s11": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s4": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s5": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s6": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s7": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s8": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s9": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "sp": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t4": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t5": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t6": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "tp": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "x0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "Data_out_WB": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "MemRW_EX_0": {
+        "direction": "O"
+      },
+      "PC_out_EX": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "PC_out_ID": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "inst_ID": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      }
+    },
+    "components": {
+      "PC_11_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "SCPU_SIM_xlslice_0_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "11"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DOUT_WIDTH": {
+            "value": "10"
+          }
+        }
+      },
+      "Addr_11_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "SCPU_SIM_xlslice_0_1",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "11"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DOUT_WIDTH": {
+            "value": "10"
+          }
+        }
+      },
+      "CLK_Not": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "SCPU_SIM_util_vector_logic_0_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "ROM": {
+        "vlnv": "xilinx.com:ip:dist_mem_gen:8.0",
+        "xci_name": "SCPU_SIM_dist_mem_gen_0_0",
+        "parameters": {
+          "coefficient_file": {
+            "value": "../../../../../../COE_hazard/I_mem.coe"
+          },
+          "data_width": {
+            "value": "32"
+          },
+          "depth": {
+            "value": "1024"
+          },
+          "memory_type": {
+            "value": "rom"
+          }
+        }
+      },
+      "RAM": {
+        "vlnv": "xilinx.com:ip:dist_mem_gen:8.0",
+        "xci_name": "SCPU_SIM_dist_mem_gen_0_1",
+        "parameters": {
+          "coefficient_file": {
+            "value": "../../../../../../COE/D_mem.coe"
+          },
+          "data_width": {
+            "value": "32"
+          },
+          "depth": {
+            "value": "1024"
+          },
+          "memory_type": {
+            "value": "single_port_ram"
+          }
+        }
+      },
+      "Pipeline_CPU_0": {
+        "vlnv": "xilinx.com:user:Pipeline_CPU:1.0",
+        "xci_name": "SCPU_SIM_Pipeline_CPU_0_0"
+      }
+    },
+    "nets": {
+      "PC_11_2_Dout": {
+        "ports": [
+          "PC_11_2/Dout",
+          "ROM/a"
+        ]
+      },
+      "Addr_11_2_Dout": {
+        "ports": [
+          "Addr_11_2/Dout",
+          "RAM/a"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk",
+          "CLK_Not/Op1",
+          "Pipeline_CPU_0/clk"
+        ]
+      },
+      "CLK_Not_Res": {
+        "ports": [
+          "CLK_Not/Res",
+          "RAM/clk"
+        ]
+      },
+      "Pipeline_CPU_0_t6": {
+        "ports": [
+          "Pipeline_CPU_0/t6",
+          "t6"
+        ]
+      },
+      "Pipeline_CPU_0_t5": {
+        "ports": [
+          "Pipeline_CPU_0/t5",
+          "t5"
+        ]
+      },
+      "Pipeline_CPU_0_t4": {
+        "ports": [
+          "Pipeline_CPU_0/t4",
+          "t4"
+        ]
+      },
+      "Pipeline_CPU_0_t3": {
+        "ports": [
+          "Pipeline_CPU_0/t3",
+          "t3"
+        ]
+      },
+      "Pipeline_CPU_0_s11": {
+        "ports": [
+          "Pipeline_CPU_0/s11",
+          "s11"
+        ]
+      },
+      "Pipeline_CPU_0_s10": {
+        "ports": [
+          "Pipeline_CPU_0/s10",
+          "s10"
+        ]
+      },
+      "Pipeline_CPU_0_s9": {
+        "ports": [
+          "Pipeline_CPU_0/s9",
+          "s9"
+        ]
+      },
+      "Pipeline_CPU_0_s8": {
+        "ports": [
+          "Pipeline_CPU_0/s8",
+          "s8"
+        ]
+      },
+      "Pipeline_CPU_0_s7": {
+        "ports": [
+          "Pipeline_CPU_0/s7",
+          "s7"
+        ]
+      },
+      "Pipeline_CPU_0_s6": {
+        "ports": [
+          "Pipeline_CPU_0/s6",
+          "s6"
+        ]
+      },
+      "Pipeline_CPU_0_s5": {
+        "ports": [
+          "Pipeline_CPU_0/s5",
+          "s5"
+        ]
+      },
+      "Pipeline_CPU_0_s4": {
+        "ports": [
+          "Pipeline_CPU_0/s4",
+          "s4"
+        ]
+      },
+      "Pipeline_CPU_0_s3": {
+        "ports": [
+          "Pipeline_CPU_0/s3",
+          "s3"
+        ]
+      },
+      "Pipeline_CPU_0_s2": {
+        "ports": [
+          "Pipeline_CPU_0/s2",
+          "s2"
+        ]
+      },
+      "Pipeline_CPU_0_a7": {
+        "ports": [
+          "Pipeline_CPU_0/a7",
+          "a7"
+        ]
+      },
+      "Pipeline_CPU_0_a6": {
+        "ports": [
+          "Pipeline_CPU_0/a6",
+          "a6"
+        ]
+      },
+      "Pipeline_CPU_0_a5": {
+        "ports": [
+          "Pipeline_CPU_0/a5",
+          "a5"
+        ]
+      },
+      "Pipeline_CPU_0_a4": {
+        "ports": [
+          "Pipeline_CPU_0/a4",
+          "a4"
+        ]
+      },
+      "Pipeline_CPU_0_a3": {
+        "ports": [
+          "Pipeline_CPU_0/a3",
+          "a3"
+        ]
+      },
+      "Pipeline_CPU_0_a2": {
+        "ports": [
+          "Pipeline_CPU_0/a2",
+          "a2"
+        ]
+      },
+      "Pipeline_CPU_0_a1": {
+        "ports": [
+          "Pipeline_CPU_0/a1",
+          "a1"
+        ]
+      },
+      "Pipeline_CPU_0_x0": {
+        "ports": [
+          "Pipeline_CPU_0/x0",
+          "x0"
+        ]
+      },
+      "Pipeline_CPU_0_ra": {
+        "ports": [
+          "Pipeline_CPU_0/ra",
+          "ra"
+        ]
+      },
+      "Pipeline_CPU_0_sp": {
+        "ports": [
+          "Pipeline_CPU_0/sp",
+          "sp"
+        ]
+      },
+      "Pipeline_CPU_0_gp": {
+        "ports": [
+          "Pipeline_CPU_0/gp",
+          "gp"
+        ]
+      },
+      "Pipeline_CPU_0_tp": {
+        "ports": [
+          "Pipeline_CPU_0/tp",
+          "tp"
+        ]
+      },
+      "Pipeline_CPU_0_t0": {
+        "ports": [
+          "Pipeline_CPU_0/t0",
+          "t0"
+        ]
+      },
+      "Pipeline_CPU_0_t1": {
+        "ports": [
+          "Pipeline_CPU_0/t1",
+          "t1"
+        ]
+      },
+      "Pipeline_CPU_0_t2": {
+        "ports": [
+          "Pipeline_CPU_0/t2",
+          "t2"
+        ]
+      },
+      "Pipeline_CPU_0_s0": {
+        "ports": [
+          "Pipeline_CPU_0/s0",
+          "s0"
+        ]
+      },
+      "Pipeline_CPU_0_s1": {
+        "ports": [
+          "Pipeline_CPU_0/s1",
+          "s1"
+        ]
+      },
+      "Pipeline_CPU_0_a0": {
+        "ports": [
+          "Pipeline_CPU_0/a0",
+          "a0"
+        ]
+      },
+      "ROM_spo": {
+        "ports": [
+          "ROM/spo",
+          "Pipeline_CPU_0/inst_IF"
+        ]
+      },
+      "rst_1": {
+        "ports": [
+          "rst",
+          "Pipeline_CPU_0/rst"
+        ]
+      },
+      "RAM_spo": {
+        "ports": [
+          "RAM/spo",
+          "Pipeline_CPU_0/Data_in"
+        ]
+      },
+      "Pipeline_CPU_0_PC_out_IF": {
+        "ports": [
+          "Pipeline_CPU_0/PC_out_IF",
+          "PC_11_2/Din"
+        ]
+      },
+      "Pipeline_CPU_0_MemRW_Mem": {
+        "ports": [
+          "Pipeline_CPU_0/MemRW_Mem",
+          "RAM/we"
+        ]
+      },
+      "Pipeline_CPU_0_Addr_out": {
+        "ports": [
+          "Pipeline_CPU_0/Addr_out",
+          "Addr_11_2/Din"
+        ]
+      },
+      "Pipeline_CPU_0_Data_out": {
+        "ports": [
+          "Pipeline_CPU_0/Data_out",
+          "RAM/d"
+        ]
+      },
+      "Pipeline_CPU_0_Data_out_WB": {
+        "ports": [
+          "Pipeline_CPU_0/Data_out_WB",
+          "Data_out_WB"
+        ]
+      },
+      "Pipeline_CPU_0_MemRW_EX": {
+        "ports": [
+          "Pipeline_CPU_0/MemRW_EX",
+          "MemRW_EX_0"
+        ]
+      },
+      "Pipeline_CPU_0_PC_out_EX": {
+        "ports": [
+          "Pipeline_CPU_0/PC_out_EX",
+          "PC_out_EX"
+        ]
+      },
+      "Pipeline_CPU_0_PC_out_ID": {
+        "ports": [
+          "Pipeline_CPU_0/PC_out_ID",
+          "PC_out_ID"
+        ]
+      },
+      "Pipeline_CPU_0_inst_ID": {
+        "ports": [
+          "Pipeline_CPU_0/inst_ID",
+          "inst_ID"
+        ]
+      }
+    }
+  }
+}

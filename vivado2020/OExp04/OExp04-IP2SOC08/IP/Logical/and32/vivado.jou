@@ -1,0 +1,302 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Mar  2 18:42:00 2021
+# Process ID: 3360
+# Current directory: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13024 C:\Users\ASUS\Desktop\OExp_RISCV\OExp02\IP\Logical\and32\and32.xpr
+# Log file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32/and32.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32/and32.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/and32/and32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description and32 [ipx::current_core]
+set_property display_name and32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32/and32.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/Ext_imm16/Ext_imm16.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/ext_imm16/ext_imm16.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property display_name Ext_imm16 [ipx::current_core]
+set_property description Ext_imm16 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/Ext_imm16/Ext_imm16.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/nor32/nor32.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/nor32/nor32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description nor32 [ipx::current_core]
+set_property display_name nor32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/nor32/nor32.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or_bit_32/or_bit_32.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/or_bit_32/or_bit_32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description or_bit_32 [ipx::current_core]
+set_property display_name or_bit_32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or_bit_32/or_bit_32.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or32/or32.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/or32/or32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description or32 [ipx::current_core]
+set_property display_name or32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or32/or32.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/SignalExt_32/SignalExt_32.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/signalext_32/signalext_32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description SignalExt_32 [ipx::current_core]
+set_property display_name SignalExt_32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/SignalExt_32/SignalExt_32.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/srl32/srl32.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/srl32/srl32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description srl32 [ipx::current_core]
+set_property display_name srl32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/srl32/srl32.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/xor32/xor32.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/xor32/xor32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description xor32 [ipx::current_core]
+set_property display_name xor32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/xor32/xor32.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_5/MUX2T1_5.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_32/MUX2T1_32.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/mux/mux2t1_32/mux2t1_32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description MUX2T1_32 [ipx::current_core]
+set_property display_name MUX2T1_32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_32/MUX2T1_32.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX4T1_32/MUX4T1_32.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/mux/mux4t1_32/mux4t1_32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description MUX4T1_32 [ipx::current_core]
+set_property display_name MUX4T1_32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX4T1_32/MUX4T1_32.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX8T1_32/MUX8T1_32.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/mux/mux8t1_32/mux8t1_32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description MUX8T1_32 [ipx::current_core]
+set_property display_name MUX8T1_32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+ipx::unload_core c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new/component.xml
+current_project clk_div.v
+set_property description clk_div [ipx::current_core]
+set_property display_name clk_div [ipx::current_core]
+current_project tmp_edit_project
+ipx::add_bus_parameter POLARITY_ [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY_ -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Counter_x/Counter_x.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/counter_x/counter_x.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description Counter_x [ipx::current_core]
+set_property display_name Counter_x [ipx::current_core]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter POLARITY_ [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY_ -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Counter_x/Counter_x.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/MIO_BUS/MIO_BUS.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/mio_bus/mio_bus.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description MIO_BUS [ipx::current_core]
+set_property display_name MIO_BUS [ipx::current_core]
+ipx::add_bus_parameter POLARITY_ [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY_ -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/MIO_BUS/MIO_BUS.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/ip/MUX8T1_32_0_1/MUX8T1_32_0.xci] -no_script -reset -force -quiet
+remove_files  C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/ip/MUX8T1_32_0_1/MUX8T1_32_0.xci
+export_ip_user_files -of_objects  [get_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/ip/MUX8T1_8_0_1/MUX8T1_8_0.xci] -no_script -reset -force -quiet
+remove_files  C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/ip/MUX8T1_8_0_1/MUX8T1_8_0.xci
+import_files -norecurse {C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX8T1_8/MUX8T1_8.srcs/sources_1/new/MUX8T1_8.v C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new/MUX8T1_32.v}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+update_files -from_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_32.v -to_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/imports/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new/MUX8T1_32.v -filesets [get_filesets *]
+update_files -from_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_32.v -to_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/imports/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new/MUX8T1_32.v -filesets [get_filesets *]
+set_property is_enabled false [get_files  C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/Multi_8CH32.v]
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/Multi_8CH32.v]
+import_files -norecurse {C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_32.v C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_8.v}
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/multi_8ch32/multi_8ch32.srcs/sources_1 -vendor xilinx.com -library user -taxonomy /UserIP
+set_property description Multi_8CH32 [ipx::current_core]
+set_property display_name Multi_8CH32 [ipx::current_core]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter POLARITY_ [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY_ -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property name POLARITY [ipx::get_bus_parameters POLARITY_ -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/ram_b -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description RAM_B [ipx::current_core]
+set_property display_name RAM_B [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/ram_b [current_project]
+update_ip_catalog
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SAnti_jitter/SAnti_jitter.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/santi_jitter/santi_jitter.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description SAnti_jitter [ipx::current_core]
+set_property display_name SAnti_jitter [ipx::current_core]
+ipx::add_bus_parameter POLARITY_ [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property name POLARITY [ipx::get_bus_parameters POLARITY_ -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces RSTN -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SAnti_jitter/SAnti_jitter.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SPIO/SPIO.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/spio/spio.srcs -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property display_name SPIO [ipx::current_core]
+set_property description SPIO [ipx::current_core]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces led_clk -of_objects [ipx::current_core]]
+set_property value led_clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces led_clk -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter POLARITY [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SPIO/SPIO.srcs
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SSeg7_Dev/SSeg7_Dev.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/sseg7_dev/sseg7_dev.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description SSeg7_Dev [ipx::current_core]
+set_property display_name SSeg7_Dev [ipx::current_core]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces seg_clk -of_objects [ipx::current_core]]
+set_property value seg_clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces seg_clk -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter POLARITY [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SSeg7_Dev/SSeg7_Dev.srcs/sources_1/new
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/VGA/VGA.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/vga/vga.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description VGA [ipx::current_core]
+set_property display_name VGA [ipx::current_core]
+ipx::add_bus_parameter POLARITY [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/VGA/VGA.srcs/sources_1/new
+close_project

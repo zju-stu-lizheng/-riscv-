@@ -1,0 +1,36 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/ISE/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto e4914600e0c248398268cf951d7b93a9 --incr --debug typical --relax --mt 2 -L dist_mem_gen_v8_0_12 -L xil_defaultlib -L xlslice_v1_0_1 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_cpu_behav xil_defaultlib.tb_cpu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.scpu_sim_xlslice_0_0
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.scpu_sim_util_vector_logic_0_0
+Compiling module xil_defaultlib.scpu_sim_xlslice_0_1
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="k...
+Compiling module xil_defaultlib.scpu_sim_dist_mem_gen_0_0
+Compiling module dist_mem_gen_v8_0_12.dist_mem_gen_v8_0_12(C_FAMILY="k...
+Compiling module xil_defaultlib.scpu_sim_RAM_B_0
+Compiling module xil_defaultlib.SCPU_ctrl_more
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.add_32
+Compiling module xil_defaultlib.DataPath_more
+Compiling module xil_defaultlib.SCPU
+Compiling module xil_defaultlib.scpu_sim_SCPU_0_0
+Compiling module xil_defaultlib.scpu_sim
+Compiling module xil_defaultlib.scpu_sim_wrapper
+Compiling module xil_defaultlib.tb_cpu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_cpu_behav

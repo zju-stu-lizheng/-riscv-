@@ -1,0 +1,11 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 0ba0bb7360d6438690d031d9219b171e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconstant_v1_1_7 -L util_vector_logic_v2_0_1 -L xlslice_v1_0_2 -L xlslice_v1_0_1 -L xlconcat_v2_1_1 -L xlconstant_v1_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot datapath_tb_behav xil_defaultlib.datapath_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2063] Module <DataPath_MUX2T1_32_0_0> not found while processing module instance <MUX2T1_32_0> [D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/sim/DataPath.v:225]
+ERROR: [VRFC 10-2063] Module <DataPath_MUX2T1_32_1_0> not found while processing module instance <MUX2T1_32_1> [D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/sim/DataPath.v:230]
+ERROR: [VRFC 10-2063] Module <DataPath_MUX2T1_32_1_1> not found while processing module instance <MUX2T1_32_2> [D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/sim/DataPath.v:235]
+ERROR: [VRFC 10-2063] Module <DataPath_MUX4T1_32_0_0> not found while processing module instance <MUX4T1_32_0> [D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/sim/DataPath.v:240]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

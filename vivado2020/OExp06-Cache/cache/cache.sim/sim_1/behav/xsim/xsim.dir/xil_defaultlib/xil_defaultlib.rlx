@@ -1,0 +1,11 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/ISE/2020/OExp06-Cache/cache/cache.gen/sources_1/ip/Data_ram0/sim/Data_ram0.v,1623662415,verilog,,D:/ISE/2020/OExp06-Cache/cache/cache.srcs/sources_1/new/Cache.v,,Data_ram0,,,,,,,,
+D:/ISE/2020/OExp06-Cache/cache/cache.gen/sources_1/ip/Data_ram1/sim/Data_ram1.v,1623662437,verilog,,D:/ISE/2020/OExp06-Cache/cache/cache.gen/sources_1/ip/Data_ram0/sim/Data_ram0.v,,Data_ram1,,,,,,,,
+D:/ISE/2020/OExp06-Cache/cache/cache.gen/sources_1/ip/Tag_ram0/sim/Tag_ram0.v,1623662700,verilog,,D:/ISE/2020/OExp06-Cache/cache/cache.gen/sources_1/ip/Data_ram1/sim/Data_ram1.v,,Tag_ram0,,,,,,,,
+D:/ISE/2020/OExp06-Cache/cache/cache.gen/sources_1/ip/Tag_ram1/sim/Tag_ram1.v,1623662727,verilog,,D:/ISE/2020/OExp06-Cache/cache/cache.gen/sources_1/ip/Tag_ram0/sim/Tag_ram0.v,,Tag_ram1,,,,,,,,
+D:/ISE/2020/OExp06-Cache/cache/cache.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/ISE/2020/OExp06-Cache/cache/cache.srcs/sim_1/new/cache_tb.v,1623832530,verilog,,,,cache_tb,,,,,,,,
+D:/ISE/2020/OExp06-Cache/cache/cache.srcs/sources_1/new/Cache.v,1623832347,verilog,,D:/ISE/2020/OExp06-Cache/cache/cache.srcs/sim_1/new/cache_tb.v,,Cache,,,,,,,,

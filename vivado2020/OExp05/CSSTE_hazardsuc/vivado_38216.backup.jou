@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jun  8 16:14:38 2021
+# Process ID: 38216
+# Current directory: D:/ISE/2020/OExp05/CSSTE_hazardsuc
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4772 D:\ISE\2020\OExp05\CSSTE_hazardsuc\SOC_NEW.xpr
+# Log file: D:/ISE/2020/OExp05/CSSTE_hazardsuc/vivado.log
+# Journal file: D:/ISE/2020/OExp05/CSSTE_hazardsuc\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ISE/2020/OExp05/CSSTE_hazardsuc/SOC_NEW.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/ISE/2020/OExp05/CSSTE_hazardsuc/SOC_NEW.runs/impl_1/CSSTE_wrapper.bit} [get_hw_devices xc7k160t_0]
+current_hw_device [get_hw_devices xc7k160t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k160t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k160t_0]
+set_property PROGRAM.FILE {D:/ISE/2020/OExp05/CSSTE_hazardsuc/SOC_NEW.runs/impl_1/CSSTE_wrapper.bit} [get_hw_devices xc7k160t_0]
+program_hw_devices [get_hw_devices xc7k160t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k160t_0] 0]
+close_project
+open_project D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.srcs/sources_1/bd/CSSTE/CSSTE.bd}
+ipx::edit_ip_in_project -upgrade true -name clk_div_v1_0_project -directory D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.tmp/clk_div_v1_0_project d:/ISE/2020/OExp05/CSSTE_hazard01/IP/clk_div.v.srcs/component.xml
+update_compile_order -fileset sources_1
+ipx::merge_project_changes ports [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/ISE/2020/OExp05/CSSTE_hazard01/IP
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:clk_div:1.0 [get_ips  CSSTE_clk_div_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips CSSTE_clk_div_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.srcs/sources_1/bd/CSSTE/CSSTE.bd]
+export_ip_user_files -of_objects [get_files D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.srcs/sources_1/bd/CSSTE/CSSTE.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.srcs/sources_1/bd/CSSTE/CSSTE.bd] -directory D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.ip_user_files/sim_scripts -ip_user_files_dir D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.ip_user_files -ipstatic_source_dir D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.cache/compile_simlib/modelsim} {questa=D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.cache/compile_simlib/questa} {riviera=D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.cache/compile_simlib/riviera} {activehdl=D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+reset_run synth_1

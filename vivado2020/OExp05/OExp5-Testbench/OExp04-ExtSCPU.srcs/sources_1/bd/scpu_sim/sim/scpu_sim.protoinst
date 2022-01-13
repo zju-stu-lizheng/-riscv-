@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"scpu_sim": {
+			"proto_instances": {
+			}
+		}
+	}
+}

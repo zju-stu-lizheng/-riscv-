@@ -1,0 +1,2657 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 10088
+License: Customer
+
+Current time: 	Tue Mar 23 10:25:38 CST 2021
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 48 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/VIVADO/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/VIVADO/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	ASUS
+User home directory: C:/Users/ASUS
+User working directory: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/VIVADO/Vivado
+HDI_APPROOT: D:/VIVADO/Vivado/2017.4
+RDI_DATADIR: D:/VIVADO/Vivado/2017.4/data
+RDI_BINDIR: D:/VIVADO/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/VIVADO/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/vivado.log
+Vivado journal file location: 	C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/vivado.jou
+Engine tmp dir: 	C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/.Xil/Vivado-10088-DESKTOP-BJQ6VJA
+
+GUI allocated memory:	195 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 678 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 68 MB (+68713kb) [00:00:05]
+// [Engine Memory]: 520 MB (+394234kb) [00:00:05]
+// Opening Vivado Project: C:\Users\ASUS\Desktop\OExp04-IP2CPU\IP\Logical\srl32\srl32.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/srl32.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/srl32.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/srl32' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/srl32.srcs/sources_1/new'. 
+// [GUI Memory]: 81 MB (+9731kb) [00:00:07]
+// [Engine Memory]: 600 MB (+55669kb) [00:00:07]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 98 MB (+14401kb) [00:00:08]
+// [Engine Memory]: 634 MB (+4837kb) [00:00:08]
+// [GUI Memory]: 115 MB (+12433kb) [00:00:09]
+// [Engine Memory]: 674 MB (+8495kb) [00:00:09]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 41 MB. Current time: 3/23/21 10:25:38 AM CST
+// Project name: srl32; location: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32; part: xc7k160tffg676-2L
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 107 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, srl32 (srl32.v)]", 1, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, srl32 (srl32.v)]", 1, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 105 seconds
+selectCodeEditor("srl32.v", 140, 411); // cd (w, cj)
+selectCodeEditor("srl32.v", 180, 409); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("srl32.v", 318, 407); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 709 MB (+1499kb) [00:04:05]
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 51 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (cj): Create and Package New IP: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 725 MB. GUI used memory: 45 MB. Current time: 3/23/21 10:30:28 AM CST
+// Elapsed time: 11 seconds
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_YOUR_CURRENT_PROJECT_USE, "Package your current project. Use the project as the source for creating a new IP Definition."); // b (a, Q)
+// bs (Q):  Analyze source files for top modules : addNotify
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+dismissDialog("Analyze source files for top modules"); // bs (Q)
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectButton("PAResourceItoN.NewIpWizard_IP_DEFINITION_ALREADY_EXISTS_IN_Overwrite", "Overwrite"); // JButton (A, G)
+selectButton("FINISH", "Finish"); // JButton (h, Q)
+// 'q' command handler elapsed time: 23 seconds
+dismissDialog("Create and Package New IP"); // Q (cj)
+// bs (cj):  IP Packager : addNotify
+// Tcl Message: ipx::package_project -root_dir c:/users/asus/desktop/oexp04-ip2cpu/ip/logical/srl32/srl32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force 
+// TclEventType: LOAD_FEATURE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// [Engine Memory]: 747 MB (+2413kb) [00:05:23]
+dismissDialog("IP Packager"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 747 MB. GUI used memory: 49 MB. Current time: 3/23/21 10:30:53 AM CST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+setText(PAResourceItoN.IdentificationContentPanel_DESCRIPTION, "srl32"); // z (al, cj)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property description srl32 [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+setText(PAResourceItoN.IdentificationContentPanel_DISPLAY_NAME, "srl32"); // z (al, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property display_name srl32 [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Elapsed time: 21 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // an (O, cj)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, cj)
+// Run Command: RDIResourceCommand.RDICommands_UNDO
+// Tcl Message: undo 
+// Tcl Message: INFO: [Common 17-17] undo 'set_property display_name srl32 [ipx::current_core]' 
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, cj)
+// Run Command: RDIResourceCommand.RDICommands_UNDO
+// Tcl Message: undo 
+// Tcl Message: INFO: [Common 17-17] undo 'set_property description srl32 [ipx::current_core]' 
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, cj)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, cj)
+closeView(PAResourceOtoP.PAViews_PACKAGE_IP, "Package IP - srl32"); // Y (k, cj)
+// TclEventType: PACKAGER_UNLOAD_CORE
+selectButton("PAResourceItoN.IpPackagerView_DO_YOU_WANT_TO_SAVE_YOUR_CHANGES_BEFORE_No", "No"); // JButton (A, G)
+// Tcl Message: ipx::unload_core c:/users/asus/desktop/oexp04-ip2cpu/ip/logical/srl32/srl32.srcs/sources_1/new/component.xml 
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (cj): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_YOUR_CURRENT_PROJECT_USE, "Package your current project. Use the project as the source for creating a new IP Definition."); // b (a, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_BLOCK_DESIGN_FROM_CURRENT, "Package a block design from the current project. Choose a block design as the source for creating a new IP Definition."); // b (a, Q)
+// bs (Q):  Analyze source files for top modules : addNotify
+// Elapsed time: 17 seconds
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+dismissDialog("Analyze source files for top modules"); // bs (Q)
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectButton("PAResourceItoN.NewIpWizard_IP_DEFINITION_ALREADY_EXISTS_IN_Overwrite", "Overwrite"); // JButton (A, G)
+selectButton("FINISH", "Finish"); // JButton (h, Q)
+// 'q' command handler elapsed time: 34 seconds
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Create and Package New IP"); // Q (cj)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// Tcl Message: ipx::package_project -root_dir c:/users/asus/desktop/oexp04-ip2cpu/ip/logical/srl32/srl32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// bs (cj):  IP Packager : addNotify
+dismissDialog("IP Packager"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cj)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 2 [ipx::current_core] 
+// bs (cj):  Package IP : addNotify
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/srl32.srcs/sources_1/new 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/srl32.srcs/sources_1/new' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (A, G)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// x (cj): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Close Project : addNotify
+dismissDialog("Close Project"); // x (cj)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 764 MB. GUI used memory: 55 MB. Current time: 3/23/21 10:32:25 AM CST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bs (cj)
+// Elapsed time: 480 seconds
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// Elapsed time: 15 seconds
+setFileChooser("C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.xpr");
+// Opening Vivado Project: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.xpr 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 803 MB (+19142kb) [00:15:17]
+// Tcl Message: open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-DataPath' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/CPU'; using path 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-DataPath/CPU' instead. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-DataPath/CPU'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'. 
+// Project name: OExp04-DataPath; location: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath; part: xc7k160tffg676-2L
+// 'i' command handler elapsed time: 20 seconds
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 803 MB. GUI used memory: 56 MB. Current time: 3/23/21 10:40:48 AM CST
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 69 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// v (cj): Settings: addNotify
+expandTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP]", 6); // M (C, v)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP, Repository]", 7, false); // M (C, v)
+selectList(PAResourceQtoS.SettingsProjectIPRepositoryPage_REPOSITORY_CHOOSER, "c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-DataPath/CPU", 1); // bW (O, v)
+// Elapsed time: 13 seconds
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_REFRESH_ALL, "Refresh All"); // a (C, v)
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// bs (cj):  Refresh All IP Repositories : addNotify
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs'. 
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-DataPath/CPU'. 
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Refresh All IP Repositories"); // bs (cj)
+selectList(PAResourceQtoS.SettingsProjectIPRepositoryPage_REPOSITORY_CHOOSER, "c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-DataPath/CPU", 1); // bW (O, v)
+selectList(PAResourceQtoS.SettingsProjectIPRepositoryPage_REPOSITORY_CHOOSER, "c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-DataPath/CPU", 1); // bW (O, v)
+// Elapsed time: 45 seconds
+dismissDialog("Settings"); // v (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 8, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bs (cj):  Open Block Design : addNotify
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: open_bd_design {C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd} 
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 899 MB (+58844kb) [00:17:44]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Successfully read diagram <DataPath> from BD file <C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd> 
+// HMemoryUtils.trashcanNow. Engine heap size: 899 MB. GUI used memory: 62 MB. Current time: 3/23/21 10:43:13 AM CST
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1063.508 ; gain = 79.867 
+// 'bA' command handler elapsed time: 6 seconds
+dismissDialog("Open Block Design"); // bs (cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmGen_Imm_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmGen_Imm_out 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst11_7_Dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst11_7_Dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// Elapsed time: 34 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataPath_wrapper (DataPath_wrapper.v)]", 1); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataPath_wrapper (DataPath_wrapper.v), DataPath_i : DataPath (DataPath.bd), DataPath (DataPath.v)]", 3); // B (D, cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// Elapsed time: 62 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataPath_wrapper (DataPath_wrapper.v), DataPath_i : DataPath (DataPath.bd), DataPath (DataPath.v), ALU : DataPath_ALU_wrapper_0_0 (DataPath_ALU_wrapper_0_0.xci)]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// v (cj): Settings: addNotify
+// [GUI Memory]: 126 MB (+5384kb) [00:19:30]
+selectList(PAResourceQtoS.SettingsProjectIPRepositoryPage_REPOSITORY_CHOOSER, "c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-DataPath/CPU", 1); // bW (O, v)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_zero 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// [GUI Memory]: 139 MB (+6880kb) [00:19:48]
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// Elapsed time: 32 seconds
+selectList(PAResourceQtoS.SettingsProjectIPRepositoryPage_REPOSITORY_CHOOSER, "c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-DataPath/CPU", 1); // bW (O, v)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, v)
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// bs (cj):  Refresh All IP Repositories : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs'. 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// [GUI Memory]: 158 MB (+12763kb) [00:20:06]
+dismissDialog("Refresh All IP Repositories"); // bs (cj)
+selectList(PAResourceQtoS.SettingsProjectIPRepositoryPage_REPOSITORY_CHOOSER, "c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs", 0); // bW (O, v)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, v)
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  {} [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_ADD_REPOSITORY, "Add Repository"); // B (f, v)
+// Elapsed time: 11 seconds
+setFolderChooser("C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP");
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// bs (cj):  Refresh All IP Repositories : addNotify
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'. 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// c (v): Add Repository: addNotify
+selectButton(RDIResource.AddRepositoryInfoDialog_OK, "OK"); // a (c)
+// [GUI Memory]: 168 MB (+2472kb) [00:20:30]
+dismissDialog("Add Repository"); // c (v)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (v)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (v)
+dismissDialog("Settings"); // v (cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 935 MB. GUI used memory: 73 MB. Current time: 3/23/21 10:46:03 AM CST
+selectButton(PAResourceQtoS.SystemTab_REPORT_IP_STATUS, "Report IP Status"); // h (cZ, cj)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Op1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /rst_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cj)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// bs (cj):  Upgrade IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /DataPath 
+// Tcl Message: upgrade_ip -vlnv xilinx.com:user:ALU_wrapper:1.0 [get_ips  DataPath_ALU_wrapper_0_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd' 
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded DataPath_ALU_wrapper_0_0 from ALU_wrapper_v1_0 1.0 to ALU_wrapper_v1_0 1.0 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd>  Wrote  : <C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/ui/bd_14ffd24f.ui>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips DataPath_ALU_wrapper_0_0] -no_script -sync -force -quiet 
+// au (cj): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (au)
+// TclEventType: DG_GRAPH_GENERATED
+// bs (cj):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /DataPath 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: generate_target all [get_files  C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd] 
+// Tcl Message: Wrote  : <C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd>  
+// [Engine Memory]: 990 MB (+48693kb) [00:20:43]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /DataPath 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/synth/DataPath.v VHDL Output written to : C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/sim/DataPath.v VHDL Output written to : C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/hdl/DataPath_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block Regs . INFO: [BD 41-1029] Generation completed for the IP Integrator block ImmGen . INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX2T1_32_0 . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/hw_handoff/DataPath.hwh Generated Block Design Tcl file C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/hw_handoff/DataPath_bd.tcl Generated Hardware Definition File C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/synth/DataPath.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1166.914 ; gain = 94.242 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd] -no_script -sync -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// [Engine Memory]: 1,046 MB (+6447kb) [00:20:49]
+// TclEventType: PROJECT_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,074 MB. GUI used memory: 76 MB. Current time: 3/23/21 10:46:18 AM CST
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 16 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton (A, G)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /RegWrite_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h (cZ, cj)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ImmSel_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /I1_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_3 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX4T1_32_0_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /ALU_operation_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Regs_Rs2_data 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataPath_wrapper (DataPath_wrapper.v)]", 1); // B (D, cj)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (D, cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /VCC_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /VCC_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_2_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_2_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_2_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_2_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_1_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /add_32_0_c 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /VCC_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /VCC_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /VCC_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /VCC_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /VCC_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /VCC_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_1 
+// Elapsed time: 358 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /AND_2_Res 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MUX2T1_32_1_o 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /s_0_2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /PC_Q 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /clk_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /VCC_dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /VCC_dout 
+// Elapsed time: 59 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (cj): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+// Elapsed time: 11 seconds
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_YOUR_CURRENT_PROJECT_USE, "Package your current project. Use the project as the source for creating a new IP Definition."); // b (a, Q)
+// bs (Q):  Analyze source files for top modules : addNotify
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+dismissDialog("Analyze source files for top modules"); // bs (Q)
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectButton("PAResourceItoN.NewIpWizard_IP_DEFINITION_ALREADY_EXISTS_IN_Overwrite", "Overwrite"); // JButton (A, G)
+selectButton("FINISH", "Finish"); // JButton (h, Q)
+// 'q' command handler elapsed time: 20 seconds
+dismissDialog("Create and Package New IP"); // Q (cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: ipx::package_project -root_dir c:/users/asus/desktop/oexp04-ip2cpu/ip/scpu/oexp04-datapath/oexp04-datapath.srcs -vendor xilinx.com -library user -taxonomy /UserIP -force 
+// bs (cj):  IP Packager : addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'. INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'. INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'. 
+// Tcl Message: ipx::package_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1205.395 ; gain = 0.000 
+dismissDialog("IP Packager"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // an (O, cj)
+// TclEventType: DG_GRAPH_GENERATED
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0); // K (O, cj)
+// [Engine Memory]: 1,103 MB (+4560kb) [00:28:49]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,121 MB. GUI used memory: 80 MB. Current time: 3/23/21 10:54:18 AM CST
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "rst ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 1, "rst", 0, true); // K (O, cj) - Node
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "rst ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 1, (String) null, 1, true); // K (O, cj) - Node
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "rst ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 1); // K (O, cj)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "rst ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 1, (String) null, 1, true, false, false, false, false, true); // K (O, cj) - Double Click - Node
+// H (cj): Edit Interface: addNotify
+selectTab(PAResourceEtoH.EditInterfaceDialog_TABBED_PANE, PAResourceEtoH.EditInterfaceDialog_PARAMETERS, "Parameters", 2); // I (H)
+selectButton(PAResourceAtoD.BusParameterFacetTable_ADD_RECOMMENDED_PARAMETER, (String) null); // B (f, H)
+setText("PAResourceAtoD.BusParameterFacetTable_ENTER_NEW_BUS_PARAMETER_NAME", "POLARITY"); // BasicOptionPaneUI.MultiplexingTextField (A, H)
+// TclEventType: PACKAGER_OBJECT_ADD
+selectButton("PAResourceAtoD.BusParameterFacetTable_ENTER_NEW_BUS_PARAMETER_NAME_OK", "OK"); // JButton (A, H)
+// Tcl Message: ipx::add_bus_parameter POLARITY [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]] 
+selectTreeTable(PAResourceAtoD.BusParameterFacetTable_BUS_PARAMETER_FACET_TABLE, "POLARITY ;  ;  ; all ;  ; ", 0, (String) null, 4, false); // K (O, H)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (H)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]] 
+dismissDialog("Edit Interface"); // H (cj)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "clk ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 3, (String) null, 1, true); // K (O, cj) - Node
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "clk ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 3); // K (O, cj)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "clk ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 3, (String) null, 1, true, false, false, false, false, true); // K (O, cj) - Double Click - Node
+// H (cj): Edit Interface: addNotify
+selectTab(PAResourceEtoH.EditInterfaceDialog_TABBED_PANE, PAResourceEtoH.EditInterfaceDialog_PARAMETERS, "Parameters", 2); // I (H)
+selectButton(PAResourceAtoD.BusParameterFacetTable_ADD_RECOMMENDED_PARAMETER, (String) null); // B (f, H)
+// Elapsed time: 229 seconds
+setText("PAResourceAtoD.BusParameterFacetTable_ENTER_NEW_BUS_PARAMETER_NAME", "ASSOCIATED_BUSIF"); // BasicOptionPaneUI.MultiplexingTextField (A, H)
+// TclEventType: PACKAGER_OBJECT_ADD
+selectButton("PAResourceAtoD.BusParameterFacetTable_ENTER_NEW_BUS_PARAMETER_NAME_OK", "OK"); // JButton (A, H)
+// Tcl Message: ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceAtoD.BusParameterFacetTable_BUS_PARAMETER_FACET_TABLE, "ASSOCIATED_BUSIF ; List of bus interface names separated by colons. For example, m_axis_a:s_axis_b:s_axis_c ;  ; all ;  ; ", 1, (String) null, 4, false); // K (O, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (H)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]] 
+dismissDialog("Edit Interface"); // H (cj)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cj)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 2 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// bs (cj):  Package IP : addNotify
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP 
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP' 
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (A, G)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)
+// Elapsed time: 38 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// x (cj): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // x (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,124 MB. GUI used memory: 80 MB. Current time: 3/23/21 10:59:39 AM CST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bs (cj)
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// Elapsed time: 11 seconds
+setFileChooser("C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.xpr");
+// Opening Vivado Project: C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-IP2CPU' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs'. INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'. 
+// Project name: OExp04-IP2CPU; location: C:/Users/ASUS/Desktop/OExp04-IP2CPU; part: xc7k160tffg676-2L
+// 'i' command handler elapsed time: 17 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1253.676 ; gain = 0.000 
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// v (cj): Settings: addNotify
+expandTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP]", 6); // M (C, v)
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, IP, Repository]", 7, false); // M (C, v)
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, v)
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'. 
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_REFRESH_ALL, "Refresh All"); // a (C, v)
+// TclEventType: CREATE_IP_CATALOG
+// bs (cj):  Refresh All IP Repositories : addNotify
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'. 
+dismissDialog("Refresh All IP Repositories"); // bs (cj)
+// [GUI Memory]: 177 MB (+208kb) [00:35:02]
+// Elapsed time: 16 seconds
+selectButton(RDIResource.AbstractCombinedPanel_REMOVE_SELECTED_ELEMENTS, "Remove"); // B (f, v)
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  {} [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_ip_catalog 
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// bs (cj):  Refresh All IP Repositories : addNotify
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Refresh All IP Repositories"); // bs (cj)
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_ADD_REPOSITORY, "Add Repository"); // B (f, v)
+setFolderChooser("C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP");
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// bs (cj):  Refresh All IP Repositories : addNotify
+// Tcl Message: update_ip_catalog 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'. 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// c (v): Add Repository: addNotify
+// Elapsed time: 24 seconds
+selectButton(RDIResource.AddRepositoryInfoDialog_OK, "OK"); // a (c)
+dismissDialog("Add Repository"); // c (v)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (v)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (v)
+dismissDialog("Settings"); // v (cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP2CPU_wrapper (IP2CPU_wrapper.v)]", 1); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP2CPU_wrapper (IP2CPU_wrapper.v), IP2CPU_i : IP2CPU (IP2CPU.bd), IP2CPU (IP2CPU.v)]", 3); // B (D, cj)
+// [GUI Memory]: 201 MB (+15603kb) [00:35:49]
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// v (cj): Settings: addNotify
+// [GUI Memory]: 238 MB (+28090kb) [00:36:05]
+selectButton(PAResourceQtoS.SettingsProjectIPRepositoryPage_REFRESH_ALL, "Refresh All"); // a (C, v)
+// TclEventType: CREATE_IP_CATALOG
+// bs (cj):  Refresh All IP Repositories : addNotify
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'. 
+dismissDialog("Refresh All IP Repositories"); // bs (cj)
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (v)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (v)
+dismissDialog("Settings"); // v (cj)
+maximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax (aF, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP2CPU_wrapper (IP2CPU_wrapper.v), IP2CPU_i : IP2CPU (IP2CPU.bd), IP2CPU (IP2CPU.v), DataPath : IP2CPU_DataPath_wrapper_0_0 (IP2CPU_DataPath_wrapper_0_0.xci)]", 5, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP2CPU_wrapper (IP2CPU_wrapper.v), IP2CPU_i : IP2CPU (IP2CPU.bd), IP2CPU (IP2CPU.v), DataPath : IP2CPU_DataPath_wrapper_0_0 (IP2CPU_DataPath_wrapper_0_0.xci)]", 5, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP2CPU_wrapper (IP2CPU_wrapper.v), IP2CPU_i : IP2CPU (IP2CPU.bd), IP2CPU (IP2CPU.v), DataPath : IP2CPU_DataPath_wrapper_0_0 (IP2CPU_DataPath_wrapper_0_0.xci)]", 5, false, false, false, false, false, true); // B (D, cj) - Double Click
+unMaximizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // ax (aF, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP2CPU_wrapper (IP2CPU_wrapper.v), IP2CPU_i : IP2CPU (IP2CPU.bd), IP2CPU (IP2CPU.v), Controller : IP2CPU_SCPU_ctrl_0_0 (IP2CPU_SCPU_ctrl_0_0.xci)]", 4, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, IP2CPU_wrapper (IP2CPU_wrapper.v), IP2CPU_i : IP2CPU (IP2CPU.bd), IP2CPU (IP2CPU.v), Controller : IP2CPU_SCPU_ctrl_0_0 (IP2CPU_SCPU_ctrl_0_0.xci)]", 4, false, false, false, false, true, false); // B (D, cj) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // Z (ai, cj)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, cj)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_REPORT_IP_STATUS, "Report IP Status"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// bs (cj):  Report IP Status : addNotify
+// Tcl Message: report_ip_status -name ip_status  
+dismissDialog("Report IP Status"); // bs (cj)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a (g, cj)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+selectButton("PAResourceCommand.PACommandNames_UPGRADE_IP_OK", "OK"); // JButton (A, G)
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: upgrade_ip [get_ips  {IP2CPU_SCPU_ctrl_0_0 IP2CPU_DataPath_wrapper_0_0}] -log ip_upgrade.log 
+// Tcl Message: Adding cell -- xilinx.com:user:SCPU_ctrl:1.0 - Controller Adding cell -- xilinx.com:user:DataPath_wrapper:1.0 - DataPath Adding cell -- xilinx.com:ip:xlslice:1.0 - inst6_2 Adding cell -- xilinx.com:ip:xlslice:1.0 - inst14_12 Adding cell -- xilinx.com:ip:xlslice:1.0 - inst30 
+// bs (cj):  Upgrade IP : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Successfully read diagram <IP2CPU> from BD file <C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/IP2CPU.bd> 
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /IP2CPU 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Upgrading 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/IP2CPU.bd' 
+// Tcl Message: INFO: [IP_Flow 19-1972] Upgraded IP2CPU_DataPath_wrapper_0_0 from DataPath_wrapper_v1_0 1.0 to DataPath_wrapper_v1_0 1.0 INFO: [IP_Flow 19-3422] Upgraded IP2CPU_SCPU_ctrl_0_0 (SCPU_ctrl 1.0) from revision 2 to revision 3 
+// Tcl Message: Wrote  : <C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/IP2CPU.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/ip_upgrade.log'. 
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1327.258 ; gain = 46.578 
+// Tcl Message: export_ip_user_files -of_objects [get_ips {IP2CPU_SCPU_ctrl_0_0 IP2CPU_DataPath_wrapper_0_0}] -no_script -sync -force -quiet 
+// au (cj): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (au)
+// bs (cj):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /IP2CPU 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// CommandFailedException: ERROR: [BD 41-45] Cell path not found: /IP2CPU 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: generate_target all [get_files  C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/IP2CPU.bd] 
+// Tcl Message: Wrote  : <C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/IP2CPU.bd>  VHDL Output written to : C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/synth/IP2CPU.v VHDL Output written to : C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/sim/IP2CPU.v VHDL Output written to : C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/hdl/IP2CPU_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block Controller . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block DataPath . INFO: [BD 41-1029] Generation completed for the IP Integrator block inst6_2 . INFO: [BD 41-1029] Generation completed for the IP Integrator block inst14_12 . INFO: [BD 41-1029] Generation completed for the IP Integrator block inst30 . 
+// Tcl Message: Exporting to file C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/hw_handoff/IP2CPU.hwh Generated Block Design Tcl file C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/hw_handoff/IP2CPU_bd.tcl Generated Hardware Definition File C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/synth/IP2CPU.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1390.418 ; gain = 63.160 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/IP2CPU.bd] -no_script -sync -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 21 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton (A, G)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Data_in_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// Elapsed time: 15 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aF (Q, cj)
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout2 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_RegWrite 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_RegWrite 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ALU_Control 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ALU_Control 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_Jump 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_Jump 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemtoReg 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemtoReg 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ImmSel 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ImmSel 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ALU_Control 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ALU_Control 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ALU_Control 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ALU_Control 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ALU_Control 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ALU_Control 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemRW 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemRW 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemRW 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemRW 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemRW 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemRW 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemRW 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemRW 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemRW 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemRW 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemRW 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_MemRW 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ALUSrc_B 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ALUSrc_B 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_Jump 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_Jump 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_RegWrite 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /inst_field_0_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MIO_ready_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MIO_ready_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MIO_ready_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /MIO_ready_1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout1 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_Jump 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_Jump 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_Branch 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_Branch 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_CPU_MIO 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_CPU_MIO 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_CPU_MIO 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_CPU_MIO 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ALUSrc_B 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_ALUSrc_B 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_Jump 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /Controller_Jump 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout 
+// CommandFailedException: ERROR: [BD 41-113] Interface Net not found: /xlslice_0_Dout 
+// Elapsed time: 723 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// x (cj): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // x (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,124 MB. GUI used memory: 97 MB. Current time: 3/23/21 11:14:56 AM CST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bs (cj)
+// Elapsed time: 328 seconds
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.xpr");
+// Opening Vivado Project: C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'. 
+// Project name: OExp04-IP2CPU; location: C:/Users/ASUS/Desktop/OExp04-IP2CPU; part: xc7k160tffg676-2L
+// 'i' command handler elapsed time: 12 seconds
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 133 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 4); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, IP2CPU_tb (IP2CPU_tb.v)]", 6, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, IP2CPU_tb (IP2CPU_tb.v)]", 6, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 38 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 6); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cj):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.sim/sim_1/behav/xsim' INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [USF-XSim-7] Finding pre-compiled libraries... INFO: [USF-XSim-11] File 'D:/VIVADO/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.sim/sim_1/behav/xsim' INFO: [SIM-utils-54] Inspecting design source files for 'IP2CPU_tb' in fileset 'sim_1'... 
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj IP2CPU_tb_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1396.129 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '9' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.sim/sim_1/behav/xsim' 
+// Tcl Message: Compiling module xil_defaultlib.glbl 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Built simulation snapshot IP2CPU_tb_behav  ****** Webtalk v2017.4 (64-bit)   **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017   **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.  source C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.sim/sim_1/behav/xsim/xsim.dir/IP2CPU_tb_behav/webtalk/xsim_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Tue Mar 23 11:23:50 2021... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1396.129 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "IP2CPU_tb_behav -key {Behavioral:sim_1:Functional:IP2CPU_tb} -tclbatch {IP2CPU_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Vivado Simulator 2017.4 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source IP2CPU_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,124 MB. GUI used memory: 107 MB. Current time: 3/23/21 11:23:54 AM CST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'IP2CPU_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:22 . Memory (MB): peak = 1396.129 ; gain = 0.000 
+// 'd' command handler elapsed time: 21 seconds
+// Elapsed time: 22 seconds
+dismissDialog("Run Simulation"); // e (cj)
+// Elapsed time: 81 seconds
+expandTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "IP2CPU_u ; IP2CPU_wrapper ; Verilog Module", 1); // d (O, cj)
+expandTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "IP2CPU_i ; IP2CPU ; Verilog Module", 2); // d (O, cj)
+selectCodeEditor("IP2CPU_tb.v", 342, 379); // cd (w, cj)
+selectCodeEditor("IP2CPU_tb.v", 351, 366); // cd (w, cj)
+selectCodeEditor("IP2CPU_tb.v", 347, 341); // cd (w, cj)
+selectCodeEditor("IP2CPU_tb.v", 341, 316); // cd (w, cj)
+selectCodeEditor("IP2CPU_tb.v", 339, 301); // cd (w, cj)
+selectCodeEditor("IP2CPU_tb.v", 341, 278); // cd (w, cj)
+selectCodeEditor("IP2CPU_tb.v", 341, 265); // cd (w, cj)
+selectCodeEditor("IP2CPU_tb.v", 337, 235); // cd (w, cj)
+selectCodeEditor("IP2CPU_tb.v", 334, 216); // cd (w, cj)
+selectCodeEditor("IP2CPU_tb.v", 334, 201); // cd (w, cj)
+selectCodeEditor("IP2CPU_tb.v", 334, 193); // cd (w, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 1); // k (j, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,124 MB. GUI used memory: 106 MB. Current time: 3/23/21 11:25:32 AM CST
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP2CPU_tb.v", 0); // k (j, cj)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 1); // k (j, cj)
+// Elapsed time: 49 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP2CPU_tb.v", 0); // k (j, cj)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 1); // k (j, cj)
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Addr_out[31:0]]", 0, true); // a (s, cj) - Node
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP2CPU_tb.v", 0); // k (j, cj)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP2CPU_tb.v", 0); // k (j, cj)
+// Elapsed time: 22 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 1); // k (j, cj)
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Addr_out[31:0]]", 0, true); // a (s, cj) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Addr_out[31:0]]", 0, true, false, false, false, true, false); // a (s, cj) - Popup Trigger - Node
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP2CPU_tb.v", 0); // k (j, cj)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 1); // k (j, cj)
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Addr_out[31:0]]", 0, true); // a (s, cj) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Addr_out[31:0]]", 0, true, false, false, false, true, false); // a (s, cj) - Popup Trigger - Node
+selectMenu((HResource) null, "Name"); // Z (ai, cj)
+selectMenu((HResource) null, "Waveform Style"); // Z (ai, cj)
+selectMenu((HResource) null, "Signal Color"); // Z (ai, cj)
+selectMenu((HResource) null, "Radix"); // Z (ai, cj)
+selectMenu((HResource) null, "Radix"); // Z (ai, cj)
+selectMenuItem((HResource) null, "Signed Decimal"); // Q (cj)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,124 MB. GUI used memory: 105 MB. Current time: 3/23/21 11:28:41 AM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP2CPU_tb.v", 0); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1*", 1); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP2CPU_tb.v", 0); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1*", 1); // k (j, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ac (cj, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// x (cj): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+dismissDialog("Close Project"); // x (cj)
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// bs (cj):  Close Project : addNotify
+selectButton("RDIResource.WaveformUtils_WAVEFORM_CONFIGURATION_HAS_BEEN_MODIFIED_Discard", "Discard"); // JButton (A, G)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,124 MB. GUI used memory: 96 MB. Current time: 3/23/21 11:29:10 AM CST
+// Tcl Message: close_project 
+// 'b' command handler elapsed time: 7 seconds
+dismissDialog("Close Project"); // bs (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,124 MB. GUI used memory: 94 MB. Current time: 3/23/21 11:59:14 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,124 MB. GUI used memory: 91 MB. Current time: 3/23/21 12:29:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,124 MB. GUI used memory: 92 MB. Current time: 3/23/21 12:59:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,124 MB. GUI used memory: 91 MB. Current time: 3/23/21 1:29:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,124 MB. GUI used memory: 91 MB. Current time: 3/23/21 1:59:15 PM CST
+// Elapsed time: 9146 seconds
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// Elapsed time: 19 seconds
+setFileChooser("C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl/OExp04-SCPU_ctrl.xpr");
+// Opening Vivado Project: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl/OExp04-SCPU_ctrl.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl/OExp04-SCPU_ctrl.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/OExp04-SCPU_ctrl' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl/OExp04-SCPU_ctrl.srcs'. 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'. 
+// Project name: OExp04-SCPU_ctrl; location: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl; part: xc7k160tffg676-2L
+// 'i' command handler elapsed time: 21 seconds
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCPU_ctrl (SCPU_ctrl.v)]", 1, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SCPU_ctrl (SCPU_ctrl.v)]", 1, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Elapsed time: 39 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 6); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// v (cj): Settings: addNotify
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Synthesis]", 3, false); // M (C, v)
+// [GUI Memory]: 251 MB (+1878kb) [03:37:28]
+// [GUI Memory]: 264 MB (+496kb) [03:37:29]
+// [GUI Memory]: 284 MB (+6575kb) [03:37:29]
+// [GUI Memory]: 301 MB (+2631kb) [03:37:30]
+// [GUI Memory]: 319 MB (+3157kb) [03:37:31]
+// [GUI Memory]: 337 MB (+2175kb) [03:37:32]
+// [GUI Memory]: 360 MB (+6523kb) [03:37:34]
+// Elapsed time: 14 seconds
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (v)
+// TclEventType: RUN_MODIFY
+// Tcl Message: set_property -name {STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS} -value {-mode  out_of_context} -objects [get_runs synth_1] 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (v)
+dismissDialog("Settings"); // v (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 23 14:03:10 2021] Launched synth_1... Run output will be captured here: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl/OExp04-SCPU_ctrl.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 114 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a (N, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs (cj):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7k160tffg676-2L 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// [Engine Memory]: 1,201 MB (+45387kb) [03:39:40]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,202 MB. GUI used memory: 263 MB. Current time: 3/23/21 2:05:11 PM CST
+// [Engine Memory]: 1,298 MB (+38325kb) [03:39:46]
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,373 MB. GUI used memory: 262 MB. Current time: 3/23/21 2:05:16 PM CST
+// [Engine Memory]: 1,374 MB (+11993kb) [03:39:48]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,487 MB (+46791kb) [03:39:50]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2017.4 INFO: [Device 21-403] Loading part xc7k160tffg676-2L INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 1922.523 ; gain = 344.770 
+// 'dO' command handler elapsed time: 14 seconds
+// Elapsed time: 14 seconds
+dismissDialog("Open Synthesized Design"); // bs (cj)
+// RouteApi::initDelayMediator elapsed time: 11.6s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// [Engine Memory]: 1,887 MB (+340713kb) [03:40:04]
+// Elapsed time: 13 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, -158066, 645814); // D (M, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,887 MB. GUI used memory: 293 MB. Current time: 3/23/21 2:05:36 PM CST
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {MUX2T1_5.v}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {S}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {SCP}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {SCPU}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {SCPU_}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {SCPU_C}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {SCPU_CT}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {SCPU_CTR}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {SCPU_CTRL}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {SCPU_CTR}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {SCPU_CT}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {SCPU_C}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {SCPU_}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {SCPU_ctrl}'
+// Elapsed time: 110 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_verilog -mode synth_stub E:/FPGA/ip/SCPU_ctrl.v", true); // aF (ae, cj)
+// Tcl Command: 'write_verilog -mode synth_stub E:/FPGA/ip/SCPU_ctrl.v'
+// Tcl Command: 'write_verilog -mode synth_stub E:/FPGA/ip/SCPU_ctrl.v'
+// Tcl Message: write_verilog -mode synth_stub E:/FPGA/ip/SCPU_ctrl.v 
+// Tcl Message: E:/FPGA/ip/SCPU_ctrl.v 
+// Elapsed time: 26 seconds
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, -246354, 449617); // D (M, cj)
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {MUX2T1_5.edf}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {S}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {SCP}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {SCPU}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {SCPU_}'
+// Elapsed time: 24 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_edif E:/FPGA/ip/SCPU_.edf"); // aF (ae, cj)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 355, 85); // dw (ad, cj)
+applyEnter(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_edif E:/FPGA/ip/SCPU_.edf"); // aF (ae, cj)
+// Tcl Command: 'write_edif E:/FPGA/ip/SCPU_.edf'
+// Tcl Command: 'write_edif E:/FPGA/ip/SCPU_.edf'
+// Tcl Message: write_edif E:/FPGA/ip/SCPU_.edf 
+// Tcl Message: E:/FPGA/ip/SCPU_.edf 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,887 MB. GUI used memory: 326 MB. Current time: 3/23/21 2:08:19 PM CST
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {MUX2T1_5.edf}'
+// Elapsed time: 33 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_edif E:/FPGA/ip/MUX2T1_5.edf"); // aF (ae, cj)
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {S}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {SCP}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {SCPU}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {SCPU_}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {SCPU_ctrl}'
+// Elapsed time: 21 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_edif E:/FPGA/ip/SCPU_ctrl.edf"); // aF (ae, cj)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 332, 104); // dw (ad, cj)
+applyEnter(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_edif E:/FPGA/ip/SCPU_ctrl.edf"); // aF (ae, cj)
+// Tcl Command: 'write_edif E:/FPGA/ip/SCPU_ctrl.edf'
+// Tcl Command: 'write_edif E:/FPGA/ip/SCPU_ctrl.edf'
+// Tcl Message: write_edif E:/FPGA/ip/SCPU_ctrl.edf 
+// Tcl Message: E:/FPGA/ip/SCPU_ctrl.edf 
+// Elapsed time: 16 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 539, 59); // dw (ad, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// x (cj): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // x (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,887 MB. GUI used memory: 284 MB. Current time: 3/23/21 2:09:44 PM CST
+// Engine heap size: 1,887 MB. GUI used memory: 305 MB. Current time: 3/23/21 2:09:44 PM CST
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_project 
+// 'b' command handler elapsed time: 7 seconds
+dismissDialog("Close Project"); // bs (cj)
+// Elapsed time: 45 seconds
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // x (w, cj)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// Elapsed time: 14 seconds
+setFileChooser("C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.xpr");
+// Opening Vivado Project: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'. 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'. 
+// Project name: OExp04-DataPath; location: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath; part: xc7k160tffg676-2L
+// 'i' command handler elapsed time: 20 seconds
+// Tcl Message: open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2350.449 ; gain = 0.000 
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 624 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Settings]", 1, false); // u (O, cj)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// v (cj): Settings: addNotify
+selectTree(PAResourceQtoS.SettingsDialog_PROJECT_TREE, "[projectRoot, Synthesis]", 3, false); // M (C, v)
+// [GUI Memory]: 381 MB (+3367kb) [03:55:54]
+// [GUI Memory]: 401 MB (+951kb) [03:55:55]
+// [GUI Memory]: 421 MB (+282kb) [03:55:56]
+// [GUI Memory]: 445 MB (+2537kb) [03:55:57]
+// [GUI Memory]: 469 MB (+1364kb) [03:55:58]
+// [GUI Memory]: 494 MB (+2156kb) [03:56:00]
+// [GUI Memory]: 521 MB (+2041kb) [03:56:01]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,962 MB. GUI used memory: 251 MB. Current time: 3/23/21 2:21:31 PM CST
+// Elapsed time: 18 seconds
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (v)
+// TclEventType: RUN_MODIFY
+// Tcl Message: set_property -name {STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS} -value {-mode  out_of_context} -objects [get_runs synth_1] 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (v)
+dismissDialog("Settings"); // v (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 15, false); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (cj): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bs (cj):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cj)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Mar 23 14:21:41 2021] Launched synth_1... Run output will be captured here: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs (cj)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (cj): Synthesis Completed: addNotify
+// Elapsed time: 61 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs (cj):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7k160tffg676-2L 
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,987 MB. GUI used memory: 320 MB. Current time: 3/23/21 2:22:45 PM CST
+// [Engine Memory]: 1,987 MB (+6465kb) [03:57:17]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 313 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.4 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// 'dO' command handler elapsed time: 4 seconds
+// RouteApi: Init Delay Mediator Swing Worker Finished
+dismissDialog("Open Synthesized Design"); // bs (cj)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aF (Q, cj)
+// Elapsed time: 33 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aF (Q, cj)
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {MUX2T1_5.v}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {D}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {Da}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {Data}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {DataP}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {DataPa}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {DataPat}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {DataPath}'
+// Elapsed time: 19 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_verilog -mode synth_stub E:/FPGA/ip/DataPath.v", true); // aF (ae, cj)
+// Tcl Command: 'write_verilog -mode synth_stub E:/FPGA/ip/DataPath.v'
+// Tcl Command: 'write_verilog -mode synth_stub E:/FPGA/ip/DataPath.v'
+// Tcl Message: write_verilog -mode synth_stub E:/FPGA/ip/DataPath.v 
+// Tcl Message: E:/FPGA/ip/DataPath.v 
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_verilog} {E:/FPGA/ip/} {MUX2T1_5.v}'
+// Elapsed time: 23 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, (String) null); // aF (ae, cj)
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {MUX2T1_5.edf}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {D}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {Da}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {Data}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {DataP}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {DataPa}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {DataPat}'
+// Tcl Command: 'rdi::info_commands bd::match_path'
+// Tcl Command: 'bd::match_path {write_edif} {E:/FPGA/ip/} {DataPath}'
+// Elapsed time: 29 seconds
+setText(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_edif E:/FPGA/ip/DataPath.edf"); // aF (ae, cj)
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 288, 99); // dw (ad, cj)
+applyEnter(RDIResource.CommandsInput_TYPE_TCL_COMMAND_HERE, "write_edif E:/FPGA/ip/DataPath.edf"); // aF (ae, cj)
+// Tcl Command: 'write_edif E:/FPGA/ip/DataPath.edf'
+// Tcl Command: 'write_edif E:/FPGA/ip/DataPath.edf'
+// Tcl Message: write_edif E:/FPGA/ip/DataPath.edf 
+// Tcl Message: E:/FPGA/ip/DataPath.edf 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,060 MB. GUI used memory: 344 MB. Current time: 3/23/21 2:24:38 PM CST
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// x (cj): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// bs (cj):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+dismissDialog("Close Project"); // x (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,060 MB. GUI used memory: 336 MB. Current time: 3/23/21 2:24:49 PM CST
+// Engine heap size: 2,060 MB. GUI used memory: 358 MB. Current time: 3/23/21 2:24:50 PM CST
+// Tcl Message: close_project 
+// TclEventType: DESIGN_CLOSE
+// 'b' command handler elapsed time: 5 seconds
+dismissDialog("Close Project"); // bs (cj)
+// Elapsed time: 233 seconds
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x (w, cj)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// g (cj): New Project: addNotify
+// Elapsed time: 94 seconds
+selectButton("NEXT", "Next >"); // JButton (h, g)
+// Elapsed time: 28 seconds
+selectButton(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String) null); // q (af, g)
+setFolderChooser("C:/Users/ASUS/Desktop/OExp_RISCV_W/OExp04");
+// Elapsed time: 18 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "OExp04-DataPath"); // X (N, g)
+selectButton("NEXT", "Next >"); // JButton (h, g)
+selectButton("NEXT", "Next >"); // JButton (h, g)
+setText("PAResourceOtoP.PartChooser_PARTS_SEARCH_FIELD", "xc7k160tffg"); // OverlayTextField (al, g)
+selectTable(PAResourceOtoP.PartChooser_PARTS, "xc7k160tffg676-2L ; 676 ; 400 ; 101400 ; 202800 ; 325 ; 0 ; 600 ; 8 ; 0 ; 8 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 8 ; 0 ; 100 ; 100 ; E ; 0.97 ; 0.97 ; 1.03", 2, "xc7k160tffg676-2L", 0); // ah (O, g)
+selectButton("NEXT", "Next >"); // JButton (h, g)
+// bs (g):  Create Project : addNotify
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project OExp04-DataPath C:/Users/ASUS/Desktop/OExp_RISCV_W/OExp04/OExp04-DataPath -part xc7k160tffg676-2L 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+selectButton("FINISH", "Finish"); // JButton (h, g)
+// 'g' command handler elapsed time: 166 seconds
+dismissDialog("Create Project"); // bs (g)
+dismissDialog("New Project"); // g (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (cj): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// Elapsed time: 29 seconds
+String[] filenames31467 = {"E:/FPGA/ip/CPU_W/DataPath.edf", "E:/FPGA/ip/CPU_W/DataPath.v"};
+setFileChooser(filenames31467);
+selectButton("FINISH", "Finish"); // JButton (h, c)
+// 'h' command handler elapsed time: 39 seconds
+dismissDialog("Add Sources"); // c (cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse E:/FPGA/ip/CPU_W/DataPath.edf 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse E:/FPGA/ip/CPU_W/DataPath.v 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataPath_wrapper (DataPath.v)]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, DataPath (DataPath.edf)]", 1, false); // B (D, cj)
+// Elapsed time: 76 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (cj): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+// bs (Q):  Analyze source files for top modules : addNotify
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+dismissDialog("Analyze source files for top modules"); // bs (Q)
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectButton("FINISH", "Finish"); // JButton (h, Q)
+// 'q' command handler elapsed time: 17 seconds
+dismissDialog("Create and Package New IP"); // Q (cj)
+// bs (cj):  IP Packager : addNotify
+// Tcl Message: ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv_w/oexp04/oexp04-datapath/oexp04-datapath.srcs/sources_1/imports/cpu_w -vendor xilinx.com -library user -taxonomy /UserIP 
+// Tcl Message: Parsing EDIF File [c:/Users/ASUS/Desktop/OExp_RISCV_W/OExp04/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/imports/CPU_W/DataPath.edf] Finished Parsing EDIF File [c:/Users/ASUS/Desktop/OExp_RISCV_W/OExp04/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/imports/CPU_W/DataPath.edf] 
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'. INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'. INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'. 
+dismissDialog("IP Packager"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Identification", 0); // an (O, cj)
+// Elapsed time: 18 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // an (O, cj)
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0); // K (O, cj)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "rst ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 1, (String) null, 2, true); // K (O, cj) - Node
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "rst ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 1); // K (O, cj)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "rst ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 1, (String) null, 2, true, false, false, false, false, true); // K (O, cj) - Double Click - Node
+// H (cj): Edit Interface: addNotify
+selectTab(PAResourceEtoH.EditInterfaceDialog_TABBED_PANE, PAResourceEtoH.EditInterfaceDialog_PARAMETERS, "Parameters", 2); // I (H)
+selectButton(PAResourceAtoD.BusParameterFacetTable_ADD_RECOMMENDED_PARAMETER, (String) null); // B (f, H)
+setText("PAResourceAtoD.BusParameterFacetTable_ENTER_NEW_BUS_PARAMETER_NAME", "POLARITY"); // BasicOptionPaneUI.MultiplexingTextField (A, H)
+// TclEventType: PACKAGER_OBJECT_ADD
+selectButton("PAResourceAtoD.BusParameterFacetTable_ENTER_NEW_BUS_PARAMETER_NAME_OK", "OK"); // JButton (A, H)
+// Tcl Message: ipx::add_bus_parameter POLARITY [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]] 
+selectTreeTable(PAResourceAtoD.BusParameterFacetTable_BUS_PARAMETER_FACET_TABLE, "POLARITY ;  ;  ; all ;  ; ", 0, (String) null, 4, false); // K (O, H)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (H)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]] 
+dismissDialog("Edit Interface"); // H (cj)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "clk ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 3, (String) null, 1, true); // K (O, cj) - Node
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "clk ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 3); // K (O, cj)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "clk ; slave ;  ; false ;  ;  ;  ;  ;  ;  ; ", 3, (String) null, 1, true, false, false, false, false, true); // K (O, cj) - Double Click - Node
+// H (cj): Edit Interface: addNotify
+selectTab(PAResourceEtoH.EditInterfaceDialog_TABBED_PANE, PAResourceEtoH.EditInterfaceDialog_PARAMETERS, "Parameters", 2); // I (H)
+selectButton(PAResourceAtoD.BusParameterFacetTable_ADD_RECOMMENDED_PARAMETER, (String) null); // B (f, H)
+// Elapsed time: 10 seconds
+setText("PAResourceAtoD.BusParameterFacetTable_ENTER_NEW_BUS_PARAMETER_NAME", "ASSOCIATED_BUSIF"); // BasicOptionPaneUI.MultiplexingTextField (A, H)
+// TclEventType: PACKAGER_OBJECT_ADD
+selectButton("PAResourceAtoD.BusParameterFacetTable_ENTER_NEW_BUS_PARAMETER_NAME_OK", "OK"); // JButton (A, H)
+// Tcl Message: ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectTreeTable(PAResourceAtoD.BusParameterFacetTable_BUS_PARAMETER_FACET_TABLE, "ASSOCIATED_BUSIF ; List of bus interface names separated by colons. For example, m_axis_a:s_axis_b:s_axis_c ;  ; all ;  ; ", 1, (String) null, 4, false); // K (O, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (H)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]] 
+dismissDialog("Edit Interface"); // H (cj)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)

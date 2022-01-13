@@ -1,0 +1,93 @@
+{
+   "ActiveEmotionalView":"Color Coded",
+   "Addressing View_Layers":"/clk_0_1:false|/rst_0_1:false|",
+   "Addressing View_ScaleFactor":"1.5",
+   "Addressing View_TopLeft":"-218,-238",
+   "Color Coded_ExpandedHierarchyInLayout":"",
+   "Color Coded_Layout":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk -pg 1 -lvl 0 -x -10 -y 200 -defaultsOSRD
+preplace port rst -pg 1 -lvl 0 -x -10 -y 440 -defaultsOSRD
+preplace port MemRW_EX_0 -pg 1 -lvl 4 -x 880 -y 340 -defaultsOSRD
+preplace portBus Data_out_WB_0 -pg 1 -lvl 4 -x 880 -y 320 -defaultsOSRD
+preplace portBus PC_out_EX_0 -pg 1 -lvl 4 -x 880 -y 260 -defaultsOSRD
+preplace portBus PC_out_ID_0 -pg 1 -lvl 4 -x 880 -y 280 -defaultsOSRD
+preplace portBus inst_ID_0 -pg 1 -lvl 4 -x 880 -y 300 -defaultsOSRD
+preplace inst ROM -pg 1 -lvl 2 -x 450 -y 70 -defaultsOSRD
+preplace inst RAM_B -pg 1 -lvl 2 -x 450 -y 290 -swap {1 0 2 3 4} -defaultsOSRD
+preplace inst NOT1 -pg 1 -lvl 1 -x 180 -y 380 -defaultsOSRD
+preplace inst Addr11_2 -pg 1 -lvl 1 -x 180 -y 280 -defaultsOSRD
+preplace inst PC11_2 -pg 1 -lvl 1 -x 180 -y 70 -defaultsOSRD
+preplace inst Pipeline_CPU_0 -pg 1 -lvl 3 -x 700 -y 280 -swap {2 1 3 0 7 8 9 6 5 4 10 12 11} -defaultsOSRD
+preplace netloc clk_0_1 1 0 3 20 440 NJ 440 550J
+preplace netloc rst_0_1 1 0 3 10J 450 NJ 450 560J
+preplace netloc NOT1_Res 1 1 1 330J 300n
+preplace netloc RAM_B_spo 1 2 1 N 290
+preplace netloc ROM_spo 1 2 1 550J 70n
+preplace netloc PC11_2_Dout 1 1 1 NJ 70
+preplace netloc Addr11_2_Dout 1 1 1 NJ 280
+preplace netloc Pipeline_CPU_0_MemRW_Mem 1 1 3 350 420 NJ 420 840
+preplace netloc Pipeline_CPU_0_Addr_out 1 0 4 30 140 NJ 140 NJ 140 840
+preplace netloc Pipeline_CPU_0_Data_out 1 1 3 340 430 NJ 430 850
+preplace netloc Pipeline_CPU_0_PC_out_IF 1 0 4 30 10 NJ 10 NJ 10 860
+preplace netloc Pipeline_CPU_0_Data_out_WB 1 3 1 NJ 320
+preplace netloc Pipeline_CPU_0_MemRW_EX 1 3 1 NJ 340
+preplace netloc Pipeline_CPU_0_PC_out_EX 1 3 1 NJ 260
+preplace netloc Pipeline_CPU_0_PC_out_ID 1 3 1 NJ 280
+preplace netloc Pipeline_CPU_0_inst_ID 1 3 1 NJ 300
+levelinfo -pg 1 -10 180 450 700 880
+pagesize -pg 1 -db -bbox -sgen -80 0 1070 460
+",
+   "Color Coded_ScaleFactor":"1.30639",
+   "Color Coded_TopLeft":"-66,-44",
+   "Default View_ScaleFactor":"0.780105",
+   "Default View_TopLeft":"-76,-240",
+   "Display-PortTypeClock":"true",
+   "Display-PortTypeOthers":"true",
+   "Display-PortTypeReset":"true",
+   "ExpandedHierarchyInLayout":"",
+   "Grouping and No Loops_Layers":"/clk_0_1:true|/rst_0_1:true|",
+   "Grouping and No Loops_ScaleFactor":"0.944034",
+   "Grouping and No Loops_TopLeft":"-66,-157",
+   "Interfaces View_Layers":"/clk_0_1:false|/rst_0_1:false|",
+   "Interfaces View_ScaleFactor":"1.5",
+   "Interfaces View_TopLeft":"-218,-238",
+   "Reduced Jogs_Layers":"/clk_0_1:true|/rst_0_1:true|",
+   "Reduced Jogs_ScaleFactor":"0.786972",
+   "Reduced Jogs_TopLeft":"-66,-179",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk -pg 1 -lvl 0 -x -10 -y 160 -defaultsOSRD
+preplace port rst -pg 1 -lvl 0 -x -10 -y 380 -defaultsOSRD
+preplace port MemRW_EX_0 -pg 1 -lvl 4 -x 880 -y 360 -defaultsOSRD
+preplace portBus Data_out_WB_0 -pg 1 -lvl 4 -x 880 -y 320 -defaultsOSRD
+preplace portBus PC_out_EX_0 -pg 1 -lvl 4 -x 880 -y 200 -defaultsOSRD
+preplace portBus PC_out_ID_0 -pg 1 -lvl 4 -x 880 -y 220 -defaultsOSRD
+preplace portBus inst_ID_0 -pg 1 -lvl 4 -x 880 -y 240 -defaultsOSRD
+preplace inst ROM -pg 1 -lvl 2 -x 440 -y 60 -defaultsOSRD
+preplace inst RAM_B -pg 1 -lvl 2 -x 440 -y 250 -defaultsOSRD
+preplace inst NOT1 -pg 1 -lvl 1 -x 180 -y 320 -defaultsOSRD
+preplace inst Addr11_2 -pg 1 -lvl 1 -x 180 -y 220 -defaultsOSRD
+preplace inst PC11_2 -pg 1 -lvl 1 -x 180 -y 60 -defaultsOSRD
+preplace inst Pipeline_CPU_0 -pg 1 -lvl 3 -x 700 -y 280 -defaultsOSRD
+preplace netloc clk_0_1 1 0 3 20 380 NJ 380 540J
+preplace netloc rst_0_1 1 0 3 10J 390 NJ 390 560J
+preplace netloc NOT1_Res 1 1 1 330J 260n
+preplace netloc RAM_B_spo 1 2 1 N 250
+preplace netloc ROM_spo 1 2 1 550J 60n
+preplace netloc PC11_2_Dout 1 1 1 NJ 60
+preplace netloc Addr11_2_Dout 1 1 1 NJ 220
+preplace netloc Pipeline_CPU_0_MemRW_Mem 1 1 3 340 420 NJ 420 840
+preplace netloc Pipeline_CPU_0_Addr_out 1 0 4 30 120 NJ 120 NJ 120 860
+preplace netloc Pipeline_CPU_0_Data_out 1 1 3 330 140 NJ 140 850
+preplace netloc Pipeline_CPU_0_PC_out_IF 1 0 4 20 130 NJ 130 NJ 130 840
+preplace netloc Pipeline_CPU_0_Data_out_WB 1 3 1 NJ 320
+preplace netloc Pipeline_CPU_0_MemRW_EX 1 3 1 NJ 360
+preplace netloc Pipeline_CPU_0_PC_out_EX 1 3 1 NJ 200
+preplace netloc Pipeline_CPU_0_PC_out_ID 1 3 1 NJ 220
+preplace netloc Pipeline_CPU_0_inst_ID 1 3 1 NJ 240
+levelinfo -pg 1 -10 180 440 700 880
+pagesize -pg 1 -db -bbox -sgen -80 0 1070 430
+"
+}
+0

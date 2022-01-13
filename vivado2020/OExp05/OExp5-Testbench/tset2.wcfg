@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_cpu_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_cpu" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1917666fs"></ZoomStartTime>
+      <ZoomEndTime time="2021867fs"></ZoomEndTime>
+      <Cursor1Time time="2005000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="219"></NameColumnWidth>
+      <ValueColumnWidth column_width="107"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/tb_cpu/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/Data_in" type="array">
+      <obj_property name="ElementShortName">Data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst_IF" type="array">
+      <obj_property name="ElementShortName">inst_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/PC_out_EX" type="array">
+      <obj_property name="ElementShortName">PC_out_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/PC_out_ID" type="array">
+      <obj_property name="ElementShortName">PC_out_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst_ID" type="array">
+      <obj_property name="ElementShortName">inst_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/PC_out_IF" type="array">
+      <obj_property name="ElementShortName">PC_out_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/Addr_out" type="array">
+      <obj_property name="ElementShortName">Addr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/Data_out" type="array">
+      <obj_property name="ElementShortName">Data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/Data_out_WB" type="array">
+      <obj_property name="ElementShortName">Data_out_WB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out_WB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/MemRW_Mem" type="logic">
+      <obj_property name="ElementShortName">MemRW_Mem</obj_property>
+      <obj_property name="ObjectShortName">MemRW_Mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/MemRW_EX" type="logic">
+      <obj_property name="ElementShortName">MemRW_EX</obj_property>
+      <obj_property name="ObjectShortName">MemRW_EX</obj_property>
+   </wvobject>
+</wave_config>

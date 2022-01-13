@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Jun  4 16:58:14 2021
+# Process ID: 2020
+# Current directory: D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.runs/synth_1
+# Command line: vivado.exe -log Pipeline_CPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Pipeline_CPU.tcl
+# Log file: D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.runs/synth_1/Pipeline_CPU.vds
+# Journal file: D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Pipeline_CPU.tcl -notrace

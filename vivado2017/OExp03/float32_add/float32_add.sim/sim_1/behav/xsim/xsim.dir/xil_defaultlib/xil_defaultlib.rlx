@@ -1,0 +1,8 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/ISE/vivado/OExp03/float32_add/float32_add.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/ISE/vivado/OExp03/float32_add/float32_add.srcs/sim_1/new/float32_add_tb.v,1616575195,verilog,,,,tb,,,,,,,,
+D:/ISE/vivado/OExp03/float32_add/float32_add.srcs/sources_1/new/Shift_Right.v,1616568640,verilog,,D:/ISE/vivado/OExp03/float32_add/float32_add.srcs/sim_1/new/float32_add_tb.v,,Shift_Right;float_add,,,,,,,,
+D:/ISE/vivado/OExp03/float32_add/float32_add.srcs/sources_1/new/float32_add.v,1617177524,verilog,,D:/ISE/vivado/OExp03/float32_add/float32_add.srcs/sim_1/new/float32_add_tb.v,,float32_add,,,,,,,,

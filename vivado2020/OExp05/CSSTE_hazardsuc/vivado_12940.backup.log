@@ -1,0 +1,514 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat May 29 23:09:03 2021
+# Process ID: 12940
+# Current directory: D:/V20/Pipeline/SOC_P1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10224 D:\V20\Pipeline\SOC_P1\SOC_NEW.xpr
+# Log file: D:/V20/Pipeline/SOC_P1/vivado.log
+# Journal file: D:/V20/Pipeline/SOC_P1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/V20/Pipeline/SOC_P1/SOC_NEW.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/V20/Pipeline/SOC_P1/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'CSSTE.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+CSSTE_Pipeline_CPU_0_0
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'SCPU_SIM.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+SCPU_SIM_Pipeline_CPU_0_0
+
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:07 . Memory (MB): peak = 1111.012 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/CSSTE/CSSTE.bd}
+Reading block design file <D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/CSSTE/CSSTE.bd>...
+Adding component instance block -- xilinx.com:user:SAnti_jitter:1.0 - SAnti_jitter_0
+Adding component instance block -- xilinx.com:user:clk_div:1.0 - clk_div_0
+Adding component instance block -- xilinx.com:user:MIO_BUS:1.0 - MIO_BUS_0
+Adding component instance block -- xilinx.com:user:Multi_8CH32:1.0 - Multi_8CH32_0
+Adding component instance block -- xilinx.com:user:Counter_x:1.0 - Counter_x_0
+Adding component instance block -- xilinx.com:user:SPIO:1.0 - SPIO_0
+Adding component instance block -- xilinx.com:user:SSeg7_Dev:1.0 - SSeg7_Dev_0
+Adding component instance block -- xilinx.com:ip:dist_mem_gen:8.0 - ROM_B
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding component instance block -- xilinx.com:ip:xlconcat:2.1 - DIV31_31
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - B64_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - B2_0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - SW7_5
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - SW8
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - DIV1
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - PC11_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - PC31_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - SW2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - SW0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - BTN_OK0
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - DIV6
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - DIV20
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - DIV11
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - DIV9
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - DIV25
+Adding component instance block -- xilinx.com:user:Pipeline_CPU:1.0 - Pipeline_CPU_0
+Adding component instance block -- xilinx.com:ip:dist_mem_gen:8.0 - RAM_Data
+Adding component instance block -- xilinx.com:user:VGA:1.0 - VGA_0
+Successfully read diagram <CSSTE> from block design file <D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/CSSTE/CSSTE.bd>
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {CSSTE_Pipeline_CPU_0_0 SCPU_SIM_Pipeline_CPU_0_0}] -log ip_upgrade.log
+Upgrading 'D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/CSSTE/CSSTE.bd'
+INFO: [IP_Flow 19-3422] Upgraded CSSTE_Pipeline_CPU_0_0 (Pipeline_CPU_v1_0 1.0) from revision 3 to revision 2
+Wrote  : <D:\V20\Pipeline\SOC_P1\SOC_NEW.srcs\sources_1\bd\CSSTE\CSSTE.bd> 
+Wrote  : <D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/CSSTE/ui/bd_a9a878b4.ui> 
+Reading block design file <D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd>...
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - PC_11_2
+Adding component instance block -- xilinx.com:ip:xlslice:1.0 - Addr_11_2
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - CLK_Not
+Adding component instance block -- xilinx.com:ip:dist_mem_gen:8.0 - ROM
+Adding component instance block -- xilinx.com:ip:dist_mem_gen:8.0 - RAM
+Adding component instance block -- xilinx.com:user:Pipeline_CPU:1.0 - Pipeline_CPU_0
+Successfully read diagram <SCPU_SIM> from block design file <D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd>
+Upgrading 'D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd'
+INFO: [IP_Flow 19-3422] Upgraded SCPU_SIM_Pipeline_CPU_0_0 (Pipeline_CPU_v1_0 1.0) from revision 3 to revision 2
+Wrote  : <D:\V20\Pipeline\SOC_P1\SOC_NEW.srcs\sources_1\bd\SCPU_SIM\SCPU_SIM.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/V20/Pipeline/SOC_P1/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips {CSSTE_Pipeline_CPU_0_0 SCPU_SIM_Pipeline_CPU_0_0}] -no_script -sync -force -quiet
+generate_target Simulation [get_files D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd]
+WARNING: [BD 41-1284] Cannot set parameter CLOCK_DOMAIN on port /clk
+WARNING: [BD 41-1284] Cannot set parameter CLOCK_DOMAIN on port /clk
+Wrote  : <D:\V20\Pipeline\SOC_P1\SOC_NEW.srcs\sources_1\bd\SCPU_SIM\SCPU_SIM.bd> 
+VHDL Output written to : D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/synth/SCPU_SIM.v
+VHDL Output written to : D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/sim/SCPU_SIM.v
+VHDL Output written to : D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/hdl/SCPU_SIM_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Pipeline_CPU_0 .
+Exporting to file D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/hw_handoff/SCPU_SIM.hwh
+Generated Block Design Tcl file D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/hw_handoff/SCPU_SIM_bd.tcl
+Generated Hardware Definition File D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/synth/SCPU_SIM.hwdef
+export_ip_user_files -of_objects [get_files D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd] -directory D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/sim_scripts -ip_user_files_dir D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files -ipstatic_source_dir D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/V20/Pipeline/SOC_P1/SOC_NEW.cache/compile_simlib/modelsim} {questa=D:/V20/Pipeline/SOC_P1/SOC_NEW.cache/compile_simlib/questa} {riviera=D:/V20/Pipeline/SOC_P1/SOC_NEW.cache/compile_simlib/riviera} {activehdl=D:/V20/Pipeline/SOC_P1/SOC_NEW.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'SCPU_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/CSSTE_dist_mem_gen_0_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/PPL_mem_1.coe'
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/SCPU_SIM_dist_mem_gen_0_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/SCPU_SIM_dist_mem_gen_0_1.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SCPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_xlslice_0_0/sim/SCPU_SIM_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_xlslice_0_1/sim/SCPU_SIM_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_util_vector_logic_0_0/sim/SCPU_SIM_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_dist_mem_gen_0_0/sim/SCPU_SIM_dist_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_dist_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_dist_mem_gen_0_1/sim/SCPU_SIM_dist_mem_gen_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_dist_mem_gen_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/ADC32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADC32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/EX_reg_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_reg_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/ID_reg_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_reg_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/IF_reg_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_reg_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/MEM_reg_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_reg_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/PC_CTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_CTRL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/Pipeline_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/Pipeline_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/Pipeline_IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/Pipeline_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/Pipeline_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/Pipeline_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_Pipeline_CPU_0_0/sim/SCPU_SIM_Pipeline_CPU_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_Pipeline_CPU_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/sim/SCPU_SIM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/imports/hdl/SCPU_SIM_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sim_1/new/SCPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+"xelab -wto a9dad49d401d41c6a87071758a78c593 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SCPU_tb_behav xil_defaultlib.SCPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto a9dad49d401d41c6a87071758a78c593 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SCPU_tb_behav xil_defaultlib.SCPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3180] cannot find port 'inst_in_ID' on this module [D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/5422/Pipeline_ID.v:96]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1239.195 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: d:/V20/Pipeline/SOC_P1/IP/SCPU.srcs/sources_1/new/component.xml. It will be created.
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/V20/Pipeline/SOC_P1/IP'.
+report_ip_status -name ip_status
+upgrade_ip [get_ips  {CSSTE_Pipeline_CPU_0_0 SCPU_SIM_Pipeline_CPU_0_0}] -log ip_upgrade.log
+Upgrading 'D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/CSSTE/CSSTE.bd'
+INFO: [IP_Flow 19-1972] Upgraded CSSTE_Pipeline_CPU_0_0 from Pipeline_CPU_v1_0 1.0 to Pipeline_CPU_v1_0 1.0
+Wrote  : <D:\V20\Pipeline\SOC_P1\SOC_NEW.srcs\sources_1\bd\CSSTE\CSSTE.bd> 
+Upgrading 'D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd'
+INFO: [IP_Flow 19-1972] Upgraded SCPU_SIM_Pipeline_CPU_0_0 from Pipeline_CPU_v1_0 1.0 to Pipeline_CPU_v1_0 1.0
+Wrote  : <D:\V20\Pipeline\SOC_P1\SOC_NEW.srcs\sources_1\bd\SCPU_SIM\SCPU_SIM.bd> 
+Wrote  : <D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/ui/bd_7b4c90ed.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/V20/Pipeline/SOC_P1/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips {CSSTE_Pipeline_CPU_0_0 SCPU_SIM_Pipeline_CPU_0_0}] -no_script -sync -force -quiet
+generate_target Simulation [get_files D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd]
+WARNING: [BD 41-1284] Cannot set parameter CLOCK_DOMAIN on port /clk
+WARNING: [BD 41-1284] Cannot set parameter CLOCK_DOMAIN on port /clk
+Wrote  : <D:\V20\Pipeline\SOC_P1\SOC_NEW.srcs\sources_1\bd\SCPU_SIM\SCPU_SIM.bd> 
+VHDL Output written to : D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/synth/SCPU_SIM.v
+VHDL Output written to : D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/sim/SCPU_SIM.v
+VHDL Output written to : D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/hdl/SCPU_SIM_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Pipeline_CPU_0 .
+Exporting to file D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/hw_handoff/SCPU_SIM.hwh
+Generated Block Design Tcl file D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/hw_handoff/SCPU_SIM_bd.tcl
+Generated Hardware Definition File D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/synth/SCPU_SIM.hwdef
+export_ip_user_files -of_objects [get_files D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/bd/SCPU_SIM/SCPU_SIM.bd] -directory D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/sim_scripts -ip_user_files_dir D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files -ipstatic_source_dir D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/V20/Pipeline/SOC_P1/SOC_NEW.cache/compile_simlib/modelsim} {questa=D:/V20/Pipeline/SOC_P1/SOC_NEW.cache/compile_simlib/questa} {riviera=D:/V20/Pipeline/SOC_P1/SOC_NEW.cache/compile_simlib/riviera} {activehdl=D:/V20/Pipeline/SOC_P1/SOC_NEW.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'SCPU_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/CSSTE_dist_mem_gen_0_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/PPL_mem_1.coe'
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/SCPU_SIM_dist_mem_gen_0_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/SCPU_SIM_dist_mem_gen_0_1.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SCPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_xlslice_0_0/sim/SCPU_SIM_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_xlslice_0_1/sim/SCPU_SIM_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_util_vector_logic_0_0/sim/SCPU_SIM_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_dist_mem_gen_0_0/sim/SCPU_SIM_dist_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_dist_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_dist_mem_gen_0_1/sim/SCPU_SIM_dist_mem_gen_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_dist_mem_gen_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/ADC32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADC32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/EX_reg_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_reg_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/ID_reg_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_reg_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/IF_reg_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_reg_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/MEM_reg_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_reg_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/PC_CTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_CTRL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_Pipeline_CPU_0_0/sim/SCPU_SIM_Pipeline_CPU_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_Pipeline_CPU_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/sim/SCPU_SIM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/imports/hdl/SCPU_SIM_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sim_1/new/SCPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+"xelab -wto a9dad49d401d41c6a87071758a78c593 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SCPU_tb_behav xil_defaultlib.SCPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto a9dad49d401d41c6a87071758a78c593 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SCPU_tb_behav xil_defaultlib.SCPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 32 for port 'Rd_addr_out_ID' [D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_CPU.v:133]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'MemtoReg_out_IDEX' [D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_CPU.v:211]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'MemtoReg_in_EXMem' [D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_CPU.v:262]
+WARNING: [VRFC 10-5021] port 'MIO_ready' is not connected on this instance [D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_ID.v:79]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.SCPU_SIM_xlslice_0_1
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.SCPU_SIM_util_vector_logic_0_0
+Compiling module xil_defaultlib.SCPU_SIM_xlslice_0_0
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.PC_CTRL
+Compiling module xil_defaultlib.Pipeline_IF
+Compiling module xil_defaultlib.IF_reg_ID
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.Pipeline_ID
+Compiling module xil_defaultlib.ID_reg_EX
+Compiling module xil_defaultlib.ADC32
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Pipeline_EX
+Compiling module xil_defaultlib.EX_reg_MEM
+Compiling module xil_defaultlib.Pipeline_MEM
+Compiling module xil_defaultlib.MEM_reg_WB
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.Pipeline_WB
+Compiling module xil_defaultlib.Pipeline_CPU
+Compiling module xil_defaultlib.SCPU_SIM_Pipeline_CPU_0_0
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.SCPU_SIM_dist_mem_gen_0_1
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.SCPU_SIM_dist_mem_gen_0_0
+Compiling module xil_defaultlib.SCPU_SIM
+Compiling module xil_defaultlib.SCPU_SIM_wrapper
+Compiling module xil_defaultlib.SCPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SCPU_tb_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/xsim.dir/SCPU_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/xsim.dir/SCPU_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sat May 29 23:15:32 2021. For additional details about this file, please refer to the WebTalk help file at D:/Xilinx/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Sat May 29 23:15:32 2021...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:11 . Memory (MB): peak = 1254.824 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "SCPU_tb_behav -key {Behavioral:sim_1:Functional:SCPU_tb} -tclbatch {SCPU_tb.tcl} -protoinst "protoinst_files/SCPU_SIM.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SCPU_SIM.protoinst
+Time resolution is 1 ps
+source SCPU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in SCPU_tb.u.SCPU_SIM_i.RAM.inst at time                25000 ns: 
+Reading from out-of-range address. Max address in SCPU_tb.u.SCPU_SIM_i.RAM.inst is        1023
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'SCPU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 1267.121 ; gain = 12.297
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/Data_in}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/clk}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/rst}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/inst_IF}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/PC_out_EX}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/PC_out_ID}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/inst_ID}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/PC_out_IF}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/Addr_out}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/Data_out}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/Data_out_WB}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/MemRW_Mem}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/MemRW_EX}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/x0}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/ra}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/sp}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/gp}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/tp}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/t0}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/t1}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/t2}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/s0}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/s1}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/a0}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/a1}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/a2}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/a3}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/a4}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/a5}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/a6}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/a7}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/s2}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/s3}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/s4}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/s5}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/s6}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/s7}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/s8}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/s9}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/s10}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/s11}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/t3}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/t4}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/t5}} {{/SCPU_tb/u/SCPU_SIM_i/Pipeline_CPU_0/inst/t6}} 
+relaunch_sim
+suspend_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1279.441 ; gain = 0.000
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Xilinx/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'SCPU_tb' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/CSSTE_dist_mem_gen_0_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/PPL_mem_1.coe'
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/SCPU_SIM_dist_mem_gen_0_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim/SCPU_SIM_dist_mem_gen_0_1.mif'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj SCPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_xlslice_0_0/sim/SCPU_SIM_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_xlslice_0_1/sim/SCPU_SIM_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_util_vector_logic_0_0/sim/SCPU_SIM_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_dist_mem_gen_0_0/sim/SCPU_SIM_dist_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_dist_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_dist_mem_gen_0_1/sim/SCPU_SIM_dist_mem_gen_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_dist_mem_gen_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/ADC32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADC32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/EX_reg_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX_reg_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/ID_reg_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_reg_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/IF_reg_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_reg_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/MEM_reg_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MEM_reg_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/PC_CTRL.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC_CTRL
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_IF.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ip/SCPU_SIM_Pipeline_CPU_0_0/sim/SCPU_SIM_Pipeline_CPU_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_Pipeline_CPU_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/sim/SCPU_SIM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sources_1/imports/hdl/SCPU_SIM_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_SIM_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/V20/Pipeline/SOC_P1/SOC_NEW.srcs/sim_1/new/SCPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_tb
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+Command: launch_simulation -simset sim_1 -mode behavioral
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/V20/Pipeline/SOC_P1/SOC_NEW.sim/sim_1/behav/xsim'
+"xelab -wto a9dad49d401d41c6a87071758a78c593 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SCPU_tb_behav xil_defaultlib.SCPU_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto a9dad49d401d41c6a87071758a78c593 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L dist_mem_gen_v8_0_13 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot SCPU_tb_behav xil_defaultlib.SCPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 5 differs from formal bit length 32 for port 'Rd_addr_out_ID' [D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_CPU.v:133]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'MemtoReg_out_IDEX' [D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_CPU.v:211]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'MemtoReg_in_EXMem' [D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_CPU.v:262]
+WARNING: [VRFC 10-5021] port 'MIO_ready' is not connected on this instance [D:/V20/Pipeline/SOC_P1/SOC_NEW.ip_user_files/bd/SCPU_SIM/ipshared/614f/Pipeline_ID.v:79]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.SCPU_SIM_xlslice_0_1
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.SCPU_SIM_util_vector_logic_0_0
+Compiling module xil_defaultlib.SCPU_SIM_xlslice_0_0
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.PC_CTRL
+Compiling module xil_defaultlib.Pipeline_IF
+Compiling module xil_defaultlib.IF_reg_ID
+Compiling module xil_defaultlib.Control
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.Pipeline_ID
+Compiling module xil_defaultlib.ID_reg_EX
+Compiling module xil_defaultlib.ADC32
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Pipeline_EX
+Compiling module xil_defaultlib.EX_reg_MEM
+Compiling module xil_defaultlib.Pipeline_MEM
+Compiling module xil_defaultlib.MEM_reg_WB
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.Pipeline_WB
+Compiling module xil_defaultlib.Pipeline_CPU
+Compiling module xil_defaultlib.SCPU_SIM_Pipeline_CPU_0_0
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.SCPU_SIM_dist_mem_gen_0_1
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.SCPU_SIM_dist_mem_gen_0_0
+Compiling module xil_defaultlib.SCPU_SIM
+Compiling module xil_defaultlib.SCPU_SIM_wrapper
+Compiling module xil_defaultlib.SCPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot SCPU_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Vivado Simulator 2020.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/SCPU_SIM.protoinst
+Time resolution is 1 ps
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING in SCPU_tb.u.SCPU_SIM_i.RAM.inst at time                25000 ns: 
+Reading from out-of-range address. Max address in SCPU_tb.u.SCPU_SIM_i.RAM.inst is        1023
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:18 . Memory (MB): peak = 1279.441 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May 29 23:54:05 2021...

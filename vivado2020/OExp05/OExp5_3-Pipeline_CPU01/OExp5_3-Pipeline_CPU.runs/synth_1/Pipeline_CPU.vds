@@ -1,0 +1,276 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Jun  4 10:09:19 2021
+# Process ID: 27628
+# Current directory: D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.runs/synth_1
+# Command line: vivado.exe -log Pipeline_CPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Pipeline_CPU.tcl
+# Log file: D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.runs/synth_1/Pipeline_CPU.vds
+# Journal file: D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Pipeline_CPU.tcl -notrace
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1075.324 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp05/OExp5-Testbench/Pipeline_SCPU'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/Pipeline_SCPU'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:Pipeline_CPU:1.0'. The one found in IP location 'd:/ISE/2020/OExp05/OExp5-Testbench/Pipeline_SCPU' will take precedence over the same IP in location d:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/Pipeline_SCPU
+Command: synth_design -top Pipeline_CPU -part xc7k160tffg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20404
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1075.324 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Pipeline_CPU' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/new/Pipeline_CPU.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pipeline_IF' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Instruction_Fetch.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX2T1_32' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/MUX2T1_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX2T1_32' (1#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/MUX2T1_32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'REG32' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/REG32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'REG32' (2#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/REG32.v:23]
+INFO: [Synth 8-6157] synthesizing module 'add_32' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/add_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'add_32' (3#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/add_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pipeline_IF' (4#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Instruction_Fetch.v:23]
+INFO: [Synth 8-6157] synthesizing module 'IF_reg_ID' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/IF_reg_ID.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'IF_reg_ID' (5#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/IF_reg_ID.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Pipeline_ID' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Instruction Decoder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Regs' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Regs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Regs' (6#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Regs.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ImmGen' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/ImmGen.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'ImmGen' (7#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/ImmGen.v:23]
+INFO: [Synth 8-6157] synthesizing module 'SCPU_ctrl_more' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/SCPU_ctrl_more.v:23]
+INFO: [Synth 8-226] default block is never used [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/SCPU_ctrl_more.v:110]
+INFO: [Synth 8-226] default block is never used [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/SCPU_ctrl_more.v:118]
+INFO: [Synth 8-6155] done synthesizing module 'SCPU_ctrl_more' (8#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/SCPU_ctrl_more.v:23]
+WARNING: [Synth 8-7071] port 'MIO_ready' of module 'SCPU_ctrl_more' is unconnected for instance 'Controller' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Instruction Decoder.v:133]
+WARNING: [Synth 8-7071] port 'CPU_MIO' of module 'SCPU_ctrl_more' is unconnected for instance 'Controller' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Instruction Decoder.v:133]
+WARNING: [Synth 8-7023] instance 'Controller' of module 'SCPU_ctrl_more' has 16 connections declared, but only 14 given [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Instruction Decoder.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'Pipeline_ID' (9#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Instruction Decoder.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ID_reg_Ex' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/ID_reg_Ex.v:21]
+INFO: [Synth 8-6155] done synthesizing module 'ID_reg_Ex' (10#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/ID_reg_Ex.v:21]
+INFO: [Synth 8-6157] synthesizing module 'Pipeline_EX' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Pipeline_EX.v:23]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Alu.v:23]
+	Parameter one bound to: 1 - type: integer 
+	Parameter zero_0 bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (11#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Alu.v:23]
+WARNING: [Synth 8-7071] port 'overflow' of module 'ALU' is unconnected for instance 'ALU_0' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Pipeline_EX.v:56]
+WARNING: [Synth 8-7023] instance 'ALU_0' of module 'ALU' has 6 connections declared, but only 5 given [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Pipeline_EX.v:56]
+INFO: [Synth 8-6155] done synthesizing module 'Pipeline_EX' (12#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Pipeline_EX.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Ex_reg_Mem' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Ex_reg_Mem.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Ex_reg_Mem' (13#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Ex_reg_Mem.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Pipeline_Mem' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Pipeline_Mem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'AND' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/AND.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'AND' (14#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/AND.v:23]
+INFO: [Synth 8-6157] synthesizing module 'OR' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/OR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'OR' (15#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/OR.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pipeline_Mem' (16#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Pipeline_Mem.v:23]
+INFO: [Synth 8-6157] synthesizing module 'Mem_reg_WB' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Mem_reg_WB.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Mem_reg_WB' (17#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Mem_reg_WB.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Pipeline_WB' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Pipeline_WB.v:23]
+INFO: [Synth 8-6157] synthesizing module 'MUX4T1_32' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/MUX4T1_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'MUX4T1_32' (18#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/MUX4T1_32.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pipeline_WB' (19#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/imports/new/Pipeline_WB.v:23]
+INFO: [Synth 8-6157] synthesizing module 'stall' [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/new/stall.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'stall' (20#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/new/stall.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'Pipeline_CPU' (21#1) [D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.srcs/sources_1/new/Pipeline_CPU.v:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1075.324 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1075.324 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1075.324 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 1075.324 ; gain = 0.000
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 4     
+	   3 Input   32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 50    
+	                5 Bit    Registers := 3     
+	                4 Bit    Registers := 1     
+	                2 Bit    Registers := 5     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 9     
+	   4 Input   32 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 1     
+	   9 Input    4 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 1     
+	   9 Input    3 Bit        Muxes := 1     
+	   9 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 35    
+	   9 Input    1 Bit        Muxes := 5     
+	  11 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:50 . Memory (MB): peak = 1333.957 ; gain = 258.633
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:51 . Memory (MB): peak = 1333.957 ; gain = 258.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:34 ; elapsed = 00:00:52 . Memory (MB): peak = 1333.957 ; gain = 258.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:38 ; elapsed = 00:00:56 . Memory (MB): peak = 1333.957 ; gain = 258.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:38 ; elapsed = 00:00:56 . Memory (MB): peak = 1333.957 ; gain = 258.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:38 ; elapsed = 00:00:56 . Memory (MB): peak = 1333.957 ; gain = 258.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:38 ; elapsed = 00:00:56 . Memory (MB): peak = 1333.957 ; gain = 258.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:38 ; elapsed = 00:00:56 . Memory (MB): peak = 1333.957 ; gain = 258.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:38 ; elapsed = 00:00:56 . Memory (MB): peak = 1333.957 ; gain = 258.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    48|
+|3     |LUT1   |     1|
+|4     |LUT2   |   241|
+|5     |LUT3   |    68|
+|6     |LUT4   |    99|
+|7     |LUT5   |   212|
+|8     |LUT6   |   953|
+|9     |MUXF7  |   256|
+|10    |FDCE   |  1603|
+|11    |FDPE   |     1|
+|12    |IBUF   |    66|
+|13    |OBUF   |  1525|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------+------------+------+
+|      |Instance      |Module      |Cells |
++------+--------------+------------+------+
+|1     |top           |            |  5074|
+|2     |  Ex          |Pipeline_EX |    40|
+|3     |    ALU_0     |ALU         |    24|
+|4     |    add_32_1  |add_32      |     8|
+|5     |    add_32_2  |add_32_0    |     8|
+|6     |  Ex_REG_Mem  |Ex_reg_Mem  |   352|
+|7     |  ID          |Pipeline_ID |  1824|
+|8     |    Regs_0    |Regs        |  1824|
+|9     |  ID_REG_EX   |ID_reg_Ex   |   811|
+|10    |  IF          |Pipeline_IF |    64|
+|11    |    PC        |REG32       |    64|
+|12    |  IF_REG_ID   |IF_reg_ID   |   164|
+|13    |  Mem_REG_WB  |Mem_reg_WB  |   195|
+|14    |  WB          |Pipeline_WB |    32|
+|15    |    MUX4T1_32 |MUX4T1_32   |    32|
++------+--------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:38 ; elapsed = 00:00:56 . Memory (MB): peak = 1333.957 ; gain = 258.633
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:00:56 . Memory (MB): peak = 1333.957 ; gain = 258.633
+Synthesis Optimization Complete : Time (s): cpu = 00:00:38 ; elapsed = 00:00:56 . Memory (MB): peak = 1333.957 ; gain = 258.633
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 1333.957 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 304 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1333.957 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+60 Infos, 6 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:45 ; elapsed = 00:01:08 . Memory (MB): peak = 1333.957 ; gain = 258.633
+INFO: [Common 17-1381] The checkpoint 'D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.runs/synth_1/Pipeline_CPU.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Pipeline_CPU_utilization_synth.rpt -pb Pipeline_CPU_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Jun  4 10:11:00 2021...

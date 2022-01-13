@@ -1,0 +1,1711 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jun  4 17:02:47 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SCPU_SIM_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SCPU_SIM_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jun  4 17:02:45 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jun  4 16:09:41 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SCPU_SIM_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SCPU_SIM_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jun  4 16:09:39 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jun  4 15:38:51 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SCPU_SIM_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of SCPU_SIM_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'SCPU_SIM_Pipeline_CPU_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'PC_out_IDEX'
+
+-Upgrade has added port 'Rd_addr_out_EXMem'
+
+-Upgrade has added port 'Rd_addr_out_IDEX'
+
+-Upgrade has added port 'Rd_addr_out_MemWB'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jun  4 15:38:49 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of CSSTE_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'CSSTE_Pipeline_CPU_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'PC_out_IDEX'
+
+-Upgrade has added port 'Rd_addr_out_EXMem'
+
+-Upgrade has added port 'Rd_addr_out_IDEX'
+
+-Upgrade has added port 'Rd_addr_out_MemWB'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jun  4 13:31:36 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SCPU_SIM_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SCPU_SIM_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jun  4 13:31:33 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jun  4 11:27:24 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_VGA_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of CSSTE_VGA_0_0 (xilinx.com:user:VGA:1.0) from (Rev. 3) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'CSSTE_VGA_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'Imm_out_ID'
+
+-Upgrade has added port 'PC_Mem'
+
+-Upgrade has added port 'PC_WB'
+
+-Upgrade has added port 'Rd_addr_out_ID'
+
+-Upgrade has added port 'Rs1_addr_out_ID'
+
+-Upgrade has added port 'Rs1_out_ID'
+
+-Upgrade has added port 'Rs2_addr_out_ID'
+
+-Upgrade has added port 'Rs2_out_ID'
+
+-Upgrade has added port 'inst_EX'
+
+-Upgrade has added port 'inst_Mem'
+
+-Upgrade has added port 'inst_WB'
+
+-Upgrade has added port 'valid_EX'
+
+-Upgrade has added port 'valid_ID'
+
+-Upgrade has added port 'valid_Mem'
+
+-Upgrade has added port 'valid_WB'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jun  4 10:13:50 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SCPU_SIM_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SCPU_SIM_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jun  4 10:13:47 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Jun  2 21:20:46 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SCPU_SIM_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of SCPU_SIM_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'SCPU_SIM_Pipeline_CPU_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'Imm_out_ID'
+
+-Upgrade has added port 'PC_out_EXMem'
+
+-Upgrade has added port 'PC_out_MemWB'
+
+-Upgrade has added port 'Rd_addr_out_ID'
+
+-Upgrade has added port 'Rs1_addr_ID'
+
+-Upgrade has added port 'Rs1_out_ID'
+
+-Upgrade has added port 'Rs2_addr_ID'
+
+-Upgrade has added port 'Rs2_out_ID'
+
+-Upgrade has added port 'inst_out_EXMem'
+
+-Upgrade has added port 'inst_out_IDEX'
+
+-Upgrade has added port 'inst_out_MemWB'
+
+-Upgrade has added port 'valid_IFID'
+
+-Upgrade has added port 'valid_out_EXMem'
+
+-Upgrade has added port 'valid_out_IDEX'
+
+-Upgrade has added port 'valid_out_MemWB'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed Jun  2 21:20:43 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of CSSTE_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'CSSTE_Pipeline_CPU_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'Imm_out_ID'
+
+-Upgrade has added port 'PC_out_EXMem'
+
+-Upgrade has added port 'PC_out_MemWB'
+
+-Upgrade has added port 'Rd_addr_out_ID'
+
+-Upgrade has added port 'Rs1_addr_ID'
+
+-Upgrade has added port 'Rs1_out_ID'
+
+-Upgrade has added port 'Rs2_addr_ID'
+
+-Upgrade has added port 'Rs2_out_ID'
+
+-Upgrade has added port 'inst_out_EXMem'
+
+-Upgrade has added port 'inst_out_IDEX'
+
+-Upgrade has added port 'inst_out_MemWB'
+
+-Upgrade has added port 'valid_IFID'
+
+-Upgrade has added port 'valid_out_EXMem'
+
+-Upgrade has added port 'valid_out_IDEX'
+
+-Upgrade has added port 'valid_out_MemWB'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Jun  1 21:05:17 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_VGA_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_VGA_0_0 (xilinx.com:user:VGA:1.0) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Jun  1 20:53:44 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SCPU_SIM_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SCPU_SIM_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Jun  1 20:53:41 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Jun  1 19:25:58 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SCPU_SIM_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SCPU_SIM_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue Jun  1 19:25:56 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat May 29 23:15:03 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SCPU_SIM_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SCPU_SIM_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat May 29 23:15:02 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat May 29 23:10:03 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SCPU_SIM_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of SCPU_SIM_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0) from (Rev. 3) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat May 29 23:10:01 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0) from (Rev. 3) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat May 29 22:10:07 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_VGA_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of CSSTE_VGA_0_0 (xilinx.com:user:VGA:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'CSSTE_VGA_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'a0'
+
+-Upgrade has added port 'a1'
+
+-Upgrade has added port 'a2'
+
+-Upgrade has added port 'a3'
+
+-Upgrade has added port 'a4'
+
+-Upgrade has added port 'a5'
+
+-Upgrade has added port 'a6'
+
+-Upgrade has added port 'a7'
+
+-Upgrade has added port 'gp'
+
+-Upgrade has added port 'ra'
+
+-Upgrade has added port 's0'
+
+-Upgrade has added port 's1'
+
+-Upgrade has added port 's10'
+
+-Upgrade has added port 's11'
+
+-Upgrade has added port 's2'
+
+-Upgrade has added port 's3'
+
+-Upgrade has added port 's4'
+
+-Upgrade has added port 's5'
+
+-Upgrade has added port 's6'
+
+-Upgrade has added port 's7'
+
+-Upgrade has added port 's8'
+
+-Upgrade has added port 's9'
+
+-Upgrade has added port 'sp'
+
+-Upgrade has added port 't0'
+
+-Upgrade has added port 't1'
+
+-Upgrade has added port 't2'
+
+-Upgrade has added port 't3'
+
+-Upgrade has added port 't4'
+
+-Upgrade has added port 't5'
+
+-Upgrade has added port 't6'
+
+-Upgrade has added port 'tp'
+
+-Upgrade has added port 'x0'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat May 29 21:52:32 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_Pipeline_CPU_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of CSSTE_Pipeline_CPU_0_0 (xilinx.com:user:Pipeline_CPU:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'CSSTE_Pipeline_CPU_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'a0'
+
+-Upgrade has added port 'a1'
+
+-Upgrade has added port 'a2'
+
+-Upgrade has added port 'a3'
+
+-Upgrade has added port 'a4'
+
+-Upgrade has added port 'a5'
+
+-Upgrade has added port 'a6'
+
+-Upgrade has added port 'a7'
+
+-Upgrade has added port 'gp'
+
+-Upgrade has added port 'ra'
+
+-Upgrade has added port 's0'
+
+-Upgrade has added port 's1'
+
+-Upgrade has added port 's10'
+
+-Upgrade has added port 's11'
+
+-Upgrade has added port 's2'
+
+-Upgrade has added port 's3'
+
+-Upgrade has added port 's4'
+
+-Upgrade has added port 's5'
+
+-Upgrade has added port 's6'
+
+-Upgrade has added port 's7'
+
+-Upgrade has added port 's8'
+
+-Upgrade has added port 's9'
+
+-Upgrade has added port 'sp'
+
+-Upgrade has added port 't0'
+
+-Upgrade has added port 't1'
+
+-Upgrade has added port 't2'
+
+-Upgrade has added port 't3'
+
+-Upgrade has added port 't4'
+
+-Upgrade has added port 't5'
+
+-Upgrade has added port 't6'
+
+-Upgrade has added port 'tp'
+
+-Upgrade has added port 'x0'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Sat May 29 14:08:13 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_VGA_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of CSSTE_VGA_0_0 (xilinx.com:user:VGA:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'CSSTE_VGA_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'a0'
+
+-Upgrade has removed port 'a1'
+
+-Upgrade has removed port 'a2'
+
+-Upgrade has removed port 'a3'
+
+-Upgrade has removed port 'a4'
+
+-Upgrade has removed port 'a5'
+
+-Upgrade has removed port 'a6'
+
+-Upgrade has removed port 'a7'
+
+-Upgrade has removed port 'alu_res'
+
+-Upgrade has removed port 'dmem_addr'
+
+-Upgrade has removed port 'dmem_i_data'
+
+-Upgrade has removed port 'dmem_o_data'
+
+-Upgrade has removed port 'gp'
+
+-Upgrade has removed port 'inst'
+
+-Upgrade has removed port 'mem_wen'
+
+-Upgrade has removed port 'pc'
+
+-Upgrade has removed port 'ra'
+
+-Upgrade has removed port 's0'
+
+-Upgrade has removed port 's1'
+
+-Upgrade has removed port 's10'
+
+-Upgrade has removed port 's11'
+
+-Upgrade has removed port 's2'
+
+-Upgrade has removed port 's3'
+
+-Upgrade has removed port 's4'
+
+-Upgrade has removed port 's5'
+
+-Upgrade has removed port 's6'
+
+-Upgrade has removed port 's7'
+
+-Upgrade has removed port 's8'
+
+-Upgrade has removed port 's9'
+
+-Upgrade has removed port 'sp'
+
+-Upgrade has removed port 't0'
+
+-Upgrade has removed port 't1'
+
+-Upgrade has removed port 't2'
+
+-Upgrade has removed port 't3'
+
+-Upgrade has removed port 't4'
+
+-Upgrade has removed port 't5'
+
+-Upgrade has removed port 't6'
+
+-Upgrade has removed port 'tp'
+
+-Upgrade has removed port 'x0'
+
+-Upgrade has added port 'Addr_out'
+
+-Upgrade has added port 'Data_out'
+
+-Upgrade has added port 'Data_out_WB'
+
+-Upgrade has added port 'MemRW_Ex'
+
+-Upgrade has added port 'MemRW_Mem'
+
+-Upgrade has added port 'PC_Ex'
+
+-Upgrade has added port 'PC_ID'
+
+-Upgrade has added port 'PC_IF'
+
+-Upgrade has added port 'inst_ID'
+
+-Upgrade has added port 'inst_IF'
+
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed May 26 16:37:42 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_RAM_B_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_RAM_B_0_0 (xilinx.com:user:RAM_B:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed May 26 16:24:09 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'SCPU_SIM_SCPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of SCPU_SIM_SCPU_0_0 (xilinx.com:user:SCPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Wed May 26 16:24:07 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_SCPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_SCPU_0_0 (xilinx.com:user:SCPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Tue May 25 15:40:24 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_SCPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_SCPU_0_0 (xilinx.com:user:SCPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:33:37 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_SCPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_SCPU_0_0 (xilinx.com:user:SCPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:25:06 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_VGA_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_VGA_0_0 (xilinx.com:user:VGA:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlslice_0_9'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlslice_0_9 (xilinx.com:ip:xlslice:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlslice_0_8'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlslice_0_8 (xilinx.com:ip:xlslice:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlslice_0_7'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlslice_0_7 (xilinx.com:ip:xlslice:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlslice_0_6'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlslice_0_6 (xilinx.com:ip:xlslice:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlslice_0_5'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlslice_0_5 (xilinx.com:ip:xlslice:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlslice_0_4'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlslice_0_4 (xilinx.com:ip:xlslice:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlslice_0_3'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlslice_0_3 (xilinx.com:ip:xlslice:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlslice_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlslice_0_2 (xilinx.com:ip:xlslice:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlslice_0_12'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlslice_0_12 (xilinx.com:ip:xlslice:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlslice_0_11'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlslice_0_11 (xilinx.com:ip:xlslice:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlslice_0_10'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlslice_0_10 (xilinx.com:ip:xlslice:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlslice_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlslice_0_1 (xilinx.com:ip:xlslice:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlslice_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlslice_0_0 (xilinx.com:ip:xlslice:1.0) from (Rev. 1) to (Rev. 2)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlconstant_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlconstant_0_1 (xilinx.com:ip:xlconstant:1.1) from (Rev. 3) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlconstant_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlconstant_0_0 (xilinx.com:ip:xlconstant:1.1) from (Rev. 3) to (Rev. 7)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlconcat_1_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlconcat_1_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 1) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 1) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_util_vector_logic_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_util_vector_logic_0_1 (xilinx.com:ip:util_vector_logic:2.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_util_vector_logic_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_util_vector_logic_0_0 (xilinx.com:ip:util_vector_logic:2.0 (Rev. 1)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_dist_mem_gen_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_dist_mem_gen_0_0 (xilinx.com:ip:dist_mem_gen:8.0) from (Rev. 12) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 21 17:22:38 2021
+| Host         : CST509N13 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_RAM_B_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_RAM_B_0_0 (xilinx.com:user:RAM_B:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri May 21 10:41:29 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_SCPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_SCPU_0_0 (xilinx.com:user:SCPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu May 20 17:58:35 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_SCPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_SCPU_0_0 (xilinx.com:user:SCPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu May 20 12:56:22 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_SCPU_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_SCPU_0_0 (xilinx.com:user:SCPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu May 20 11:06:22 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_RAM_B_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_RAM_B_0_0 (xilinx.com:user:RAM_B:1.0 (Rev. 4)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu May 20 10:50:34 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_SCPU_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of CSSTE_SCPU_0_1 (xilinx.com:user:SCPU:1.0 (Rev. 2)) to Vivado generation flows.
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed May 19 17:21:07 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_VGA_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of CSSTE_VGA_0_0 (xilinx.com:user:VGA:1.0) from (Rev. 1) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'CSSTE_VGA_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'a0'
+
+-Upgrade has added port 'a1'
+
+-Upgrade has added port 'a2'
+
+-Upgrade has added port 'a3'
+
+-Upgrade has added port 'a4'
+
+-Upgrade has added port 'a5'
+
+-Upgrade has added port 'a6'
+
+-Upgrade has added port 'a7'
+
+-Upgrade has added port 'gp'
+
+-Upgrade has added port 'ra'
+
+-Upgrade has added port 's0'
+
+-Upgrade has added port 's1'
+
+-Upgrade has added port 's10'
+
+-Upgrade has added port 's11'
+
+-Upgrade has added port 's2'
+
+-Upgrade has added port 's3'
+
+-Upgrade has added port 's4'
+
+-Upgrade has added port 's5'
+
+-Upgrade has added port 's6'
+
+-Upgrade has added port 's7'
+
+-Upgrade has added port 's8'
+
+-Upgrade has added port 's9'
+
+-Upgrade has added port 'sp'
+
+-Upgrade has added port 't0'
+
+-Upgrade has added port 't1'
+
+-Upgrade has added port 't2'
+
+-Upgrade has added port 't3'
+
+-Upgrade has added port 't4'
+
+-Upgrade has added port 't5'
+
+-Upgrade has added port 't6'
+
+-Upgrade has added port 'tp'
+
+-Upgrade has added port 'x0'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed May 19 17:21:07 2021
+| Host         : DESKTOP-5SVOFN0 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'CSSTE_RAM_B_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of CSSTE_RAM_B_0_0 (xilinx.com:user:RAM_B:1.0) from (Rev. 2) to (Rev. 4)
+

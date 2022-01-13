@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../cache.gen/sources_1/ip/Tag_ram1/sim/Tag_ram1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

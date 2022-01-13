@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu May 20 20:16:49 2021
+# Process ID: 27768
+# Current directory: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/SCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13712 D:\ISE\vivado\lab4_teacher\OExp04-IP2SOC\IP\CPU\SCPU\SCPU\SCPU.xpr
+# Log file: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/SCPU/vivado.log
+# Journal file: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/SCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/SCPU/SCPU.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU£¨Ô´´úÂë°æ£©/SCPU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/SCPU'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/IP2CPU -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+ipx::unload_core d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/IP2CPU/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/IP2CPU d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/IP2CPU/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 946.371 ; gain = 87.074
+update_compile_order -fileset sources_1
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 20 20:19:46 2021...

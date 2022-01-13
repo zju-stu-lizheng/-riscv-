@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jun  2 22:15:32 2021
+# Process ID: 20212
+# Current directory: D:/ISE/2020/OExp05/CSSTE_hazard01
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13868 D:\ISE\2020\OExp05\CSSTE_hazard01\SOC_NEW.xpr
+# Log file: D:/ISE/2020/OExp05/CSSTE_hazard01/vivado.log
+# Journal file: D:/ISE/2020/OExp05/CSSTE_hazard01\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.xpr
+update_compile_order -fileset sources_1

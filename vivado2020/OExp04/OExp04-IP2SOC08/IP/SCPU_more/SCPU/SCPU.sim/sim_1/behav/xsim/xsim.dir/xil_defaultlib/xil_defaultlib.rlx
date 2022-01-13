@@ -1,0 +1,18 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sim_1/imports/new/IP2CPU_tb.v,1615621704,verilog,,,,SCPU_tb,,,,,,,,
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/Alu.v,1616659659,verilog,,C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/new/DataPath_more.v,,ALU,,,,,,,,
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/ImmGen.v,1616657700,verilog,,C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/MUX2T1_32.v,,ImmGen,,,,,,,,
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/MUX2T1_32.v,1604906917,verilog,,C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/MUX4T1_32.v,,MUX2T1_32,,,,,,,,
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/MUX4T1_32.v,1604908145,verilog,,C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/new/OR.v,,MUX4T1_32,,,,,,,,
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/REG32.v,1613624389,verilog,,C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/Regs.v,,REG32,,,,,,,,
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/Regs.v,1608361427,verilog,,C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/new/SCPU.v,,Regs,,,,,,,,
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/SCPU_ctrl_more.v,1616673034,verilog,,C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/add_32.v,,SCPU_ctrl_more,,,,,,,,
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/add_32.v,1604909086,verilog,,C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sim_1/imports/new/IP2CPU_tb.v,,add_32,,,,,,,,
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/new/AND.v,1615621306,verilog,,C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/Alu.v,,AND,,,,,,,,
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/new/DataPath_more.v,1616728712,verilog,,C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/ImmGen.v,,DataPath_more,,,,,,,,
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/new/OR.v,1616727766,verilog,,C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/REG32.v,,OR,,,,,,,,
+C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/new/SCPU.v,1616726447,verilog,,C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/SCPU_ctrl_more.v,,SCPU,,,,,,,,

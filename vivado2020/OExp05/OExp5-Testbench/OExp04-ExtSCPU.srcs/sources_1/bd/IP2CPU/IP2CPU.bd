@@ -1,0 +1,638 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x312AB3F2E2741F7B",
+      "device": "xc7k160tffg676-2L",
+      "name": "IP2CPU",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2020.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "SCPU_ctrl_0": "",
+      "datapath_wrapper_0": "",
+      "inst14_12": "",
+      "inst30": "",
+      "inst6_2": ""
+    },
+    "ports": {
+      "MIO_ready": {
+        "direction": "I"
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "rst",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "IP2CPU_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "rst": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "inst_in": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "MemRW": {
+        "direction": "O"
+      },
+      "CPU_MIO": {
+        "direction": "O"
+      },
+      "Addr_out": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "Data_out": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "PC_out": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a4": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a5": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a6": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a7": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "gp": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "ra": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s10": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s11": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s4": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s5": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s6": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s7": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s8": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s9": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "sp": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t4": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t5": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t6": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "tp": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "x0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "Data_in": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      }
+    },
+    "components": {
+      "SCPU_ctrl_0": {
+        "vlnv": "xilinx.com:user:SCPU_ctrl:1.0",
+        "xci_name": "IP2CPU_SCPU_ctrl_0_1"
+      },
+      "datapath_wrapper_0": {
+        "vlnv": "xilinx.com:user:datapath_wrapper:1.0",
+        "xci_name": "IP2CPU_datapath_wrapper_0_1"
+      },
+      "inst14_12": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "IP2CPU_inst14_12_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "14"
+          },
+          "DIN_TO": {
+            "value": "12"
+          },
+          "DOUT_WIDTH": {
+            "value": "3"
+          }
+        }
+      },
+      "inst30": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "IP2CPU_inst30_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "30"
+          },
+          "DIN_TO": {
+            "value": "30"
+          },
+          "DOUT_WIDTH": {
+            "value": "1"
+          }
+        }
+      },
+      "inst6_2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "IP2CPU_inst6_2_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "6"
+          },
+          "DIN_TO": {
+            "value": "2"
+          },
+          "DOUT_WIDTH": {
+            "value": "5"
+          }
+        }
+      }
+    },
+    "nets": {
+      "inst30_Dout": {
+        "ports": [
+          "inst30/Dout",
+          "SCPU_ctrl_0/Fun7"
+        ]
+      },
+      "inst14_12_Dout": {
+        "ports": [
+          "inst14_12/Dout",
+          "SCPU_ctrl_0/Fun3"
+        ]
+      },
+      "inst6_2_Dout": {
+        "ports": [
+          "inst6_2/Dout",
+          "SCPU_ctrl_0/OPcode"
+        ]
+      },
+      "MIO_ready_0_1": {
+        "ports": [
+          "MIO_ready",
+          "SCPU_ctrl_0/MIO_ready"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk",
+          "datapath_wrapper_0/clk"
+        ]
+      },
+      "rst_0_1": {
+        "ports": [
+          "rst",
+          "datapath_wrapper_0/rst"
+        ]
+      },
+      "inst_field_0_1": {
+        "ports": [
+          "inst_in",
+          "datapath_wrapper_0/inst_field",
+          "inst14_12/Din",
+          "inst30/Din",
+          "inst6_2/Din"
+        ]
+      },
+      "SCPU_ctrl_0_ImmSel": {
+        "ports": [
+          "SCPU_ctrl_0/ImmSel",
+          "datapath_wrapper_0/ImmSel"
+        ]
+      },
+      "SCPU_ctrl_0_ALUSrc_B": {
+        "ports": [
+          "SCPU_ctrl_0/ALUSrc_B",
+          "datapath_wrapper_0/ALUSrc_B"
+        ]
+      },
+      "SCPU_ctrl_0_MemtoReg": {
+        "ports": [
+          "SCPU_ctrl_0/MemtoReg",
+          "datapath_wrapper_0/MemtoReg"
+        ]
+      },
+      "SCPU_ctrl_0_Jump": {
+        "ports": [
+          "SCPU_ctrl_0/Jump",
+          "datapath_wrapper_0/Jump"
+        ]
+      },
+      "SCPU_ctrl_0_Branch": {
+        "ports": [
+          "SCPU_ctrl_0/Branch",
+          "datapath_wrapper_0/Branch"
+        ]
+      },
+      "SCPU_ctrl_0_BranchN": {
+        "ports": [
+          "SCPU_ctrl_0/BranchN",
+          "datapath_wrapper_0/BranchN"
+        ]
+      },
+      "SCPU_ctrl_0_RegWrite": {
+        "ports": [
+          "SCPU_ctrl_0/RegWrite",
+          "datapath_wrapper_0/RegWrite"
+        ]
+      },
+      "SCPU_ctrl_0_MemRW": {
+        "ports": [
+          "SCPU_ctrl_0/MemRW",
+          "MemRW"
+        ]
+      },
+      "SCPU_ctrl_0_CPU_MIO": {
+        "ports": [
+          "SCPU_ctrl_0/CPU_MIO",
+          "CPU_MIO"
+        ]
+      },
+      "SCPU_ctrl_0_ALU_Control": {
+        "ports": [
+          "SCPU_ctrl_0/ALU_Control",
+          "datapath_wrapper_0/ALU_Control"
+        ]
+      },
+      "datapath_wrapper_0_ALU_out": {
+        "ports": [
+          "datapath_wrapper_0/ALU_out",
+          "Addr_out"
+        ]
+      },
+      "datapath_wrapper_0_Data_out": {
+        "ports": [
+          "datapath_wrapper_0/Data_out",
+          "Data_out"
+        ]
+      },
+      "datapath_wrapper_0_PC_out": {
+        "ports": [
+          "datapath_wrapper_0/PC_out",
+          "PC_out"
+        ]
+      },
+      "datapath_wrapper_0_a0": {
+        "ports": [
+          "datapath_wrapper_0/a0",
+          "a0"
+        ]
+      },
+      "datapath_wrapper_0_a1": {
+        "ports": [
+          "datapath_wrapper_0/a1",
+          "a1"
+        ]
+      },
+      "datapath_wrapper_0_a2": {
+        "ports": [
+          "datapath_wrapper_0/a2",
+          "a2"
+        ]
+      },
+      "datapath_wrapper_0_a3": {
+        "ports": [
+          "datapath_wrapper_0/a3",
+          "a3"
+        ]
+      },
+      "datapath_wrapper_0_a4": {
+        "ports": [
+          "datapath_wrapper_0/a4",
+          "a4"
+        ]
+      },
+      "datapath_wrapper_0_a5": {
+        "ports": [
+          "datapath_wrapper_0/a5",
+          "a5"
+        ]
+      },
+      "datapath_wrapper_0_a6": {
+        "ports": [
+          "datapath_wrapper_0/a6",
+          "a6"
+        ]
+      },
+      "datapath_wrapper_0_a7": {
+        "ports": [
+          "datapath_wrapper_0/a7",
+          "a7"
+        ]
+      },
+      "datapath_wrapper_0_gp": {
+        "ports": [
+          "datapath_wrapper_0/gp",
+          "gp"
+        ]
+      },
+      "datapath_wrapper_0_ra": {
+        "ports": [
+          "datapath_wrapper_0/ra",
+          "ra"
+        ]
+      },
+      "datapath_wrapper_0_s0": {
+        "ports": [
+          "datapath_wrapper_0/s0",
+          "s0"
+        ]
+      },
+      "datapath_wrapper_0_s1": {
+        "ports": [
+          "datapath_wrapper_0/s1",
+          "s1"
+        ]
+      },
+      "datapath_wrapper_0_s10": {
+        "ports": [
+          "datapath_wrapper_0/s10",
+          "s10"
+        ]
+      },
+      "datapath_wrapper_0_s11": {
+        "ports": [
+          "datapath_wrapper_0/s11",
+          "s11"
+        ]
+      },
+      "datapath_wrapper_0_s2": {
+        "ports": [
+          "datapath_wrapper_0/s2",
+          "s2"
+        ]
+      },
+      "datapath_wrapper_0_s3": {
+        "ports": [
+          "datapath_wrapper_0/s3",
+          "s3"
+        ]
+      },
+      "datapath_wrapper_0_s4": {
+        "ports": [
+          "datapath_wrapper_0/s4",
+          "s4"
+        ]
+      },
+      "datapath_wrapper_0_s5": {
+        "ports": [
+          "datapath_wrapper_0/s5",
+          "s5"
+        ]
+      },
+      "datapath_wrapper_0_s6": {
+        "ports": [
+          "datapath_wrapper_0/s6",
+          "s6"
+        ]
+      },
+      "datapath_wrapper_0_s7": {
+        "ports": [
+          "datapath_wrapper_0/s7",
+          "s7"
+        ]
+      },
+      "datapath_wrapper_0_s8": {
+        "ports": [
+          "datapath_wrapper_0/s8",
+          "s8"
+        ]
+      },
+      "datapath_wrapper_0_s9": {
+        "ports": [
+          "datapath_wrapper_0/s9",
+          "s9"
+        ]
+      },
+      "datapath_wrapper_0_sp": {
+        "ports": [
+          "datapath_wrapper_0/sp",
+          "sp"
+        ]
+      },
+      "datapath_wrapper_0_t0": {
+        "ports": [
+          "datapath_wrapper_0/t0",
+          "t0"
+        ]
+      },
+      "datapath_wrapper_0_t1": {
+        "ports": [
+          "datapath_wrapper_0/t1",
+          "t1"
+        ]
+      },
+      "datapath_wrapper_0_t2": {
+        "ports": [
+          "datapath_wrapper_0/t2",
+          "t2"
+        ]
+      },
+      "datapath_wrapper_0_t3": {
+        "ports": [
+          "datapath_wrapper_0/t3",
+          "t3"
+        ]
+      },
+      "datapath_wrapper_0_t4": {
+        "ports": [
+          "datapath_wrapper_0/t4",
+          "t4"
+        ]
+      },
+      "datapath_wrapper_0_t5": {
+        "ports": [
+          "datapath_wrapper_0/t5",
+          "t5"
+        ]
+      },
+      "datapath_wrapper_0_t6": {
+        "ports": [
+          "datapath_wrapper_0/t6",
+          "t6"
+        ]
+      },
+      "datapath_wrapper_0_tp": {
+        "ports": [
+          "datapath_wrapper_0/tp",
+          "tp"
+        ]
+      },
+      "datapath_wrapper_0_x0": {
+        "ports": [
+          "datapath_wrapper_0/x0",
+          "x0"
+        ]
+      },
+      "Data_in_1": {
+        "ports": [
+          "Data_in",
+          "datapath_wrapper_0/Data_in"
+        ]
+      }
+    }
+  }
+}

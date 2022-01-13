@@ -1,0 +1,1 @@
+-wto "a9dad49d401d41c6a87071758a78c593" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "xlslice_v1_0_2" -L "util_vector_logic_v2_0_1" -L "dist_mem_gen_v8_0_13" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "SCPU_tb_behav" "xil_defaultlib.SCPU_tb" "xil_defaultlib.glbl" -log "elaborate.log" 

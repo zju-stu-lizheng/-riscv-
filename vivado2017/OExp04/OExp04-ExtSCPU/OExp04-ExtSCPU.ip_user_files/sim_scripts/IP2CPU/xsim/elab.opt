@@ -1,0 +1,1 @@
+--relax --debug typical --mt auto -L xil_defaultlib -L xlslice_v1_0_1 -L util_vector_logic_v2_0_1 -L xlconstant_v1_1_3 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot IP2CPU xil_defaultlib.IP2CPU xil_defaultlib.glbl -log elaborate.log

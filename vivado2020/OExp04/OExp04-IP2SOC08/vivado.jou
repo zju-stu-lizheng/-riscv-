@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu Jan 13 20:05:35 2022
+# Process ID: 11192
+# Current directory: D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6888 D:\ISE\done\CO\vivado2020\OExp04\OExp04-IP2SOC08\OExp04-IP2SOC.xpr
+# Log file: D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/vivado.log
+# Journal file: D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/ISE/done/CO/vivado/OExp02-IP2SOC/COE/COE/D_mem.coe] -no_script -reset -force -quiet
+remove_files  D:/ISE/done/CO/vivado/OExp02-IP2SOC/COE/COE/D_mem.coe
+export_ip_user_files -of_objects  [get_files D:/ISE/done/CO/vivado/OExp02-IP2SOC/COE/COE/I_mem_basic.coe] -no_script -reset -force -quiet
+remove_files  D:/ISE/done/CO/vivado/OExp02-IP2SOC/COE/COE/I_mem_basic.coe
+export_ip_user_files -of_objects  [get_files D:/ISE/done/CO/vivado/OExp02-IP2SOC/COE/COE/I_mem_more.coe] -no_script -reset -force -quiet
+remove_files  D:/ISE/done/CO/vivado/OExp02-IP2SOC/COE/COE/I_mem_more.coe
+launch_simulation
+launch_simulation
+launch_simulation

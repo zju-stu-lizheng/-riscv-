@@ -1,0 +1,213 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.238823",
+   "Default View_TopLeft":"-126,-967",
+   "ExpandedHierarchyInLayout":"",
+   "comment_0":"BTN_OK[0]",
+   "comment_1":"~clk_100mhz",
+   "comment_10":"Addr_out[31:0]",
+   "comment_11":".",
+   "comment_12":".",
+   "comment_13":".",
+   "comment_14":".",
+   "comment_3":"PC[11:2]",
+   "commentid":"comment_0|comment_1|comment_3|comment_11|comment_12|comment_13|comment_14|comment_10|",
+   "fillcolor_comment_11":"",
+   "fillcolor_comment_12":"",
+   "fillcolor_comment_13":"",
+   "fillcolor_comment_14":"",
+   "font_comment_0":"9",
+   "font_comment_1":"9",
+   "font_comment_10":"14",
+   "font_comment_11":"9",
+   "font_comment_12":"9",
+   "font_comment_13":"9",
+   "font_comment_14":"9",
+   "font_comment_3":"9",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port RSTN -pg 1 -lvl 0 -x 0 -y 1690 -defaultsOSRD
+preplace port clk_100mhz -pg 1 -lvl 0 -x 0 -y 1460 -defaultsOSRD
+preplace port SEG_PEN -pg 1 -lvl 12 -x 3360 -y 1470 -defaultsOSRD
+preplace port seg_clk -pg 1 -lvl 12 -x 3360 -y 1430 -defaultsOSRD
+preplace port seg_clrn -pg 1 -lvl 12 -x 3360 -y 1450 -defaultsOSRD
+preplace port seg_sout -pg 1 -lvl 12 -x 3360 -y 1490 -defaultsOSRD
+preplace port LED_PEN -pg 1 -lvl 12 -x 3360 -y 1730 -defaultsOSRD
+preplace port led_clk -pg 1 -lvl 12 -x 3360 -y 1670 -defaultsOSRD
+preplace port led_clrn -pg 1 -lvl 12 -x 3360 -y 1710 -defaultsOSRD
+preplace port led_sout -pg 1 -lvl 12 -x 3360 -y 1690 -defaultsOSRD
+preplace port HSYNC -pg 1 -lvl 12 -x 3360 -y 430 -defaultsOSRD
+preplace port VSYNC -pg 1 -lvl 12 -x 3360 -y 450 -defaultsOSRD
+preplace portBus BTN_y -pg 1 -lvl 0 -x 0 -y 1730 -defaultsOSRD
+preplace portBus SW -pg 1 -lvl 0 -x 0 -y 1750 -defaultsOSRD
+preplace portBus Red -pg 1 -lvl 12 -x 3360 -y 470 -defaultsOSRD
+preplace portBus Green -pg 1 -lvl 12 -x 3360 -y 490 -defaultsOSRD
+preplace portBus Blue -pg 1 -lvl 12 -x 3360 -y 510 -defaultsOSRD
+preplace inst U8 -pg 1 -lvl 3 -x 600 -y 1690 -defaultsOSRD
+preplace inst U6 -pg 1 -lvl 11 -x 3200 -y 1460 -defaultsOSRD
+preplace inst U10 -pg 1 -lvl 5 -x 1220 -y 1500 -defaultsOSRD
+preplace inst U4 -pg 1 -lvl 6 -x 1590 -y 1390 -defaultsOSRD
+preplace inst U5 -pg 1 -lvl 10 -x 2810 -y 1200 -defaultsOSRD
+preplace inst U9 -pg 1 -lvl 1 -x 140 -y 1710 -defaultsOSRD
+preplace inst U7 -pg 1 -lvl 11 -x 3200 -y 1690 -defaultsOSRD
+preplace inst U1 -pg 1 -lvl 7 -x 1930 -y 520 -defaultsOSRD
+preplace inst U11 -pg 1 -lvl 11 -x 3200 -y 470 -defaultsOSRD
+preplace inst U2 -pg 1 -lvl 6 -x 1590 -y 880 -defaultsOSRD
+preplace inst dist_mem_gen_0 -pg 1 -lvl 5 -x 1220 -y 1060 -defaultsOSRD
+preplace inst div1 -pg 1 -lvl 10 -x 2810 -y 900 -defaultsOSRD
+preplace inst div25 -pg 1 -lvl 10 -x 2810 -y 1460 -defaultsOSRD
+preplace inst sw0 -pg 1 -lvl 10 -x 2810 -y 1660 -defaultsOSRD
+preplace inst BTN_Y0 -pg 1 -lvl 2 -x 370 -y 1520 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 4 -x 870 -y 1720 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 4 -x 870 -y 1070 -defaultsOSRD
+preplace inst div31_31 -pg 1 -lvl 9 -x 2460 -y 1190 -defaultsOSRD
+preplace inst xlconcat_1 -pg 1 -lvl 9 -x 2460 -y 920 -defaultsOSRD
+preplace inst b64_0 -pg 1 -lvl 9 -x 2460 -y 1300 -defaultsOSRD
+preplace inst b2_0 -pg 1 -lvl 8 -x 2230 -y 930 -defaultsOSRD
+preplace inst sw2 -pg 1 -lvl 2 -x 370 -y 1640 -defaultsOSRD
+preplace inst sw8 -pg 1 -lvl 2 -x 370 -y 1740 -defaultsOSRD
+preplace inst PC11_2 -pg 1 -lvl 5 -x 1220 -y 880 -defaultsOSRD
+preplace inst div6 -pg 1 -lvl 4 -x 870 -y 1390 -defaultsOSRD
+preplace inst div9 -pg 1 -lvl 4 -x 870 -y 1490 -defaultsOSRD
+preplace inst div11 -pg 1 -lvl 4 -x 870 -y 1590 -defaultsOSRD
+preplace inst sw7_5 -pg 1 -lvl 9 -x 2460 -y 1080 -defaultsOSRD
+preplace inst PC31_2 -pg 1 -lvl 8 -x 2230 -y 200 -defaultsOSRD
+preplace inst div20 -pg 1 -lvl 10 -x 2810 -y 1560 -defaultsOSRD
+preplace netloc RSTN_1 1 0 1 NJ 1690
+preplace netloc clk_100mhz_1 1 0 11 20 1580 NJ 1580 490 1580 720 1650 NJ 1650 1390 1570 1800J 1390 NJ 1390 NJ 1390 NJ 1390 2980
+preplace netloc BTN_y_1 1 0 1 NJ 1730
+preplace netloc SW_1 1 0 1 NJ 1750
+preplace netloc U9_BTN_OK 1 1 5 260 1310 NJ 1310 NJ 1310 NJ 1310 N
+preplace netloc U9_SW_OK 1 1 9 270 1810 NJ 1810 NJ 1810 NJ 1810 1400 1580 NJ 1580 NJ 1580 2330 1660 NJ
+preplace netloc sw2_Dout 1 2 1 470 1640n
+preplace netloc sw8_Dout 1 2 1 500 1710n
+preplace netloc U9_rst 1 1 10 260J 1800 490 1790 NJ 1790 1030 1290 1380 1010 1780 1010 NJ 1010 NJ 1010 2660 1010 3020
+preplace netloc util_vector_logic_1_Res 1 4 1 NJ 1070
+preplace netloc U8_Clk_CPU 1 3 4 700 480 NJ 480 NJ 480 N
+preplace netloc util_vector_logic_0_Res 1 4 7 1040 1680 NJ 1680 NJ 1680 NJ 1680 NJ 1680 2630 1720 3030J
+preplace netloc SCPU_0_PC_out 1 4 7 1020 100 NJ 100 NJ 100 2070 120 NJ 120 2590 120 NJ
+preplace netloc PC11_2_Dout 1 5 1 NJ 880
+preplace netloc U2_spo 1 6 5 1750 50 NJ 50 NJ 50 2640 140 NJ
+preplace netloc U8_clkdiv 1 3 7 710 1210 NJ 1210 NJ 1210 NJ 1210 NJ 1210 2340 1370 2620
+preplace netloc div6_Dout 1 4 1 1020J 1390n
+preplace netloc div9_Dout 1 4 1 NJ 1490
+preplace netloc div11_Dout 1 4 1 1050J 1510n
+preplace netloc U10_counter0_OUT 1 5 1 N 1470
+preplace netloc U10_counter1_OUT 1 5 1 N 1490
+preplace netloc U10_counter2_OUT 1 5 1 N 1510
+preplace netloc U10_counter_out 1 5 5 1360 1020 NJ 1020 NJ 1020 NJ 1020 2560
+preplace netloc SCPU_0_MemRW 1 5 6 1420 90 NJ 90 2060 140 NJ 140 2560J 150 3040
+preplace netloc SCPU_0_Data_out 1 5 5 1430 990 NJ 990 2070 990 NJ 990 2570
+preplace netloc SCPU_0_Addr_out 1 5 6 1410 70 NJ 70 2090 260 NJ 260 2650 240 3010
+preplace netloc U4_Cpu_data4bus 1 4 7 1020 950 NJ 950 1770 80 NJ 80 NJ 80 NJ 80 2940
+preplace netloc U4_GPIOe0000000_we 1 6 4 1790J 1000 NJ 1000 NJ 1000 2600
+preplace netloc U4_counter_we 1 4 3 1060 1640 NJ 1640 1750
+preplace netloc U4_data_ram_we 1 4 3 1030 970 NJ 970 1750
+preplace netloc U4_Peripheral_in 1 4 7 1080 1630 NJ 1630 1780 1670 NJ 1670 NJ 1670 2660 1730 NJ
+preplace netloc U4_ram_addr 1 4 3 1040 960 NJ 960 1760
+preplace netloc RAM_B_0_douta 1 5 6 1370 60 NJ 60 NJ 60 NJ 60 NJ 60 2950
+preplace netloc xlconstant_0_dout 1 9 1 2600J 1170n
+preplace netloc sw7_5_Dout 1 9 1 2580J 1080n
+preplace netloc PC31_2_Dout 1 8 1 2330 200n
+preplace netloc xlconcat_1_dout 1 9 1 2610 920n
+preplace netloc div31_31_dout 1 9 1 2580J 1150n
+preplace netloc U4_GPIOf0000000_we 1 6 5 NJ 1400 NJ 1400 NJ 1400 NJ 1400 2940
+preplace netloc div20_Dout 1 10 1 3040 1510n
+preplace netloc U7_LED_out 1 5 7 1430 1810 NJ 1810 NJ 1810 NJ 1810 NJ 1810 NJ 1810 3330
+preplace netloc U7_counter_set 1 4 8 1070 1820 NJ 1820 NJ 1820 NJ 1820 NJ 1820 NJ 1820 NJ 1820 3340
+preplace netloc div1_Dout 1 10 1 2960J 60n
+preplace netloc sw0_Dout 1 10 1 2980J 1530n
+preplace netloc div25_Dout 1 10 1 2990J 1410n
+preplace netloc Multi_8CH32_0_Disp_num 1 10 1 2950 1220n
+preplace netloc Multi_8CH32_0_LE_out 1 10 1 2960 1200n
+preplace netloc Multi_8CH32_0_point_out 1 10 1 2970 1180n
+preplace netloc U6_SEG_PEN 1 11 1 NJ 1470
+preplace netloc U6_seg_clk 1 11 1 NJ 1430
+preplace netloc U6_seg_clrn 1 11 1 NJ 1450
+preplace netloc U6_seg_sout 1 11 1 NJ 1490
+preplace netloc U7_LED_PEN 1 11 1 NJ 1730
+preplace netloc U7_led_clk 1 11 1 NJ 1670
+preplace netloc U7_led_clrn 1 11 1 NJ 1710
+preplace netloc U7_led_sout 1 11 1 NJ 1690
+preplace netloc VGA_0_hs 1 11 1 NJ 430
+preplace netloc VGA_0_vs 1 11 1 NJ 450
+preplace netloc VGA_0_vga_r 1 11 1 NJ 470
+preplace netloc VGA_0_vga_g 1 11 1 NJ 490
+preplace netloc VGA_0_vga_b 1 11 1 NJ 510
+preplace netloc U4_Cpu_data4bus1 1 6 4 1800 1360 NJ 1360 NJ 1360 2670J
+preplace netloc b2_0_dout 1 8 1 NJ 930
+preplace netloc U1_t6 1 7 4 2090J 820 NJ 820 NJ 820 3000
+preplace netloc U1_t5 1 7 4 2100J 830 NJ 830 NJ 830 2990
+preplace netloc U1_t4 1 7 4 NJ 840 NJ 840 NJ 840 N
+preplace netloc U1_t3 1 7 4 2080J 810 NJ 810 NJ 810 3010
+preplace netloc U1_s11 1 7 4 NJ 800 NJ 800 NJ 800 N
+preplace netloc U1_s10 1 7 4 NJ 780 NJ 780 NJ 780 N
+preplace netloc U1_s9 1 7 4 NJ 760 NJ 760 NJ 760 N
+preplace netloc U1_s8 1 7 4 NJ 740 NJ 740 NJ 740 N
+preplace netloc U1_s7 1 7 4 NJ 720 NJ 720 NJ 720 N
+preplace netloc U1_s6 1 7 4 NJ 700 NJ 700 NJ 700 N
+preplace netloc U1_s5 1 7 4 NJ 680 NJ 680 NJ 680 N
+preplace netloc U1_s4 1 7 4 NJ 660 NJ 660 NJ 660 N
+preplace netloc U1_s3 1 7 4 NJ 640 NJ 640 NJ 640 N
+preplace netloc U1_s2 1 7 4 NJ 620 NJ 620 NJ 620 N
+preplace netloc U1_a7 1 7 4 NJ 600 NJ 600 NJ 600 N
+preplace netloc U1_a6 1 7 4 NJ 580 NJ 580 NJ 580 N
+preplace netloc U1_a5 1 7 4 NJ 560 NJ 560 NJ 560 N
+preplace netloc U1_a4 1 7 4 NJ 540 NJ 540 NJ 540 N
+preplace netloc U1_a3 1 7 4 NJ 520 NJ 520 NJ 520 N
+preplace netloc U1_a2 1 7 4 NJ 500 NJ 500 NJ 500 N
+preplace netloc U1_a1 1 7 4 NJ 480 NJ 480 NJ 480 N
+preplace netloc U1_a0 1 7 4 NJ 460 NJ 460 NJ 460 N
+preplace netloc U1_s1 1 7 4 NJ 440 NJ 440 NJ 440 N
+preplace netloc U1_s0 1 7 4 NJ 420 NJ 420 NJ 420 N
+preplace netloc U1_t2 1 7 4 NJ 400 NJ 400 NJ 400 N
+preplace netloc U1_t1 1 7 4 NJ 380 NJ 380 NJ 380 N
+preplace netloc U1_t0 1 7 4 NJ 360 NJ 360 NJ 360 N
+preplace netloc U1_tp 1 7 4 NJ 340 NJ 340 NJ 340 N
+preplace netloc U1_gp 1 7 4 NJ 320 NJ 320 NJ 320 N
+preplace netloc U1_sp 1 7 4 NJ 300 NJ 300 NJ 300 N
+preplace netloc U1_ra 1 7 4 NJ 280 NJ 280 NJ 280 N
+preplace netloc U1_x0 1 7 4 2060J 270 NJ 270 NJ 270 2970
+preplace netloc BTN_Y0_Dout 1 2 1 480 1520n
+preplace cgraphic comment_3 place left 1055 -706 textcolor 6 linecolor 3 linewidth 0
+preplace cgraphic comment_1 place left 1323 -532 textcolor 6 linecolor 3 linewidth 0
+preplace cgraphic comment_0 place left 799 -361 textcolor 6 linecolor 3 linewidth 0
+preplace cgraphic comment_14 place top 2150 865 textcolor 6 linecolor 3 linewidth 0
+preplace cgraphic comment_13 place top 1501 742 textcolor 6 linecolor 3 linewidth 0
+preplace cgraphic comment_12 place right -1400 -433 textcolor 6 linecolor 3 linewidth 0
+preplace cgraphic comment_11 place bot 2206 -609 textcolor 6 linecolor 3 linewidth 0
+levelinfo -pg 1 0 140 370 600 870 1220 1590 1930 2230 2460 2810 3200 3360
+pagesize -pg 1 -db -bbox -sgen -130 0 3480 1840
+",
+   "linecolor_comment_11":"",
+   "linecolor_comment_12":"",
+   "linecolor_comment_13":"",
+   "linecolor_comment_14":"",
+   "linktoobj_comment_10":"",
+   "linktotype_comment_10":"bd_design",
+   "textcolor_comment_0":"#ff0000",
+   "textcolor_comment_1":"#ff0000",
+   "textcolor_comment_11":"#ff0000",
+   "textcolor_comment_12":"#ff0000",
+   "textcolor_comment_13":"#ff0000",
+   "textcolor_comment_14":"#ff0000",
+   "textcolor_comment_3":"#ff0000"
+}
+0
+{
+   "/comment_0":"comment_0",
+   "/comment_1":"comment_1",
+   "/comment_10":"comment_14",
+   "/comment_15":"comment_10",
+   "/comment_16":"comment_10",
+   "/comment_17":"comment_10",
+   "/comment_18":"comment_10",
+   "/comment_19":"comment_10",
+   "/comment_20":"comment_10",
+   "/comment_21":"comment_10",
+   "/comment_22":"comment_10",
+   "/comment_23":"comment_12",
+   "/comment_24":"comment_13",
+   "/comment_3":"comment_3",
+   "/comment_9":"comment_11"
+}

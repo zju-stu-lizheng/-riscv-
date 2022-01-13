@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Mar 24 18:44:06 2021
+# Process ID: 10312
+# Current directory: C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12916 C:\Users\ASUS\Desktop\OExp_RISCV\OExp04\basic\IP\CPU\SCPU（源代码版）\SCPU\SCPU.xpr
+# Log file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU/SCPU.xpr
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl/OExp04-SCPU_ctrl.srcs/sources_1/new/SCPU_ctrl.v -to_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/SCPU_ctrl.v -filesets [get_filesets *]
+close_project

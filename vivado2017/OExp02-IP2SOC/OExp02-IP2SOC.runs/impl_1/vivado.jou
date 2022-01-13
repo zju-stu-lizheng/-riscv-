@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed May 19 20:34:21 2021
+# Process ID: 16788
+# Current directory: D:/ISE/vivado/OExp02-IP2SOC/OExp02-IP2SOC.runs/impl_1
+# Command line: vivado.exe -log CSSTE_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source CSSTE_wrapper.tcl -notrace
+# Log file: D:/ISE/vivado/OExp02-IP2SOC/OExp02-IP2SOC.runs/impl_1/CSSTE_wrapper.vdi
+# Journal file: D:/ISE/vivado/OExp02-IP2SOC/OExp02-IP2SOC.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source CSSTE_wrapper.tcl -notrace

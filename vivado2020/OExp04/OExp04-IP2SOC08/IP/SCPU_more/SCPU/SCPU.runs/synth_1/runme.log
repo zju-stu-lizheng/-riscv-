@@ -1,0 +1,375 @@
+
+*** Running vivado
+    with args -log SCPU.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source SCPU.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source SCPU.tcl -notrace
+Command: synth_design -top SCPU -part xc7k160tffg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20588 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 388.457 ; gain = 98.590
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'SCPU' [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/new/SCPU.v:23]
+INFO: [Synth 8-638] synthesizing module 'SCPU_ctrl_more' [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/SCPU_ctrl_more.v:23]
+INFO: [Synth 8-226] default block is never used [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/SCPU_ctrl_more.v:98]
+INFO: [Synth 8-226] default block is never used [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/SCPU_ctrl_more.v:106]
+INFO: [Synth 8-256] done synthesizing module 'SCPU_ctrl_more' (1#1) [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/SCPU_ctrl_more.v:23]
+INFO: [Synth 8-638] synthesizing module 'DataPath_more' [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/new/DataPath_more.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU' [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/Alu.v:23]
+	Parameter one bound to: 1 - type: integer 
+	Parameter zero_0 bound to: 0 - type: integer 
+WARNING: [Synth 8-3848] Net overflow in module/entity ALU does not have driver. [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/Alu.v:26]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (2#1) [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/Alu.v:23]
+WARNING: [Synth 8-350] instance 'ALU_u' of module 'ALU' requires 6 connections, but only 5 given [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/new/DataPath_more.v:76]
+INFO: [Synth 8-638] synthesizing module 'AND' [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/new/AND.v:23]
+INFO: [Synth 8-256] done synthesizing module 'AND' (3#1) [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/new/AND.v:23]
+INFO: [Synth 8-638] synthesizing module 'OR' [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/new/OR.v:23]
+INFO: [Synth 8-256] done synthesizing module 'OR' (4#1) [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/new/OR.v:23]
+INFO: [Synth 8-638] synthesizing module 'ImmGen' [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/ImmGen.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ImmGen' (5#1) [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/ImmGen.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUX2T1_32' [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/MUX2T1_32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX2T1_32' (6#1) [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/MUX2T1_32.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUX4T1_32' [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/MUX4T1_32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX4T1_32' (7#1) [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/MUX4T1_32.v:23]
+INFO: [Synth 8-638] synthesizing module 'REG32' [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/REG32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'REG32' (8#1) [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/REG32.v:23]
+INFO: [Synth 8-638] synthesizing module 'Regs' [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/Regs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Regs' (9#1) [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/Regs.v:23]
+INFO: [Synth 8-638] synthesizing module 'add_32' [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/add_32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'add_32' (10#1) [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/imports/new/add_32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'DataPath_more' (11#1) [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/new/DataPath_more.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SCPU' (12#1) [D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.srcs/sources_1/new/SCPU.v:23]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[6]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[5]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[4]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[3]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[2]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[1]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[0]
+WARNING: [Synth 8-3331] design ALU has unconnected port overflow
+WARNING: [Synth 8-3331] design SCPU_ctrl_more has unconnected port MIO_ready
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 440.309 ; gain = 150.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 440.309 ; gain = 150.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 440.309 ; gain = 150.441
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ImmSel" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "ALUSrc_B" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "MemtoReg" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "Jump" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "Branch" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BranchN" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5587] ROM size for "RegWrite" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "MemRW" won't be mapped to RAM because it is too sparse
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "register_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[31]" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 440.309 ; gain = 150.441
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 2     
+	   9 Input      4 Bit        Muxes := 2     
+	   9 Input      3 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 2     
+	   2 Input      2 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 3     
+	  11 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 31    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module SCPU_ctrl_more 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input      4 Bit        Muxes := 2     
+	   9 Input      3 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 2     
+	   9 Input      1 Bit        Muxes := 3     
+	  11 Input      1 Bit        Muxes := 2     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module MUX2T1_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MUX4T1_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module REG32 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module Regs 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 31    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 31    
+Module add_32 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3917] design SCPU has port CPU_MIO driven by constant 0
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[6]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[5]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[4]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[3]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[2]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[1]
+WARNING: [Synth 8-3331] design ImmGen has unconnected port inst_field[0]
+WARNING: [Synth 8-3331] design ALU has unconnected port overflow
+WARNING: [Synth 8-3331] design SCPU has unconnected port MIO_ready
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:00 ; elapsed = 00:02:05 . Memory (MB): peak = 752.758 ; gain = 462.891
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:09 ; elapsed = 00:02:14 . Memory (MB): peak = 752.758 ; gain = 462.891
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:14 ; elapsed = 00:02:19 . Memory (MB): peak = 752.758 ; gain = 462.891
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:15 ; elapsed = 00:02:20 . Memory (MB): peak = 752.758 ; gain = 462.891
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:15 ; elapsed = 00:02:20 . Memory (MB): peak = 752.758 ; gain = 462.891
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:15 ; elapsed = 00:02:20 . Memory (MB): peak = 752.758 ; gain = 462.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:15 ; elapsed = 00:02:20 . Memory (MB): peak = 752.758 ; gain = 462.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:15 ; elapsed = 00:02:20 . Memory (MB): peak = 752.758 ; gain = 462.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:15 ; elapsed = 00:02:20 . Memory (MB): peak = 752.758 ; gain = 462.891
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    40|
+|3     |LUT1   |    60|
+|4     |LUT2   |   107|
+|5     |LUT3   |   144|
+|6     |LUT4   |   122|
+|7     |LUT5   |   128|
+|8     |LUT6   |   977|
+|9     |MUXF7  |     6|
+|10    |MUXF8  |     2|
+|11    |FDCE   |  1024|
+|12    |IBUF   |    64|
+|13    |OBUF   |  1122|
++------+-------+------+
+
+Report Instance Areas: 
++------+-------------+--------------+------+
+|      |Instance     |Module        |Cells |
++------+-------------+--------------+------+
+|1     |top          |              |  3797|
+|2     |  U2         |DataPath_more |  2609|
+|3     |    ALU_u    |ALU           |    40|
+|4     |    PC       |REG32         |   142|
+|5     |    Regs_U   |Regs          |  2411|
+|6     |    add_32_0 |add_32        |     8|
+|7     |    add_32_1 |add_32_0      |     8|
++------+-------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:15 ; elapsed = 00:02:20 . Memory (MB): peak = 752.758 ; gain = 462.891
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:15 ; elapsed = 00:02:20 . Memory (MB): peak = 752.758 ; gain = 462.891
+Synthesis Optimization Complete : Time (s): cpu = 00:02:15 ; elapsed = 00:02:20 . Memory (MB): peak = 752.758 ; gain = 462.891
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 112 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+76 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:20 ; elapsed = 00:02:29 . Memory (MB): peak = 758.594 ; gain = 481.492
+INFO: [Common 17-1381] The checkpoint 'D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.runs/synth_1/SCPU.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file SCPU_utilization_synth.rpt -pb SCPU_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.136 . Memory (MB): peak = 758.594 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu May 20 21:22:58 2021...

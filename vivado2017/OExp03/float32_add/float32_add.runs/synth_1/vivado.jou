@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Mar 24 16:19:55 2021
+# Process ID: 22368
+# Current directory: D:/ISE/vivado/OExp03/float32_add/float32_add.runs/synth_1
+# Command line: vivado.exe -log float32_add.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source float32_add.tcl
+# Log file: D:/ISE/vivado/OExp03/float32_add/float32_add.runs/synth_1/float32_add.vds
+# Journal file: D:/ISE/vivado/OExp03/float32_add/float32_add.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source float32_add.tcl -notrace

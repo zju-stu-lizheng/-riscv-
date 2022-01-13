@@ -1,0 +1,828 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x7F83BC7206B4732E",
+      "device": "xc7k160tffg676-2L",
+      "name": "datapath",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "None",
+      "tool_version": "2020.2"
+    },
+    "design_tree": {
+      "add_32_0": "",
+      "add_32_1": "",
+      "regs_0": "",
+      "ImmGen_0": "",
+      "MUX2T1_32_0": "",
+      "MUX2T1_32_1": "",
+      "MUX4T1_32_0": "",
+      "MUX4T1_32_1": "",
+      "PC": "",
+      "ALU_0": "",
+      "AND2": "",
+      "Rs2": "",
+      "Rs3": "",
+      "AND3": "",
+      "not1": "",
+      "or2": "",
+      "PC4": "",
+      "VCC": "",
+      "Rs1": ""
+    },
+    "ports": {
+      "Branch": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "BranchN": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      },
+      "ImmSel": {
+        "direction": "I",
+        "left": "2",
+        "right": "0"
+      },
+      "inst_field": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "MemtoReg": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "Data_in": {
+        "direction": "I",
+        "left": "31",
+        "right": "0"
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I"
+      },
+      "rst": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "POLARITY": {
+            "value": "ACTIVE_HIGH"
+          }
+        }
+      },
+      "RegWrite": {
+        "direction": "I"
+      },
+      "ALU_out": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "PC_out": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "Data_out": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "Jump": {
+        "direction": "I",
+        "left": "1",
+        "right": "0"
+      },
+      "ALUSrc_B": {
+        "direction": "I"
+      },
+      "ALU_Control": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "a0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a4": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a5": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a6": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "a7": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "gp": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "ra": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s10": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s11": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s4": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s5": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s6": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s7": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s8": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "s9": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "sp": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t1": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t2": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t3": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t4": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t5": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "t6": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "tp": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      },
+      "x0": {
+        "direction": "O",
+        "left": "31",
+        "right": "0"
+      }
+    },
+    "components": {
+      "add_32_0": {
+        "vlnv": "xilinx.com:user:add_32:1.0",
+        "xci_name": "datapath_add_32_0_0"
+      },
+      "add_32_1": {
+        "vlnv": "xilinx.com:user:add_32:1.0",
+        "xci_name": "datapath_add_32_0_1"
+      },
+      "regs_0": {
+        "vlnv": "xilinx.com:user:regs:1.0",
+        "xci_name": "datapath_regs_0_0"
+      },
+      "ImmGen_0": {
+        "vlnv": "xilinx.com:user:ImmGen:1.0",
+        "xci_name": "datapath_ImmGen_0_0"
+      },
+      "MUX2T1_32_0": {
+        "vlnv": "xilinx.com:user:MUX2T1_32:1.0",
+        "xci_name": "datapath_MUX2T1_32_0_0"
+      },
+      "MUX2T1_32_1": {
+        "vlnv": "xilinx.com:user:MUX2T1_32:1.0",
+        "xci_name": "datapath_MUX2T1_32_0_1"
+      },
+      "MUX4T1_32_0": {
+        "vlnv": "xilinx.com:user:MUX4T1_32:1.0",
+        "xci_name": "datapath_MUX4T1_32_0_0"
+      },
+      "MUX4T1_32_1": {
+        "vlnv": "xilinx.com:user:MUX4T1_32:1.0",
+        "xci_name": "datapath_MUX4T1_32_0_1"
+      },
+      "PC": {
+        "vlnv": "xilinx.com:user:REG32:1.0",
+        "xci_name": "datapath_REG32_0_0"
+      },
+      "ALU_0": {
+        "vlnv": "xilinx.com:user:ALU:1.0",
+        "xci_name": "datapath_ALU_0_0"
+      },
+      "AND2": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "datapath_AND3_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "and"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "Rs2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "datapath_Rs1_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "24"
+          },
+          "DIN_TO": {
+            "value": "20"
+          },
+          "DOUT_WIDTH": {
+            "value": "5"
+          }
+        }
+      },
+      "Rs3": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "datapath_Rs1_1",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "11"
+          },
+          "DIN_TO": {
+            "value": "7"
+          },
+          "DOUT_WIDTH": {
+            "value": "5"
+          }
+        }
+      },
+      "AND3": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "datapath_not1_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "and"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "not1": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "datapath_util_vector_logic_0_0",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "not"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "or2": {
+        "vlnv": "xilinx.com:ip:util_vector_logic:2.0",
+        "xci_name": "datapath_util_vector_logic_0_1",
+        "parameters": {
+          "C_OPERATION": {
+            "value": "or"
+          },
+          "C_SIZE": {
+            "value": "1"
+          }
+        }
+      },
+      "PC4": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "datapath_xlconstant_0_0",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "4"
+          },
+          "CONST_WIDTH": {
+            "value": "32"
+          }
+        }
+      },
+      "VCC": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "datapath_xlconstant_0_1"
+      },
+      "Rs1": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "datapath_xlslice_0_0",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "19"
+          },
+          "DIN_TO": {
+            "value": "15"
+          },
+          "DOUT_WIDTH": {
+            "value": "5"
+          }
+        }
+      }
+    },
+    "nets": {
+      "ALU_0_zero": {
+        "ports": [
+          "ALU_0/zero",
+          "AND3/Op2",
+          "not1/Op1"
+        ]
+      },
+      "Op1_0_1": {
+        "ports": [
+          "Branch",
+          "AND3/Op1"
+        ]
+      },
+      "not1_Res": {
+        "ports": [
+          "not1/Res",
+          "AND2/Op1"
+        ]
+      },
+      "Op2_0_1": {
+        "ports": [
+          "BranchN",
+          "AND2/Op2"
+        ]
+      },
+      "ImmSel_0_1": {
+        "ports": [
+          "ImmSel",
+          "ImmGen_0/ImmSel"
+        ]
+      },
+      "inst_field_0_1": {
+        "ports": [
+          "inst_field",
+          "ImmGen_0/inst_field",
+          "Rs2/Din",
+          "Rs3/Din",
+          "Rs1/Din"
+        ]
+      },
+      "PC4_dout": {
+        "ports": [
+          "PC4/dout",
+          "add_32_0/a"
+        ]
+      },
+      "ImmGen_0_Imm_out": {
+        "ports": [
+          "ImmGen_0/Imm_out",
+          "add_32_1/b",
+          "MUX2T1_32_1/I1",
+          "MUX4T1_32_0/I3"
+        ]
+      },
+      "AND3_Res": {
+        "ports": [
+          "AND3/Res",
+          "or2/Op1"
+        ]
+      },
+      "AND2_Res": {
+        "ports": [
+          "AND2/Res",
+          "or2/Op2"
+        ]
+      },
+      "s_0_1": {
+        "ports": [
+          "MemtoReg",
+          "MUX4T1_32_0/s"
+        ]
+      },
+      "I1_0_1": {
+        "ports": [
+          "Data_in",
+          "MUX4T1_32_0/I1"
+        ]
+      },
+      "add_32_0_c": {
+        "ports": [
+          "add_32_0/c",
+          "MUX2T1_32_0/I0",
+          "MUX4T1_32_0/I2"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk",
+          "regs_0/clk",
+          "PC/clk"
+        ]
+      },
+      "rst_0_1": {
+        "ports": [
+          "rst",
+          "regs_0/rst",
+          "PC/rst"
+        ]
+      },
+      "RegWrite_0_1": {
+        "ports": [
+          "RegWrite",
+          "regs_0/RegWrite"
+        ]
+      },
+      "Rs1_Dout": {
+        "ports": [
+          "Rs1/Dout",
+          "regs_0/Rs1_addr"
+        ]
+      },
+      "Rs2_Dout": {
+        "ports": [
+          "Rs2/Dout",
+          "regs_0/Rs2_addr"
+        ]
+      },
+      "Rs3_Dout": {
+        "ports": [
+          "Rs3/Dout",
+          "regs_0/Wt_addr"
+        ]
+      },
+      "MUX4T1_32_0_o": {
+        "ports": [
+          "MUX4T1_32_0/o",
+          "regs_0/Wt_data"
+        ]
+      },
+      "or2_Res": {
+        "ports": [
+          "or2/Res",
+          "MUX2T1_32_0/sel"
+        ]
+      },
+      "add_32_1_c": {
+        "ports": [
+          "add_32_1/c",
+          "MUX2T1_32_0/I1",
+          "MUX4T1_32_1/I1"
+        ]
+      },
+      "MUX2T1_32_0_o": {
+        "ports": [
+          "MUX2T1_32_0/o",
+          "MUX4T1_32_1/I0",
+          "MUX4T1_32_1/I3"
+        ]
+      },
+      "ALU_0_res": {
+        "ports": [
+          "ALU_0/res",
+          "ALU_out",
+          "MUX4T1_32_0/I0",
+          "MUX4T1_32_1/I2"
+        ]
+      },
+      "PC_Q": {
+        "ports": [
+          "PC/Q",
+          "PC_out",
+          "add_32_0/b",
+          "add_32_1/a"
+        ]
+      },
+      "regs_0_Rs2_data": {
+        "ports": [
+          "regs_0/Rs2_data",
+          "Data_out",
+          "MUX2T1_32_1/I0"
+        ]
+      },
+      "regs_0_Rs1_data": {
+        "ports": [
+          "regs_0/Rs1_data",
+          "ALU_0/A"
+        ]
+      },
+      "s_0_2": {
+        "ports": [
+          "Jump",
+          "MUX4T1_32_1/s"
+        ]
+      },
+      "MUX4T1_32_1_o": {
+        "ports": [
+          "MUX4T1_32_1/o",
+          "PC/D"
+        ]
+      },
+      "s_0_3": {
+        "ports": [
+          "ALUSrc_B",
+          "MUX2T1_32_1/sel"
+        ]
+      },
+      "MUX2T1_32_1_o": {
+        "ports": [
+          "MUX2T1_32_1/o",
+          "ALU_0/B"
+        ]
+      },
+      "ALU_operation_0_1": {
+        "ports": [
+          "ALU_Control",
+          "ALU_0/ALU_operation"
+        ]
+      },
+      "VCC_dout": {
+        "ports": [
+          "VCC/dout",
+          "PC/CE"
+        ]
+      },
+      "regs_0_a0": {
+        "ports": [
+          "regs_0/a0",
+          "a0"
+        ]
+      },
+      "regs_0_a1": {
+        "ports": [
+          "regs_0/a1",
+          "a1"
+        ]
+      },
+      "regs_0_a2": {
+        "ports": [
+          "regs_0/a2",
+          "a2"
+        ]
+      },
+      "regs_0_a3": {
+        "ports": [
+          "regs_0/a3",
+          "a3"
+        ]
+      },
+      "regs_0_a4": {
+        "ports": [
+          "regs_0/a4",
+          "a4"
+        ]
+      },
+      "regs_0_a5": {
+        "ports": [
+          "regs_0/a5",
+          "a5"
+        ]
+      },
+      "regs_0_a6": {
+        "ports": [
+          "regs_0/a6",
+          "a6"
+        ]
+      },
+      "regs_0_a7": {
+        "ports": [
+          "regs_0/a7",
+          "a7"
+        ]
+      },
+      "regs_0_gp": {
+        "ports": [
+          "regs_0/gp",
+          "gp"
+        ]
+      },
+      "regs_0_ra": {
+        "ports": [
+          "regs_0/ra",
+          "ra"
+        ]
+      },
+      "regs_0_s0": {
+        "ports": [
+          "regs_0/s0",
+          "s0"
+        ]
+      },
+      "regs_0_s1": {
+        "ports": [
+          "regs_0/s1",
+          "s1"
+        ]
+      },
+      "regs_0_s10": {
+        "ports": [
+          "regs_0/s10",
+          "s10"
+        ]
+      },
+      "regs_0_s11": {
+        "ports": [
+          "regs_0/s11",
+          "s11"
+        ]
+      },
+      "regs_0_s2": {
+        "ports": [
+          "regs_0/s2",
+          "s2"
+        ]
+      },
+      "regs_0_s3": {
+        "ports": [
+          "regs_0/s3",
+          "s3"
+        ]
+      },
+      "regs_0_s4": {
+        "ports": [
+          "regs_0/s4",
+          "s4"
+        ]
+      },
+      "regs_0_s5": {
+        "ports": [
+          "regs_0/s5",
+          "s5"
+        ]
+      },
+      "regs_0_s6": {
+        "ports": [
+          "regs_0/s6",
+          "s6"
+        ]
+      },
+      "regs_0_s7": {
+        "ports": [
+          "regs_0/s7",
+          "s7"
+        ]
+      },
+      "regs_0_s8": {
+        "ports": [
+          "regs_0/s8",
+          "s8"
+        ]
+      },
+      "regs_0_s9": {
+        "ports": [
+          "regs_0/s9",
+          "s9"
+        ]
+      },
+      "regs_0_sp": {
+        "ports": [
+          "regs_0/sp",
+          "sp"
+        ]
+      },
+      "regs_0_t0": {
+        "ports": [
+          "regs_0/t0",
+          "t0"
+        ]
+      },
+      "regs_0_t1": {
+        "ports": [
+          "regs_0/t1",
+          "t1"
+        ]
+      },
+      "regs_0_t2": {
+        "ports": [
+          "regs_0/t2",
+          "t2"
+        ]
+      },
+      "regs_0_t3": {
+        "ports": [
+          "regs_0/t3",
+          "t3"
+        ]
+      },
+      "regs_0_t4": {
+        "ports": [
+          "regs_0/t4",
+          "t4"
+        ]
+      },
+      "regs_0_t5": {
+        "ports": [
+          "regs_0/t5",
+          "t5"
+        ]
+      },
+      "regs_0_t6": {
+        "ports": [
+          "regs_0/t6",
+          "t6"
+        ]
+      },
+      "regs_0_tp": {
+        "ports": [
+          "regs_0/tp",
+          "tp"
+        ]
+      },
+      "regs_0_x0": {
+        "ports": [
+          "regs_0/x0",
+          "x0"
+        ]
+      }
+    }
+  }
+}

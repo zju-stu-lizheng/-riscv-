@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Mar 24 18:44:06 2021
+# Process ID: 10312
+# Current directory: C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12916 C:\Users\ASUS\Desktop\OExp_RISCV\OExp04\basic\IP\CPU\SCPU（源代码版）\SCPU\SCPU.xpr
+# Log file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU/SCPU.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/scpu/SCPU（源代码版）/SCPU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:SCPU_ctrl:1.0'. The one found in IP location 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl/OExp04-SCPU_ctrl.srcs/sources_1/imports/CPU_W' will take precedence over the same IP in location c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（原理图版）/SCPU_ctrl/SCPU_ctrl.srcs/sources_1/imports/new
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 823.574 ; gain = 93.633
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl/OExp04-SCPU_ctrl.srcs/sources_1/new/SCPU_ctrl.v -to_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/SCPU_ctrl.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/SCPU_ctrl.v' with file 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl/OExp04-SCPU_ctrl.srcs/sources_1/new/SCPU_ctrl.v'.
+INFO: [filemgmt 20-1080] Importing file from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl/OExp04-SCPU_ctrl.srcs/sources_1/new/SCPU_ctrl.v' to 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU/SCPU.srcs/sources_1/imports/new/SCPU_ctrl.v'.
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 24 18:48:27 2021...

@@ -1,0 +1,105 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.49863",
+   "Default View_TopLeft":"-1003,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk -pg 1 -lvl 0 -x 0 -y 180 -defaultsOSRD
+preplace port rst -pg 1 -lvl 0 -x 0 -y 860 -defaultsOSRD
+preplace port MemRW_EX_0 -pg 1 -lvl 4 -x 1210 -y 460 -defaultsOSRD
+preplace portBus a0 -pg 1 -lvl 4 -x 1210 -y 980 -defaultsOSRD
+preplace portBus a1 -pg 1 -lvl 4 -x 1210 -y 1000 -defaultsOSRD
+preplace portBus a2 -pg 1 -lvl 4 -x 1210 -y 1020 -defaultsOSRD
+preplace portBus a3 -pg 1 -lvl 4 -x 1210 -y 1040 -defaultsOSRD
+preplace portBus a4 -pg 1 -lvl 4 -x 1210 -y 1060 -defaultsOSRD
+preplace portBus a5 -pg 1 -lvl 4 -x 1210 -y 1080 -defaultsOSRD
+preplace portBus a6 -pg 1 -lvl 4 -x 1210 -y 1100 -defaultsOSRD
+preplace portBus a7 -pg 1 -lvl 4 -x 1210 -y 1120 -defaultsOSRD
+preplace portBus gp -pg 1 -lvl 4 -x 1210 -y 840 -defaultsOSRD
+preplace portBus ra -pg 1 -lvl 4 -x 1210 -y 800 -defaultsOSRD
+preplace portBus s0 -pg 1 -lvl 4 -x 1210 -y 940 -defaultsOSRD
+preplace portBus s1 -pg 1 -lvl 4 -x 1210 -y 960 -defaultsOSRD
+preplace portBus s10 -pg 1 -lvl 4 -x 1210 -y 1300 -defaultsOSRD
+preplace portBus s11 -pg 1 -lvl 4 -x 1210 -y 1320 -defaultsOSRD
+preplace portBus s2 -pg 1 -lvl 4 -x 1210 -y 1140 -defaultsOSRD
+preplace portBus s3 -pg 1 -lvl 4 -x 1210 -y 1160 -defaultsOSRD
+preplace portBus s4 -pg 1 -lvl 4 -x 1210 -y 1180 -defaultsOSRD
+preplace portBus s5 -pg 1 -lvl 4 -x 1210 -y 1200 -defaultsOSRD
+preplace portBus s6 -pg 1 -lvl 4 -x 1210 -y 1220 -defaultsOSRD
+preplace portBus s7 -pg 1 -lvl 4 -x 1210 -y 1240 -defaultsOSRD
+preplace portBus s8 -pg 1 -lvl 4 -x 1210 -y 1260 -defaultsOSRD
+preplace portBus s9 -pg 1 -lvl 4 -x 1210 -y 1280 -defaultsOSRD
+preplace portBus sp -pg 1 -lvl 4 -x 1210 -y 820 -defaultsOSRD
+preplace portBus t0 -pg 1 -lvl 4 -x 1210 -y 880 -defaultsOSRD
+preplace portBus t1 -pg 1 -lvl 4 -x 1210 -y 900 -defaultsOSRD
+preplace portBus t2 -pg 1 -lvl 4 -x 1210 -y 920 -defaultsOSRD
+preplace portBus t3 -pg 1 -lvl 4 -x 1210 -y 1340 -defaultsOSRD
+preplace portBus t4 -pg 1 -lvl 4 -x 1210 -y 1360 -defaultsOSRD
+preplace portBus t5 -pg 1 -lvl 4 -x 1210 -y 1380 -defaultsOSRD
+preplace portBus t6 -pg 1 -lvl 4 -x 1210 -y 1400 -defaultsOSRD
+preplace portBus tp -pg 1 -lvl 4 -x 1210 -y 860 -defaultsOSRD
+preplace portBus x0 -pg 1 -lvl 4 -x 1210 -y 780 -defaultsOSRD
+preplace portBus Data_out_WB -pg 1 -lvl 4 -x 1210 -y 420 -defaultsOSRD
+preplace portBus PC_out_EX -pg 1 -lvl 4 -x 1210 -y 300 -defaultsOSRD
+preplace portBus PC_out_ID -pg 1 -lvl 4 -x 1210 -y 320 -defaultsOSRD
+preplace portBus inst_ID -pg 1 -lvl 4 -x 1210 -y 340 -defaultsOSRD
+preplace inst PC_11_2 -pg 1 -lvl 1 -x 180 -y 920 -defaultsOSRD
+preplace inst Addr_11_2 -pg 1 -lvl 1 -x 180 -y 80 -defaultsOSRD
+preplace inst CLK_Not -pg 1 -lvl 1 -x 180 -y 180 -defaultsOSRD
+preplace inst ROM -pg 1 -lvl 2 -x 450 -y 920 -defaultsOSRD
+preplace inst RAM -pg 1 -lvl 2 -x 450 -y 110 -defaultsOSRD
+preplace inst Pipeline_CPU_0 -pg 1 -lvl 3 -x 720 -y 850 -defaultsOSRD
+preplace netloc PC_11_2_Dout 1 1 1 NJ 920
+preplace netloc Addr_11_2_Dout 1 1 1 NJ 80
+preplace netloc clk_0_1 1 0 3 20 20 330J 840 NJ
+preplace netloc CLK_Not_Res 1 1 1 340J 120n
+preplace netloc Pipeline_CPU_0_t6 1 3 1 1190J 1400n
+preplace netloc Pipeline_CPU_0_t5 1 3 1 1180J 1380n
+preplace netloc Pipeline_CPU_0_t4 1 3 1 1170J 1360n
+preplace netloc Pipeline_CPU_0_t3 1 3 1 1160J 1340n
+preplace netloc Pipeline_CPU_0_s11 1 3 1 1150J 1320n
+preplace netloc Pipeline_CPU_0_s10 1 3 1 1140J 1300n
+preplace netloc Pipeline_CPU_0_s9 1 3 1 1130J 1280n
+preplace netloc Pipeline_CPU_0_s8 1 3 1 1120J 1260n
+preplace netloc Pipeline_CPU_0_s7 1 3 1 1110J 1240n
+preplace netloc Pipeline_CPU_0_s6 1 3 1 1100J 1220n
+preplace netloc Pipeline_CPU_0_s5 1 3 1 1090J 1200n
+preplace netloc Pipeline_CPU_0_s4 1 3 1 1080J 1180n
+preplace netloc Pipeline_CPU_0_s3 1 3 1 1070J 1160n
+preplace netloc Pipeline_CPU_0_s2 1 3 1 1060J 1140n
+preplace netloc Pipeline_CPU_0_a7 1 3 1 1050J 1120n
+preplace netloc Pipeline_CPU_0_a6 1 3 1 1040J 1100n
+preplace netloc Pipeline_CPU_0_a5 1 3 1 1030J 1080n
+preplace netloc Pipeline_CPU_0_a4 1 3 1 1020J 1060n
+preplace netloc Pipeline_CPU_0_a3 1 3 1 1010J 1040n
+preplace netloc Pipeline_CPU_0_a2 1 3 1 1000J 1020n
+preplace netloc Pipeline_CPU_0_a1 1 3 1 990J 1000n
+preplace netloc Pipeline_CPU_0_x0 1 3 1 880J 780n
+preplace netloc Pipeline_CPU_0_ra 1 3 1 890J 800n
+preplace netloc Pipeline_CPU_0_sp 1 3 1 900J 820n
+preplace netloc Pipeline_CPU_0_gp 1 3 1 910J 840n
+preplace netloc Pipeline_CPU_0_tp 1 3 1 920J 860n
+preplace netloc Pipeline_CPU_0_t0 1 3 1 930J 880n
+preplace netloc Pipeline_CPU_0_t1 1 3 1 940J 900n
+preplace netloc Pipeline_CPU_0_t2 1 3 1 950J 920n
+preplace netloc Pipeline_CPU_0_s0 1 3 1 960J 940n
+preplace netloc Pipeline_CPU_0_s1 1 3 1 970J 960n
+preplace netloc Pipeline_CPU_0_a0 1 3 1 980J 980n
+preplace netloc ROM_spo 1 2 1 550J 880n
+preplace netloc rst_1 1 0 3 NJ 860 NJ 860 NJ
+preplace netloc RAM_spo 1 2 1 560 110n
+preplace netloc Pipeline_CPU_0_PC_out_IF 1 0 4 30 240 NJ 240 550J 190 880
+preplace netloc Pipeline_CPU_0_MemRW_Mem 1 1 3 350 200 NJ 200 890
+preplace netloc Pipeline_CPU_0_Addr_out 1 0 4 30 10 NJ 10 NJ 10 910
+preplace netloc Pipeline_CPU_0_Data_out 1 1 3 350 20 NJ 20 900
+preplace netloc Pipeline_CPU_0_Data_out_WB 1 3 1 930J 380n
+preplace netloc Pipeline_CPU_0_MemRW_EX 1 3 1 890J 420n
+preplace netloc Pipeline_CPU_0_PC_out_EX 1 3 1 940J 260n
+preplace netloc Pipeline_CPU_0_PC_out_ID 1 3 1 930J 280n
+preplace netloc Pipeline_CPU_0_inst_ID 1 3 1 920J 300n
+levelinfo -pg 1 0 180 450 720 1210
+pagesize -pg 1 -db -bbox -sgen -70 0 1390 1500
+"
+}
+0

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="39">
+  <CompositeFile CompositeFileTopName="SCPU_SIM" CanBeSetAsTop="true" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="RESET" Timestamp="1622797367"/>
+    <Generation Name="IMPLEMENTATION" State="RESET" Timestamp="1622797367"/>
+    <Generation Name="SIMULATION" State="RESET" Timestamp="1622797367"/>
+    <Generation Name="HW_HANDOFF" State="RESET" Timestamp="1622797367"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\SCPU_SIM_xlslice_0_0\SCPU_SIM_xlslice_0_0.xci" Type="IP">
+        <Instance HierarchyPath="PC_11_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SCPU_SIM_xlslice_0_1\SCPU_SIM_xlslice_0_1.xci" Type="IP">
+        <Instance HierarchyPath="Addr_11_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SCPU_SIM_util_vector_logic_0_0\SCPU_SIM_util_vector_logic_0_0.xci" Type="IP">
+        <Instance HierarchyPath="CLK_Not"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SCPU_SIM_dist_mem_gen_0_0\SCPU_SIM_dist_mem_gen_0_0.xci" Type="IP">
+        <Instance HierarchyPath="ROM"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SCPU_SIM_dist_mem_gen_0_1\SCPU_SIM_dist_mem_gen_0_1.xci" Type="IP">
+        <Instance HierarchyPath="RAM"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SCPU_SIM_Pipeline_CPU_0_0\SCPU_SIM_Pipeline_CPU_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Pipeline_CPU_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

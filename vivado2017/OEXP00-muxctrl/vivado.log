@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jan 12 10:10:00 2022
+# Process ID: 5712
+# Current directory: D:/ISE/done/vivado/OEXP00-muxctrl
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16600 D:\ISE\done\vivado\OEXP00-muxctrl\OEXP00-muxctrl.xpr
+# Log file: D:/ISE/done/vivado/OEXP00-muxctrl/vivado.log
+# Journal file: D:/ISE/done/vivado/OEXP00-muxctrl\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 12 10:15:34 2022...

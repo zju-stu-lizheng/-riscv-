@@ -1,0 +1,19 @@
+
+*** Running vivado
+    with args -log IP2CPU_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source IP2CPU_wrapper.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source IP2CPU_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1129.238 ; gain = 36.480
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp04-ExtSCPU/cpu_more01'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp04-ExtSCPU/datapath_more'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp04-4INT/IP/IP2CPU_INT'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp04-ExtSCPU/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2020.2/data/ip'.

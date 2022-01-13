@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Mar  2 19:27:03 2021
+# Process ID: 9956
+# Current directory: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.runs/synth_1
+# Command line: vivado.exe -log Multi_8CH32.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Multi_8CH32.tcl
+# Log file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.runs/synth_1/Multi_8CH32.vds
+# Journal file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Multi_8CH32.tcl -notrace

@@ -1,0 +1,7 @@
+Running: xsim.dir/fibonacci_tb_behav/xsimk.exe -simmode gui -wdb fibonacci_tb_behav.wdb -simrunnum 0 -socket 60931
+Design successfully loaded
+Design Loading Memory Usage: 6500 KB (Peak: 6500 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7116 KB (Peak: 7116 KB)
+Simulation CPU Usage: 46 ms

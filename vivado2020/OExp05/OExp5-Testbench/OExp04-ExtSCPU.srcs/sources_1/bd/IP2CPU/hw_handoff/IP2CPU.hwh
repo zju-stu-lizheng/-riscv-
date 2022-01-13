@@ -1,0 +1,625 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue May 25 18:46:21 2021" VIVADOVERSION="2020.2">
+
+  <SYSTEMINFO ARCH="kintex7" DEVICE="7k160t" NAME="IP2CPU" PACKAGE="ffg676" SPEEDGRADE="-2L"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="MIO_ready" SIGIS="undef" SIGNAME="External_Ports_MIO_ready">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="MIO_ready"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="rst"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="inst_in" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_inst_in">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="inst_field"/>
+        <CONNECTION INSTANCE="inst14_12" PORT="Din"/>
+        <CONNECTION INSTANCE="inst30" PORT="Din"/>
+        <CONNECTION INSTANCE="inst6_2" PORT="Din"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="MemRW" SIGIS="undef" SIGNAME="SCPU_ctrl_0_MemRW">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="MemRW"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="CPU_MIO" SIGIS="undef" SIGNAME="SCPU_ctrl_0_CPU_MIO">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="CPU_MIO"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="Addr_out" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_ALU_out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="ALU_out"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="Data_out" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_Data_out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="Data_out"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="PC_out" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_PC_out">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="PC_out"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a0" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="a0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a1" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="a1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a2" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="a2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a3" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="a3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a4" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="a4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a5" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a5">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="a5"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a6" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a6">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="a6"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a7" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a7">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="a7"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="gp" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_gp">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="gp"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="ra" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_ra">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="ra"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s0" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="s0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s1" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="s1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s10" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s10">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="s10"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s11" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s11">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="s11"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s2" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="s2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s3" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="s3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s4" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="s4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s5" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s5">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="s5"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s6" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s6">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="s6"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s7" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s7">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="s7"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s8" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s8">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="s8"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s9" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s9">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="s9"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="sp" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_sp">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="sp"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t0" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="t0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t1" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="t1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t2" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="t2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t3" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="t3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t4" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="t4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t5" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t5">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="t5"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t6" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t6">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="t6"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="tp" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_tp">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="tp"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="x0" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_x0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="x0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="Data_in" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_Data_in">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="datapath_wrapper_0" PORT="Data_in"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="2" FULLNAME="/SCPU_ctrl_0" HWVERSION="1.0" INSTANCE="SCPU_ctrl_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="SCPU_ctrl" VLNV="xilinx.com:user:SCPU_ctrl:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="IP2CPU_SCPU_ctrl_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="4" NAME="OPcode" RIGHT="0" SIGIS="undef" SIGNAME="inst6_2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="inst6_2" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="2" NAME="Fun3" RIGHT="0" SIGIS="undef" SIGNAME="inst14_12_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="inst14_12" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="Fun7" SIGIS="undef" SIGNAME="inst30_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="inst30" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="MIO_ready" SIGIS="undef" SIGNAME="External_Ports_MIO_ready">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="MIO_ready"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="2" NAME="ImmSel" RIGHT="0" SIGIS="undef" SIGNAME="SCPU_ctrl_0_ImmSel">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="datapath_wrapper_0" PORT="ImmSel"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="ALUSrc_B" SIGIS="undef" SIGNAME="SCPU_ctrl_0_ALUSrc_B">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="datapath_wrapper_0" PORT="ALUSrc_B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="MemtoReg" RIGHT="0" SIGIS="undef" SIGNAME="SCPU_ctrl_0_MemtoReg">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="datapath_wrapper_0" PORT="MemtoReg"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="Jump" RIGHT="0" SIGIS="undef" SIGNAME="SCPU_ctrl_0_Jump">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="datapath_wrapper_0" PORT="Jump"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="Branch" SIGIS="undef" SIGNAME="SCPU_ctrl_0_Branch">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="datapath_wrapper_0" PORT="Branch"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="BranchN" SIGIS="undef" SIGNAME="SCPU_ctrl_0_BranchN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="datapath_wrapper_0" PORT="BranchN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="RegWrite" SIGIS="undef" SIGNAME="SCPU_ctrl_0_RegWrite">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="datapath_wrapper_0" PORT="RegWrite"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="MemRW" SIGIS="undef" SIGNAME="SCPU_ctrl_0_MemRW">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="MemRW"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="ALU_Control" RIGHT="0" SIGIS="undef" SIGNAME="SCPU_ctrl_0_ALU_Control">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="datapath_wrapper_0" PORT="ALU_Control"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="CPU_MIO" SIGIS="undef" SIGNAME="SCPU_ctrl_0_CPU_MIO">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CPU_MIO"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="ALUop" RIGHT="0" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/datapath_wrapper_0" HWVERSION="1.0" INSTANCE="datapath_wrapper_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="datapath_wrapper" VLNV="xilinx.com:user:datapath_wrapper:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="IP2CPU_datapath_wrapper_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="ALUSrc_B" SIGIS="undef" SIGNAME="SCPU_ctrl_0_ALUSrc_B">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="ALUSrc_B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="ALU_Control" RIGHT="0" SIGIS="undef" SIGNAME="SCPU_ctrl_0_ALU_Control">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="ALU_Control"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="ALU_out" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_ALU_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Addr_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="Branch" RIGHT="0" SIGIS="undef" SIGNAME="SCPU_ctrl_0_Branch">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="Branch"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="BranchN" RIGHT="0" SIGIS="undef" SIGNAME="SCPU_ctrl_0_BranchN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="BranchN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="Data_in" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_Data_in">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Data_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="Data_out" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_Data_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Data_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="2" NAME="ImmSel" RIGHT="0" SIGIS="undef" SIGNAME="SCPU_ctrl_0_ImmSel">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="ImmSel"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="Jump" RIGHT="0" SIGIS="undef" SIGNAME="SCPU_ctrl_0_Jump">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="Jump"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="MemtoReg" RIGHT="0" SIGIS="undef" SIGNAME="SCPU_ctrl_0_MemtoReg">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="MemtoReg"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="PC_out" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_PC_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PC_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="RegWrite" SIGIS="undef" SIGNAME="SCPU_ctrl_0_RegWrite">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="RegWrite"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a0" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a1" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a2" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a3" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a4" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a5" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a6" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a7" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_a7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="gp" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_gp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="gp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="inst_field" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_inst_in">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="inst_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="ra" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_ra">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ra"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s0" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s1" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s10" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s11" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s2" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s3" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s4" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s5" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s6" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s7" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s8" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s9" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_s9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="sp" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_sp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t0" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t1" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t2" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t3" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t4" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t5" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t6" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_t6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="tp" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_tp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="tp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="x0" RIGHT="0" SIGIS="undef" SIGNAME="datapath_wrapper_0_x0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="x0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/inst14_12" HWVERSION="1.0" INSTANCE="inst14_12" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="32"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="14"/>
+        <PARAMETER NAME="DIN_TO" VALUE="12"/>
+        <PARAMETER NAME="Component_Name" VALUE="IP2CPU_inst14_12_0"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_inst_in">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="inst_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="2" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="inst14_12_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="Fun3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/inst30" HWVERSION="1.0" INSTANCE="inst30" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="32"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="30"/>
+        <PARAMETER NAME="DIN_TO" VALUE="30"/>
+        <PARAMETER NAME="Component_Name" VALUE="IP2CPU_inst30_0"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_inst_in">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="inst_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="inst30_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="Fun7"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/inst6_2" HWVERSION="1.0" INSTANCE="inst6_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="32"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="6"/>
+        <PARAMETER NAME="DIN_TO" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="IP2CPU_inst6_2_0"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_inst_in">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="inst_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="4" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="inst6_2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="SCPU_ctrl_0" PORT="OPcode"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

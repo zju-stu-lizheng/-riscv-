@@ -1,0 +1,16 @@
+onbreak {quit -f}
+onerror {quit -f}
+
+vsim -t 1ps -lib xil_defaultlib DataPath_opt
+
+do {wave.do}
+
+view wave
+view structure
+view signals
+
+do {DataPath.udo}
+
+run -all
+
+quit -force

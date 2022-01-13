@@ -1,0 +1,551 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Mar 23 10:25:22 2021
+# Process ID: 10088
+# Current directory: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4100 C:\Users\ASUS\Desktop\OExp04-IP2CPU\IP\Logical\srl32\srl32.xpr
+# Log file: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/srl32.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/srl32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/srl32.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/srl32/srl32.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/srl32.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp04-ip2cpu/ip/logical/srl32/srl32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description srl32 [ipx::current_core]
+set_property display_name srl32 [ipx::current_core]
+undo
+INFO: [Common 17-17] undo 'set_property display_name srl32 [ipx::current_core]'
+undo
+INFO: [Common 17-17] undo 'set_property description srl32 [ipx::current_core]'
+ipx::unload_core c:/users/asus/desktop/oexp04-ip2cpu/ip/logical/srl32/srl32.srcs/sources_1/new/component.xml
+ipx::package_project -root_dir c:/users/asus/desktop/oexp04-ip2cpu/ip/logical/srl32/srl32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/srl32.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/Logical/srl32/srl32.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-DataPath' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/CPU'; using path 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-DataPath/CPU' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-DataPath/CPU'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-DataPath/CPU'.
+open_bd_design {C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd}
+Adding cell -- xilinx.com:user:Regs:1.0 - Regs
+Adding cell -- xilinx.com:user:ImmGen:1.0 - ImmGen
+Adding cell -- xilinx.com:user:MUX2T1_32:1.0 - MUX2T1_32_0
+Adding cell -- xilinx.com:user:ALU_wrapper:1.0 - ALU
+Adding cell -- xilinx.com:user:REG32:1.0 - PC
+Adding cell -- xilinx.com:user:add_32:1.0 - add_32_0
+Adding cell -- xilinx.com:user:add_32:1.0 - add_32_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - PC4
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - VCC
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - AND_2
+Adding cell -- xilinx.com:user:MUX2T1_32:1.0 - MUX2T1_32_1
+Adding cell -- xilinx.com:user:MUX2T1_32:1.0 - MUX2T1_32_2
+Adding cell -- xilinx.com:user:MUX4T1_32:1.0 - MUX4T1_32_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - inst11_7
+Adding cell -- xilinx.com:ip:xlslice:1.0 - inst24_20
+Adding cell -- xilinx.com:ip:xlslice:1.0 - inst19_15
+Successfully read diagram <DataPath> from BD file <C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1063.508 ; gain = 79.867
+set_property  ip_repo_paths  c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs'.
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+set_property  ip_repo_paths  C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath'.)
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:ALU_wrapper:1.0 [get_ips  DataPath_ALU_wrapper_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd'
+INFO: [IP_Flow 19-1972] Upgraded DataPath_ALU_wrapper_0_0 from ALU_wrapper_v1_0 1.0 to ALU_wrapper_v1_0 1.0
+Wrote  : <C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd> 
+Wrote  : <C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/ui/bd_14ffd24f.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips DataPath_ALU_wrapper_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd]
+WARNING: [BD 41-927] Following properties on pin /Regs/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=DataPath_clk 
+WARNING: [BD 41-927] Following properties on pin /PC/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=DataPath_clk 
+Wrote  : <C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd> 
+VHDL Output written to : C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/synth/DataPath.v
+VHDL Output written to : C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/sim/DataPath.v
+VHDL Output written to : C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/hdl/DataPath_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Regs .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ImmGen .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX2T1_32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ALU .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block add_32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block add_32_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block VCC .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block AND_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX2T1_32_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX2T1_32_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MUX4T1_32_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block inst11_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block inst24_20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block inst19_15 .
+Exporting to file C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/hw_handoff/DataPath.hwh
+Generated Block Design Tcl file C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/hw_handoff/DataPath_bd.tcl
+Generated Hardware Definition File C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/synth/DataPath.hwdef
+generate_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1166.914 ; gain = 94.242
+export_ip_user_files -of_objects [get_files C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/bd/DataPath/DataPath.bd] -directory C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.ip_user_files -ipstatic_source_dir C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.cache/compile_simlib/modelsim} {questa=C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.cache/compile_simlib/questa} {riviera=C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.cache/compile_simlib/riviera} {activehdl=C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+ipx::package_project -root_dir c:/users/asus/desktop/oexp04-ip2cpu/ip/scpu/oexp04-datapath/oexp04-datapath.srcs -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+ipx::package_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1205.395 ; gain = 0.000
+ipx::add_bus_parameter POLARITY [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-IP2CPU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'IP2CPU.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+IP2CPU_SCPU_ctrl_0_0
+IP2CPU_DataPath_wrapper_0_0
+
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1253.676 ; gain = 0.000
+update_compile_order -fileset sources_1
+set_property  ip_repo_paths  c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'.
+set_property  ip_repo_paths  {} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+set_property  ip_repo_paths  C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'.
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {IP2CPU_SCPU_ctrl_0_0 IP2CPU_DataPath_wrapper_0_0}] -log ip_upgrade.log
+Adding cell -- xilinx.com:user:SCPU_ctrl:1.0 - Controller
+Adding cell -- xilinx.com:user:DataPath_wrapper:1.0 - DataPath
+Adding cell -- xilinx.com:ip:xlslice:1.0 - inst6_2
+Adding cell -- xilinx.com:ip:xlslice:1.0 - inst14_12
+Adding cell -- xilinx.com:ip:xlslice:1.0 - inst30
+Successfully read diagram <IP2CPU> from BD file <C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/IP2CPU.bd>
+Upgrading 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/IP2CPU.bd'
+INFO: [IP_Flow 19-1972] Upgraded IP2CPU_DataPath_wrapper_0_0 from DataPath_wrapper_v1_0 1.0 to DataPath_wrapper_v1_0 1.0
+INFO: [IP_Flow 19-3422] Upgraded IP2CPU_SCPU_ctrl_0_0 (SCPU_ctrl 1.0) from revision 2 to revision 3
+Wrote  : <C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/IP2CPU.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1327.258 ; gain = 46.578
+export_ip_user_files -of_objects [get_ips {IP2CPU_SCPU_ctrl_0_0 IP2CPU_DataPath_wrapper_0_0}] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/IP2CPU.bd]
+Wrote  : <C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/IP2CPU.bd> 
+VHDL Output written to : C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/synth/IP2CPU.v
+VHDL Output written to : C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/sim/IP2CPU.v
+VHDL Output written to : C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/hdl/IP2CPU_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block Controller .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DataPath .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block inst6_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block inst14_12 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block inst30 .
+Exporting to file C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/hw_handoff/IP2CPU.hwh
+Generated Block Design Tcl file C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/hw_handoff/IP2CPU_bd.tcl
+Generated Hardware Definition File C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/synth/IP2CPU.hwdef
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1390.418 ; gain = 63.160
+export_ip_user_files -of_objects [get_files C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/IP2CPU.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/IP2CPU.bd] -directory C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files -ipstatic_source_dir C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.cache/compile_simlib/modelsim} {questa=C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.cache/compile_simlib/questa} {riviera=C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.cache/compile_simlib/riviera} {activehdl=C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close_project
+open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/VIVADO/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'IP2CPU_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj IP2CPU_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ipshared/3f68/new/SCPU_ctrl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_SCPU_ctrl_0_0/sim/IP2CPU_SCPU_ctrl_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP2CPU_SCPU_ctrl_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ipshared/7494/sources_1/new/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_Regs_0_0/sim/DataPath_Regs_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_Regs_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ipshared/8544/sources_1/new/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ImmGen_0_0/sim/DataPath_ImmGen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_ImmGen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ipshared/3862/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_MUX2T1_32_0_0/sim/DataPath_MUX2T1_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_MUX2T1_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ipshared/8893/MUX8T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_MUX8T1_32_0_0/sim/ALU_MUX8T1_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_MUX8T1_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ipshared/69d3/addc_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module addc_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_addc_32_0_0/sim/ALU_addc_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_addc_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ipshared/2f3b/and32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_and32_0_0/sim/ALU_and32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_and32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ipshared/326e/or32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_or32_0_0/sim/ALU_or32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_or32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ipshared/21e4/xor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_xor32_0_0/sim/ALU_xor32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xor32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ipshared/6e8d/nor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_nor32_0_0/sim/ALU_nor32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_nor32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_xor32_0_1/sim/ALU_xor32_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xor32_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ipshared/bef6/srl32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srl32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_srl32_0_0/sim/ALU_srl32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_srl32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ipshared/f261/or_bit_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or_bit_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_or_bit_32_0_0/sim/ALU_or_bit_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_or_bit_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ipshared/d8f1/SignalExt_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignalExt_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_SignalExt_32_0_0/sim/ALU_SignalExt_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_SignalExt_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_xlslice_0_0/sim/ALU_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_xlslice_1_0/sim/ALU_xlslice_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlslice_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_xlslice_2_0/sim/ALU_xlslice_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlslice_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_xlconstant_0_0/sim/ALU_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sources_1/bd/ALU/ip/ALU_xlconcat_0_0/sim/ALU_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ipshared/5bd0/sources_1/bd/ALU/sim/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ipshared/5bd0/sources_1/bd/ALU/hdl/ALU_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sim/DataPath_ALU_wrapper_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_ALU_wrapper_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ipshared/bc08/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_REG32_0_0/sim/DataPath_REG32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_REG32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ipshared/bebf/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_add_32_0_0/sim/DataPath_add_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_add_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_add_32_0_1/sim/DataPath_add_32_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_add_32_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_xlconstant_0_0/sim/DataPath_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_xlconstant_0_1/sim/DataPath_xlconstant_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_xlconstant_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_util_vector_logic_0_0/sim/DataPath_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_MUX2T1_32_1_0/sim/DataPath_MUX2T1_32_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_MUX2T1_32_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_MUX2T1_32_2_0/sim/DataPath_MUX2T1_32_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_MUX2T1_32_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ipshared/4b66/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_MUX4T1_32_0_0/sim/DataPath_MUX4T1_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_MUX4T1_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_xlslice_0_0/sim/DataPath_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_xlslice_0_1/sim/DataPath_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sources_1/bd/DataPath/ip/DataPath_xlslice_1_0/sim/DataPath_xlslice_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_xlslice_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ipshared/5041/sources_1/bd/DataPath/sim/DataPath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ipshared/5041/sources_1/bd/DataPath/hdl/DataPath_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_DataPath_wrapper_0_0/sim/IP2CPU_DataPath_wrapper_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP2CPU_DataPath_wrapper_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_xlslice_0_0/sim/IP2CPU_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP2CPU_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_xlslice_0_1/sim/IP2CPU_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP2CPU_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/ip/IP2CPU_xlslice_0_2/sim/IP2CPU_xlslice_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP2CPU_xlslice_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.ip_user_files/bd/IP2CPU/sim/IP2CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP2CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sources_1/bd/IP2CPU/hdl/IP2CPU_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP2CPU_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.srcs/sim_1/new/IP2CPU_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP2CPU_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 1396.129 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '9' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/VIVADO/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 91553d44daa743bc8106dd2fcc19b6f4 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlslice_v1_0_1 -L xlconstant_v1_1_3 -L xlconcat_v2_1_1 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot IP2CPU_tb_behav xil_defaultlib.IP2CPU_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.SCPU_ctrl
+Compiling module xil_defaultlib.IP2CPU_SCPU_ctrl_0_0
+Compiling module xil_defaultlib.MUX8T1_32
+Compiling module xil_defaultlib.ALU_MUX8T1_32_0_0
+Compiling module xil_defaultlib.SignalExt_32
+Compiling module xil_defaultlib.ALU_SignalExt_32_0_0
+Compiling module xil_defaultlib.addc_32
+Compiling module xil_defaultlib.ALU_addc_32_0_0
+Compiling module xil_defaultlib.and32
+Compiling module xil_defaultlib.ALU_and32_0_0
+Compiling module xil_defaultlib.nor32
+Compiling module xil_defaultlib.ALU_nor32_0_0
+Compiling module xil_defaultlib.or32
+Compiling module xil_defaultlib.ALU_or32_0_0
+Compiling module xil_defaultlib.or_bit_32
+Compiling module xil_defaultlib.ALU_or_bit_32_0_0
+Compiling module xil_defaultlib.srl32
+Compiling module xil_defaultlib.ALU_srl32_0_0
+Compiling module xlconcat_v2_1_1.xlconcat_v2_1_1_xlconcat(IN1_WID...
+Compiling module xil_defaultlib.ALU_xlconcat_0_0
+Compiling module xlconstant_v1_1_3.xlconstant_v1_1_3_xlconstant(CON...
+Compiling module xil_defaultlib.ALU_xlconstant_0_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.ALU_xlslice_0_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.ALU_xlslice_1_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_WIDTH...
+Compiling module xil_defaultlib.ALU_xlslice_2_0
+Compiling module xil_defaultlib.xor32
+Compiling module xil_defaultlib.ALU_xor32_0_0
+Compiling module xil_defaultlib.ALU_xor32_0_1
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.ALU_wrapper
+Compiling module xil_defaultlib.DataPath_ALU_wrapper_0_0
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.DataPath_util_vector_logic_0_0
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.DataPath_ImmGen_0_0
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.DataPath_MUX2T1_32_0_0
+Compiling module xil_defaultlib.DataPath_MUX2T1_32_1_0
+Compiling module xil_defaultlib.DataPath_MUX2T1_32_2_0
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.DataPath_MUX4T1_32_0_0
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.DataPath_REG32_0_0
+Compiling module xlconstant_v1_1_3.xlconstant_v1_1_3_xlconstant(CON...
+Compiling module xil_defaultlib.DataPath_xlconstant_0_0
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.DataPath_Regs_0_0
+Compiling module xlconstant_v1_1_3.xlconstant_v1_1_3_xlconstant(CON...
+Compiling module xil_defaultlib.DataPath_xlconstant_0_1
+Compiling module xil_defaultlib.add_32
+Compiling module xil_defaultlib.DataPath_add_32_0_0
+Compiling module xil_defaultlib.DataPath_add_32_0_1
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.DataPath_xlslice_0_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.DataPath_xlslice_1_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.DataPath_xlslice_0_1
+Compiling module xil_defaultlib.DataPath
+Compiling module xil_defaultlib.DataPath_wrapper
+Compiling module xil_defaultlib.IP2CPU_DataPath_wrapper_0_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.IP2CPU_xlslice_0_1
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.IP2CPU_xlslice_0_2
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.IP2CPU_xlslice_0_0
+Compiling module xil_defaultlib.IP2CPU
+Compiling module xil_defaultlib.IP2CPU_wrapper
+Compiling module xil_defaultlib.IP2CPU_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot IP2CPU_tb_behav
+
+****** Webtalk v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.sim/sim_1/behav/xsim/xsim.dir/IP2CPU_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Tue Mar 23 11:23:50 2021...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1396.129 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/OExp04-IP2CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "IP2CPU_tb_behav -key {Behavioral:sim_1:Functional:IP2CPU_tb} -tclbatch {IP2CPU_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source IP2CPU_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'IP2CPU_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:22 . Memory (MB): peak = 1396.129 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_project
+open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl/OExp04-SCPU_ctrl.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/OExp04-SCPU_ctrl' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl/OExp04-SCPU_ctrl.srcs'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+set_property -name {STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS} -value {-mode  out_of_context} -objects [get_runs synth_1]
+launch_runs synth_1 -jobs 4
+[Tue Mar 23 14:03:10 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-SCPU_ctrl/OExp04-SCPU_ctrl.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k160tffg676-2L
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:13 . Memory (MB): peak = 1922.523 ; gain = 344.770
+write_verilog -mode synth_stub E:/FPGA/ip/SCPU_ctrl.v
+E:/FPGA/ip/SCPU_ctrl.v
+write_edif E:/FPGA/ip/SCPU_.edf
+E:/FPGA/ip/SCPU_.edf
+write_edif E:/FPGA/ip/SCPU_ctrl.edf
+E:/FPGA/ip/SCPU_ctrl.edf
+close_project
+open_project C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'c:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 2350.449 ; gain = 0.000
+update_compile_order -fileset sources_1
+set_property -name {STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS} -value {-mode  out_of_context} -objects [get_runs synth_1]
+launch_runs synth_1 -jobs 4
+[Tue Mar 23 14:21:41 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ASUS/Desktop/OExp04-IP2CPU/IP/scpu/OExp04-DataPath/OExp04-DataPath.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k160tffg676-2L
+INFO: [Netlist 29-17] Analyzing 313 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+write_verilog -mode synth_stub E:/FPGA/ip/DataPath.v
+E:/FPGA/ip/DataPath.v
+write_edif E:/FPGA/ip/DataPath.edf
+E:/FPGA/ip/DataPath.edf
+close_project
+create_project OExp04-DataPath C:/Users/ASUS/Desktop/OExp_RISCV_W/OExp04/OExp04-DataPath -part xc7k160tffg676-2L
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+import_files -norecurse E:/FPGA/ip/CPU_W/DataPath.edf
+import_files -norecurse E:/FPGA/ip/CPU_W/DataPath.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv_w/oexp04/oexp04-datapath/oexp04-datapath.srcs/sources_1/imports/cpu_w -vendor xilinx.com -library user -taxonomy /UserIP
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/ASUS/Desktop/OExp_RISCV_W/OExp04/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/imports/CPU_W/DataPath.v'.
+Parsing EDIF File [c:/Users/ASUS/Desktop/OExp_RISCV_W/OExp04/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/imports/CPU_W/DataPath.edf]
+Finished Parsing EDIF File [c:/Users/ASUS/Desktop/OExp_RISCV_W/OExp04/OExp04-DataPath/OExp04-DataPath.srcs/sources_1/imports/CPU_W/DataPath.edf]
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+ipx::add_bus_parameter POLARITY [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  c:/users/asus/desktop/oexp_riscv_w/oexp04/oexp04-datapath/oexp04-datapath.srcs/sources_1/imports/cpu_w [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/asus/desktop/oexp_riscv_w/oexp04/oexp04-datapath/oexp04-datapath.srcs/sources_1/imports/cpu_w'.

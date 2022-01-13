@@ -1,0 +1,850 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 14740
+License: Customer
+
+Current time: 	Fri Mar 12 15:34:04 CST 2021
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 47 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/VIVADO/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	D:/VIVADO/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	ASUS
+User home directory: C:/Users/ASUS
+User working directory: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/VIVADO/Vivado
+HDI_APPROOT: D:/VIVADO/Vivado/2017.4
+RDI_DATADIR: D:/VIVADO/Vivado/2017.4/data
+RDI_BINDIR: D:/VIVADO/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/ASUS/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	D:/VIVADO/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/vivado.log
+Vivado journal file location: 	C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/vivado.jou
+Engine tmp dir: 	C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/.Xil/Vivado-14740-DESKTOP-BJQ6VJA
+
+GUI allocated memory:	194 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 611 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 66 MB (+67230kb) [00:00:05]
+// [Engine Memory]: 516 MB (+389220kb) [00:00:05]
+// Opening Vivado Project: C:\Users\ASUS\Desktop\OExp_RISCV\OExp02\IP\Supplementary\RAM_B\RAM_B.xpr. Version: Vivado v2017.4 
+// bs (cj):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 77 MB (+7200kb) [00:00:07]
+// [Engine Memory]: 607 MB (+69117kb) [00:00:07]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 91 MB (+10985kb) [00:00:08]
+// [Engine Memory]: 640 MB (+2008kb) [00:00:08]
+// Tcl Message: open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/ram_b'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 41 MB. Current time: 3/12/21 3:34:06 PM CST
+// Project name: RAM_B; location: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B; part: xc7k160tffg676-2L
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 674 MB (+2026kb) [00:00:16]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Coefficient Files]", 8); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RAM_B_tb (RAM_B_tb.v)]", 7, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RAM_B_tb (RAM_B_tb.v)]", 7, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+// Elapsed time: 22 seconds
+selectCodeEditor("RAM_B_tb.v", 120, 160); // cd (w, cj)
+// Elapsed time: 26 seconds
+selectCodeEditor("RAM_B_tb.v", 127, 161); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 123, 242); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 125, 233); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 126, 316); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 192, 308); // cd (w, cj)
+// Elapsed time: 15 seconds
+selectCodeEditor("RAM_B_tb.v", 24, 262); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 85, 275, false, false, false, true, false); // cd (w, cj) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("RAM_B_tb.v", 30, 340); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 47, 368); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 48, 384); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 128, 387); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 148, 417); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 142, 405); // cd (w, cj)
+// Elapsed time: 40 seconds
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 46, 437); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 46, 463); // cd (w, cj)
+// Elapsed time: 10 seconds
+selectCodeEditor("RAM_B_tb.v", 128, 389); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 206, 416); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 44, 309); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 52, 336); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 171, 341); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 126, 335); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 272, 334); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 234, 379); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 212, 364); // cd (w, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 689 MB. GUI used memory: 45 MB. Current time: 3/12/21 3:37:31 PM CST
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 50, 386); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 47, 407); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 122, 410); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 112, 427); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 46, 316); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 46, 339); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 203, 346); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 129, 336); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 132, 367); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 46, 391); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 47, 405); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 128, 419); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 245, 416); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 25, 236); // cd (w, cj)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, cj): TRUE
+selectCodeEditor("RAM_B_tb.v", 22, 239); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 97, 249, false, false, false, true, false); // cd (w, cj) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("RAM_B_tb.v", 45, 312); // cd (w, cj)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, cj): FALSE
+selectCodeEditor("RAM_B_tb.v", 29, 309); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+typeControlKey((HResource) null, "RAM_B_tb.v", 'v'); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 138, 216); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 163, 296); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 132, 288); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 137, 288); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 144, 363); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 164, 362); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 147, 367); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 153, 361); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 173, 359); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 193, 281); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 184, 352); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 201, 427); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 207, 360); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 136, 286); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 214, 291); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 137, 366); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 139, 210); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 138, 288); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 136, 361); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 117, 324); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 120, 364); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 184, 141); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 206, 63); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 187, 222); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 179, 140); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 196, 61); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 133, 286); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 130, 291); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 134, 366); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 137, 435); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 133, 367); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 124, 294); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 131, 292); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 163, 291); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis]", 4); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cj):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: launch_simulation 
+// HMemoryUtils.trashcanNow. Engine heap size: 713 MB. GUI used memory: 45 MB. Current time: 3/12/21 3:40:51 PM CST
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj RAM_B_tb_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.srcs/sources_1/ip/RAM/sim/RAM.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module RAM INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.srcs/sources_1/new/RAM_B.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module RAM_B INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.srcs/sim_1/new/RAM_B_tb.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module RAM_B_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.sim/sim_1/behav/xsim' 
+// [Engine Memory]: 713 MB (+6198kb) [00:06:58]
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-206] Exiting Webtalk at Fri Mar 12 15:40:55 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "RAM_B_tb_behav -key {Behavioral:sim_1:Functional:RAM_B_tb} -tclbatch {RAM_B_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2017.4 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 731 MB. GUI used memory: 53 MB. Current time: 3/12/21 3:40:57 PM CST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source RAM_B_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message:  Block Memory Generator module loading initial data...  Block Memory Generator data initialization complete. Block Memory Generator module RAM_B_tb.RAM_B_U.RAM_B.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior. 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'RAM_B_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 877.680 ; gain = 24.531 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e (cj)
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 1); // k (j, cj)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 53 MB. Current time: 3/12/21 3:41:35 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 51 MB. Current time: 3/12/21 3:41:35 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 53 MB. Current time: 3/12/21 3:41:38 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 27 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, cj)
+// Elapsed time: 25 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 191, -2); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 12 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 53 MB. Current time: 3/12/21 3:42:58 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// Elapsed time: 229 seconds
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // w
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cj) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// Elapsed time: 31 seconds
+selectCodeEditor("RAM_B_tb.v", 126, 213); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 126, 285); // cd (w, cj)
+// Elapsed time: 104 seconds
+selectCodeEditor("RAM_B_tb.v", 129, 364); // cd (w, cj)
+// Elapsed time: 32 seconds
+selectCodeEditor("RAM_B_tb.v", 138, 289); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 134, 355); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 138, 434); // cd (w, cj)
+// Elapsed time: 14 seconds
+selectCodeEditor("RAM_B_tb.v", 137, 211); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 135, 287); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 136, 362); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 127, 282); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 131, 360); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 126, 367); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 134, 435); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 136, 289); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 136, 354); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 133, 438); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 134, 298); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 137, 361); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 133, 432); // cd (w, cj)
+// Elapsed time: 20 seconds
+selectCodeEditor("RAM_B_tb.v", 136, 133); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 136, 205); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 132, 287); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 137, 285); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 134, 363); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 136, 435); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 136, 355); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 134, 442); // cd (w, cj)
+selectCodeEditor("RAM_B_tb.v", 135, 363); // cd (w, cj)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 98 MB (+3007kb) [00:17:23]
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u (O, cj)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 6); // u (O, cj)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// e (cj):  Run Simulation : addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: launch_simulation 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj RAM_B_tb_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.srcs/sources_1/ip/RAM/sim/RAM.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module RAM INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.srcs/sources_1/new/RAM_B.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module RAM_B INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.srcs/sim_1/new/RAM_B_tb.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module RAM_B_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "RAM_B_tb_behav -key {Behavioral:sim_1:Functional:RAM_B_tb} -tclbatch {RAM_B_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2017.4 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 53 MB. Current time: 3/12/21 3:51:39 PM CST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source RAM_B_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message:  Block Memory Generator module loading initial data...  Block Memory Generator data initialization complete. Block Memory Generator module RAM_B_tb.RAM_B_U.RAM_B.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior. 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'RAM_B_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// 'd' command handler elapsed time: 9 seconds
+dismissDialog("Run Simulation"); // e (cj)
+// Elapsed time: 191 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 1); // k (j, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:54:52 PM CST
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:54:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:54:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 3:54:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:54:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:55:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:55:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:55:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:55:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 10 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 222, 58); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:56:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:57:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:57:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:57:01 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:57:02 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 116 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1180, 181); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 3:57:04 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1262, 167); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:00:35 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:00:35 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:00:35 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 213 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 228, 68); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:00:38 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 371, 2); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cj) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// [GUI Memory]: 107 MB (+3692kb) [00:27:14]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RAM_B (RAM_B.v)]", 1, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, RAM_B_tb (RAM_B_tb.v), RAM_B_U : RAM_B (RAM_B.v), RAM_B : RAM (RAM.xci)]", 9, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Coefficient Files, D_mem.coe]", 12, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Coefficient Files, D_mem.coe]", 12, false, false, false, false, false, true); // B (D, cj) - Double Click
+selectCodeEditor("D_mem.coe", 254, 169); // cd (w, cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 10, true); // u (O, cj) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_TASK
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 371, 2); // n (o, cj)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 371, 2); // n (o, cj)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 371, 2); // n (o, cj)Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 30 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, wea]", 1, false); // a (s, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:16 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 57 MB. Current time: 3/12/21 4:02:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:17 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 57 MB. Current time: 3/12/21 4:02:18 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:18 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:18 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 57 MB. Current time: 3/12/21 4:02:18 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:18 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 21 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1661, 44); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 740 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 741 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 741 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 741 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:25 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 369, -10); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 741 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 741 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:02:52 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 741 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:03:54 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 741 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:03:54 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 741 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:03:55 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 89 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1508, -9); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 741 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:03:57 PM CST
+// [GUI Memory]: 113 MB (+717kb) [00:31:26]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:28:16 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 1461 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 225, 62); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:28:19 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 369, 6); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 147, -57); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 300, -58); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:28:33 PM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_B_tb.v", 0); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 1); // k (j, cj)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 78, -82); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 368, -78); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:29:11 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:29:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:29:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 17 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1331, -7); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1626, 10); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:29:18 PM CST
+// Elapsed time: 63 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 0, 189); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 0, 189); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:30:23 PM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 0, 189); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 56 MB. Current time: 3/12/21 4:30:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:30:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 742 MB. GUI used memory: 55 MB. Current time: 3/12/21 4:30:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 36 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cj) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation]", 2); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RAM_B (RAM_B.v)]", 1); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RAM_B (RAM_B.v), RAM_B : RAM (RAM.xci)]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, RAM_B (RAM_B.v), RAM_B : RAM (RAM.xci)]", 2, false, false, false, false, false, true); // B (D, cj) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// N (cj):  Re-customize IP : addNotify
+// Tcl Message: INFO: [Device 21-403] Loading part xc7k160tffg676-2L 
+// [Engine Memory]: 784 MB (+36721kb) [00:57:15]
+// r (cj): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // N (cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 784 MB. GUI used memory: 63 MB. Current time: 3/12/21 4:31:12 PM CST
+// Elapsed time: 10 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bb (C, r)
+// Elapsed time: 385 seconds
+selectCheckBox((HResource) null, "Primitives Output Register", false); // g (l, r): FALSE
+selectCheckBox((HResource) null, "Primitives Output Register", true); // g (l, r): TRUE
+selectCheckBox((HResource) null, "Primitives Output Register", false); // g (l, r): FALSE
+selectCheckBox((HResource) null, "Primitives Output Register", true); // g (l, r): TRUE
+selectCheckBox((HResource) null, "Primitives Output Register", false); // g (l, r): FALSE
+selectCheckBox((HResource) null, "Primitives Output Register", true); // g (l, r): TRUE
+selectCheckBox((HResource) null, "Primitives Output Register", false); // g (l, r): FALSE
+// Elapsed time: 283 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (cj)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Register_PortA_Output_of_Memory_Primitives {false}] [get_ips RAM] 
+// au (cj): Generate Output Products: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (au)
+// bs (cj):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.srcs/sources_1/ip/RAM/RAM.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'RAM'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'RAM'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'RAM'... INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'RAM'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'RAM'... 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.srcs/sources_1/ip/RAM/RAM.xci] -no_script -sync -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton (A, G)
+// Elapsed time: 40 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u (O, cj)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 0, 189); // n (o, cj)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 0, 189); // n (o, cj)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 0, 189); // n (o, cj)Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2"); // w
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// e (cj):  Run Simulation : addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: launch_simulation 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj RAM_B_tb_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.srcs/sources_1/ip/RAM/sim/RAM.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module RAM INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.srcs/sources_1/new/RAM_B.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module RAM_B INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.srcs/sim_1/new/RAM_B_tb.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module RAM_B_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "RAM_B_tb_behav -key {Behavioral:sim_1:Functional:RAM_B_tb} -tclbatch {RAM_B_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2017.4 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 798 MB. GUI used memory: 63 MB. Current time: 3/12/21 4:43:52 PM CST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source RAM_B_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message:  Block Memory Generator module loading initial data...  Block Memory Generator data initialization complete. Block Memory Generator module RAM_B_tb.RAM_B_U.RAM_B.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior. 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'RAM_B_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// 'd' command handler elapsed time: 7 seconds
+dismissDialog("Run Simulation"); // e (cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 3", 2); // k (j, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // R (Q, cj)
+// HMemoryUtils.trashcanNow. Engine heap size: 798 MB. GUI used memory: 66 MB. Current time: 3/12/21 4:43:55 PM CST
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 40, 64); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, cj)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 798 MB. GUI used memory: 80 MB. Current time: 3/12/21 4:44:10 PM CST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RAM_B_tb.v", 0); // k (j, cj)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 3", 2); // k (j, cj)
+// [GUI Memory]: 122 MB (+3461kb) [01:10:23]
+// Elapsed time: 19 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 78, 68); // n (o, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 128 MB (+135kb) [01:10:46]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 136 MB (+1245kb) [01:11:01]
+// [Engine Memory]: 831 MB (+8323kb) [01:11:45]
+// HMemoryUtils.trashcanNow. Engine heap size: 841 MB. GUI used memory: 65 MB. Current time: 3/12/21 4:45:42 PM CST
+// Elapsed time: 62 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ac (cj, Popup.HeavyWeightWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// x (cj): Close Project: addNotify
+// 'b' command handler elapsed time: 10 seconds
+// Elapsed time: 10 seconds
+dismissDialog("Close Project"); // x (cj)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0, true); // u (O, cj) - Node
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u (O, cj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_PROJECT_MANAGER
+// Elapsed time: 17 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (cj): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 67 MB. Current time: 3/12/21 4:46:22 PM CST
+// [Engine Memory]: 874 MB (+1283kb) [01:12:26]
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_YOUR_CURRENT_PROJECT_USE, "Package your current project. Use the project as the source for creating a new IP Definition."); // b (a, Q)
+// bs (Q):  Analyze source files for top modules : addNotify
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+dismissDialog("Analyze source files for top modules"); // bs (Q)
+selectButton("NEXT", "Next >"); // JButton (h, Q)
+selectButton("PAResourceItoN.NewIpWizard_IP_DEFINITION_ALREADY_EXISTS_IN_Overwrite", "Overwrite"); // JButton (A, G)
+selectButton("FINISH", "Finish"); // JButton (h, Q)
+// 'q' command handler elapsed time: 13 seconds
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Create and Package New IP"); // Q (cj)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/ram_b -vendor xilinx.com -library user -taxonomy /UserIP -force 
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// bs (cj):  IP Packager : addNotify
+dismissDialog("IP Packager"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+setText(PAResourceItoN.IdentificationContentPanel_DESCRIPTION, "RAM_B"); // z (al, cj)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property description RAM_B [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+setText(PAResourceItoN.IdentificationContentPanel_DISPLAY_NAME, "RAM_B"); // z (al, cj)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property display_name RAM_B [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a (c, cj)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 2 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// bs (cj):  Package IP : addNotify
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog -rebuild -repo_path c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/ram_b 
+// Tcl Message: INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/ram_b' 
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_OK", "OK"); // JButton (A, G)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an (O, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z (cj)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ac (cj)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, cj)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// x (cj): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (x)
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// bs (cj):  Close Project : addNotify
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+dismissDialog("Close Project"); // x (cj)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 874 MB. GUI used memory: 63 MB. Current time: 3/12/21 4:46:58 PM CST
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bs (cj)

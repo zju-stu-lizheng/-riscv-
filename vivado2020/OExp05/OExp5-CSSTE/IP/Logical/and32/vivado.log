@@ -1,0 +1,522 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Mar  2 18:42:00 2021
+# Process ID: 3360
+# Current directory: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13024 C:\Users\ASUS\Desktop\OExp_RISCV\OExp02\IP\Logical\and32\and32.xpr
+# Log file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32/vivado.log
+# Journal file: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32/and32.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/and32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32/and32.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/and32/and32.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32/and32.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32/and32.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/and32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32/and32.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/and32/and32.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32/and32.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/and32/and32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description and32 [ipx::current_core]
+set_property display_name and32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32/and32.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/and32/and32.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/Ext_imm16/Ext_imm16.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/Ext_imm16' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/Ext_imm16/Ext_imm16.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/Ext_imm16/Ext_imm16.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/Ext_imm16/Ext_imm16.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/ext_imm16/ext_imm16.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property display_name Ext_imm16 [ipx::current_core]
+set_property description Ext_imm16 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/Ext_imm16/Ext_imm16.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/Ext_imm16/Ext_imm16.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/nor32/nor32.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/nor32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/nor32/nor32.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/nor32/nor32.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/nor32/nor32.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/nor32/nor32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description nor32 [ipx::current_core]
+set_property display_name nor32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/nor32/nor32.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/nor32/nor32.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or_bit_32/or_bit_32.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/or_bit_32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or_bit_32/or_bit_32.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/or_bit_32/or_bit_32.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or_bit_32/or_bit_32.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/or_bit_32/or_bit_32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description or_bit_32 [ipx::current_core]
+set_property display_name or_bit_32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or_bit_32/or_bit_32.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or_bit_32/or_bit_32.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or32/or32.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/or32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or32/or32.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/or32/or32.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or32/or32.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/or32/or32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description or32 [ipx::current_core]
+set_property display_name or32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or32/or32.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/or32/or32.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/SignalExt_32/SignalExt_32.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/SignalExt_32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/SignalExt_32/SignalExt_32.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/SignalExt_32/SignalExt_32.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/SignalExt_32/SignalExt_32.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/signalext_32/signalext_32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description SignalExt_32 [ipx::current_core]
+set_property display_name SignalExt_32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/SignalExt_32/SignalExt_32.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/SignalExt_32/SignalExt_32.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/srl32/srl32.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/srl32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/srl32/srl32.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/srl32/srl32.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/srl32/srl32.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/srl32/srl32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description srl32 [ipx::current_core]
+set_property display_name srl32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/srl32/srl32.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/srl32/srl32.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/xor32/xor32.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/xor32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/xor32/xor32.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/xor32/xor32.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/xor32/xor32.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/logical/xor32/xor32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description xor32 [ipx::current_core]
+set_property display_name xor32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/xor32/xor32.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Logical/xor32/xor32.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_5/MUX2T1_5.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp01/IP_Include/MUX/MUX2T1_5' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_5/MUX2T1_5.srcs/sources_1/new/MUX2T1_5.v', nor could it be found using path 'C:/Users/ASUS/Desktop/OExp01/IP_Include/MUX/MUX2T1_5/MUX2T1_5.srcs/sources_1/new/MUX2T1_5.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_5/MUX2T1_5.srcs/sources_1/new/component.xml', nor could it be found using path 'C:/Users/ASUS/Desktop/OExp01/IP_Include/MUX/MUX2T1_5/MUX2T1_5.srcs/sources_1/new/component.xml'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_5/MUX2T1_5.srcs/sources_1/new', nor could it be found using path 'C:/Users/ASUS/Desktop/OExp01/IP_Include/MUX/MUX2T1_5/MUX2T1_5.srcs/sources_1/new'.
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_5/MUX2T1_5.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/OExp01/IP_Include/MUX/MUX2T1_5/MUX2T1_5.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_5/MUX2T1_5.srcs/sources_1/new'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_32/MUX2T1_32.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/MUX2T1_32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_32/MUX2T1_32.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/MUX2T1_32/MUX2T1_32.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_32/MUX2T1_32.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/mux/mux2t1_32/mux2t1_32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description MUX2T1_32 [ipx::current_core]
+set_property display_name MUX2T1_32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_32/MUX2T1_32.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX2T1_32/MUX2T1_32.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX4T1_32/MUX4T1_32.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/MUX4T1_32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX4T1_32/MUX4T1_32.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/MUX4T1_32/MUX4T1_32.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX4T1_32/MUX4T1_32.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/mux/mux4t1_32/mux4t1_32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description MUX4T1_32 [ipx::current_core]
+set_property display_name MUX4T1_32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX4T1_32/MUX4T1_32.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX4T1_32/MUX4T1_32.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX8T1_32/MUX8T1_32.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/MUX8T1_32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX8T1_32/MUX8T1_32.ip_user_files', nor could it be found using path 'C:/Users/ASUS/Desktop/MUX8T1_32/MUX8T1_32.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/mux/mux8t1_32/mux8t1_32.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description MUX8T1_32 [ipx::current_core]
+set_property display_name MUX8T1_32 [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new'. The path is contained within another repository.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+ipx::unload_core c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/clk_div/clk_div.v.srcs/sources_1/new'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new'. The path is contained within another repository.
+CRITICAL WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:clk_div:1.0'. The one found in IP location 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs' will take precedence over the same IP in location c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+current_project clk_div.v
+set_property description clk_div [ipx::current_core]
+set_property display_name clk_div [ipx::current_core]
+current_project tmp_edit_project
+ipx::add_bus_parameter POLARITY_ [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY_ -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new
+CRITICAL WARNING: [IP_Flow 19-1681] Failed to reload user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new'. ''c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/clk_div/clk_div.v.srcs/sources_1/new' is not valid: Path is contained within another repository.'
+0
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Counter_x/Counter_x.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Counter_x/Counter_x.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/counter_x/counter_x.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+set_property description Counter_x [ipx::current_core]
+set_property display_name Counter_x [ipx::current_core]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter POLARITY_ [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY_ -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Counter_x/Counter_x.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Counter_x/Counter_x.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/MIO_BUS/MIO_BUS.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/MIO_BUS/MIO_BUS.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/mio_bus/mio_bus.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+set_property description MIO_BUS [ipx::current_core]
+set_property display_name MIO_BUS [ipx::current_core]
+ipx::add_bus_parameter POLARITY_ [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY_ -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/MIO_BUS/MIO_BUS.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/MIO_BUS/MIO_BUS.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/Multi_8CH32' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/OExp01-MUX/MUX', nor could it be found using path 'C:/Users/ASUS/Desktop/OExp01-MUX/MUX'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/OExp01-MUX/MUX'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'MUX8T1_8_0' is locked:
+* IP definition 'MUX8T1_8 (1.0)' for IP 'MUX8T1_8_0' (customized with software release 2017.4) was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+WARNING: [IP_Flow 19-2162] IP 'MUX8T1_32_0' is locked:
+* IP definition 'MUX8T1_32 (1.0)' for IP 'MUX8T1_32_0' (customized with software release 2017.4) was not found in the IP Catalog.
+Please select 'Report IP Status' from the 'Tools/Report' menu or run Tcl command 'report_ip_status' for more information.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/ip/MUX8T1_32_0_1/MUX8T1_32_0.xci] -no_script -reset -force -quiet
+remove_files  C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/ip/MUX8T1_32_0_1/MUX8T1_32_0.xci
+export_ip_user_files -of_objects  [get_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/ip/MUX8T1_8_0_1/MUX8T1_8_0.xci] -no_script -reset -force -quiet
+remove_files  C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/ip/MUX8T1_8_0_1/MUX8T1_8_0.xci
+import_files -norecurse {C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX8T1_8/MUX8T1_8.srcs/sources_1/new/MUX8T1_8.v C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new/MUX8T1_32.v}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Tue Mar  2 19:27:02 2021] Launched synth_1...
+Run output will be captured here: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.runs/synth_1/runme.log
+update_files -from_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_32.v -to_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/imports/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new/MUX8T1_32.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/imports/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new/MUX8T1_32.v' with file 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_32.v'.
+INFO: [filemgmt 20-1080] Importing file from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_32.v' to 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/imports/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new/MUX8T1_32.v'.
+ERROR: [filemgmt 20-1081] Replace file failure for imported file. Reimport failed. Error copying file locally: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_32.v
+ERROR: [Common 17-39] 'update_files' failed due to earlier errors.
+update_files -from_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_32.v -to_files C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/imports/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new/MUX8T1_32.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/imports/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new/MUX8T1_32.v' with file 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_32.v'.
+INFO: [filemgmt 20-1080] Importing file from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_32.v' to 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/imports/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new/MUX8T1_32.v'.
+ERROR: [filemgmt 20-1081] Replace file failure for imported file. Reimport failed. Error copying file locally: C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_32.v
+ERROR: [Common 17-39] 'update_files' failed due to earlier errors.
+set_property is_enabled false [get_files  C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/Multi_8CH32.v]
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/Multi_8CH32.v]
+import_files -norecurse {C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_32.v C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/new/MUX8T1_8.v}
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/multi_8ch32/multi_8ch32.srcs/sources_1 -vendor xilinx.com -library user -taxonomy /UserIP
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/imports/MUX/MUX8T1_32/MUX8T1_32.srcs/sources_1/new/MUX8T1_32.v'.
+WARNING: [IP_Flow 19-3833] Unreferenced file from the top module is not packaged: 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1/imports/MUX/MUX8T1_8/MUX8T1_8.srcs/sources_1/new/MUX8T1_8.v'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+set_property description Multi_8CH32 [ipx::current_core]
+set_property display_name Multi_8CH32 [ipx::current_core]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter POLARITY_ [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY_ -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property name POLARITY [ipx::get_bus_parameters POLARITY_ -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/Multi_8CH32/Multi_8CH32.srcs/sources_1'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/RAM_B/RAM_B.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/ram_b -vendor xilinx.com -library user -taxonomy /UserIP -force
+set_property description RAM_B [ipx::current_core]
+set_property display_name RAM_B [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property  ip_repo_paths  c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/ram_b [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/ram_b'.
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SAnti_jitter/SAnti_jitter.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SAnti_jitter/SAnti_jitter.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/santi_jitter/santi_jitter.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'RSTN' as interface 'RSTN'.
+INFO: [IP_Flow 19-4728] Bus Interface 'RSTN': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'RSTN'.
+set_property description SAnti_jitter [ipx::current_core]
+set_property display_name SAnti_jitter [ipx::current_core]
+ipx::add_bus_parameter POLARITY_ [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property name POLARITY [ipx::get_bus_parameters POLARITY_ -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces RSTN -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SAnti_jitter/SAnti_jitter.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SAnti_jitter/SAnti_jitter.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SPIO/SPIO.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SPIO/SPIO.srcs'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/spio/spio.srcs -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'led_clk' as interface 'led_clk'.
+set_property display_name SPIO [ipx::current_core]
+set_property description SPIO [ipx::current_core]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces led_clk -of_objects [ipx::current_core]]
+set_property value led_clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces led_clk -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter POLARITY [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SPIO/SPIO.srcs
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SPIO/SPIO.srcs'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SSeg7_Dev/SSeg7_Dev.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SSeg7_Dev/SSeg7_Dev.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/sseg7_dev/sseg7_dev.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'seg_clk' as interface 'seg_clk'.
+set_property description SSeg7_Dev [ipx::current_core]
+set_property display_name SSeg7_Dev [ipx::current_core]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces seg_clk -of_objects [ipx::current_core]]
+set_property value seg_clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces seg_clk -of_objects [ipx::current_core]]]
+ipx::add_bus_parameter POLARITY [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SSeg7_Dev/SSeg7_Dev.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/SSeg7_Dev/SSeg7_Dev.srcs/sources_1/new'
+close_project
+open_project C:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/VGA/VGA.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/VGA/VGA.srcs/sources_1/new'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/VIVADO/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir c:/users/asus/desktop/oexp_riscv/oexp02/ip/supplementary/vga/vga.srcs/sources_1/new -vendor xilinx.com -library user -taxonomy /UserIP -force
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+set_property description VGA [ipx::current_core]
+set_property display_name VGA [ipx::current_core]
+ipx::add_bus_parameter POLARITY [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]
+set_property value ACTIVE_HIGH [ipx::get_bus_parameters POLARITY -of_objects [ipx::get_bus_interfaces rst -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -repo_path c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/VGA/VGA.srcs/sources_1/new
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/ASUS/Desktop/OExp_RISCV/OExp02/IP/Supplementary/VGA/VGA.srcs/sources_1/new'
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  2 19:48:50 2021...

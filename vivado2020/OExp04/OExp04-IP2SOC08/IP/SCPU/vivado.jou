@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu May 20 20:16:49 2021
+# Process ID: 27768
+# Current directory: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/SCPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13712 D:\ISE\vivado\lab4_teacher\OExp04-IP2SOC\IP\CPU\SCPU\SCPU\SCPU.xpr
+# Log file: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/SCPU/vivado.log
+# Journal file: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/SCPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/SCPU/SCPU.xpr
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/IP2CPU -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false
+ipx::unload_core d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/IP2CPU/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/IP2CPU d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/IP2CPU/component.xml
+update_compile_order -fileset sources_1
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP

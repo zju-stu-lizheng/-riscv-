@@ -1,0 +1,612 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version     : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date             : Wed May 19 20:33:24 2021
+| Host             : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command          : report_power -file CSSTE_wrapper_power_routed.rpt -pb CSSTE_wrapper_power_summary_routed.pb -rpx CSSTE_wrapper_power_routed.rpx
+| Design           : CSSTE_wrapper
+| Device           : xc7k160tffg676-2L
+| Design State     : routed
+| Grade            : extended
+| Process          : typical
+| Characterization : Production
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Power Report
+
+Table of Contents
+-----------------
+1. Summary
+1.1 On-Chip Components
+1.2 Power Supply Summary
+1.3 Confidence Level
+2. Settings
+2.1 Environment
+2.2 Clock Constraints
+3. Detailed Reports
+3.1 By Hierarchy
+
+1. Summary
+----------
+
++--------------------------+--------------+
+| Total On-Chip Power (W)  | 37.983       |
+| Design Power Budget (W)  | Unspecified* |
+| Power Budget Margin (W)  | NA           |
+| Dynamic (W)              | 37.066       |
+| Device Static (W)        | 0.917        |
+| Effective TJA (C/W)      | 1.9          |
+| Max Ambient (C)          | 26.9         |
+| Junction Temperature (C) | 98.1         |
+| Confidence Level         | Low          |
+| Setting File             | ---          |
+| Simulation Activity File | ---          |
+| Design Nets Matched      | NA           |
++--------------------------+--------------+
+* Specify Design Power Budget using, set_operating_conditions -design_power_budget <value in Watts>
+
+
+1.1 On-Chip Components
+----------------------
+
++--------------------------+-----------+----------+-----------+-----------------+
+| On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
++--------------------------+-----------+----------+-----------+-----------------+
+| Slice Logic              |     7.736 |     7861 |       --- |             --- |
+|   LUT as Logic           |     7.282 |     3483 |    101400 |            3.43 |
+|   CARRY4                 |     0.245 |       89 |     25350 |            0.35 |
+|   Register               |     0.118 |     1590 |    202800 |            0.78 |
+|   F7/F8 Muxes            |     0.072 |     1225 |    101400 |            1.21 |
+|   LUT as Distributed RAM |     0.013 |     1280 |     35000 |            3.66 |
+|   BUFG                   |     0.006 |        1 |        32 |            3.13 |
+|   Others                 |     0.000 |       27 |       --- |             --- |
+| Signals                  |    17.577 |     4957 |       --- |             --- |
+| I/O                      |    11.752 |       44 |       400 |           11.00 |
+| Static Power             |     0.917 |          |           |                 |
+| Total                    |    37.983 |          |           |                 |
++--------------------------+-----------+----------+-----------+-----------------+
+
+
+1.2 Power Supply Summary
+------------------------
+
++-----------+-------------+-----------+-------------+------------+
+| Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
++-----------+-------------+-----------+-------------+------------+
+| Vccint    |       1.000 |    26.155 |      25.402 |      0.753 |
+| Vccaux    |       1.800 |     0.480 |       0.426 |      0.055 |
+| Vcco33    |       3.300 |     3.289 |       3.288 |      0.001 |
+| Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
+| Vcco18    |       1.800 |     0.011 |       0.010 |      0.001 |
+| Vcco15    |       1.500 |     0.020 |       0.019 |      0.001 |
+| Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
+| Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
+| Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccbram   |       1.000 |     0.024 |       0.000 |      0.024 |
+| MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
+| MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
+| MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |
+| Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
++-----------+-------------+-----------+-------------+------------+
+
+
+1.3 Confidence Level
+--------------------
+
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| User Input Data             | Confidence | Details                                                | Action                                                                                                             |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+| Design implementation state | High       | Design is routed                                       |                                                                                                                    |
+| Clock nodes activity        | Low        | User specified less than 75% of clocks                 | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
+| Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
+| Device models               | High       | Device models are Production                           |                                                                                                                    |
+|                             |            |                                                        |                                                                                                                    |
+| Overall confidence level    | Low        |                                                        |                                                                                                                    |
++-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
+
+
+2. Settings
+-----------
+
+2.1 Environment
+---------------
+
++-----------------------+--------------------------+
+| Ambient Temp (C)      | 25.0                     |
+| ThetaJA (C/W)         | 1.9                      |
+| Airflow (LFM)         | 250                      |
+| Heat Sink             | medium (Medium Profile)  |
+| ThetaSA (C/W)         | 3.4                      |
+| Board Selection       | medium (10"x10")         |
+| # of Board Layers     | 12to15 (12 to 15 Layers) |
+| Board Temperature (C) | 25.0                     |
++-----------------------+--------------------------+
+
+
+2.2 Clock Constraints
+---------------------
+
++-------+--------+-----------------+
+| Clock | Domain | Constraint (ns) |
++-------+--------+-----------------+
+
+
+3. Detailed Reports
+-------------------
+
+3.1 By Hierarchy
+----------------
+
++------------------------------------------+-----------+
+| Name                                     | Power (W) |
++------------------------------------------+-----------+
+| CSSTE_wrapper                            |    37.066 |
+|   CSSTE_i                                |    25.115 |
+|     BTN_OK0                              |     0.000 |
+|     PC11_2                               |     0.000 |
+|     PC31_2                               |     0.000 |
+|     U1                                   |     1.467 |
+|       inst                               |     1.462 |
+|         IP2CPU_i                         |     1.462 |
+|           datapath_wrapper_0             |     1.462 |
+|             inst                         |     1.462 |
+|               datapath_i                 |     1.462 |
+|                 ALU_0                    |     0.071 |
+|                   inst                   |     0.071 |
+|                 PC                       |     0.571 |
+|                   inst                   |     0.571 |
+|                 add_32_0                 |     0.018 |
+|                   inst                   |     0.018 |
+|                 add_32_1                 |     0.024 |
+|                   inst                   |     0.024 |
+|                 regs_0                   |     0.777 |
+|                   inst                   |     0.777 |
+|     U10                                  |     1.205 |
+|       inst                               |     1.205 |
+|     U11                                  |    18.962 |
+|       inst__0                            |    18.962 |
+|         vga_controller                   |     3.664 |
+|         vga_debugger                     |    14.645 |
+|         vga_display                      |     0.653 |
+|           display_data_reg_0_63_0_2      |    <0.001 |
+|           display_data_reg_0_63_3_5      |    <0.001 |
+|           display_data_reg_0_63_6_6      |    <0.001 |
+|           display_data_reg_0_63_7_7      |     0.000 |
+|           display_data_reg_1024_1087_0_2 |    <0.001 |
+|           display_data_reg_1024_1087_3_5 |    <0.001 |
+|           display_data_reg_1024_1087_6_6 |    <0.001 |
+|           display_data_reg_1024_1087_7_7 |     0.000 |
+|           display_data_reg_1088_1151_0_2 |    <0.001 |
+|           display_data_reg_1088_1151_3_5 |    <0.001 |
+|           display_data_reg_1088_1151_6_6 |    <0.001 |
+|           display_data_reg_1088_1151_7_7 |     0.000 |
+|           display_data_reg_1152_1215_0_2 |    <0.001 |
+|           display_data_reg_1152_1215_3_5 |    <0.001 |
+|           display_data_reg_1152_1215_6_6 |    <0.001 |
+|           display_data_reg_1152_1215_7_7 |     0.000 |
+|           display_data_reg_1216_1279_0_2 |    <0.001 |
+|           display_data_reg_1216_1279_3_5 |    <0.001 |
+|           display_data_reg_1216_1279_6_6 |    <0.001 |
+|           display_data_reg_1216_1279_7_7 |     0.000 |
+|           display_data_reg_1280_1343_0_2 |    <0.001 |
+|           display_data_reg_1280_1343_3_5 |    <0.001 |
+|           display_data_reg_1280_1343_6_6 |    <0.001 |
+|           display_data_reg_1280_1343_7_7 |     0.000 |
+|           display_data_reg_128_191_0_2   |    <0.001 |
+|           display_data_reg_128_191_3_5   |    <0.001 |
+|           display_data_reg_128_191_6_6   |    <0.001 |
+|           display_data_reg_128_191_7_7   |     0.000 |
+|           display_data_reg_1344_1407_0_2 |    <0.001 |
+|           display_data_reg_1344_1407_3_5 |    <0.001 |
+|           display_data_reg_1344_1407_6_6 |    <0.001 |
+|           display_data_reg_1344_1407_7_7 |     0.000 |
+|           display_data_reg_1408_1471_0_2 |    <0.001 |
+|           display_data_reg_1408_1471_3_5 |    <0.001 |
+|           display_data_reg_1408_1471_6_6 |    <0.001 |
+|           display_data_reg_1408_1471_7_7 |     0.000 |
+|           display_data_reg_1472_1535_0_2 |    <0.001 |
+|           display_data_reg_1472_1535_3_5 |    <0.001 |
+|           display_data_reg_1472_1535_6_6 |    <0.001 |
+|           display_data_reg_1472_1535_7_7 |     0.000 |
+|           display_data_reg_1536_1599_0_2 |    <0.001 |
+|           display_data_reg_1536_1599_3_5 |    <0.001 |
+|           display_data_reg_1536_1599_6_6 |    <0.001 |
+|           display_data_reg_1536_1599_7_7 |     0.000 |
+|           display_data_reg_1600_1663_0_2 |    <0.001 |
+|           display_data_reg_1600_1663_3_5 |    <0.001 |
+|           display_data_reg_1600_1663_6_6 |    <0.001 |
+|           display_data_reg_1600_1663_7_7 |     0.000 |
+|           display_data_reg_1664_1727_0_2 |    <0.001 |
+|           display_data_reg_1664_1727_3_5 |    <0.001 |
+|           display_data_reg_1664_1727_6_6 |    <0.001 |
+|           display_data_reg_1664_1727_7_7 |     0.000 |
+|           display_data_reg_1728_1791_0_2 |    <0.001 |
+|           display_data_reg_1728_1791_3_5 |    <0.001 |
+|           display_data_reg_1728_1791_6_6 |    <0.001 |
+|           display_data_reg_1728_1791_7_7 |     0.000 |
+|           display_data_reg_1792_1855_0_2 |    <0.001 |
+|           display_data_reg_1792_1855_3_5 |    <0.001 |
+|           display_data_reg_1792_1855_6_6 |    <0.001 |
+|           display_data_reg_1792_1855_7_7 |     0.000 |
+|           display_data_reg_1856_1919_0_2 |    <0.001 |
+|           display_data_reg_1856_1919_3_5 |    <0.001 |
+|           display_data_reg_1856_1919_6_6 |    <0.001 |
+|           display_data_reg_1856_1919_7_7 |     0.000 |
+|           display_data_reg_1920_1983_0_2 |    <0.001 |
+|           display_data_reg_1920_1983_3_5 |    <0.001 |
+|           display_data_reg_1920_1983_6_6 |    <0.001 |
+|           display_data_reg_1920_1983_7_7 |     0.000 |
+|           display_data_reg_192_255_0_2   |    <0.001 |
+|           display_data_reg_192_255_3_5   |    <0.001 |
+|           display_data_reg_192_255_6_6   |    <0.001 |
+|           display_data_reg_192_255_7_7   |     0.000 |
+|           display_data_reg_1984_2047_0_2 |    <0.001 |
+|           display_data_reg_1984_2047_3_5 |    <0.001 |
+|           display_data_reg_1984_2047_6_6 |    <0.001 |
+|           display_data_reg_1984_2047_7_7 |     0.000 |
+|           display_data_reg_2048_2111_0_2 |    <0.001 |
+|           display_data_reg_2048_2111_3_5 |    <0.001 |
+|           display_data_reg_2048_2111_6_6 |    <0.001 |
+|           display_data_reg_2048_2111_7_7 |     0.000 |
+|           display_data_reg_2112_2175_0_2 |    <0.001 |
+|           display_data_reg_2112_2175_3_5 |    <0.001 |
+|           display_data_reg_2112_2175_6_6 |    <0.001 |
+|           display_data_reg_2112_2175_7_7 |     0.000 |
+|           display_data_reg_2176_2239_0_2 |    <0.001 |
+|           display_data_reg_2176_2239_3_5 |    <0.001 |
+|           display_data_reg_2176_2239_6_6 |    <0.001 |
+|           display_data_reg_2176_2239_7_7 |     0.000 |
+|           display_data_reg_2240_2303_0_2 |    <0.001 |
+|           display_data_reg_2240_2303_3_5 |    <0.001 |
+|           display_data_reg_2240_2303_6_6 |    <0.001 |
+|           display_data_reg_2240_2303_7_7 |     0.000 |
+|           display_data_reg_2304_2367_0_2 |    <0.001 |
+|           display_data_reg_2304_2367_3_5 |    <0.001 |
+|           display_data_reg_2304_2367_6_6 |    <0.001 |
+|           display_data_reg_2304_2367_7_7 |     0.000 |
+|           display_data_reg_2368_2431_0_2 |    <0.001 |
+|           display_data_reg_2368_2431_3_5 |    <0.001 |
+|           display_data_reg_2368_2431_6_6 |    <0.001 |
+|           display_data_reg_2368_2431_7_7 |     0.000 |
+|           display_data_reg_2432_2495_0_2 |    <0.001 |
+|           display_data_reg_2432_2495_3_5 |    <0.001 |
+|           display_data_reg_2432_2495_6_6 |    <0.001 |
+|           display_data_reg_2432_2495_7_7 |     0.000 |
+|           display_data_reg_2496_2559_0_2 |    <0.001 |
+|           display_data_reg_2496_2559_3_5 |    <0.001 |
+|           display_data_reg_2496_2559_6_6 |    <0.001 |
+|           display_data_reg_2496_2559_7_7 |     0.000 |
+|           display_data_reg_2560_2623_0_2 |    <0.001 |
+|           display_data_reg_2560_2623_3_5 |    <0.001 |
+|           display_data_reg_2560_2623_6_6 |    <0.001 |
+|           display_data_reg_2560_2623_7_7 |     0.000 |
+|           display_data_reg_256_319_0_2   |    <0.001 |
+|           display_data_reg_256_319_3_5   |    <0.001 |
+|           display_data_reg_256_319_6_6   |    <0.001 |
+|           display_data_reg_256_319_7_7   |     0.000 |
+|           display_data_reg_2624_2687_0_2 |    <0.001 |
+|           display_data_reg_2624_2687_3_5 |    <0.001 |
+|           display_data_reg_2624_2687_6_6 |    <0.001 |
+|           display_data_reg_2624_2687_7_7 |     0.000 |
+|           display_data_reg_2688_2751_0_2 |    <0.001 |
+|           display_data_reg_2688_2751_3_5 |    <0.001 |
+|           display_data_reg_2688_2751_6_6 |    <0.001 |
+|           display_data_reg_2688_2751_7_7 |     0.000 |
+|           display_data_reg_2752_2815_0_2 |    <0.001 |
+|           display_data_reg_2752_2815_3_5 |    <0.001 |
+|           display_data_reg_2752_2815_6_6 |    <0.001 |
+|           display_data_reg_2752_2815_7_7 |     0.000 |
+|           display_data_reg_2816_2879_0_2 |    <0.001 |
+|           display_data_reg_2816_2879_3_5 |    <0.001 |
+|           display_data_reg_2816_2879_6_6 |    <0.001 |
+|           display_data_reg_2816_2879_7_7 |     0.000 |
+|           display_data_reg_2880_2943_0_2 |    <0.001 |
+|           display_data_reg_2880_2943_3_5 |    <0.001 |
+|           display_data_reg_2880_2943_6_6 |    <0.001 |
+|           display_data_reg_2880_2943_7_7 |     0.000 |
+|           display_data_reg_2944_3007_0_2 |    <0.001 |
+|           display_data_reg_2944_3007_3_5 |    <0.001 |
+|           display_data_reg_2944_3007_6_6 |    <0.001 |
+|           display_data_reg_2944_3007_7_7 |     0.000 |
+|           display_data_reg_3008_3071_0_2 |    <0.001 |
+|           display_data_reg_3008_3071_3_5 |    <0.001 |
+|           display_data_reg_3008_3071_6_6 |    <0.001 |
+|           display_data_reg_3008_3071_7_7 |     0.000 |
+|           display_data_reg_3072_3135_0_2 |    <0.001 |
+|           display_data_reg_3072_3135_3_5 |    <0.001 |
+|           display_data_reg_3072_3135_6_6 |    <0.001 |
+|           display_data_reg_3072_3135_7_7 |     0.000 |
+|           display_data_reg_3136_3199_0_2 |    <0.001 |
+|           display_data_reg_3136_3199_3_5 |    <0.001 |
+|           display_data_reg_3136_3199_6_6 |    <0.001 |
+|           display_data_reg_3136_3199_7_7 |     0.000 |
+|           display_data_reg_3200_3263_0_2 |    <0.001 |
+|           display_data_reg_3200_3263_3_5 |    <0.001 |
+|           display_data_reg_3200_3263_6_6 |    <0.001 |
+|           display_data_reg_3200_3263_7_7 |     0.000 |
+|           display_data_reg_320_383_0_2   |    <0.001 |
+|           display_data_reg_320_383_3_5   |    <0.001 |
+|           display_data_reg_320_383_6_6   |    <0.001 |
+|           display_data_reg_320_383_7_7   |     0.000 |
+|           display_data_reg_3264_3327_0_2 |    <0.001 |
+|           display_data_reg_3264_3327_3_5 |    <0.001 |
+|           display_data_reg_3264_3327_6_6 |    <0.001 |
+|           display_data_reg_3264_3327_7_7 |     0.000 |
+|           display_data_reg_3328_3391_0_2 |    <0.001 |
+|           display_data_reg_3328_3391_3_5 |    <0.001 |
+|           display_data_reg_3328_3391_6_6 |    <0.001 |
+|           display_data_reg_3328_3391_7_7 |     0.000 |
+|           display_data_reg_3392_3455_0_2 |    <0.001 |
+|           display_data_reg_3392_3455_3_5 |    <0.001 |
+|           display_data_reg_3392_3455_6_6 |    <0.001 |
+|           display_data_reg_3392_3455_7_7 |     0.000 |
+|           display_data_reg_3456_3519_0_2 |    <0.001 |
+|           display_data_reg_3456_3519_3_5 |    <0.001 |
+|           display_data_reg_3456_3519_6_6 |    <0.001 |
+|           display_data_reg_3456_3519_7_7 |     0.000 |
+|           display_data_reg_3520_3583_0_2 |    <0.001 |
+|           display_data_reg_3520_3583_3_5 |    <0.001 |
+|           display_data_reg_3520_3583_6_6 |    <0.001 |
+|           display_data_reg_3520_3583_7_7 |     0.000 |
+|           display_data_reg_3584_3647_0_2 |    <0.001 |
+|           display_data_reg_3584_3647_3_5 |    <0.001 |
+|           display_data_reg_3584_3647_6_6 |    <0.001 |
+|           display_data_reg_3584_3647_7_7 |     0.000 |
+|           display_data_reg_3648_3711_0_2 |    <0.001 |
+|           display_data_reg_3648_3711_3_5 |    <0.001 |
+|           display_data_reg_3648_3711_6_6 |    <0.001 |
+|           display_data_reg_3648_3711_7_7 |     0.000 |
+|           display_data_reg_3712_3775_0_2 |    <0.001 |
+|           display_data_reg_3712_3775_3_5 |    <0.001 |
+|           display_data_reg_3712_3775_6_6 |    <0.001 |
+|           display_data_reg_3712_3775_7_7 |     0.000 |
+|           display_data_reg_3776_3839_0_2 |    <0.001 |
+|           display_data_reg_3776_3839_3_5 |    <0.001 |
+|           display_data_reg_3776_3839_6_6 |    <0.001 |
+|           display_data_reg_3776_3839_7_7 |     0.000 |
+|           display_data_reg_3840_3903_0_2 |    <0.001 |
+|           display_data_reg_3840_3903_3_5 |    <0.001 |
+|           display_data_reg_3840_3903_6_6 |    <0.001 |
+|           display_data_reg_3840_3903_7_7 |     0.000 |
+|           display_data_reg_384_447_0_2   |    <0.001 |
+|           display_data_reg_384_447_3_5   |    <0.001 |
+|           display_data_reg_384_447_6_6   |    <0.001 |
+|           display_data_reg_384_447_7_7   |     0.000 |
+|           display_data_reg_3904_3967_0_2 |    <0.001 |
+|           display_data_reg_3904_3967_3_5 |    <0.001 |
+|           display_data_reg_3904_3967_6_6 |    <0.001 |
+|           display_data_reg_3904_3967_7_7 |     0.000 |
+|           display_data_reg_3968_4031_0_2 |    <0.001 |
+|           display_data_reg_3968_4031_3_5 |    <0.001 |
+|           display_data_reg_3968_4031_6_6 |    <0.001 |
+|           display_data_reg_3968_4031_7_7 |     0.000 |
+|           display_data_reg_4032_4095_0_2 |    <0.001 |
+|           display_data_reg_4032_4095_3_5 |    <0.001 |
+|           display_data_reg_4032_4095_6_6 |    <0.001 |
+|           display_data_reg_4032_4095_7_7 |     0.000 |
+|           display_data_reg_448_511_0_2   |    <0.001 |
+|           display_data_reg_448_511_3_5   |    <0.001 |
+|           display_data_reg_448_511_6_6   |    <0.001 |
+|           display_data_reg_448_511_7_7   |     0.000 |
+|           display_data_reg_512_575_0_2   |    <0.001 |
+|           display_data_reg_512_575_3_5   |    <0.001 |
+|           display_data_reg_512_575_6_6   |    <0.001 |
+|           display_data_reg_512_575_7_7   |     0.000 |
+|           display_data_reg_576_639_0_2   |    <0.001 |
+|           display_data_reg_576_639_3_5   |    <0.001 |
+|           display_data_reg_576_639_6_6   |    <0.001 |
+|           display_data_reg_576_639_7_7   |     0.000 |
+|           display_data_reg_640_703_0_2   |    <0.001 |
+|           display_data_reg_640_703_3_5   |    <0.001 |
+|           display_data_reg_640_703_6_6   |    <0.001 |
+|           display_data_reg_640_703_7_7   |     0.000 |
+|           display_data_reg_64_127_0_2    |    <0.001 |
+|           display_data_reg_64_127_3_5    |    <0.001 |
+|           display_data_reg_64_127_6_6    |    <0.001 |
+|           display_data_reg_64_127_7_7    |     0.000 |
+|           display_data_reg_704_767_0_2   |    <0.001 |
+|           display_data_reg_704_767_3_5   |    <0.001 |
+|           display_data_reg_704_767_6_6   |    <0.001 |
+|           display_data_reg_704_767_7_7   |     0.000 |
+|           display_data_reg_768_831_0_2   |    <0.001 |
+|           display_data_reg_768_831_3_5   |    <0.001 |
+|           display_data_reg_768_831_6_6   |    <0.001 |
+|           display_data_reg_768_831_7_7   |     0.000 |
+|           display_data_reg_832_895_0_2   |    <0.001 |
+|           display_data_reg_832_895_3_5   |    <0.001 |
+|           display_data_reg_832_895_6_6   |    <0.001 |
+|           display_data_reg_832_895_7_7   |     0.000 |
+|           display_data_reg_896_959_0_2   |    <0.001 |
+|           display_data_reg_896_959_3_5   |    <0.001 |
+|           display_data_reg_896_959_6_6   |    <0.001 |
+|           display_data_reg_896_959_7_7   |     0.000 |
+|           display_data_reg_960_1023_0_2  |    <0.001 |
+|           display_data_reg_960_1023_3_5  |    <0.001 |
+|           display_data_reg_960_1023_6_6  |    <0.001 |
+|           display_data_reg_960_1023_7_7  |     0.000 |
+|     U2                                   |     0.860 |
+|       U0                                 |     0.860 |
+|         synth_options.dist_mem_inst      |     0.860 |
+|           gen_rom.rom_inst               |     0.860 |
+|     U3                                   |     0.029 |
+|       U0                                 |     0.029 |
+|         synth_options.dist_mem_inst      |     0.029 |
+|           gen_sp_ram.spram_inst          |     0.029 |
+|             ram_reg_0_255_0_0            |    <0.001 |
+|             ram_reg_0_255_10_10          |    <0.001 |
+|             ram_reg_0_255_11_11          |    <0.001 |
+|             ram_reg_0_255_12_12          |    <0.001 |
+|             ram_reg_0_255_13_13          |    <0.001 |
+|             ram_reg_0_255_14_14          |    <0.001 |
+|             ram_reg_0_255_15_15          |    <0.001 |
+|             ram_reg_0_255_16_16          |    <0.001 |
+|             ram_reg_0_255_17_17          |    <0.001 |
+|             ram_reg_0_255_18_18          |    <0.001 |
+|             ram_reg_0_255_19_19          |    <0.001 |
+|             ram_reg_0_255_1_1            |    <0.001 |
+|             ram_reg_0_255_20_20          |    <0.001 |
+|             ram_reg_0_255_21_21          |    <0.001 |
+|             ram_reg_0_255_22_22          |    <0.001 |
+|             ram_reg_0_255_23_23          |    <0.001 |
+|             ram_reg_0_255_24_24          |    <0.001 |
+|             ram_reg_0_255_25_25          |    <0.001 |
+|             ram_reg_0_255_26_26          |    <0.001 |
+|             ram_reg_0_255_27_27          |    <0.001 |
+|             ram_reg_0_255_28_28          |    <0.001 |
+|             ram_reg_0_255_29_29          |    <0.001 |
+|             ram_reg_0_255_2_2            |    <0.001 |
+|             ram_reg_0_255_30_30          |    <0.001 |
+|             ram_reg_0_255_31_31          |    <0.001 |
+|             ram_reg_0_255_3_3            |    <0.001 |
+|             ram_reg_0_255_4_4            |    <0.001 |
+|             ram_reg_0_255_5_5            |    <0.001 |
+|             ram_reg_0_255_6_6            |    <0.001 |
+|             ram_reg_0_255_7_7            |    <0.001 |
+|             ram_reg_0_255_8_8            |    <0.001 |
+|             ram_reg_0_255_9_9            |    <0.001 |
+|             ram_reg_256_511_0_0          |    <0.001 |
+|             ram_reg_256_511_10_10        |    <0.001 |
+|             ram_reg_256_511_11_11        |    <0.001 |
+|             ram_reg_256_511_12_12        |    <0.001 |
+|             ram_reg_256_511_13_13        |    <0.001 |
+|             ram_reg_256_511_14_14        |    <0.001 |
+|             ram_reg_256_511_15_15        |    <0.001 |
+|             ram_reg_256_511_16_16        |    <0.001 |
+|             ram_reg_256_511_17_17        |    <0.001 |
+|             ram_reg_256_511_18_18        |    <0.001 |
+|             ram_reg_256_511_19_19        |    <0.001 |
+|             ram_reg_256_511_1_1          |    <0.001 |
+|             ram_reg_256_511_20_20        |    <0.001 |
+|             ram_reg_256_511_21_21        |    <0.001 |
+|             ram_reg_256_511_22_22        |    <0.001 |
+|             ram_reg_256_511_23_23        |    <0.001 |
+|             ram_reg_256_511_24_24        |    <0.001 |
+|             ram_reg_256_511_25_25        |    <0.001 |
+|             ram_reg_256_511_26_26        |    <0.001 |
+|             ram_reg_256_511_27_27        |    <0.001 |
+|             ram_reg_256_511_28_28        |    <0.001 |
+|             ram_reg_256_511_29_29        |    <0.001 |
+|             ram_reg_256_511_2_2          |    <0.001 |
+|             ram_reg_256_511_30_30        |    <0.001 |
+|             ram_reg_256_511_31_31        |    <0.001 |
+|             ram_reg_256_511_3_3          |    <0.001 |
+|             ram_reg_256_511_4_4          |    <0.001 |
+|             ram_reg_256_511_5_5          |    <0.001 |
+|             ram_reg_256_511_6_6          |    <0.001 |
+|             ram_reg_256_511_7_7          |    <0.001 |
+|             ram_reg_256_511_8_8          |    <0.001 |
+|             ram_reg_256_511_9_9          |    <0.001 |
+|             ram_reg_512_767_0_0          |    <0.001 |
+|             ram_reg_512_767_10_10        |    <0.001 |
+|             ram_reg_512_767_11_11        |    <0.001 |
+|             ram_reg_512_767_12_12        |    <0.001 |
+|             ram_reg_512_767_13_13        |    <0.001 |
+|             ram_reg_512_767_14_14        |    <0.001 |
+|             ram_reg_512_767_15_15        |    <0.001 |
+|             ram_reg_512_767_16_16        |    <0.001 |
+|             ram_reg_512_767_17_17        |    <0.001 |
+|             ram_reg_512_767_18_18        |    <0.001 |
+|             ram_reg_512_767_19_19        |    <0.001 |
+|             ram_reg_512_767_1_1          |    <0.001 |
+|             ram_reg_512_767_20_20        |    <0.001 |
+|             ram_reg_512_767_21_21        |    <0.001 |
+|             ram_reg_512_767_22_22        |    <0.001 |
+|             ram_reg_512_767_23_23        |    <0.001 |
+|             ram_reg_512_767_24_24        |    <0.001 |
+|             ram_reg_512_767_25_25        |    <0.001 |
+|             ram_reg_512_767_26_26        |    <0.001 |
+|             ram_reg_512_767_27_27        |    <0.001 |
+|             ram_reg_512_767_28_28        |    <0.001 |
+|             ram_reg_512_767_29_29        |    <0.001 |
+|             ram_reg_512_767_2_2          |    <0.001 |
+|             ram_reg_512_767_30_30        |    <0.001 |
+|             ram_reg_512_767_31_31        |    <0.001 |
+|             ram_reg_512_767_3_3          |    <0.001 |
+|             ram_reg_512_767_4_4          |    <0.001 |
+|             ram_reg_512_767_5_5          |    <0.001 |
+|             ram_reg_512_767_6_6          |    <0.001 |
+|             ram_reg_512_767_7_7          |    <0.001 |
+|             ram_reg_512_767_8_8          |    <0.001 |
+|             ram_reg_512_767_9_9          |    <0.001 |
+|             ram_reg_768_1023_0_0         |    <0.001 |
+|             ram_reg_768_1023_10_10       |    <0.001 |
+|             ram_reg_768_1023_11_11       |    <0.001 |
+|             ram_reg_768_1023_12_12       |    <0.001 |
+|             ram_reg_768_1023_13_13       |    <0.001 |
+|             ram_reg_768_1023_14_14       |    <0.001 |
+|             ram_reg_768_1023_15_15       |    <0.001 |
+|             ram_reg_768_1023_16_16       |    <0.001 |
+|             ram_reg_768_1023_17_17       |    <0.001 |
+|             ram_reg_768_1023_18_18       |    <0.001 |
+|             ram_reg_768_1023_19_19       |    <0.001 |
+|             ram_reg_768_1023_1_1         |    <0.001 |
+|             ram_reg_768_1023_20_20       |    <0.001 |
+|             ram_reg_768_1023_21_21       |    <0.001 |
+|             ram_reg_768_1023_22_22       |    <0.001 |
+|             ram_reg_768_1023_23_23       |    <0.001 |
+|             ram_reg_768_1023_24_24       |    <0.001 |
+|             ram_reg_768_1023_25_25       |    <0.001 |
+|             ram_reg_768_1023_26_26       |    <0.001 |
+|             ram_reg_768_1023_27_27       |    <0.001 |
+|             ram_reg_768_1023_28_28       |    <0.001 |
+|             ram_reg_768_1023_29_29       |    <0.001 |
+|             ram_reg_768_1023_2_2         |    <0.001 |
+|             ram_reg_768_1023_30_30       |    <0.001 |
+|             ram_reg_768_1023_31_31       |    <0.001 |
+|             ram_reg_768_1023_3_3         |    <0.001 |
+|             ram_reg_768_1023_4_4         |    <0.001 |
+|             ram_reg_768_1023_5_5         |    <0.001 |
+|             ram_reg_768_1023_6_6         |    <0.001 |
+|             ram_reg_768_1023_7_7         |    <0.001 |
+|             ram_reg_768_1023_8_8         |    <0.001 |
+|             ram_reg_768_1023_9_9         |    <0.001 |
+|     U4                                   |     0.317 |
+|       inst                               |     0.317 |
+|     U5                                   |     0.394 |
+|       inst                               |     0.394 |
+|     U6                                   |     0.800 |
+|       inst                               |     0.800 |
+|         M2                               |     0.404 |
+|         SM1                              |     0.396 |
+|           HTS0                           |     0.023 |
+|             MSEG                         |     0.023 |
+|           HTS1                           |     0.030 |
+|             MSEG                         |     0.030 |
+|           HTS2                           |     0.034 |
+|             MSEG                         |     0.034 |
+|           HTS3                           |     0.031 |
+|             MSEG                         |     0.031 |
+|           HTS4                           |     0.028 |
+|             MSEG                         |     0.028 |
+|           HTS5                           |     0.047 |
+|             MSEG                         |     0.047 |
+|           HTS6                           |     0.093 |
+|             MSEG                         |     0.093 |
+|           HTS7                           |     0.111 |
+|             MSEG                         |     0.111 |
+|     U7                                   |     0.157 |
+|       inst                               |     0.157 |
+|         LED_P2S                          |     0.157 |
+|     U8                                   |     0.813 |
+|       inst                               |     0.813 |
+|     U9                                   |     0.112 |
+|       inst                               |     0.112 |
+|     b64_0                                |     0.000 |
+|     div1                                 |     0.000 |
+|     div11                                |     0.000 |
+|     div20                                |     0.000 |
+|     div25                                |     0.000 |
+|     div31_31                             |     0.000 |
+|     div6                                 |     0.000 |
+|     div9                                 |     0.000 |
+|     sw0                                  |     0.000 |
+|     sw2                                  |     0.000 |
+|     sw7_5                                |     0.000 |
+|     sw8                                  |     0.000 |
+|     util_vector_logic_0                  |     0.000 |
+|     util_vector_logic_1                  |     0.000 |
+|     xlconcat_1                           |     0.000 |
++------------------------------------------+-----------+
+
+

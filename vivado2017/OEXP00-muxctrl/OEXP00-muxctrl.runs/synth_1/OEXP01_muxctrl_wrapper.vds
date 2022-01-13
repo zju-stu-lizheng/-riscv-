@@ -1,0 +1,438 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Mar  4 20:44:33 2021
+# Process ID: 21776
+# Current directory: D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.runs/synth_1
+# Command line: vivado.exe -log OEXP01_muxctrl_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source OEXP01_muxctrl_wrapper.tcl
+# Log file: D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.runs/synth_1/OEXP01_muxctrl_wrapper.vds
+# Journal file: D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source OEXP01_muxctrl_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 277.031 ; gain = 51.770
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/OEXP00-muxctrl'.
+WARNING: [IP_Flow 19-3656] If you move the project, the path for repository 'd:/ISE/vivado/OEXP00-muxctrl' may become invalid. A better location for the repository would be in a path adjacent to the project. (Current project location is 'd:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.runs/synth_1'.)
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 295.875 ; gain = 18.844
+Command: synth_design -top OEXP01_muxctrl_wrapper -part xc7k160tffg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 24436 
+CRITICAL WARNING: [Synth 8-2490] overwriting previous definition of module MUX2T1_5 [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX2T1_5_0_1/synth/OEXP01_muxctrl_MUX2T1_5_0_1.v:55]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 413.457 ; gain = 106.109
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_wrapper' [D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/hdl/OEXP01_muxctrl_wrapper.v:12]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl' [D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/synth/OEXP01_muxctrl.v:13]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_MUX2T1_5_0_0' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX2T1_5_0_0/synth/OEXP01_muxctrl_MUX2T1_5_0_0.v:72]
+INFO: [Synth 8-638] synthesizing module 'MUX2T1_5' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX2T1_5_0_1/synth/OEXP01_muxctrl_MUX2T1_5_0_1.v:55]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_MUX2T1_5_0_0' (1#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX2T1_5_0_0/synth/OEXP01_muxctrl_MUX2T1_5_0_0.v:72]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_MUX2T1_5_0_1' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX2T1_5_0_1/synth/OEXP01_muxctrl_MUX2T1_5_0_1.v:72]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_MUX2T1_5_0_1' (2#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX2T1_5_0_1/synth/OEXP01_muxctrl_MUX2T1_5_0_1.v:72]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_MUX4T1_5_0_1' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX4T1_5_0_1/synth/OEXP01_muxctrl_MUX4T1_5_0_1.v:76]
+INFO: [Synth 8-638] synthesizing module 'MUX4T1_5' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX4T1_5_0_1/synth/OEXP01_muxctrl_MUX4T1_5_0_1.v:55]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_MUX4T1_5_0_1' (3#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX4T1_5_0_1/synth/OEXP01_muxctrl_MUX4T1_5_0_1.v:76]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_MUX8T1_8_0_0' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX8T1_8_0_0/synth/OEXP01_muxctrl_MUX8T1_8_0_0.v:84]
+INFO: [Synth 8-638] synthesizing module 'MUX8T1_8' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX8T1_8_0_0/synth/OEXP01_muxctrl_MUX8T1_8_0_0.v:55]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_MUX8T1_8_0_0' (4#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX8T1_8_0_0/synth/OEXP01_muxctrl_MUX8T1_8_0_0.v:84]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_xlconcat_0_0' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlconcat_0_0/synth/OEXP01_muxctrl_xlconcat_0_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'xlconcat_v2_1_1_xlconcat' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 4 - type: integer 
+	Parameter IN1_WIDTH bound to: 4 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 8 - type: integer 
+	Parameter NUM_PORTS bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlconcat_v2_1_1_xlconcat' (5#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_xlconcat_0_0' (6#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlconcat_0_0/synth/OEXP01_muxctrl_xlconcat_0_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_xlconcat_0_1' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlconcat_0_1/synth/OEXP01_muxctrl_xlconcat_0_1.v:58]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_xlconcat_0_1' (7#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlconcat_0_1/synth/OEXP01_muxctrl_xlconcat_0_1.v:58]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_xlconstant_0_0' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlconstant_0_0/synth/OEXP01_muxctrl_xlconstant_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlconstant_v1_1_3_xlconstant' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 0 - type: integer 
+	Parameter CONST_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlconstant_v1_1_3_xlconstant' (8#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_xlconstant_0_0' (9#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlconstant_0_0/synth/OEXP01_muxctrl_xlconstant_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_xlconstant_1_0' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlconstant_1_0/synth/OEXP01_muxctrl_xlconstant_1_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlconstant_v1_1_3_xlconstant__parameterized0' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlconstant_v1_1_3_xlconstant__parameterized0' (9#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_xlconstant_1_0' (10#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlconstant_1_0/synth/OEXP01_muxctrl_xlconstant_1_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_xlconstant_1_1' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlconstant_1_1/synth/OEXP01_muxctrl_xlconstant_1_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlconstant_v1_1_3_xlconstant__parameterized1' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlconstant_v1_1_3_xlconstant__parameterized1' (10#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_xlconstant_1_1' (11#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlconstant_1_1/synth/OEXP01_muxctrl_xlconstant_1_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_xlconstant_1_2' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlconstant_1_2/synth/OEXP01_muxctrl_xlconstant_1_2.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlconstant_v1_1_3_xlconstant__parameterized2' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlconstant_v1_1_3_xlconstant__parameterized2' (11#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_xlconstant_1_2' (12#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlconstant_1_2/synth/OEXP01_muxctrl_xlconstant_1_2.v:57]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_xlslice_0_0' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlslice_0_0/synth/OEXP01_muxctrl_xlslice_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 5 - type: integer 
+	Parameter DIN_FROM bound to: 3 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice' (13#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_xlslice_0_0' (14#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlslice_0_0/synth/OEXP01_muxctrl_xlslice_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_xlslice_0_1' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlslice_0_1/synth/OEXP01_muxctrl_xlslice_0_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_xlslice_0_1' (15#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlslice_0_1/synth/OEXP01_muxctrl_xlslice_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_xlslice_2_0' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlslice_2_0/synth/OEXP01_muxctrl_xlslice_2_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized0' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 8 - type: integer 
+	Parameter DIN_FROM bound to: 4 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized0' (15#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_xlslice_2_0' (16#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlslice_2_0/synth/OEXP01_muxctrl_xlslice_2_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'OEXP01_muxctrl_xlslice_3_0' [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlslice_3_0/synth/OEXP01_muxctrl_xlslice_3_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_xlslice_3_0' (17#1) [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_xlslice_3_0/synth/OEXP01_muxctrl_xlslice_3_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl' (18#1) [D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/synth/OEXP01_muxctrl.v:13]
+INFO: [Synth 8-256] done synthesizing module 'OEXP01_muxctrl_wrapper' (19#1) [D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/hdl/OEXP01_muxctrl_wrapper.v:12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In2[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In3[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In4[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In5[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In6[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In7[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In8[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In9[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In10[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In11[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In12[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In13[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In14[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In15[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In16[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In17[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In18[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In19[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In20[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In21[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In22[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In23[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In24[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In25[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In26[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In27[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In28[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In29[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In30[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat has unconnected port In31[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 444.453 ; gain = 137.105
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:24 . Memory (MB): peak = 444.453 ; gain = 137.105
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/constrs_1/new/muxctrl.xdc]
+Finished Parsing XDC File [D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/constrs_1/new/muxctrl.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/constrs_1/new/muxctrl.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/OEXP01_muxctrl_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/OEXP01_muxctrl_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 744.930 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:06 ; elapsed = 00:01:18 . Memory (MB): peak = 744.930 ; gain = 437.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:06 ; elapsed = 00:01:18 . Memory (MB): peak = 744.930 ; gain = 437.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/MUX2T1_5_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/MUX2T1_5_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/MUX4T1_5_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/MUX8T1_8_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/xlconcat_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/xlconcat_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/xlconstant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/xlconstant_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/xlconstant_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/xlconstant_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/xlslice_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/xlslice_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/xlslice_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for OEXP01_muxctrl_i/xlslice_3. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:07 ; elapsed = 00:01:18 . Memory (MB): peak = 744.930 ; gain = 437.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:07 ; elapsed = 00:01:18 . Memory (MB): peak = 744.930 ; gain = 437.582
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3331] design OEXP01_muxctrl_xlslice_3_0 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design OEXP01_muxctrl_xlslice_3_0 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design OEXP01_muxctrl_xlslice_3_0 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design OEXP01_muxctrl_xlslice_2_0 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design OEXP01_muxctrl_xlslice_2_0 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design OEXP01_muxctrl_xlslice_2_0 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design OEXP01_muxctrl_xlslice_0_1 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design OEXP01_muxctrl_xlslice_0_0 has unconnected port Din[4]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:08 ; elapsed = 00:01:19 . Memory (MB): peak = 744.930 ; gain = 437.582
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:39 ; elapsed = 00:01:51 . Memory (MB): peak = 783.277 ; gain = 475.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:39 ; elapsed = 00:01:51 . Memory (MB): peak = 783.277 ; gain = 475.930
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:39 ; elapsed = 00:01:51 . Memory (MB): peak = 792.801 ; gain = 485.453
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:43 ; elapsed = 00:01:55 . Memory (MB): peak = 792.801 ; gain = 485.453
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:43 ; elapsed = 00:01:55 . Memory (MB): peak = 792.801 ; gain = 485.453
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:43 ; elapsed = 00:01:55 . Memory (MB): peak = 792.801 ; gain = 485.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:43 ; elapsed = 00:01:55 . Memory (MB): peak = 792.801 ; gain = 485.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:43 ; elapsed = 00:01:55 . Memory (MB): peak = 792.801 ; gain = 485.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:43 ; elapsed = 00:01:55 . Memory (MB): peak = 792.801 ; gain = 485.453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |MUX2T1_5      |         2|
+|2     |MUX4T1_5      |         1|
+|3     |MUX8T1_8      |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |MUX2T1_5_bbox_1 |     1|
+|2     |MUX2T1_5_bbox_2 |     1|
+|3     |MUX4T1_5_bbox_3 |     1|
+|4     |MUX8T1_8_bbox_4 |     1|
+|5     |IBUF            |    16|
+|6     |OBUF            |     5|
++------+----------------+------+
+
+Report Instance Areas: 
++------+-------------------+------------------------------+------+
+|      |Instance           |Module                        |Cells |
++------+-------------------+------------------------------+------+
+|1     |top                |                              |    44|
+|2     |  OEXP01_muxctrl_i |OEXP01_muxctrl                |    23|
+|3     |    MUX2T1_5_0     |OEXP01_muxctrl_MUX2T1_5_0_0   |     5|
+|4     |    MUX2T1_5_1     |OEXP01_muxctrl_MUX2T1_5_0_1   |     5|
+|5     |    MUX4T1_5_1     |OEXP01_muxctrl_MUX4T1_5_0_1   |     5|
+|6     |    MUX8T1_8_0     |OEXP01_muxctrl_MUX8T1_8_0_0   |     8|
+|7     |    xlconcat_0     |OEXP01_muxctrl_xlconcat_0_0   |     0|
+|8     |    xlconcat_1     |OEXP01_muxctrl_xlconcat_0_1   |     0|
+|9     |    xlconstant_0   |OEXP01_muxctrl_xlconstant_0_0 |     0|
+|10    |    xlconstant_1   |OEXP01_muxctrl_xlconstant_1_0 |     0|
+|11    |    xlconstant_2   |OEXP01_muxctrl_xlconstant_1_1 |     0|
+|12    |    xlconstant_3   |OEXP01_muxctrl_xlconstant_1_2 |     0|
+|13    |    xlslice_0      |OEXP01_muxctrl_xlslice_0_0    |     0|
+|14    |    xlslice_1      |OEXP01_muxctrl_xlslice_0_1    |     0|
+|15    |    xlslice_2      |OEXP01_muxctrl_xlslice_2_0    |     0|
+|16    |    xlslice_3      |OEXP01_muxctrl_xlslice_3_0    |     0|
++------+-------------------+------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:43 ; elapsed = 00:01:55 . Memory (MB): peak = 792.801 ; gain = 485.453
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:58 ; elapsed = 00:01:24 . Memory (MB): peak = 792.801 ; gain = 184.977
+Synthesis Optimization Complete : Time (s): cpu = 00:01:43 ; elapsed = 00:01:55 . Memory (MB): peak = 792.801 ; gain = 485.453
+INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX2T1_5_0_0/MUX2T1_5.edf]
+Finished Parsing EDIF File [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX2T1_5_0_0/MUX2T1_5.edf]
+Parsing EDIF File [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX4T1_5_0_1/MUX4T1_5.edf]
+Finished Parsing EDIF File [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX4T1_5_0_1/MUX4T1_5.edf]
+Parsing EDIF File [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX8T1_8_0_0/MUX8T1_8.edf]
+Finished Parsing EDIF File [d:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.srcs/sources_1/bd/OEXP01_muxctrl/ip/OEXP01_muxctrl_MUX8T1_8_0_0/MUX8T1_8.edf]
+INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 43 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:49 ; elapsed = 00:02:05 . Memory (MB): peak = 812.359 ; gain = 516.484
+INFO: [Common 17-1381] The checkpoint 'D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.runs/synth_1/OEXP01_muxctrl_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file OEXP01_muxctrl_wrapper_utilization_synth.rpt -pb OEXP01_muxctrl_wrapper_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.626 . Memory (MB): peak = 812.359 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  4 20:47:24 2021...

@@ -1,0 +1,1322 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu May 20 20:11:57 2021
+# Process ID: 26336
+# Current directory: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11036 D:\ISE\vivado\lab4_teacher\OExp04-IP2SOC\OExp04-IP2SOC.xpr
+# Log file: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/vivado.log
+# Journal file: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/OExp04-IP2SOC' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'CSSTE.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+CSSTE_SCPU_0_0
+
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 827.063 ; gain = 110.805
+update_compile_order -fileset sources_1
+open_bd_design {D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd}
+Adding cell -- xilinx.com:ip:xlslice:1.0 - BTN_OK0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - sw2
+Adding cell -- xilinx.com:ip:xlslice:1.0 - sw8
+Adding cell -- xilinx.com:user:clk_div:1.0 - U8
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding cell -- xilinx.com:ip:dist_mem_gen:8.0 - U2
+Adding cell -- xilinx.com:ip:xlslice:1.0 - PC11_2
+Adding cell -- xilinx.com:ip:xlslice:1.0 - div6
+Adding cell -- xilinx.com:ip:xlslice:1.0 - div9
+Adding cell -- xilinx.com:ip:xlslice:1.0 - div11
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - b64_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - sw7_5
+Adding cell -- xilinx.com:ip:xlslice:1.0 - PC31_2
+Adding cell -- xilinx.com:ip:xlslice:1.0 - div20
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - div31_31
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - b2_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - div1
+Adding cell -- xilinx.com:ip:xlslice:1.0 - sw0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - div25
+Adding cell -- xilinx.com:user:SSeg7_Dev:1.0 - U6
+Adding cell -- xilinx.com:user:VGA:1.0 - U11
+Adding cell -- xilinx.com:user:Counter_x:1.0 - U10
+Adding cell -- xilinx.com:user:MIO_BUS:1.0 - U4
+Adding cell -- xilinx.com:user:Multi_8CH32:1.0 - U5
+Adding cell -- xilinx.com:user:SAnti_jitter:1.0 - U9
+Adding cell -- xilinx.com:user:SPIO:1.0 - U7
+Adding cell -- xilinx.com:user:RAM_B:1.0 - U3
+Adding cell -- xilinx.com:user:SCPU:1.0 - U1
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_100mhz(clk) and /U11/clk_100m(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /U8/Clk_CPU(undef) and /U1/clk(clk)
+Successfully read diagram <CSSTE> from BD file <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 913.063 ; gain = 60.328
+ipx::edit_ip_in_project -upgrade true -name RAM_B_v1_0_project -directory D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.tmp/RAM_B_v1_0_project d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/Supplementary/RAM_B/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 945.793 ; gain = 18.090
+update_compile_order -fileset sources_1
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'
+startgroup
+set_property -dict [list CONFIG.coefficient_file {D:/ISE/vivado/OExp02-IP2SOC/COE/COE/I_mem_basic.coe}] [get_bd_cells U2]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/ISE/vivado/OExp02-IP2SOC/COE/COE/I_mem_basic.coe' provided. It will be converted relative to IP Instance files '../../../../../../../../OExp02-IP2SOC/COE/COE/I_mem_basic.coe'
+endgroup
+report_ip_status -name ip_status 
+report_ip_status -name ip_status 
+report_ip_status -name ip_status 
+report_ip_status -name ip_status 
+set_property  ip_repo_paths  {d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/IP2CPU} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'.
+WARNING: [IP_Flow 19-3685] Ignored loading user repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/CPU/SCPU/IP2CPU'. The path is contained within another repository.
+set_property  ip_repo_paths  d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'.
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'.
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {CSSTE_SCPU_0_0 CSSTE_RAM_B_0_0}] -log ip_upgrade.log
+Upgrading 'D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd'
+INFO: [IP_Flow 19-3422] Upgraded CSSTE_RAM_B_0_0 (RAM_B 1.0) from revision 2 to revision 3
+INFO: [IP_Flow 19-1972] Upgraded CSSTE_SCPU_0_0 from SCPU_v1_0 1.0 to SCPU_v1_0 1.0
+WARNING: [IP_Flow 19-4707] Upgraded port order differs after port 'clk'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'CSSTE_SCPU_0_0'. These changes may impact your design.
+WARNING: [BD 41-1731] Type mismatch between connected pins: /U8/Clk_CPU(undef) and /U1_upgraded_ipi/clk(clk)
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'CSSTE_SCPU_0_0' has identified issues that may require user intervention. Please review the upgrade log 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/ui/bd_a9a878b4.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips {CSSTE_SCPU_0_0 CSSTE_RAM_B_0_0}] -no_script -sync -force -quiet
+generate_target all [get_files  D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd]
+CRITICAL WARNING: [BD 41-1347] Reset pin /U8/rst (associated clock /U8/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U10/rst (associated clock /U10/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1347] Reset pin /U4/rst (associated clock /U4/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U5/rst (associated clock /U5/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U1/rst (associated clock /U1/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /U8/Clk_CPU.
+WARNING: [BD 41-927] Following properties on pin /U8/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/seg_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SSeg7_Dev_0_0_seg_clk 
+WARNING: [BD 41-927] Following properties on pin /U11/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+WARNING: [BD 41-927] Following properties on pin /U4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U4/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+WARNING: [BD 41-927] Following properties on pin /U9/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U7/led_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SPIO_0_0_led_clk 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/U9/readn
+/U1/MIO_ready
+
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/sim/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hdl/CSSTE_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block BTN_OK0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC11_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U1 .
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b64_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw7_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC31_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div31_31 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div25 .
+Exporting to file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE.hwh
+Generated Block Design Tcl file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE_bd.tcl
+Generated Hardware Definition File D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.hwdef
+generate_target: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 1283.699 ; gain = 257.828
+export_ip_user_files -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -directory D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files -ipstatic_source_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu May 20 20:21:47 2021] Launched synth_1...
+Run output will be captured here: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.runs/synth_1/runme.log
+[Thu May 20 20:21:47 2021] Launched impl_1...
+Run output will be captured here: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.runs/impl_1/runme.log
+open_bd_design {D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd}
+ipx::edit_ip_in_project -upgrade true -name VGA_v1_0_project -directory D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.tmp/VGA_v1_0_project d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/Supplementary/VGA/VGA/VGA.srcs/sources_1/new/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+update_compile_order -fileset sources_1
+ipx::merge_project_changes ports [ipx::current_core]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:VGA:1.0 [get_ips  CSSTE_VGA_0_0] -log ip_upgrade.log
+Upgrading 'D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd'
+INFO: [IP_Flow 19-3422] Upgraded CSSTE_VGA_0_0 (VGA_v1_0 1.0) from revision 1 to revision 2
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a0'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a1'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a2'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a3'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a4'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a5'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a6'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a7'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'gp'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'ra'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's0'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's1'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's10'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's11'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's2'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's3'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's4'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's5'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's6'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's7'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's8'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's9'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'sp'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't0'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't1'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't2'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't3'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't4'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't5'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't6'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'tp'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'x0'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'CSSTE_VGA_0_0'. These changes may impact your design.
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_100mhz(clk) and /U11_upgraded_ipi/clk_100m(undef)
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'CSSTE_VGA_0_0' has identified issues that may require user intervention. Please review the upgrade log 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/ui/bd_a9a878b4.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips CSSTE_VGA_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd]
+CRITICAL WARNING: [BD 41-1347] Reset pin /U8/rst (associated clock /U8/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U10/rst (associated clock /U10/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1347] Reset pin /U4/rst (associated clock /U4/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U5/rst (associated clock /U5/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U1/rst (associated clock /U1/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /U8/Clk_CPU.
+WARNING: [BD 41-927] Following properties on pin /U8/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/seg_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SSeg7_Dev_0_0_seg_clk 
+WARNING: [BD 41-927] Following properties on pin /U4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U4/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+WARNING: [BD 41-927] Following properties on pin /U9/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U7/led_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SPIO_0_0_led_clk 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/U9/readn
+/U1/MIO_ready
+/U11/x0
+/U11/ra
+/U11/sp
+/U11/gp
+/U11/tp
+/U11/t0
+/U11/t1
+/U11/t2
+/U11/s0
+/U11/s1
+/U11/a0
+/U11/a1
+/U11/a2
+/U11/a3
+/U11/a4
+/U11/a5
+/U11/a6
+/U11/a7
+/U11/s2
+/U11/s3
+/U11/s4
+/U11/s5
+/U11/s6
+/U11/s7
+/U11/s8
+/U11/s9
+/U11/s10
+/U11/s11
+/U11/t3
+/U11/t4
+/U11/t5
+/U11/t6
+
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/sim/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hdl/CSSTE_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block BTN_OK0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC11_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b64_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw7_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC31_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div31_31 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div25 .
+Exporting to file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE.hwh
+Generated Block Design Tcl file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE_bd.tcl
+Generated Hardware Definition File D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.hwdef
+export_ip_user_files -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -directory D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files -ipstatic_source_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+close_project
+open_project D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/SCPU/SCPU.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP/CPU/SCPU（源代码版）/SCPU' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'D:/ISE/vivado/IP', nor could it be found using path 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/ISE/vivado/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Thu May 20 20:50:14 2021] Launched synth_1...
+Run output will be captured here: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/SCPU/SCPU.runs/synth_1/runme.log
+ipx::package_project -root_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+ipx::unload_core d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/ISE/vivado/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+update_compile_order -fileset sources_1
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+set_property  ip_repo_paths  {d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU d:/ISE/vivado/IP} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/ISE/vivado/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+close_project
+open_project D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'CSSTE.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+CSSTE_SCPU_0_0
+
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1505.152 ; gain = 0.000
+update_compile_order -fileset sources_1
+open_bd_design {D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd}
+Adding cell -- xilinx.com:ip:xlslice:1.0 - BTN_OK0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - sw2
+Adding cell -- xilinx.com:ip:xlslice:1.0 - sw8
+Adding cell -- xilinx.com:user:clk_div:1.0 - U8
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding cell -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_1
+Adding cell -- xilinx.com:ip:dist_mem_gen:8.0 - U2
+Adding cell -- xilinx.com:ip:xlslice:1.0 - PC11_2
+Adding cell -- xilinx.com:ip:xlslice:1.0 - div6
+Adding cell -- xilinx.com:ip:xlslice:1.0 - div9
+Adding cell -- xilinx.com:ip:xlslice:1.0 - div11
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - b64_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - sw7_5
+Adding cell -- xilinx.com:ip:xlslice:1.0 - PC31_2
+Adding cell -- xilinx.com:ip:xlslice:1.0 - div20
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - div31_31
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - b2_0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - div1
+Adding cell -- xilinx.com:ip:xlslice:1.0 - sw0
+Adding cell -- xilinx.com:ip:xlslice:1.0 - div25
+Adding cell -- xilinx.com:user:SSeg7_Dev:1.0 - U6
+Adding cell -- xilinx.com:user:Counter_x:1.0 - U10
+Adding cell -- xilinx.com:user:MIO_BUS:1.0 - U4
+Adding cell -- xilinx.com:user:Multi_8CH32:1.0 - U5
+Adding cell -- xilinx.com:user:SAnti_jitter:1.0 - U9
+Adding cell -- xilinx.com:user:SPIO:1.0 - U7
+Adding cell -- xilinx.com:user:RAM_B:1.0 - U3
+Adding cell -- xilinx.com:user:SCPU:1.0 - U1
+Adding cell -- xilinx.com:user:VGA:1.0 - U11
+WARNING: [BD 41-1731] Type mismatch between connected pins: /clk_100mhz(clk) and /U11/clk_100m(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /U8/Clk_CPU(undef) and /U1/clk(clk)
+Successfully read diagram <CSSTE> from BD file <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd>
+open_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1505.152 ; gain = 0.000
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:SCPU:1.0 [get_ips  CSSTE_SCPU_0_0] -log ip_upgrade.log
+Upgrading 'D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd'
+INFO: [IP_Flow 19-1972] Upgraded CSSTE_SCPU_0_0 from SCPU_v1_0 1.0 to SCPU_v1_0 1.0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /U8/Clk_CPU(undef) and /U1_upgraded_ipi/clk(clk)
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/ui/bd_a9a878b4.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips CSSTE_SCPU_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd]
+CRITICAL WARNING: [BD 41-1347] Reset pin /U8/rst (associated clock /U8/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U10/rst (associated clock /U10/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1347] Reset pin /U4/rst (associated clock /U4/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U5/rst (associated clock /U5/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U1/rst (associated clock /U1/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /U8/Clk_CPU.
+WARNING: [BD 41-927] Following properties on pin /U8/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/seg_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SSeg7_Dev_0_0_seg_clk 
+WARNING: [BD 41-927] Following properties on pin /U4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U4/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+WARNING: [BD 41-927] Following properties on pin /U9/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U7/led_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SPIO_0_0_led_clk 
+WARNING: [BD 41-927] Following properties on pin /U11/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/U9/readn
+/U11/x0
+/U11/ra
+/U11/sp
+/U11/gp
+/U11/tp
+/U11/t0
+/U11/t1
+/U11/t2
+/U11/s0
+/U11/s1
+/U11/a0
+/U11/a1
+/U11/a2
+/U11/a3
+/U11/a4
+/U11/a5
+/U11/a6
+/U11/a7
+/U11/s2
+/U11/s3
+/U11/s4
+/U11/s5
+/U11/s6
+/U11/s7
+/U11/s8
+/U11/s9
+/U11/s10
+/U11/s11
+/U11/t3
+/U11/t4
+/U11/t5
+/U11/t6
+/U1/MIO_ready
+
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/sim/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hdl/CSSTE_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block BTN_OK0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC11_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b64_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw7_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC31_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div31_31 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div25 .
+Exporting to file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE.hwh
+Generated Block Design Tcl file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE_bd.tcl
+Generated Hardware Definition File D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.hwdef
+export_ip_user_files -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -directory D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files -ipstatic_source_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+set_property location {7 2810 -810} [get_bd_cells U11]
+open_project D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/SCPU/SCPU.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'D:/ISE/vivado/IP'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/ISE/vivado/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+ipx::package_project -root_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false -force
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+ipx::unload_core d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1594.031 ; gain = 13.156
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/ISE/vivado/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1594.414 ; gain = 13.539
+update_compile_order -fileset sources_1
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU'
+ERROR: [Common 17-190] Invalid Tcl eval of 'current_project OExp04-IP2SOC' during processing of event '278'.
+ERROR: [Common 17-39] 'update_ip_catalog' failed due to earlier errors.
+current_project OExp04-IP2SOC
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'.
+report_ip_status -name ip_status
+current_project SCPU
+current_project OExp04-IP2SOC
+upgrade_ip -vlnv xilinx.com:user:SCPU:1.0 [get_ips  CSSTE_SCPU_0_0] -log ip_upgrade.log
+Upgrading 'D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd'
+INFO: [IP_Flow 19-1972] Upgraded CSSTE_SCPU_0_0 from SCPU_v1_0 1.0 to SCPU_v1_0 1.0
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a0'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a1'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a2'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a3'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a4'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a5'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a6'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'a7'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'gp'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'ra'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's0'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's1'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's10'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's11'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's2'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's3'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's4'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's5'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's6'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's7'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's8'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 's9'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'sp'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't0'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't1'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't2'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't3'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't4'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't5'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 't6'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'tp'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'x0'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'CSSTE_SCPU_0_0'. These changes may impact your design.
+WARNING: [BD 41-1731] Type mismatch between connected pins: /U8/Clk_CPU(undef) and /U1_upgraded_ipi/clk(clk)
+CRITICAL WARNING: [Coretcl 2-1279] The upgrade of 'CSSTE_SCPU_0_0' has identified issues that may require user intervention. Please review the upgrade log 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/ip_upgrade.log', and verify that the upgraded IP is correctly configured.
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/ui/bd_a9a878b4.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips CSSTE_SCPU_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd]
+CRITICAL WARNING: [BD 41-1347] Reset pin /U8/rst (associated clock /U8/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U10/rst (associated clock /U10/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1347] Reset pin /U4/rst (associated clock /U4/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U5/rst (associated clock /U5/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U1/rst (associated clock /U1/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /U8/Clk_CPU.
+WARNING: [BD 41-927] Following properties on pin /U8/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/seg_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SSeg7_Dev_0_0_seg_clk 
+WARNING: [BD 41-927] Following properties on pin /U4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U4/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+WARNING: [BD 41-927] Following properties on pin /U9/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U7/led_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SPIO_0_0_led_clk 
+WARNING: [BD 41-927] Following properties on pin /U11/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/U9/readn
+/U11/x0
+/U11/ra
+/U11/sp
+/U11/gp
+/U11/tp
+/U11/t0
+/U11/t1
+/U11/t2
+/U11/s0
+/U11/s1
+/U11/a0
+/U11/a1
+/U11/a2
+/U11/a3
+/U11/a4
+/U11/a5
+/U11/a6
+/U11/a7
+/U11/s2
+/U11/s3
+/U11/s4
+/U11/s5
+/U11/s6
+/U11/s7
+/U11/s8
+/U11/s9
+/U11/s10
+/U11/s11
+/U11/t3
+/U11/t4
+/U11/t5
+/U11/t6
+/U1/MIO_ready
+
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/sim/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hdl/CSSTE_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block BTN_OK0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC11_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b64_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw7_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC31_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div31_31 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div25 .
+Exporting to file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE.hwh
+Generated Block Design Tcl file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE_bd.tcl
+Generated Hardware Definition File D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.hwdef
+export_ip_user_files -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -directory D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files -ipstatic_source_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+set_property location {5 1608 -1782} [get_bd_cells U1]
+set_property location {6 2106 -1563} [get_bd_cells U11]
+set_property location {6 2117 -1811} [get_bd_cells U11]
+set_property location {5.5 1921 -1855} [get_bd_cells U11]
+set_property location {5 1560 -1808} [get_bd_cells U1]
+connect_bd_net [get_bd_pins U1/t6] [get_bd_pins U11/t6]
+connect_bd_net [get_bd_pins U1/t5] [get_bd_pins U11/t5]
+connect_bd_net [get_bd_pins U1/t4] [get_bd_pins U11/t4]
+connect_bd_net [get_bd_pins U1/t3] [get_bd_pins U11/t3]
+connect_bd_net [get_bd_pins U1/s11] [get_bd_pins U11/s11]
+connect_bd_net [get_bd_pins U1/s10] [get_bd_pins U11/s10]
+connect_bd_net [get_bd_pins U1/s9] [get_bd_pins U11/s9]
+connect_bd_net [get_bd_pins U1/s8] [get_bd_pins U11/s8]
+connect_bd_net [get_bd_pins U1/s7] [get_bd_pins U11/s7]
+connect_bd_net [get_bd_pins U1/s6] [get_bd_pins U11/s6]
+connect_bd_net [get_bd_pins U1/s5] [get_bd_pins U11/s5]
+connect_bd_net [get_bd_pins U1/s4] [get_bd_pins U11/s4]
+connect_bd_net [get_bd_pins U1/s3] [get_bd_pins U11/s3]
+connect_bd_net [get_bd_pins U1/s2] [get_bd_pins U11/s2]
+connect_bd_net [get_bd_pins U1/a7] [get_bd_pins U11/a7]
+connect_bd_net [get_bd_pins U1/a6] [get_bd_pins U11/a6]
+connect_bd_net [get_bd_pins U1/a5] [get_bd_pins U11/a5]
+connect_bd_net [get_bd_pins U1/a4] [get_bd_pins U11/a4]
+connect_bd_net [get_bd_pins U1/a3] [get_bd_pins U11/a3]
+connect_bd_net [get_bd_pins U1/a2] [get_bd_pins U11/a2]
+connect_bd_net [get_bd_pins U1/a1] [get_bd_pins U11/a1]
+connect_bd_net [get_bd_pins U1/a0] [get_bd_pins U11/a0]
+connect_bd_net [get_bd_pins U1/s1] [get_bd_pins U11/s1]
+connect_bd_net [get_bd_pins U1/s0] [get_bd_pins U11/s0]
+connect_bd_net [get_bd_pins U11/t2] [get_bd_pins U1/t2]
+connect_bd_net [get_bd_pins U1/t1] [get_bd_pins U11/t1]
+connect_bd_net [get_bd_pins U1/t0] [get_bd_pins U11/t0]
+connect_bd_net [get_bd_pins U11/tp] [get_bd_pins U1/tp]
+connect_bd_net [get_bd_pins U1/gp] [get_bd_pins U11/gp]
+connect_bd_net [get_bd_pins U11/sp] [get_bd_pins U1/sp]
+connect_bd_net [get_bd_pins U1/ra] [get_bd_pins U11/ra]
+connect_bd_net [get_bd_pins U11/x0] [get_bd_pins U1/x0]
+regenerate_bd_layout
+validate_bd_design
+CRITICAL WARNING: [BD 41-1347] Reset pin /U8/rst (associated clock /U8/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U10/rst (associated clock /U10/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1347] Reset pin /U4/rst (associated clock /U4/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U5/rst (associated clock /U5/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U1/rst (associated clock /U1/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /U8/Clk_CPU.
+WARNING: [BD 41-927] Following properties on pin /U8/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/seg_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SSeg7_Dev_0_0_seg_clk 
+WARNING: [BD 41-927] Following properties on pin /U4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U4/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+WARNING: [BD 41-927] Following properties on pin /U9/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U7/led_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SPIO_0_0_led_clk 
+WARNING: [BD 41-927] Following properties on pin /U11/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/U9/readn
+/U1/MIO_ready
+
+generate_target all [get_files  D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd]
+INFO: [BD 41-1662] The design 'CSSTE.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/U9/readn
+/U1/MIO_ready
+
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/ui/bd_a9a878b4.ui> 
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/sim/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hdl/CSSTE_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block BTN_OK0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC11_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b64_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw7_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC31_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div31_31 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div25 .
+Exporting to file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE.hwh
+Generated Block Design Tcl file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE_bd.tcl
+Generated Hardware Definition File D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.hwdef
+export_ip_user_files -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -directory D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files -ipstatic_source_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu May 20 21:10:13 2021] Launched synth_1...
+Run output will be captured here: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.runs/synth_1/runme.log
+[Thu May 20 21:10:14 2021] Launched impl_1...
+Run output will be captured here: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.runs/impl_1/runme.log
+current_project SCPU
+close_project
+open_project D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/ASUS/Desktop/SCPU（源代码版）/SCPU' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'D:/ISE/vivado/lab4_teacher/OExp_RISCV/OExp04/basic/IP', nor could it be found using path 'C:/Users/ASUS/Desktop/OExp_RISCV/OExp04/basic/IP'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/ISE/vivado/lab4_teacher/OExp_RISCV/OExp04/basic/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+current_project OExp04-IP2SOC
+current_project SCPU
+current_project OExp04-IP2SOC
+current_project SCPU
+launch_runs synth_1 -jobs 4
+[Thu May 20 21:20:08 2021] Launched synth_1...
+Run output will be captured here: D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU/SCPU.runs/synth_1/runme.log
+ipx::package_project -root_dir D:/ISE/vivado/lab4_teacher/IP2CPU_more -vendor xilinx.com -library user -taxonomy /UserIP -generated_files -import_files -set_current false
+INFO: [IP_Flow 19-4753] Inferred signal 'reset' from port 'rst' as interface 'rst'.
+INFO: [IP_Flow 19-4753] Inferred signal 'clock' from port 'clk' as interface 'clk'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+ipx::unload_core d:/ISE/vivado/lab4_teacher/IP2CPU_more/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/ISE/vivado/lab4_teacher/IP2CPU_more d:/ISE/vivado/lab4_teacher/IP2CPU_more/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/ISE/vivado/lab4_teacher/OExp_RISCV/OExp04/basic/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1690.035 ; gain = 5.465
+update_compile_order -fileset sources_1
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property value clk [ipx::get_bus_parameters ASSOCIATED_BUSIF -of_objects [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]]
+set_property core_revision 2 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+set_property  ip_repo_paths  {d:/ISE/vivado/lab4_teacher/IP2CPU_more d:/ISE/vivado/lab4_teacher/OExp_RISCV/OExp04/basic/IP} [current_project]
+update_ip_catalog
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/IP2CPU_more'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/ISE/vivado/lab4_teacher/OExp_RISCV/OExp04/basic/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+ERROR: [Common 17-190] Invalid Tcl eval of 'current_project OExp04-IP2SOC' during processing of event '278'.
+ERROR: [Common 17-39] 'update_ip_catalog' failed due to earlier errors.
+WARNING: [IP_Flow 19-4318] IP-XACT file does not exist: d:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU/component.xml. It will be created.
+close_project
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:SCPU:1.0 [get_ips  CSSTE_SCPU_0_0] -log ip_upgrade.log
+Upgrading 'D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd'
+INFO: [IP_Flow 19-1972] Upgraded CSSTE_SCPU_0_0 from SCPU_v1_0 1.0 to SCPU_v1_0 1.0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /U8/Clk_CPU(undef) and /U1_upgraded_ipi/clk(clk)
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips CSSTE_SCPU_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd]
+CRITICAL WARNING: [BD 41-1347] Reset pin /U8/rst (associated clock /U8/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U10/rst (associated clock /U10/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1347] Reset pin /U4/rst (associated clock /U4/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U5/rst (associated clock /U5/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U1/rst (associated clock /U1/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /U8/Clk_CPU.
+WARNING: [BD 41-927] Following properties on pin /U8/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/seg_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SSeg7_Dev_0_0_seg_clk 
+WARNING: [BD 41-927] Following properties on pin /U4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U4/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+WARNING: [BD 41-927] Following properties on pin /U9/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U7/led_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SPIO_0_0_led_clk 
+WARNING: [BD 41-927] Following properties on pin /U11/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/U9/readn
+/U1/MIO_ready
+
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/sim/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hdl/CSSTE_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block BTN_OK0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC11_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b64_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw7_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC31_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div31_31 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div25 .
+Exporting to file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE.hwh
+Generated Block Design Tcl file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE_bd.tcl
+Generated Hardware Definition File D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.hwdef
+export_ip_user_files -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -directory D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files -ipstatic_source_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+undo
+INFO: [Common 17-17] undo 'set_property USER_COMMENTS.comment_10 {}  [current_bd_design]'
+undo
+INFO: [Common 17-17] undo 'current_bd_design'
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {9}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_2 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {.}  [current_bd_design]
+save_bd_design
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/ui/bd_a9a878b4.ui> 
+regenerate_bd_layout
+validate_bd_design
+CRITICAL WARNING: [BD 41-1347] Reset pin /U8/rst (associated clock /U8/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U10/rst (associated clock /U10/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1347] Reset pin /U4/rst (associated clock /U4/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U5/rst (associated clock /U5/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U1/rst (associated clock /U1/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /U8/Clk_CPU.
+WARNING: [BD 41-927] Following properties on pin /U8/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/seg_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SSeg7_Dev_0_0_seg_clk 
+WARNING: [BD 41-927] Following properties on pin /U4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U4/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+WARNING: [BD 41-927] Following properties on pin /U9/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U7/led_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SPIO_0_0_led_clk 
+WARNING: [BD 41-927] Following properties on pin /U11/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/U9/readn
+/U1/MIO_ready
+
+set_property USER_COMMENTS.comment_5 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_6 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_4 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_9 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_8 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_7 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_11 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {.}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {.}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {.}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {.}  [current_bd_design]
+save_bd_design
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/ui/bd_a9a878b4.ui> 
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {.}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {.}  [current_bd_design]
+save_bd_design
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/ui/bd_a9a878b4.ui> 
+set_property USER_COMMENTS.comment_10 {}  [current_bd_design]
+set_property USER_COMMENTS.comment_10 {.}  [current_bd_design]
+save_bd_design
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/ui/bd_a9a878b4.ui> 
+regenerate_bd_layout
+validate_bd_design
+CRITICAL WARNING: [BD 41-1347] Reset pin /U8/rst (associated clock /U8/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U10/rst (associated clock /U10/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1347] Reset pin /U4/rst (associated clock /U4/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U5/rst (associated clock /U5/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U1/rst (associated clock /U1/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /U8/Clk_CPU.
+WARNING: [BD 41-927] Following properties on pin /U8/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/seg_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SSeg7_Dev_0_0_seg_clk 
+WARNING: [BD 41-927] Following properties on pin /U4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U4/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+WARNING: [BD 41-927] Following properties on pin /U9/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U7/led_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SPIO_0_0_led_clk 
+WARNING: [BD 41-927] Following properties on pin /U11/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/U9/readn
+/U1/MIO_ready
+
+open_bd_design {D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd}
+startgroup
+set_property -dict [list CONFIG.coefficient_file {D:/ISE/vivado/OExp02-IP2SOC/COE/COE/I_mem_more.coe}] [get_bd_cells U2]
+INFO: [IP_Flow 19-3484] Absolute path of file 'd:/ISE/vivado/OExp02-IP2SOC/COE/COE/I_mem_more.coe' provided. It will be converted relative to IP Instance files '../../../../../../../../OExp02-IP2SOC/COE/COE/I_mem_more.coe'
+endgroup
+regenerate_bd_layout
+generate_target all [get_files  D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd]
+CRITICAL WARNING: [BD 41-1347] Reset pin /U8/rst (associated clock /U8/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U10/rst (associated clock /U10/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1347] Reset pin /U4/rst (associated clock /U4/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U5/rst (associated clock /U5/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U1/rst (associated clock /U1/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /U8/Clk_CPU.
+WARNING: [BD 41-927] Following properties on pin /U8/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/seg_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SSeg7_Dev_0_0_seg_clk 
+WARNING: [BD 41-927] Following properties on pin /U4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U4/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+WARNING: [BD 41-927] Following properties on pin /U9/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U7/led_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SPIO_0_0_led_clk 
+WARNING: [BD 41-927] Following properties on pin /U11/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/U9/readn
+/U1/MIO_ready
+
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/ui/bd_a9a878b4.ui> 
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/sim/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hdl/CSSTE_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block BTN_OK0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC11_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b64_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw7_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC31_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div31_31 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div25 .
+Exporting to file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE.hwh
+Generated Block Design Tcl file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE_bd.tcl
+Generated Hardware Definition File D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.hwdef
+export_ip_user_files -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd] -directory D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/sim_scripts -ip_user_files_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files -ipstatic_source_dir D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/modelsim} {questa=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/questa} {riviera=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/riviera} {activehdl=D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu May 20 21:31:32 2021] Launched synth_1...
+Run output will be captured here: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.runs/synth_1/runme.log
+[Thu May 20 21:31:32 2021] Launched impl_1...
+Run output will be captured here: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.runs/impl_1/runme.log
+copy_bd_objs /  [get_bd_cells {sw8}]
+set_property location {2 381 1385} [get_bd_cells sw9]
+set_property -dict [list CONFIG.DIN_TO {9} CONFIG.DIN_FROM {9} CONFIG.DIN_FROM {9} CONFIG.DOUT_WIDTH {1}] [get_bd_cells sw9]
+connect_bd_net [get_bd_pins U9/SW_OK] [get_bd_pins sw9/Din]
+delete_bd_objs [get_bd_nets BTN_OK0_Dout] [get_bd_cells BTN_OK0]
+connect_bd_net [get_bd_pins sw9/Dout] [get_bd_pins U8/STEP]
+save_bd_design
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/ui/bd_a9a878b4.ui> 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+CRITICAL WARNING: [BD 41-1347] Reset pin /U8/rst (associated clock /U8/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U10/rst (associated clock /U10/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1347] Reset pin /U4/rst (associated clock /U4/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Instead it should be connected to reset source /RSTN.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U5/rst (associated clock /U5/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /util_vector_logic_0/Res.
+CRITICAL WARNING: [BD 41-1348] Reset pin /U1/rst (associated clock /U1/clk) is connected to asynchronous reset source /U9/rst.
+This may prevent design from meeting timing. Please add Processor System Reset module to create a reset that is synchronous to the associated clock source /U8/Clk_CPU.
+WARNING: [BD 41-927] Following properties on pin /U8/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U6/seg_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SSeg7_Dev_0_0_seg_clk 
+WARNING: [BD 41-927] Following properties on pin /U4/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U4/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+WARNING: [BD 41-927] Following properties on pin /U9/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_clk_100mhz 
+WARNING: [BD 41-927] Following properties on pin /U7/led_clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=CSSTE_SPIO_0_0_led_clk 
+WARNING: [BD 41-927] Following properties on pin /U11/rst have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	POLARITY=ACTIVE_HIGH 
+CRITICAL WARNING: [BD 41-759] The input pins (listed below) are either not connected or do not have a source port, and they don't have a tie-off specified. These pins are tied-off to all 0's to avoid error in Implementation flow.
+Please check your design and connect them as needed: 
+/U9/readn
+/U1/MIO_ready
+
+Wrote  : <D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/CSSTE.bd> 
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/sim/CSSTE.v
+VHDL Output written to : D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hdl/CSSTE_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC11_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block U11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b64_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw7_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block PC31_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div31_31 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block b2_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block div25 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block sw9 .
+Exporting to file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE.hwh
+Generated Block Design Tcl file D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/hw_handoff/CSSTE_bd.tcl
+Generated Hardware Definition File D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.hwdef
+[Thu May 20 21:53:53 2021] Launched synth_1...
+Run output will be captured here: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.runs/synth_1/runme.log
+[Thu May 20 21:53:53 2021] Launched impl_1...
+Run output will be captured here: D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/OExp04-IP2SOC.runs/impl_1/runme.log
+open_project D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/SCPU_more/SCPU/SCPU.xpr
+INFO: [Project 1-313] Project file moved from 'D:/ISE/vivado/lab4_teacher/SCPU_more/SCPU' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/OExp_RISCV/OExp04/basic/IP', nor could it be found using path 'D:/ISE/vivado/lab4_teacher/OExp_RISCV/OExp04/basic/IP'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/IP2CPU_more'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/OExp_RISCV/OExp04/basic/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1819.730 ; gain = 7.055
+update_compile_order -fileset sources_1
+close [ open D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/SCPU_more/SCPU/SCPU.srcs/sources_1/new/RV_Int.v w ]
+add_files D:/ISE/vivado/lab4_teacher/OExp04-IP2SOC/IP/SCPU_more/SCPU/SCPU.srcs/sources_1/new/RV_Int.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close_project
+close_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1835.555 ; gain = 0.754
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 20 23:25:11 2021...

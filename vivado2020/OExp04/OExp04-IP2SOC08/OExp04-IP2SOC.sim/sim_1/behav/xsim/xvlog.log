@@ -1,0 +1,113 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/d1b1/SAnti_jitter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SAnti_jitter
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_SAnti_jitter_0_0/sim/CSSTE_SAnti_jitter_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_SAnti_jitter_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_xlslice_0_1/sim/CSSTE_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_xlslice_0_2/sim/CSSTE_xlslice_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_xlslice_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/0ee6/sources_1/new/clk_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_clk_div_0_0/sim/CSSTE_clk_div_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_clk_div_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_util_vector_logic_0_0/sim/CSSTE_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_util_vector_logic_0_1/sim/CSSTE_util_vector_logic_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_util_vector_logic_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_dist_mem_gen_0_0/sim/CSSTE_dist_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_dist_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_xlslice_0_3/sim/CSSTE_xlslice_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_xlslice_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_xlslice_0_4/sim/CSSTE_xlslice_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_xlslice_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_xlslice_0_5/sim/CSSTE_xlslice_0_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_xlslice_0_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_xlslice_0_6/sim/CSSTE_xlslice_0_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_xlslice_0_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/7490/src/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/7490/src/Alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/7490/src/DataPath_more.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_more
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/7490/src/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/7490/src/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/7490/src/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/7490/src/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/7490/src/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/7490/src/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/7490/src/SCPU_ctrl_more.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl_more
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/7490/src/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/7490/src/SCPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_SCPU_0_0/sim/CSSTE_SCPU_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_SCPU_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/22cf/Counter_x.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter_x
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_Counter_x_0_0/sim/CSSTE_Counter_x_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_Counter_x_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/6153/MIO_BUS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MIO_BUS
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_MIO_BUS_0_0/sim/CSSTE_MIO_BUS_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_MIO_BUS_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/1191/imports/new/MUX8T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/1191/imports/new/MUX8T1_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/1191/new/Multi_8CH32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multi_8CH32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_Multi_8CH32_0_0/sim/CSSTE_Multi_8CH32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_Multi_8CH32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/fd22/sources_1/new/LED_P2S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LED_P2S
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/fd22/sources_1/new/SPIO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SPIO
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_SPIO_0_0/sim/CSSTE_SPIO_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_SPIO_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/HexTo8SEG.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HexTo8SEG
+INFO: [VRFC 10-311] analyzing module Hex2Seg
+INFO: [VRFC 10-2458] undeclared symbol a, assumed default net type wire [D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/HexTo8SEG.v:51]
+INFO: [VRFC 10-2458] undeclared symbol b, assumed default net type wire [D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/HexTo8SEG.v:51]
+INFO: [VRFC 10-2458] undeclared symbol c, assumed default net type wire [D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/HexTo8SEG.v:51]
+INFO: [VRFC 10-2458] undeclared symbol d, assumed default net type wire [D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/HexTo8SEG.v:51]
+INFO: [VRFC 10-2458] undeclared symbol e, assumed default net type wire [D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/HexTo8SEG.v:51]
+INFO: [VRFC 10-2458] undeclared symbol f, assumed default net type wire [D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/HexTo8SEG.v:51]
+INFO: [VRFC 10-2458] undeclared symbol g, assumed default net type wire [D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/HexTo8SEG.v:51]
+INFO: [VRFC 10-2458] undeclared symbol p, assumed default net type wire [D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/HexTo8SEG.v:51]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/MC14495_ZJU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MC14495_ZJU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/MUX2T1_64.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_64
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/P2S.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module P2S
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/SSeg_map.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SSeg_map
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/67de/SSeg7_Dev.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SSeg7_Dev
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_SSeg7_Dev_0_0/sim/CSSTE_SSeg7_Dev_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_SSeg7_Dev_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/0896/Hex2Ascii.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Hex2Ascii
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/0896/VgaController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VgaController
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/0896/VgaDebugger.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VgaDebugger
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/0896/VgaDisplay.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VgaDisplay
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ipshared/0896/VGA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_VGA_0_0/sim/CSSTE_VGA_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSSTE_VGA_0_0
+ERROR: [VRFC 10-2934] 'inst' is already declared [D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_VGA_0_0/sim/CSSTE_VGA_0_0.v:156]
+ERROR: [VRFC 10-3584] no definition for port 'inst' [D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_VGA_0_0/sim/CSSTE_VGA_0_0.v:61]
+ERROR: [VRFC 10-3640] port 'inst' is not defined [D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_VGA_0_0/sim/CSSTE_VGA_0_0.v:112]
+ERROR: [VRFC 10-2865] module 'CSSTE_VGA_0_0' ignored due to previous errors [D:/ISE/done/CO/vivado2020/OExp04/OExp04-IP2SOC08/OExp04-IP2SOC.ip_user_files/bd/CSSTE/ip/CSSTE_VGA_0_0/sim/CSSTE_VGA_0_0.v:56]

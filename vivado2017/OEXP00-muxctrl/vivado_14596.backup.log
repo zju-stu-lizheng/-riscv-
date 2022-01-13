@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat May 15 16:42:35 2021
+# Process ID: 14596
+# Current directory: D:/ISE/vivado/OEXP00-muxctrl
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8660 D:\ISE\vivado\OEXP00-muxctrl\OEXP00-muxctrl.xpr
+# Log file: D:/ISE/vivado/OEXP00-muxctrl/vivado.log
+# Journal file: D:/ISE/vivado/OEXP00-muxctrl\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/OEXP00-muxctrl'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 823.570 ; gain = 100.293
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May 15 16:44:25 2021...

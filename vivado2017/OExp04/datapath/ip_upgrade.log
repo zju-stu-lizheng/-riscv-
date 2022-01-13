@@ -1,0 +1,131 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Thu Apr 22 17:49:13 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'DataPath_regs_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of DataPath_regs_0_0 (xilinx.com:user:regs:1.0) from (Rev. 3) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr 21 16:48:12 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'DataPath_regs_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of DataPath_regs_0_0 (xilinx.com:user:regs:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'DataPath_regs_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'a0'
+
+-Upgrade has added port 'a1'
+
+-Upgrade has added port 'a2'
+
+-Upgrade has added port 'a3'
+
+-Upgrade has added port 'a4'
+
+-Upgrade has added port 'a5'
+
+-Upgrade has added port 'a6'
+
+-Upgrade has added port 'a7'
+
+-Upgrade has added port 'gp'
+
+-Upgrade has added port 'ra'
+
+-Upgrade has added port 's0'
+
+-Upgrade has added port 's1'
+
+-Upgrade has added port 's10'
+
+-Upgrade has added port 's11'
+
+-Upgrade has added port 's2'
+
+-Upgrade has added port 's3'
+
+-Upgrade has added port 's4'
+
+-Upgrade has added port 's5'
+
+-Upgrade has added port 's6'
+
+-Upgrade has added port 's7'
+
+-Upgrade has added port 's8'
+
+-Upgrade has added port 's9'
+
+-Upgrade has added port 'sp'
+
+-Upgrade has added port 't0'
+
+-Upgrade has added port 't1'
+
+-Upgrade has added port 't2'
+
+-Upgrade has added port 't3'
+
+-Upgrade has added port 't4'
+
+-Upgrade has added port 't5'
+
+-Upgrade has added port 't6'
+
+-Upgrade has added port 'tp'
+
+-Upgrade has added port 'x0'
+
+
+
+
+
+
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Wed Apr 14 15:39:15 2021
+| Host         : LAPTOP-VIEPELG3 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7k160tffg676-2L
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'DataPath_ALU_wrapper_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of DataPath_ALU_wrapper_0_0 (xilinx.com:user:ALU_wrapper:1.0 (Rev. 2)) to Vivado generation flows.
+

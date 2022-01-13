@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp03/OExp03_div32/OExp03_div32.srcs/sources_1/new/div32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp03/OExp03_div32/OExp03_div32.srcs/sim_1/new/div32_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module div32_tb

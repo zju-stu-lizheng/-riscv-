@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../cache.gen/sources_1/ip/Tag_ram1/sim/Tag_ram1.v" \
+"../../../../cache.gen/sources_1/ip/Tag_ram0/sim/Tag_ram0.v" \
+"../../../../cache.gen/sources_1/ip/Data_ram1/sim/Data_ram1.v" \
+"../../../../cache.gen/sources_1/ip/Data_ram0/sim/Data_ram0.v" \
+"../../../../cache.srcs/sources_1/new/Cache.v" \
+"../../../../cache.srcs/sim_1/new/cache_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

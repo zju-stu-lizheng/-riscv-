@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"IP2CPU": {
+			"proto_instances": {
+			}
+		}
+	}
+}

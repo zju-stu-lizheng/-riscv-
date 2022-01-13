@@ -1,0 +1,1219 @@
+
+*** Running vivado
+    with args -log CSSTE_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source CSSTE_wrapper.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source CSSTE_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/OExp04/OExp02-IP2SOC/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/vivado/OExp04/OExp02-IP2SOC/SCPU_code'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/ISE/Xilinx/Vivado/2017.4/data/ip'.
+Command: synth_design -top CSSTE_wrapper -part xc7k160tffg676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 33156 
+WARNING: [Synth 8-2254] instance name 'inst' matches net/port name [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_VGA_0_0/synth/CSSTE_VGA_0_0.v:157]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 417.586 ; gain = 109.680
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'CSSTE_wrapper' [D:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/hdl/CSSTE_wrapper.v:12]
+INFO: [Synth 8-638] synthesizing module 'CSSTE' [D:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.v:13]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_IP2CPU_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_IP2CPU_0_0/synth/CSSTE_IP2CPU_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'IP2CPU' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/IP2CPU.v:23]
+INFO: [Synth 8-638] synthesizing module 'SCPU_ctrl' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/SCPU_ctrl.v:23]
+INFO: [Synth 8-226] default block is never used [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/SCPU_ctrl.v:70]
+INFO: [Synth 8-226] default block is never used [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/SCPU_ctrl.v:73]
+INFO: [Synth 8-155] case statement is not full and has no default [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/SCPU_ctrl.v:90]
+INFO: [Synth 8-256] done synthesizing module 'SCPU_ctrl' (1#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/SCPU_ctrl.v:23]
+WARNING: [Synth 8-350] instance 'Controller' of module 'SCPU_ctrl' requires 15 connections, but only 13 given [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/IP2CPU.v:123]
+INFO: [Synth 8-638] synthesizing module 'datapath_code' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/datapath_code.v:23]
+INFO: [Synth 8-638] synthesizing module 'ALU' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/ALU.v:23]
+WARNING: [Synth 8-3848] Net overflow in module/entity ALU does not have driver. [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/ALU.v:29]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (2#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/ALU.v:23]
+WARNING: [Synth 8-350] instance 'alu' of module 'ALU' requires 6 connections, but only 5 given [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/datapath_code.v:136]
+INFO: [Synth 8-638] synthesizing module 'REG32' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/REG32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'REG32' (3#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/REG32.v:23]
+INFO: [Synth 8-638] synthesizing module 'ImmGen' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/ImmGen.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ImmGen' (4#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/ImmGen.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUX4T1_32' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/MUX4T1_32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX4T1_32' (5#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/MUX4T1_32.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUX2T1_32' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/MUX2T1_32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX2T1_32' (6#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/MUX2T1_32.v:23]
+INFO: [Synth 8-638] synthesizing module 'Regs' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/Regs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Regs' (7#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/Regs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'datapath_code' (8#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/datapath_code.v:23]
+WARNING: [Synth 8-3848] Net CPU_MIO in module/entity IP2CPU does not have driver. [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/IP2CPU.v:78]
+INFO: [Synth 8-256] done synthesizing module 'IP2CPU' (9#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/IP2CPU.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_IP2CPU_0_0' (10#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_IP2CPU_0_0/synth/CSSTE_IP2CPU_0_0.v:57]
+WARNING: [Synth 8-350] instance 'IP2CPU_0' of module 'CSSTE_IP2CPU_0_0' requires 42 connections, but only 41 given [D:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.v:163]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_xlslice_0_6' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_6/synth/CSSTE_xlslice_0_6.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 11 - type: integer 
+	Parameter DIN_TO bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice' (11#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_xlslice_0_6' (12#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_6/synth/CSSTE_xlslice_0_6.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_xlslice_1_2' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_1_2/synth/CSSTE_xlslice_1_2.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 31 - type: integer 
+	Parameter DIN_TO bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized0' (12#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_xlslice_1_2' (13#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_1_2/synth/CSSTE_xlslice_1_2.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_Counter_x_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_Counter_x_0_0/synth/CSSTE_Counter_x_0_0.v:92]
+INFO: [Synth 8-638] synthesizing module 'Counter_x' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_Counter_x_0_0/synth/CSSTE_Counter_x_0_0.v:55]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_Counter_x_0_0' (14#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_Counter_x_0_0/synth/CSSTE_Counter_x_0_0.v:92]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_VGA_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_VGA_0_0/synth/CSSTE_VGA_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'VGA' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:23]
+INFO: [Synth 8-638] synthesizing module 'VgaController' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VgaController.v:23]
+	Parameter HS_1 bound to: 96 - type: integer 
+	Parameter VS_1 bound to: 2 - type: integer 
+	Parameter HS_2 bound to: 147 - type: integer 
+	Parameter VS_2 bound to: 35 - type: integer 
+	Parameter WIDTH bound to: 640 - type: integer 
+	Parameter HEIGHT bound to: 480 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'VgaController' (15#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VgaController.v:23]
+INFO: [Synth 8-638] synthesizing module 'VgaDisplay' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VgaDisplay.v:23]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VgaDisplay.v:36]
+INFO: [Synth 8-3876] $readmem data file 'D://vga_debugger.mem' is read successfully [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VgaDisplay.v:37]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "block" *) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VgaDisplay.v:46]
+INFO: [Synth 8-3876] $readmem data file 'D://font_8x16.mem' is read successfully [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VgaDisplay.v:47]
+INFO: [Synth 8-256] done synthesizing module 'VgaDisplay' (16#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VgaDisplay.v:23]
+INFO: [Synth 8-638] synthesizing module 'VgaDebugger' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VgaDebugger.v:23]
+INFO: [Synth 8-638] synthesizing module 'Hex2Ascii' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/Hex2Ascii.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Hex2Ascii' (17#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/Hex2Ascii.v:23]
+INFO: [Synth 8-256] done synthesizing module 'VgaDebugger' (18#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VgaDebugger.v:23]
+INFO: [Synth 8-256] done synthesizing module 'VGA' (19#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_VGA_0_0' (20#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_VGA_0_0/synth/CSSTE_VGA_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_dist_mem_gen_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_dist_mem_gen_0_0/synth/CSSTE_dist_mem_gen_0_0.vhd:66]
+	Parameter C_FAMILY bound to: kintex7 - type: string 
+	Parameter C_ADDR_WIDTH bound to: 10 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_DEPTH bound to: 1024 - type: integer 
+	Parameter C_HAS_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_D bound to: 0 - type: integer 
+	Parameter C_HAS_DPO bound to: 0 - type: integer 
+	Parameter C_HAS_DPRA bound to: 0 - type: integer 
+	Parameter C_HAS_I_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_SPO bound to: 1 - type: integer 
+	Parameter C_HAS_WE bound to: 0 - type: integer 
+	Parameter C_MEM_INIT_FILE bound to: CSSTE_dist_mem_gen_0_0.mif - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_QCE_JOINED bound to: 0 - type: integer 
+	Parameter C_QUALIFY_WE bound to: 0 - type: integer 
+	Parameter C_READ_MIF bound to: 1 - type: integer 
+	Parameter C_REG_A_D_INPUTS bound to: 0 - type: integer 
+	Parameter C_REG_DPRA_INPUT bound to: 0 - type: integer 
+	Parameter C_SYNC_ENABLE bound to: 1 - type: integer 
+	Parameter C_WIDTH bound to: 32 - type: integer 
+	Parameter C_PARSER_TYPE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'dist_mem_gen_v8_0_12' declared at 'd:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/d46a/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd:3237' bound to instance 'U0' of component 'dist_mem_gen_v8_0_12' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_dist_mem_gen_0_0/synth/CSSTE_dist_mem_gen_0_0.vhd:132]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_dist_mem_gen_0_0' (24#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_dist_mem_gen_0_0/synth/CSSTE_dist_mem_gen_0_0.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_dist_mem_gen_0_1' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_dist_mem_gen_0_1/synth/CSSTE_dist_mem_gen_0_1.vhd:69]
+	Parameter C_FAMILY bound to: kintex7 - type: string 
+	Parameter C_ADDR_WIDTH bound to: 10 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_DEPTH bound to: 1024 - type: integer 
+	Parameter C_HAS_CLK bound to: 1 - type: integer 
+	Parameter C_HAS_D bound to: 1 - type: integer 
+	Parameter C_HAS_DPO bound to: 0 - type: integer 
+	Parameter C_HAS_DPRA bound to: 0 - type: integer 
+	Parameter C_HAS_I_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_CLK bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QDPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_CE bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_RST bound to: 0 - type: integer 
+	Parameter C_HAS_QSPO_SRST bound to: 0 - type: integer 
+	Parameter C_HAS_SPO bound to: 1 - type: integer 
+	Parameter C_HAS_WE bound to: 1 - type: integer 
+	Parameter C_MEM_INIT_FILE bound to: CSSTE_dist_mem_gen_0_1.mif - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_MEM_TYPE bound to: 1 - type: integer 
+	Parameter C_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_QCE_JOINED bound to: 0 - type: integer 
+	Parameter C_QUALIFY_WE bound to: 0 - type: integer 
+	Parameter C_READ_MIF bound to: 1 - type: integer 
+	Parameter C_REG_A_D_INPUTS bound to: 0 - type: integer 
+	Parameter C_REG_DPRA_INPUT bound to: 0 - type: integer 
+	Parameter C_SYNC_ENABLE bound to: 1 - type: integer 
+	Parameter C_WIDTH bound to: 32 - type: integer 
+	Parameter C_PARSER_TYPE bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'dist_mem_gen_v8_0_12' declared at 'd:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/d46a/hdl/dist_mem_gen_v8_0_vhsyn_rfs.vhd:3237' bound to instance 'U0' of component 'dist_mem_gen_v8_0_12' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_dist_mem_gen_0_1/synth/CSSTE_dist_mem_gen_0_1.vhd:135]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_dist_mem_gen_0_1' (26#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_dist_mem_gen_0_1/synth/CSSTE_dist_mem_gen_0_1.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_MIO_BUS_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_MIO_BUS_0_0/synth/CSSTE_MIO_BUS_0_0.v:110]
+INFO: [Synth 8-638] synthesizing module 'MIO_BUS' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_MIO_BUS_0_0/synth/CSSTE_MIO_BUS_0_0.v:55]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_MIO_BUS_0_0' (27#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_MIO_BUS_0_0/synth/CSSTE_MIO_BUS_0_0.v:110]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_Multi_8CH32_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_Multi_8CH32_0_0/synth/CSSTE_Multi_8CH32_0_0.v:102]
+INFO: [Synth 8-638] synthesizing module 'Multi_8CH32' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_Multi_8CH32_0_0/synth/CSSTE_Multi_8CH32_0_0.v:55]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_Multi_8CH32_0_0' (28#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_Multi_8CH32_0_0/synth/CSSTE_Multi_8CH32_0_0.v:102]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_SSeg7_Dev_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_SSeg7_Dev_0_0/synth/CSSTE_SSeg7_Dev_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'SSeg7_Dev' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/SSeg7_Dev.v:23]
+INFO: [Synth 8-638] synthesizing module 'MUX2T1_64' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/MUX2T1_64.v:23]
+INFO: [Synth 8-256] done synthesizing module 'MUX2T1_64' (29#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/MUX2T1_64.v:23]
+INFO: [Synth 8-638] synthesizing module 'P2S' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/P2S.v:23]
+	Parameter DATA_BITS bound to: 64 - type: integer 
+	Parameter DATA_COUNT_BITS bound to: 6 - type: integer 
+	Parameter S_IDLE bound to: 0 - type: integer 
+	Parameter S_TRAN bound to: 1 - type: integer 
+	Parameter S_CLKN bound to: 2 - type: integer 
+	Parameter S_DONE bound to: 3 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/P2S.v:63]
+WARNING: [Synth 8-5788] Register buffer_reg in module P2S is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/P2S.v:51]
+INFO: [Synth 8-256] done synthesizing module 'P2S' (30#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/P2S.v:23]
+INFO: [Synth 8-638] synthesizing module 'HexTo8SEG' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/HexTo8SEG.v:23]
+INFO: [Synth 8-638] synthesizing module 'Hex2Seg' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/HexTo8SEG.v:43]
+INFO: [Synth 8-638] synthesizing module 'MC14495_ZJU' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/MC14495_ZJU.v:23]
+INFO: [Synth 8-638] synthesizing module 'INV' [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:22577]
+INFO: [Synth 8-256] done synthesizing module 'INV' (31#1) [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:22577]
+INFO: [Synth 8-638] synthesizing module 'AND4' [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-256] done synthesizing module 'AND4' (32#1) [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:108]
+INFO: [Synth 8-638] synthesizing module 'OR4' [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30939]
+INFO: [Synth 8-256] done synthesizing module 'OR4' (33#1) [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30939]
+INFO: [Synth 8-638] synthesizing module 'AND3' [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-256] done synthesizing module 'AND3' (34#1) [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:60]
+INFO: [Synth 8-638] synthesizing module 'OR3' [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30891]
+INFO: [Synth 8-256] done synthesizing module 'OR3' (35#1) [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30891]
+INFO: [Synth 8-638] synthesizing module 'AND2' [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-256] done synthesizing module 'AND2' (36#1) [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:14]
+INFO: [Synth 8-638] synthesizing module 'OR2' [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30845]
+INFO: [Synth 8-256] done synthesizing module 'OR2' (37#1) [D:/ISE/Xilinx/Vivado/2017.4/scripts/rt/data/unisim_comp.v:30845]
+INFO: [Synth 8-256] done synthesizing module 'MC14495_ZJU' (38#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/MC14495_ZJU.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Hex2Seg' (39#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/HexTo8SEG.v:43]
+INFO: [Synth 8-256] done synthesizing module 'HexTo8SEG' (40#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/HexTo8SEG.v:23]
+INFO: [Synth 8-638] synthesizing module 'SSeg_map' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/SSeg_map.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SSeg_map' (41#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/SSeg_map.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SSeg7_Dev' (42#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/67de/SSeg7_Dev.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_SSeg7_Dev_0_0' (43#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_SSeg7_Dev_0_0/synth/CSSTE_SSeg7_Dev_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_SPIO_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_SPIO_0_0/synth/CSSTE_SPIO_0_0.v:94]
+INFO: [Synth 8-638] synthesizing module 'SPIO' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_SPIO_0_0/synth/CSSTE_SPIO_0_0.v:55]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_SPIO_0_0' (44#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_SPIO_0_0/synth/CSSTE_SPIO_0_0.v:94]
+WARNING: [Synth 8-350] instance 'U7' of module 'CSSTE_SPIO_0_0' requires 12 connections, but only 11 given [D:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.v:334]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_clk_div_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_clk_div_0_0/synth/CSSTE_clk_div_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'clk_div' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/0ee6/sources_1/new/clk_div.v:23]
+INFO: [Synth 8-256] done synthesizing module 'clk_div' (45#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/0ee6/sources_1/new/clk_div.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_clk_div_0_0' (46#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_clk_div_0_0/synth/CSSTE_clk_div_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_SAnti_jitter_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_SAnti_jitter_0_0/synth/CSSTE_SAnti_jitter_0_0.v:96]
+INFO: [Synth 8-638] synthesizing module 'SAnti_jitter' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_SAnti_jitter_0_0/synth/CSSTE_SAnti_jitter_0_0.v:55]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_SAnti_jitter_0_0' (47#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_SAnti_jitter_0_0/synth/CSSTE_SAnti_jitter_0_0.v:96]
+WARNING: [Synth 8-350] instance 'U9' of module 'CSSTE_SAnti_jitter_0_0' requires 13 connections, but only 8 given [D:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.v:354]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_b64_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_b64_0_0/synth/CSSTE_b64_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlconstant_v1_1_3_xlconstant' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 0 - type: integer 
+	Parameter CONST_WIDTH bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlconstant_v1_1_3_xlconstant' (48#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_b64_0_0' (49#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_b64_0_0/synth/CSSTE_b64_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_xlconstant_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlconstant_0_0/synth/CSSTE_xlconstant_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlconstant_v1_1_3_xlconstant__parameterized0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter CONST_WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlconstant_v1_1_3_xlconstant__parameterized0' (49#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/0750/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_xlconstant_0_0' (50#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlconstant_0_0/synth/CSSTE_xlconstant_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_xlslice_1_1' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_1_1/synth/CSSTE_xlslice_1_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized1' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 1 - type: integer 
+	Parameter DIN_TO bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized1' (50#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_xlslice_1_1' (51#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_1_1/synth/CSSTE_xlslice_1_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_xlslice_0_5' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_5/synth/CSSTE_xlslice_0_5.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized2' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 11 - type: integer 
+	Parameter DIN_TO bound to: 11 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized2' (51#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_xlslice_0_5' (52#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_5/synth/CSSTE_xlslice_0_5.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_xlslice_1_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_1_0/synth/CSSTE_xlslice_1_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized3' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 20 - type: integer 
+	Parameter DIN_TO bound to: 20 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized3' (52#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_xlslice_1_0' (53#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_1_0/synth/CSSTE_xlslice_1_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_div20_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_div20_0/synth/CSSTE_div20_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized4' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 25 - type: integer 
+	Parameter DIN_TO bound to: 25 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized4' (53#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_div20_0' (54#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_div20_0/synth/CSSTE_div20_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_xlconcat_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlconcat_0_0/synth/CSSTE_xlconcat_0_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'xlconcat_v2_1_1_xlconcat' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 32 - type: integer 
+	Parameter IN1_WIDTH bound to: 32 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 64 - type: integer 
+	Parameter NUM_PORTS bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlconcat_v2_1_1_xlconcat' (55#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_xlconcat_0_0' (56#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlconcat_0_0/synth/CSSTE_xlconcat_0_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_xlslice_0_3' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_3/synth/CSSTE_xlslice_0_3.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized5' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 6 - type: integer 
+	Parameter DIN_TO bound to: 6 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized5' (56#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_xlslice_0_3' (57#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_3/synth/CSSTE_xlslice_0_3.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_xlslice_0_4' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_4/synth/CSSTE_xlslice_0_4.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized6' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 9 - type: integer 
+	Parameter DIN_TO bound to: 9 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized6' (57#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_xlslice_0_4' (58#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_4/synth/CSSTE_xlslice_0_4.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_div25_1' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_div25_1/synth/CSSTE_div25_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized7' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 16 - type: integer 
+	Parameter DIN_FROM bound to: 0 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized7' (58#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_div25_1' (59#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_div25_1/synth/CSSTE_div25_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_xlslice_0_1' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_1/synth/CSSTE_xlslice_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized8' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 16 - type: integer 
+	Parameter DIN_FROM bound to: 2 - type: integer 
+	Parameter DIN_TO bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized8' (59#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_xlslice_0_1' (60#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_1/synth/CSSTE_xlslice_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_div25_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_div25_0/synth/CSSTE_div25_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized9' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 16 - type: integer 
+	Parameter DIN_FROM bound to: 7 - type: integer 
+	Parameter DIN_TO bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized9' (60#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_div25_0' (61#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_div25_0/synth/CSSTE_div25_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_xlslice_0_2' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_2/synth/CSSTE_xlslice_0_2.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized10' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 16 - type: integer 
+	Parameter DIN_FROM bound to: 8 - type: integer 
+	Parameter DIN_TO bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized10' (61#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_xlslice_0_2' (62#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_2/synth/CSSTE_xlslice_0_2.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_xlslice_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_0/synth/CSSTE_xlslice_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized11' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 16 - type: integer 
+	Parameter DIN_FROM bound to: 9 - type: integer 
+	Parameter DIN_TO bound to: 9 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized11' (62#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_xlslice_0_0' (63#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlslice_0_0/synth/CSSTE_xlslice_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_util_vector_logic_0_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_util_vector_logic_0_0/synth/CSSTE_util_vector_logic_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'util_vector_logic_v2_0_1_util_vector_logic' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2137/hdl/util_vector_logic_v2_0_vl_rfs.v:45]
+	Parameter C_OPERATION bound to: not - type: string 
+	Parameter C_SIZE bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'util_vector_logic_v2_0_1_util_vector_logic' (64#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2137/hdl/util_vector_logic_v2_0_vl_rfs.v:45]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_util_vector_logic_0_0' (65#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_util_vector_logic_0_0/synth/CSSTE_util_vector_logic_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_util_vector_logic_1_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_util_vector_logic_1_0/synth/CSSTE_util_vector_logic_1_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_util_vector_logic_1_0' (66#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_util_vector_logic_1_0/synth/CSSTE_util_vector_logic_1_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'CSSTE_xlconcat_1_0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlconcat_1_0/synth/CSSTE_xlconcat_1_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized0' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+	Parameter IN0_WIDTH bound to: 30 - type: integer 
+	Parameter IN1_WIDTH bound to: 2 - type: integer 
+	Parameter IN2_WIDTH bound to: 1 - type: integer 
+	Parameter IN3_WIDTH bound to: 1 - type: integer 
+	Parameter IN4_WIDTH bound to: 1 - type: integer 
+	Parameter IN5_WIDTH bound to: 1 - type: integer 
+	Parameter IN6_WIDTH bound to: 1 - type: integer 
+	Parameter IN7_WIDTH bound to: 1 - type: integer 
+	Parameter IN8_WIDTH bound to: 1 - type: integer 
+	Parameter IN9_WIDTH bound to: 1 - type: integer 
+	Parameter IN10_WIDTH bound to: 1 - type: integer 
+	Parameter IN11_WIDTH bound to: 1 - type: integer 
+	Parameter IN12_WIDTH bound to: 1 - type: integer 
+	Parameter IN13_WIDTH bound to: 1 - type: integer 
+	Parameter IN14_WIDTH bound to: 1 - type: integer 
+	Parameter IN15_WIDTH bound to: 1 - type: integer 
+	Parameter IN16_WIDTH bound to: 1 - type: integer 
+	Parameter IN17_WIDTH bound to: 1 - type: integer 
+	Parameter IN18_WIDTH bound to: 1 - type: integer 
+	Parameter IN19_WIDTH bound to: 1 - type: integer 
+	Parameter IN20_WIDTH bound to: 1 - type: integer 
+	Parameter IN21_WIDTH bound to: 1 - type: integer 
+	Parameter IN22_WIDTH bound to: 1 - type: integer 
+	Parameter IN23_WIDTH bound to: 1 - type: integer 
+	Parameter IN24_WIDTH bound to: 1 - type: integer 
+	Parameter IN25_WIDTH bound to: 1 - type: integer 
+	Parameter IN26_WIDTH bound to: 1 - type: integer 
+	Parameter IN27_WIDTH bound to: 1 - type: integer 
+	Parameter IN28_WIDTH bound to: 1 - type: integer 
+	Parameter IN29_WIDTH bound to: 1 - type: integer 
+	Parameter IN30_WIDTH bound to: 1 - type: integer 
+	Parameter IN31_WIDTH bound to: 1 - type: integer 
+	Parameter dout_width bound to: 32 - type: integer 
+	Parameter NUM_PORTS bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'xlconcat_v2_1_1_xlconcat__parameterized0' (66#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2f66/hdl/xlconcat_v2_1_vl_rfs.v:14]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_xlconcat_1_0' (67#1) [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_xlconcat_1_0/synth/CSSTE_xlconcat_1_0.v:58]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE' (68#1) [D:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/synth/CSSTE.v:13]
+INFO: [Synth 8-256] done synthesizing module 'CSSTE_wrapper' (69#1) [D:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/hdl/CSSTE_wrapper.v:12]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In2[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In3[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In4[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In5[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In6[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In7[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In8[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In9[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In10[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In11[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In12[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In13[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In14[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In15[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In16[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In17[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In18[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In19[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In20[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In21[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In22[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In23[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In24[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In25[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In26[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In27[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In28[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In29[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In30[0]
+WARNING: [Synth 8-3331] design xlconcat_v2_1_1_xlconcat__parameterized0 has unconnected port In31[0]
+WARNING: [Synth 8-3331] design util_vector_logic_v2_0_1_util_vector_logic has unconnected port Op2[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized11 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized10 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized9 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized9 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized9 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized9 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized9 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized9 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized9 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized9 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized9 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized9 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized9 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized9 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized9 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized8 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized7 has unconnected port Din[5]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 496.727 ; gain = 188.820
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1[4] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1[3] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1[2] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1[1] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1[0] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[31] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[30] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[29] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[28] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[27] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[26] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[25] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[24] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[23] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[22] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[21] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[20] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[19] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[18] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[17] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[16] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[15] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[14] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[13] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[12] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[11] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[10] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[9] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[8] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[7] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[6] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[5] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[4] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[3] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[2] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[1] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs1_val[0] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2[4] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2[3] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2[2] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2[1] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2[0] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[31] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[30] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[29] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[28] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[27] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[26] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[25] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[24] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[23] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[22] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[21] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[20] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[19] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[18] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[17] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[16] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[15] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[14] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[13] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[12] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[11] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[10] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[9] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[8] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[7] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[6] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[5] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[4] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[3] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[2] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[1] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rs2_val[0] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rd[4] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rd[3] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rd[2] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rd[1] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:rd[0] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[31] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[30] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[29] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[28] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[27] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[26] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[25] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[24] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[23] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[22] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[21] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[20] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[19] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[18] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[17] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[16] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[15] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[14] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[13] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[12] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+WARNING: [Synth 8-3295] tying undriven pin vga_debugger:reg_i_data[11] to constant 0 [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/2990/VGA.v:100]
+INFO: [Common 17-14] Message 'Synth 8-3295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 496.727 ; gain = 188.820
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 320 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Device 21-403] Loading part xc7k160tffg676-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/Org-Sword.xdc]
+Finished Parsing XDC File [D:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/Org-Sword.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/constrs_1/imports/OExp02-IP2SOC/Org-Sword.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/CSSTE_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/CSSTE_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [D:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 320 instances were transformed.
+  AND2 => LUT2: 8 instances
+  AND3 => LUT3: 88 instances
+  AND4 => LUT4: 72 instances
+  INV => LUT1: 40 instances
+  OR2 => LUT2: 56 instances
+  OR3 => LUT3: 24 instances
+  OR4 => LUT4: 32 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 842.023 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 842.023 ; gain = 534.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tffg676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 842.023 ; gain = 534.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for CSSTE_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/IP2CPU_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/PC11_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/PC31_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/U10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/U11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/U2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/U3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/U4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/U5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/U6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/U7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/U8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/U9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/b2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/b64_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/div1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/div11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/div20. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/div25. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/div31_31. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/div6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/div9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/sw0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/sw2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/sw7_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/sw8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/sw9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/util_vector_logic_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/util_vector_logic_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for CSSTE_i/xlconcat_1. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:36 . Memory (MB): peak = 842.023 ; gain = 534.117
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5587] ROM size for "ImmSel" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "ALUSrc_B" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5587] ROM size for "MemtoReg" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "Jump" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "RegWrite" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5546] ROM "MemRW" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUop" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "Branch" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BranchN" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "register_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "register_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "v_count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5547] Trying to map ROM "fonts_data" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5546] ROM "display_wen" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "shift_count" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-6014] Unused sequential element clkdiv_reg was removed.  [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/0ee6/sources_1/new/clk_div.v:33]
+WARNING: [Synth 8-327] inferring latch for variable 'Branch_reg' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/SCPU_ctrl.v:91]
+WARNING: [Synth 8-327] inferring latch for variable 'BranchN_reg' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/SCPU_ctrl.v:92]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:39 ; elapsed = 00:00:44 . Memory (MB): peak = 842.023 ; gain = 534.117
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     12 Bit       Adders := 1     
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 1     
+	   3 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 33    
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 2     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   4 Input     64 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	  14 Input      4 Bit        Muxes := 1     
+	 449 Input      4 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 3     
+	   5 Input      2 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 38    
+	 449 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module SCPU_ctrl 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input      4 Bit        Muxes := 1     
+	  14 Input      4 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	   9 Input      2 Bit        Muxes := 3     
+	   9 Input      1 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 2     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   3 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+Module REG32 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module MUX4T1_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module MUX2T1_32 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module Regs 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 31    
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 31    
+Module datapath_code 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+Module VgaController 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     10 Bit       Adders := 3     
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	               10 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module VgaDisplay 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 1     
+Module VgaDebugger 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
++---Registers : 
+	               12 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     12 Bit        Muxes := 1     
+	 449 Input      4 Bit        Muxes := 1     
+	 449 Input      1 Bit        Muxes := 1     
+Module spram 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module MUX2T1_64 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+Module P2S 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input     64 Bit        Muxes := 1     
+	   4 Input      6 Bit        Muxes := 1     
+	   5 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 5     
+Module clk_div 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "inst__0/vga_controller/v_count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5547] Trying to map ROM "p_0_out" into Block RAM due to explicit "ram_style" or "rom_style" specification
+INFO: [Synth 8-5546] ROM "inst__0/vga_debugger/display_wen" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element inst/clkdiv_reg was removed.  [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/0ee6/sources_1/new/clk_div.v:33]
+WARNING: [Synth 8-3463] Infeasible ramstyle = block set for RAM inst__0/vga_display/display_data_reg,trying to implement using LUTRAM
+WARNING: [Synth 8-3463] Infeasible ramstyle = block set for RAM inst__0/vga_display/display_data_reg,trying to implement using LUTRAM
+INFO: [Synth 8-3332] Sequential element (inst/Controller/Branch_reg) is unused and will be removed from module CSSTE_IP2CPU_0_0.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'CSSTE_i/IP2CPU_0/inst/Controller/Branch_reg/Q' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/SCPU_ctrl.v:91]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/SCPU_ctrl.v:91]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/SCPU_ctrl.v:91]
+INFO: [Synth 8-3332] Sequential element (inst/Controller/BranchN_reg) is unused and will be removed from module CSSTE_IP2CPU_0_0.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'CSSTE_i/IP2CPU_0/inst/Controller/BranchN_reg/Q' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/SCPU_ctrl.v:92]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/SCPU_ctrl.v:92]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ipshared/36c8/src/SCPU_ctrl.v:92]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:56 ; elapsed = 00:03:01 . Memory (MB): peak = 852.707 ; gain = 544.801
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++---------------------+--------------------------------------------------------+---------------+----------------+
+|Module Name          | RTL Object                                             | Depth x Width | Implemented As | 
++---------------------+--------------------------------------------------------+---------------+----------------+
+|VgaDisplay           | p_0_out                                                | 4096x8        | LUT            | 
+|rom                  | rom[1023]                                              | 1024x32       | LUT            | 
+|CSSTE_VGA_0_0        | p_0_out                                                | 4096x8        | LUT            | 
+|dist_mem_gen_v8_0_12 | synth_options.dist_mem_inst/gen_rom.rom_inst/rom[1023] | 1024x32       | LUT            | 
++---------------------+--------------------------------------------------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++--------------+-----------------------------------------------------------+----------------+----------------------+--------------------------------+
+|Module Name   | RTL Object                                                | Inference      | Size (Depth x Width) | Primitives                     | 
++--------------+-----------------------------------------------------------+----------------+----------------------+--------------------------------+
+|CSSTE_i/U11   | inst__0/vga_display/display_data_reg                      | Implied        | 4 K x 7              | RAM64X1D x 128  RAM64M x 128   | 
+|CSSTE_i/U3/U0 | synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg | User Attribute | 1 K x 32             | RAM256X1S x 128                | 
++--------------+-----------------------------------------------------------+----------------+----------------------+--------------------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:05 ; elapsed = 00:03:10 . Memory (MB): peak = 905.949 ; gain = 598.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:03:13 ; elapsed = 00:03:18 . Memory (MB): peak = 908.297 ; gain = 600.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++--------------+-----------------------------------------------------------+----------------+----------------------+--------------------------------+
+|Module Name   | RTL Object                                                | Inference      | Size (Depth x Width) | Primitives                     | 
++--------------+-----------------------------------------------------------+----------------+----------------------+--------------------------------+
+|CSSTE_i/U11   | inst__0/vga_display/display_data_reg                      | Implied        | 4 K x 7              | RAM64X1D x 128  RAM64M x 128   | 
+|CSSTE_i/U3/U0 | synth_options.dist_mem_inst/gen_sp_ram.spram_inst/ram_reg | User Attribute | 1 K x 32             | RAM256X1S x 128                | 
++--------------+-----------------------------------------------------------+----------------+----------------------+--------------------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:03:18 ; elapsed = 00:03:24 . Memory (MB): peak = 970.582 ; gain = 662.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:03:19 ; elapsed = 00:03:25 . Memory (MB): peak = 970.582 ; gain = 662.676
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:03:19 ; elapsed = 00:03:25 . Memory (MB): peak = 970.582 ; gain = 662.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:20 ; elapsed = 00:03:25 . Memory (MB): peak = 970.582 ; gain = 662.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:20 ; elapsed = 00:03:25 . Memory (MB): peak = 970.582 ; gain = 662.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:20 ; elapsed = 00:03:26 . Memory (MB): peak = 970.582 ; gain = 662.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:20 ; elapsed = 00:03:26 . Memory (MB): peak = 970.582 ; gain = 662.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |Counter_x     |         1|
+|2     |MIO_BUS       |         1|
+|3     |Multi_8CH32   |         1|
+|4     |SPIO          |         1|
+|5     |SAnti_jitter  |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+--------------------+------+
+|      |Cell                |Count |
++------+--------------------+------+
+|1     |Counter_x_bbox_0    |     1|
+|2     |MIO_BUS_bbox_1      |     1|
+|3     |Multi_8CH32_bbox_2  |     1|
+|4     |SAnti_jitter_bbox_4 |     1|
+|5     |SPIO_bbox_3         |     1|
+|6     |AND2                |     8|
+|7     |AND3                |    88|
+|8     |AND4                |    72|
+|9     |BUFG                |     1|
+|10    |CARRY4              |    59|
+|11    |INV                 |    40|
+|12    |LUT1                |    61|
+|13    |LUT2                |   178|
+|14    |LUT3                |   229|
+|15    |LUT4                |   287|
+|16    |LUT5                |   488|
+|17    |LUT6                |  2311|
+|18    |MUXF7               |   382|
+|19    |MUXF8               |   133|
+|20    |OR2                 |    56|
+|21    |OR3                 |    24|
+|22    |OR4                 |    32|
+|23    |RAM256X1S           |   128|
+|24    |RAM64M              |   128|
+|25    |RAM64X1D            |   128|
+|26    |FDCE                |  1066|
+|27    |FDRE                |   149|
+|28    |FDSE                |     2|
+|29    |IBUF                |    22|
+|30    |OBUF                |    22|
++------+--------------------+------+
+
+Report Instance Areas: 
++------+--------------------------------------+-------------------------------------------+------+
+|      |Instance                              |Module                                     |Cells |
++------+--------------------------------------+-------------------------------------------+------+
+|1     |top                                   |                                           |  6360|
+|2     |  CSSTE_i                             |CSSTE                                      |  6315|
+|3     |    IP2CPU_0                          |CSSTE_IP2CPU_0_0                           |  2658|
+|4     |      inst                            |IP2CPU                                     |  2655|
+|5     |        DataPath                      |datapath_code                              |  2655|
+|6     |          PC                          |REG32                                      |   124|
+|7     |          alu                         |ALU                                        |    47|
+|8     |          m3                          |Regs                                       |  2468|
+|9     |    PC11_2                            |CSSTE_xlslice_0_6                          |     0|
+|10    |    PC31_2                            |CSSTE_xlslice_1_2                          |     0|
+|11    |    U10                               |CSSTE_Counter_x_0_0                        |    35|
+|12    |    U11                               |CSSTE_VGA_0_0                              |  2648|
+|13    |      inst__0                         |VGA                                        |  2648|
+|14    |        vga_controller                |VgaController                              |   813|
+|15    |        vga_debugger                  |VgaDebugger                                |  1263|
+|16    |        vga_display                   |VgaDisplay                                 |   572|
+|17    |    U2                                |CSSTE_dist_mem_gen_0_0                     |    20|
+|18    |      U0                              |dist_mem_gen_v8_0_12                       |    20|
+|19    |        \synth_options.dist_mem_inst  |dist_mem_gen_v8_0_12_synth                 |    20|
+|20    |          \gen_rom.rom_inst           |rom                                        |    20|
+|21    |    U3                                |CSSTE_dist_mem_gen_0_1                     |   196|
+|22    |      U0                              |dist_mem_gen_v8_0_12__parameterized1       |   196|
+|23    |        \synth_options.dist_mem_inst  |dist_mem_gen_v8_0_12_synth__parameterized0 |   196|
+|24    |          \gen_sp_ram.spram_inst      |spram                                      |   196|
+|25    |    U4                                |CSSTE_MIO_BUS_0_0                          |   110|
+|26    |    U5                                |CSSTE_Multi_8CH32_0_0                      |    48|
+|27    |    U6                                |CSSTE_SSeg7_Dev_0_0                        |   483|
+|28    |      inst                            |SSeg7_Dev                                  |   483|
+|29    |        M2                            |P2S                                        |   154|
+|30    |        SM1                           |HexTo8SEG                                  |   329|
+|31    |          HTS0                        |Hex2Seg                                    |    41|
+|32    |            MSEG                      |MC14495_ZJU_13                             |    41|
+|33    |          HTS1                        |Hex2Seg_0                                  |    41|
+|34    |            MSEG                      |MC14495_ZJU_12                             |    41|
+|35    |          HTS2                        |Hex2Seg_1                                  |    41|
+|36    |            MSEG                      |MC14495_ZJU_11                             |    41|
+|37    |          HTS3                        |Hex2Seg_2                                  |    41|
+|38    |            MSEG                      |MC14495_ZJU_10                             |    41|
+|39    |          HTS4                        |Hex2Seg_3                                  |    41|
+|40    |            MSEG                      |MC14495_ZJU_9                              |    41|
+|41    |          HTS5                        |Hex2Seg_4                                  |    41|
+|42    |            MSEG                      |MC14495_ZJU_8                              |    41|
+|43    |          HTS6                        |Hex2Seg_5                                  |    41|
+|44    |            MSEG                      |MC14495_ZJU_7                              |    41|
+|45    |          HTS7                        |Hex2Seg_6                                  |    42|
+|46    |            MSEG                      |MC14495_ZJU                                |    42|
+|47    |    U7                                |CSSTE_SPIO_0_0                             |    36|
+|48    |    U8                                |CSSTE_clk_div_0_0                          |    42|
+|49    |      inst                            |clk_div                                    |    42|
+|50    |    U9                                |CSSTE_SAnti_jitter_0_0                     |    37|
+|51    |    b2_0                              |CSSTE_b64_0_0                              |     0|
+|52    |    b64_0                             |CSSTE_xlconstant_0_0                       |     0|
+|53    |    div1                              |CSSTE_xlslice_1_1                          |     0|
+|54    |    div11                             |CSSTE_xlslice_0_5                          |     0|
+|55    |    div20                             |CSSTE_xlslice_1_0                          |     0|
+|56    |    div25                             |CSSTE_div20_0                              |     0|
+|57    |    div31_31                          |CSSTE_xlconcat_0_0                         |     0|
+|58    |    div6                              |CSSTE_xlslice_0_3                          |     0|
+|59    |    div9                              |CSSTE_xlslice_0_4                          |     0|
+|60    |    sw0                               |CSSTE_div25_1                              |     0|
+|61    |    sw2                               |CSSTE_xlslice_0_1                          |     0|
+|62    |    sw7_5                             |CSSTE_div25_0                              |     0|
+|63    |    sw8                               |CSSTE_xlslice_0_2                          |     0|
+|64    |    sw9                               |CSSTE_xlslice_0_0                          |     0|
+|65    |    util_vector_logic_0               |CSSTE_util_vector_logic_0_0                |     1|
+|66    |    util_vector_logic_1               |CSSTE_util_vector_logic_1_0                |     1|
+|67    |    xlconcat_1                        |CSSTE_xlconcat_1_0                         |     0|
++------+--------------------------------------+-------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:20 ; elapsed = 00:03:26 . Memory (MB): peak = 970.582 ; gain = 662.676
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 6 critical warnings and 561 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:56 ; elapsed = 00:03:17 . Memory (MB): peak = 970.582 ; gain = 317.379
+Synthesis Optimization Complete : Time (s): cpu = 00:03:20 ; elapsed = 00:03:26 . Memory (MB): peak = 970.582 ; gain = 662.676
+INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_Counter_x_0_0/Counter_x.edf]
+Finished Parsing EDIF File [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_Counter_x_0_0/Counter_x.edf]
+Parsing EDIF File [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_MIO_BUS_0_0/MIO_BUS.edf]
+Finished Parsing EDIF File [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_MIO_BUS_0_0/MIO_BUS.edf]
+Parsing EDIF File [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_Multi_8CH32_0_0/Multi_8CH32.edf]
+Finished Parsing EDIF File [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_Multi_8CH32_0_0/Multi_8CH32.edf]
+Parsing EDIF File [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_SPIO_0_0/SPIO.edf]
+Finished Parsing EDIF File [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_SPIO_0_0/SPIO.edf]
+Parsing EDIF File [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_SAnti_jitter_0_0/SAnti_jitter.edf]
+Finished Parsing EDIF File [d:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.srcs/sources_1/bd/CSSTE/ip/CSSTE_SAnti_jitter_0_0/SAnti_jitter.edf]
+INFO: [Netlist 29-17] Analyzing 1390 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 128 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 704 instances were transformed.
+  AND2 => LUT2: 8 instances
+  AND3 => LUT3: 88 instances
+  AND4 => LUT4: 72 instances
+  INV => LUT1: 40 instances
+  OR2 => LUT2: 56 instances
+  OR3 => LUT3: 24 instances
+  OR4 => LUT4: 32 instances
+  RAM256X1S => RAM256X1S (inverted pins: WCLK) (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 128 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 128 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 128 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+246 Infos, 215 Warnings, 6 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:24 ; elapsed = 00:03:34 . Memory (MB): peak = 970.582 ; gain = 674.148
+INFO: [Common 17-1381] The checkpoint 'D:/ISE/vivado/OExp04/OExp02-IP2SOC/OExp02-IP2SOC.runs/synth_1/CSSTE_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file CSSTE_wrapper_utilization_synth.rpt -pb CSSTE_wrapper_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.239 . Memory (MB): peak = 970.582 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu May 20 19:05:01 2021...

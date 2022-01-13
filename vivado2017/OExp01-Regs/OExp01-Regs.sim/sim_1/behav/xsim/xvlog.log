@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp01-Regs/OExp01-Regs.srcs/sources_1/new/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp01-Regs/OExp01-Regs.srcs/sim_1/new/regs_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs_tb

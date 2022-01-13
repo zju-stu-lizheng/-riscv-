@@ -1,0 +1,52 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto e4914600e0c248398268cf951d7b93a9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_cpu_behav xil_defaultlib.tb_cpu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en_IDEX' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/9eb5/src/Pipeline_CPU.v:133]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en_EXMem' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/9eb5/src/Pipeline_CPU.v:209]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'valid_out_EXMem' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/9eb5/src/Pipeline_CPU.v:241]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en_MemWB' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/9eb5/src/Pipeline_CPU.v:265]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'valid_in_MemWB' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/9eb5/src/Pipeline_CPU.v:269]
+WARNING: [VRFC 10-5021] port 'MIO_ready' is not connected on this instance [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/9eb5/src/Instruction Decoder.v:68]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.scpu_sim_xlslice_0_0
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.scpu_sim_util_vector_logic_0_0
+Compiling module xil_defaultlib.scpu_sim_xlslice_0_1
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.add_32
+Compiling module xil_defaultlib.Pipeline_IF
+Compiling module xil_defaultlib.IF_reg_ID
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.SCPU_ctrl_more
+Compiling module xil_defaultlib.Pipeline_ID
+Compiling module xil_defaultlib.ID_reg_Ex
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Pipeline_EX
+Compiling module xil_defaultlib.Ex_reg_Mem
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.Pipeline_Mem
+Compiling module xil_defaultlib.Mem_reg_WB
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.Pipeline_WB
+Compiling module xil_defaultlib.stall
+Compiling module xil_defaultlib.Pipeline_CPU
+Compiling module xil_defaultlib.scpu_sim_Pipeline_CPU_0_0
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.scpu_sim_dist_mem_gen_0_0
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.scpu_sim_RAM_B_0
+Compiling module xil_defaultlib.scpu_sim
+Compiling module xil_defaultlib.scpu_sim_wrapper
+Compiling module xil_defaultlib.tb_cpu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_cpu_behav

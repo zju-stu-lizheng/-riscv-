@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../OExp01-seq_moore.srcs/sources_1/new/fibonacci.v" \
+"../../../../OExp01-seq_moore.srcs/sim_1/new/fibonacci_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,175 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.37089",
+   "Default View_TopLeft":"1602,325",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port RSTN -pg 1 -lvl 0 -x 0 -y 1960 -defaultsOSRD
+preplace port clk_100mhz -pg 1 -lvl 0 -x 0 -y 1980 -defaultsOSRD
+preplace port seg_clk -pg 1 -lvl 12 -x 3810 -y 1870 -defaultsOSRD
+preplace port seg_clrn -pg 1 -lvl 12 -x 3810 -y 1890 -defaultsOSRD
+preplace port SEG_PEN -pg 1 -lvl 12 -x 3810 -y 1910 -defaultsOSRD
+preplace port seg_sout -pg 1 -lvl 12 -x 3810 -y 1930 -defaultsOSRD
+preplace port HSYNC -pg 1 -lvl 12 -x 3810 -y 610 -defaultsOSRD
+preplace port VSYNC -pg 1 -lvl 12 -x 3810 -y 630 -defaultsOSRD
+preplace port led_clrn -pg 1 -lvl 12 -x 3810 -y 1620 -defaultsOSRD
+preplace port led_sout -pg 1 -lvl 12 -x 3810 -y 1640 -defaultsOSRD
+preplace port LED_PEN -pg 1 -lvl 12 -x 3810 -y 1580 -defaultsOSRD
+preplace port led_clk -pg 1 -lvl 12 -x 3810 -y 1600 -defaultsOSRD
+preplace portBus BTN_y -pg 1 -lvl 0 -x 0 -y 2020 -defaultsOSRD
+preplace portBus SW -pg 1 -lvl 0 -x 0 -y 2040 -defaultsOSRD
+preplace portBus Green -pg 1 -lvl 12 -x 3810 -y 670 -defaultsOSRD
+preplace portBus Red -pg 1 -lvl 12 -x 3810 -y 650 -defaultsOSRD
+preplace portBus Blue -pg 1 -lvl 12 -x 3810 -y 690 -defaultsOSRD
+preplace inst SAnti_jitter_0 -pg 1 -lvl 1 -x 140 -y 2000 -defaultsOSRD
+preplace inst clk_div_0 -pg 1 -lvl 3 -x 610 -y 1860 -defaultsOSRD
+preplace inst MIO_BUS_0 -pg 1 -lvl 6 -x 1670 -y 1540 -defaultsOSRD
+preplace inst Multi_8CH32_0 -pg 1 -lvl 10 -x 3140 -y 1430 -defaultsOSRD
+preplace inst Counter_x_0 -pg 1 -lvl 5 -x 1280 -y 1470 -defaultsOSRD
+preplace inst SPIO_0 -pg 1 -lvl 11 -x 3640 -y 1640 -defaultsOSRD
+preplace inst SSeg7_Dev_0 -pg 1 -lvl 11 -x 3640 -y 1900 -defaultsOSRD
+preplace inst ROM_B -pg 1 -lvl 6 -x 1670 -y 1240 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 4 -x 870 -y 1930 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 4 -x 870 -y 1480 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 9 -x 2700 -y 1150 -defaultsOSRD
+preplace inst DIV31_31 -pg 1 -lvl 9 -x 2700 -y 1590 -defaultsOSRD
+preplace inst B64_0 -pg 1 -lvl 9 -x 2700 -y 1380 -defaultsOSRD
+preplace inst B2_0 -pg 1 -lvl 8 -x 2420 -y 1160 -defaultsOSRD
+preplace inst SW7_5 -pg 1 -lvl 9 -x 2700 -y 1480 -defaultsOSRD
+preplace inst SW8 -pg 1 -lvl 2 -x 390 -y 2050 -defaultsOSRD
+preplace inst DIV1 -pg 1 -lvl 10 -x 3140 -y 1660 -defaultsOSRD
+preplace inst PC11_2 -pg 1 -lvl 5 -x 1280 -y 1240 -defaultsOSRD
+preplace inst PC31_2 -pg 1 -lvl 8 -x 2420 -y 220 -defaultsOSRD
+preplace inst SW2 -pg 1 -lvl 2 -x 390 -y 1830 -defaultsOSRD
+preplace inst SW0 -pg 1 -lvl 10 -x 3140 -y 2050 -defaultsOSRD
+preplace inst DIV6 -pg 1 -lvl 4 -x 870 -y 1600 -defaultsOSRD
+preplace inst DIV20 -pg 1 -lvl 10 -x 3140 -y 1950 -defaultsOSRD
+preplace inst DIV11 -pg 1 -lvl 4 -x 870 -y 1800 -defaultsOSRD
+preplace inst DIV9 -pg 1 -lvl 4 -x 870 -y 1700 -defaultsOSRD
+preplace inst DIV25 -pg 1 -lvl 10 -x 3140 -y 1850 -defaultsOSRD
+preplace inst RAM_Data -pg 1 -lvl 5 -x 1280 -y 1740 -defaultsOSRD
+preplace inst VGA_0 -pg 1 -lvl 11 -x 3640 -y 650 -defaultsOSRD
+preplace inst SW9 -pg 1 -lvl 2 -x 390 -y 1930 -defaultsOSRD
+preplace inst Pipeline_CPU_0 -pg 1 -lvl 7 -x 2070 -y 690 -defaultsOSRD
+preplace netloc RSTN_0_1 1 0 1 NJ 1960
+preplace netloc clk_0_1 1 0 11 20 1760 NJ 1760 490 1490 720 1340 NJ 1340 1460 1340 NJ 1340 2260J 1240 NJ 1240 2830J 1230 3420
+preplace netloc Key_y_0_1 1 0 1 NJ 2020
+preplace netloc SW_0_1 1 0 1 NJ 2040
+preplace netloc SAnti_jitter_0_rst 1 1 10 270 1770 500 1540 NJ 1540 1020 1330 1470 1330 1900 1360 NJ 1360 2580J 1320 2940 1210 3390
+preplace netloc SSeg7_Dev_0_seg_clk 1 11 1 NJ 1870
+preplace netloc SSeg7_Dev_0_seg_clrn 1 11 1 NJ 1890
+preplace netloc SSeg7_Dev_0_SEG_PEN 1 11 1 NJ 1910
+preplace netloc SSeg7_Dev_0_seg_sout 1 11 1 NJ 1930
+preplace netloc VGA_0_hs 1 11 1 NJ 610
+preplace netloc VGA_0_vs 1 11 1 NJ 630
+preplace netloc VGA_0_vga_g 1 11 1 NJ 670
+preplace netloc VGA_0_vga_r 1 11 1 NJ 650
+preplace netloc VGA_0_vga_b 1 11 1 NJ 690
+preplace netloc SPIO_0_led_clrn 1 11 1 NJ 1620
+preplace netloc SPIO_0_led_sout 1 11 1 NJ 1640
+preplace netloc SPIO_0_LED_PEN 1 11 1 NJ 1580
+preplace netloc SPIO_0_led_clk 1 11 1 NJ 1600
+preplace netloc SPIO_0_counter_set 1 4 8 1130 1650 1420J 1770 NJ 1770 NJ 1770 NJ 1770 NJ 1770 NJ 1770 3780
+preplace netloc SPIO_0_LED_out 1 5 7 1500 1760 NJ 1760 NJ 1760 NJ 1760 NJ 1760 NJ 1760 3790
+preplace netloc MIO_BUS_0_GPIOe0000000_we 1 6 4 1900 1390 2300J 1300 NJ 1300 NJ
+preplace netloc MIO_BUS_0_GPIOf0000000_we 1 6 5 1860 1690 NJ 1690 2520J 1730 NJ 1730 3460J
+preplace netloc MIO_BUS_0_counter_we 1 4 3 1110 1160 NJ 1160 1840
+preplace netloc MIO_BUS_0_data_ram_we 1 4 3 1090 1170 NJ 1170 1830
+preplace netloc MIO_BUS_0_Cpu_data4bus 1 6 4 1870 1380 2290J 1290 NJ 1290 2800
+preplace netloc MIO_BUS_0_Peripheral_in 1 4 7 1120 1320 NJ 1320 1880 1700 NJ 1700 NJ 1700 2980 1720 3470J
+preplace netloc MIO_BUS_0_ram_addr 1 4 3 1080 1150 NJ 1150 1850
+preplace netloc MIO_BUS_0_ram_data_in 1 4 3 1130 1830 NJ 1830 1830
+preplace netloc Net3 1 5 5 1430 1720 NJ 1720 NJ 1720 NJ 1720 2970
+preplace netloc dist_mem_gen_0_spo 1 6 5 1910 1350 2270J 1250 NJ 1250 2930 160 3280J
+preplace netloc xlconcat_0_dout 1 9 1 2870 1150n
+preplace netloc Multi_8CH32_0_Disp_num 1 10 1 3290 1410n
+preplace netloc Multi_8CH32_0_LE_out 1 10 1 3280 1430n
+preplace netloc Multi_8CH32_0_point_out 1 10 1 3270 1450n
+preplace netloc Counter_x_0_counter0_OUT 1 5 1 N 1440
+preplace netloc Counter_x_0_counter1_OUT 1 5 1 N 1460
+preplace netloc Counter_x_0_counter2_OUT 1 5 1 N 1480
+preplace netloc SAnti_jitter_0_BTN_OK 1 1 5 260J 1180 NJ 1180 NJ 1180 NJ 1180 1450
+preplace netloc SAnti_jitter_0_SW_OK 1 1 9 280 1310 NJ 1310 NJ 1310 NJ 1310 1440 1360 1890J 1370 NJ 1370 2530 2050 NJ
+preplace netloc SW2_Dout 1 2 1 490J 1830n
+preplace netloc SW8_Dout 1 2 1 490 1880n
+preplace netloc SW0_Dout 1 10 1 3380J 1970n
+preplace netloc SW7_5_Dout 1 9 1 2820J 1400n
+preplace netloc B64_0_dout 1 9 1 NJ 1380
+preplace netloc DIV_31_31 1 3 7 720 1860 NJ 1860 NJ 1860 1870J 1710 NJ 1710 2580 1710 2990
+preplace netloc DIV6_Dout 1 4 1 1030 1420n
+preplace netloc DIV9_Dout 1 4 1 1060 1440n
+preplace netloc DIV11_Dout 1 4 1 1070 1460n
+preplace netloc DIV31_31_dout 1 9 1 2960J 1560n
+preplace netloc DIV20_Dout 1 10 1 3490 1620n
+preplace netloc DIV1_Dout 1 10 1 3340J 60n
+preplace netloc DIV25_Dout 1 10 1 NJ 1850
+preplace netloc util_vector_logic_1_Res 1 4 1 1040J 1480n
+preplace netloc clk_div_0_Clk_CPU 1 3 4 710 680 NJ 680 NJ 680 N
+preplace netloc util_vector_logic_0_Res 1 4 7 1050 1840 1460J 1750 NJ 1750 NJ 1750 NJ 1750 2950 1740 3480J
+preplace netloc PC31_2_Dout 1 8 1 2570 220n
+preplace netloc PC11_2_Dout 1 5 1 NJ 1240
+preplace netloc B2_0_dout 1 8 1 NJ 1160
+preplace netloc Pipeline_CPU_0_PC_out_IF 1 4 7 1100 40 NJ 40 NJ 40 2280 130 NJ 130 2890 130 3300J
+preplace netloc Pipeline_CPU_0_PC_out_EX 1 7 4 2230J 110 NJ 110 NJ 110 3460
+preplace netloc Pipeline_CPU_0_PC_out_ID 1 7 4 NJ 120 NJ 120 NJ 120 3290
+preplace netloc Pipeline_CPU_0_inst_ID 1 7 4 2290J 160 NJ 160 2920J 170 3440
+preplace netloc Pipeline_CPU_0_Addr_out 1 5 6 1480 10 NJ 10 2250 80 NJ 80 2910 280 NJ
+preplace netloc Pipeline_CPU_0_Data_out_WB 1 7 4 2270J 90 NJ 90 NJ 90 3450
+preplace netloc Pipeline_CPU_0_Data_out 1 5 6 1490 20 NJ 20 2240 100 NJ 100 2880 260 NJ
+preplace netloc Pipeline_CPU_0_MemRW_Mem 1 5 6 1500 30 NJ 30 2260 150 NJ 150 NJ 150 3430
+preplace netloc Pipeline_CPU_0_MemRW_EX 1 7 4 2300J 140 NJ 140 NJ 140 3270
+preplace netloc RAM_Data_spo 1 5 1 1460 1660n
+preplace netloc Pipeline_CPU_0_x0 1 7 4 2240J 670 NJ 670 NJ 670 3300
+preplace netloc Pipeline_CPU_0_ra 1 7 4 2250J 650 NJ 650 NJ 650 3310
+preplace netloc Pipeline_CPU_0_sp 1 7 4 2290J 660 NJ 660 NJ 660 N
+preplace netloc Pipeline_CPU_0_gp 1 7 4 NJ 720 NJ 720 NJ 720 3270
+preplace netloc Pipeline_CPU_0_tp 1 7 4 NJ 740 NJ 740 NJ 740 3280
+preplace netloc Pipeline_CPU_0_t0 1 7 4 NJ 760 NJ 760 NJ 760 3290
+preplace netloc Pipeline_CPU_0_t1 1 7 4 NJ 780 NJ 780 NJ 780 3300
+preplace netloc Pipeline_CPU_0_t2 1 7 4 NJ 800 NJ 800 NJ 800 3310
+preplace netloc Pipeline_CPU_0_s0 1 7 4 NJ 820 NJ 820 NJ 820 3320
+preplace netloc Pipeline_CPU_0_s1 1 7 4 NJ 840 NJ 840 NJ 840 3330
+preplace netloc Pipeline_CPU_0_a0 1 7 4 NJ 860 NJ 860 NJ 860 3350
+preplace netloc Pipeline_CPU_0_a1 1 7 4 NJ 880 NJ 880 NJ 880 3360
+preplace netloc Pipeline_CPU_0_a2 1 7 4 NJ 900 NJ 900 NJ 900 3370
+preplace netloc Pipeline_CPU_0_a3 1 7 4 NJ 920 NJ 920 NJ 920 3380
+preplace netloc Pipeline_CPU_0_a4 1 7 4 NJ 940 NJ 940 NJ 940 3410
+preplace netloc Pipeline_CPU_0_a5 1 7 4 NJ 960 NJ 960 NJ 960 3430
+preplace netloc Pipeline_CPU_0_t6 1 7 4 N 1280 NJ 1280 2900J 1240 NJ
+preplace netloc Pipeline_CPU_0_t5 1 7 4 2230 1270 NJ 1270 2860J 1220 NJ
+preplace netloc Pipeline_CPU_0_t4 1 7 4 2240 1310 NJ 1310 2850J 1200 NJ
+preplace netloc Pipeline_CPU_0_t3 1 7 4 2250 1260 NJ 1260 2820J 1190 3490J
+preplace netloc Pipeline_CPU_0_s11 1 7 4 2260J 1230 NJ 1230 2810J 1180 3480
+preplace netloc Pipeline_CPU_0_s10 1 7 4 2300J 1100 2550J 1660 2840J 1170 3470
+preplace netloc Pipeline_CPU_0_s9 1 7 4 2290J 1090 2580J 1080 NJ 1080 3270
+preplace netloc Pipeline_CPU_0_s8 1 7 4 2280J 1220 NJ 1220 2800J 1160 3450
+preplace netloc Pipeline_CPU_0_s7 1 7 4 2280J 1080 2560J 1070 NJ 1070 3280
+preplace netloc Pipeline_CPU_0_s6 1 7 4 2260J 1070 2550J 1060 NJ 1060 N
+preplace netloc Pipeline_CPU_0_s5 1 7 4 2250J 1060 2540J 1050 NJ 1050 3490
+preplace netloc Pipeline_CPU_0_s4 1 7 4 2230J 1050 2530J 1040 NJ 1040 3480
+preplace netloc Pipeline_CPU_0_s3 1 7 4 NJ 1040 2520J 1030 NJ 1030 3470
+preplace netloc Pipeline_CPU_0_s2 1 7 4 NJ 1020 NJ 1020 NJ 1020 3460
+preplace netloc Pipeline_CPU_0_a7 1 7 4 NJ 1000 NJ 1000 NJ 1000 3450
+preplace netloc Pipeline_CPU_0_a6 1 7 4 NJ 980 NJ 980 NJ 980 3440
+preplace netloc Pipeline_CPU_0_valid_out_MemWB 1 7 4 NJ 620 NJ 620 NJ 620 3290
+preplace netloc Pipeline_CPU_0_inst_out_MemWB 1 7 4 NJ 600 NJ 600 NJ 600 3280
+preplace netloc Pipeline_CPU_0_PC_out_MemWB 1 7 4 NJ 580 NJ 580 NJ 580 3270
+preplace netloc Pipeline_CPU_0_valid_out_EXMem 1 7 4 NJ 540 NJ 540 NJ 540 N
+preplace netloc Pipeline_CPU_0_inst_out_EXMem 1 7 4 NJ 520 NJ 520 NJ 520 N
+preplace netloc Pipeline_CPU_0_PC_out_EXMem 1 7 4 NJ 500 NJ 500 NJ 500 N
+preplace netloc Pipeline_CPU_0_Imm_out_ID 1 7 4 NJ 460 NJ 460 NJ 460 3270
+preplace netloc Pipeline_CPU_0_Rs2_out_ID 1 7 4 NJ 440 NJ 440 NJ 440 3350
+preplace netloc Pipeline_CPU_0_Rs1_out_ID 1 7 4 2240J 410 NJ 410 NJ 410 3360
+preplace netloc Pipeline_CPU_0_Rs2_addr_ID 1 7 4 2280J 420 NJ 420 NJ 420 N
+preplace netloc Pipeline_CPU_0_Rs1_addr_ID 1 7 4 NJ 380 NJ 380 NJ 380 3350
+preplace netloc Pipeline_CPU_0_Rd_addr_out_ID 1 7 4 NJ 360 NJ 360 NJ 360 3360
+preplace netloc Pipeline_CPU_0_valid_out_IDEX 1 7 4 NJ 340 NJ 340 NJ 340 3400
+preplace netloc Pipeline_CPU_0_inst_out_IDEX 1 7 4 NJ 320 NJ 320 NJ 320 3410
+preplace netloc Pipeline_CPU_0_valid_IFID 1 7 4 NJ 280 NJ 280 2870J 290 3440
+preplace netloc SW9_Dout 1 2 1 500J 1900n
+levelinfo -pg 1 0 140 390 610 870 1280 1670 2070 2420 2700 3140 3640 3810
+pagesize -pg 1 -db -bbox -sgen -130 0 3930 2130
+"
+}
+0

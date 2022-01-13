@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Mar  4 20:44:33 2021
+# Process ID: 21776
+# Current directory: D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.runs/synth_1
+# Command line: vivado.exe -log OEXP01_muxctrl_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source OEXP01_muxctrl_wrapper.tcl
+# Log file: D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.runs/synth_1/OEXP01_muxctrl_wrapper.vds
+# Journal file: D:/ISE/vivado/OEXP00-muxctrl/OEXP00-muxctrl.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source OEXP01_muxctrl_wrapper.tcl -notrace

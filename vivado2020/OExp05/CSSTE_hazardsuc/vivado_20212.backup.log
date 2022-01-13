@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Jun  2 22:15:32 2021
+# Process ID: 20212
+# Current directory: D:/ISE/2020/OExp05/CSSTE_hazard01
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13868 D:\ISE\2020\OExp05\CSSTE_hazard01\SOC_NEW.xpr
+# Log file: D:/ISE/2020/OExp05/CSSTE_hazard01/vivado.log
+# Journal file: D:/ISE/2020/OExp05/CSSTE_hazard01\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ISE/2020/OExp05/CSSTE_hazard01/SOC_NEW.xpr
+INFO: [Project 1-313] Project file moved from 'D:/ISE/2020/OExp05/CSSTE_not_hazard_VGA' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp05/CSSTE_hazard01/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1075.773 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jun  2 23:43:14 2021...

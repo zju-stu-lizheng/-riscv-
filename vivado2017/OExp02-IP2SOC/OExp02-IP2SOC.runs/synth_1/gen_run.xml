@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7k160tffg676-2L" LaunchTime="1621426659">
+  <File Type="PA-TCL" Name="CSSTE_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="CSSTE_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="CSSTE_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="CSSTE_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="CSSTE_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="CSSTE_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="CSSTE_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="CSSTE_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="CSSTE_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/CSSTE/CSSTE.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/CSSTE/hdl/CSSTE_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vga_debugger.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../vga_debugger.mem"/>
+        <Attr Name="ImportTime" Val="1610696947"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/font_8x16.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../font_8x16.mem"/>
+        <Attr Name="ImportTime" Val="1610696881"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/COE/COE/I_mem_basic.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/COE/COE/D_mem.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/COE/I_mem.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../OExp04/OExp04-IP2SOC/COE/I_mem00.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CSSTE_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/OExp02-IP2SOC/Org-Sword.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/Org-Sword.xdc"/>
+        <Attr Name="ImportTime" Val="1614860519"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,979 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat May 15 22:18:19 2021" VIVADOVERSION="2017.4">
+
+  <SYSTEMINFO ARCH="kintex7" DEVICE="7k160t" NAME="datapath" PACKAGE="ffg676" SPEEDGRADE="-2L"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="0" NAME="Branch" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_Branch">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="AND3" PORT="Op1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="0" NAME="BranchN" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_BranchN">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="AND2" PORT="Op2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="2" NAME="ImmSel" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_ImmSel">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ImmGen_0" PORT="ImmSel"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="inst_field" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_inst_field">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Rs1" PORT="Din"/>
+        <CONNECTION INSTANCE="Rs2" PORT="Din"/>
+        <CONNECTION INSTANCE="Rs3" PORT="Din"/>
+        <CONNECTION INSTANCE="ImmGen_0" PORT="inst_field"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="1" NAME="MemtoReg" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_MemtoReg">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MUX4T1_32_0" PORT="s"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="31" NAME="Data_in" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_Data_in">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MUX4T1_32_0" PORT="I1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="clk"/>
+        <CONNECTION INSTANCE="PC" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="rst" SIGIS="rst" SIGNAME="External_Ports_rst">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="rst"/>
+        <CONNECTION INSTANCE="PC" PORT="rst"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="RegWrite" SIGIS="undef" SIGNAME="External_Ports_RegWrite">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="RegWrite"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="ALU_out" RIGHT="0" SIGIS="undef" SIGNAME="ALU_0_res">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_0" PORT="res"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="PC_out" RIGHT="0" SIGIS="undef" SIGNAME="PC_Q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="PC" PORT="Q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="Data_out" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_Rs2_data">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="Rs2_data"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="1" NAME="Jump" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_Jump">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MUX4T1_32_1" PORT="s"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="ALUSrc_B" SIGIS="undef" SIGNAME="External_Ports_ALUSrc_B">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="MUX2T1_32_1" PORT="sel"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="3" NAME="ALU_Control" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_ALU_Control">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="ALU_0" PORT="ALU_operation"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a0" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="a0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a1" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="a1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a2" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="a2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a3" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="a3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a4" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="a4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a5" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a5">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="a5"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a6" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a6">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="a6"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="a7" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a7">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="a7"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="gp" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_gp">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="gp"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="ra" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_ra">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="ra"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s0" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="s0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s1" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="s1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s10" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s10">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="s10"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s11" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s11">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="s11"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s2" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="s2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s3" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="s3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s4" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="s4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s5" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s5">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="s5"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s6" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s6">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="s6"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s7" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s7">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="s7"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s8" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s8">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="s8"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="s9" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s9">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="s9"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="sp" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_sp">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="sp"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t0" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="t0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t1" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="t1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t2" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="t2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t3" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="t3"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t4" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t4">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="t4"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t5" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t5">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="t5"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="t6" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t6">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="t6"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="tp" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_tp">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="tp"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="31" NAME="x0" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_x0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="regs_0" PORT="x0"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/ALU_0" HWVERSION="1.0" INSTANCE="ALU_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ALU" VLNV="xilinx.com:user:ALU:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_ALU_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="A" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_Rs1_data">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="regs_0" PORT="Rs1_data"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="B" RIGHT="0" SIGIS="undef" SIGNAME="MUX2T1_32_1_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX2T1_32_1" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="ALU_operation" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_ALU_Control">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ALU_Control"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="res" RIGHT="0" SIGIS="undef" SIGNAME="ALU_0_res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ALU_out"/>
+            <CONNECTION INSTANCE="MUX4T1_32_0" PORT="I0"/>
+            <CONNECTION INSTANCE="MUX4T1_32_1" PORT="I2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="zero" SIGIS="undef" SIGNAME="ALU_0_zero">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not1" PORT="Op1"/>
+            <CONNECTION INSTANCE="AND3" PORT="Op2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="overflow" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/AND2" HWVERSION="2.0" INSTANCE="AND2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="and"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_AND3_0"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_andgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="not1_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="not1" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_BranchN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BranchN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="AND2_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or2" PORT="Op2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/AND3" HWVERSION="2.0" INSTANCE="AND3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="and"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_not1_0"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_andgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_Branch">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Branch"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="ALU_0_zero">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_0" PORT="zero"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="AND3_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or2" PORT="Op1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/ImmGen_0" HWVERSION="1.0" INSTANCE="ImmGen_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ImmGen" VLNV="xilinx.com:user:ImmGen:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_ImmGen_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="2" NAME="ImmSel" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_ImmSel">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ImmSel"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="inst_field" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_inst_field">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="inst_field"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="Imm_out" RIGHT="0" SIGIS="undef" SIGNAME="ImmGen_0_Imm_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="add_32_1" PORT="b"/>
+            <CONNECTION INSTANCE="MUX2T1_32_1" PORT="I1"/>
+            <CONNECTION INSTANCE="MUX4T1_32_0" PORT="I3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/MUX2T1_32_0" HWVERSION="1.0" INSTANCE="MUX2T1_32_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MUX2T1_32" VLNV="xilinx.com:user:MUX2T1_32:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_MUX2T1_32_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="I0" RIGHT="0" SIGIS="undef" SIGNAME="add_32_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="add_32_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="I1" RIGHT="0" SIGIS="undef" SIGNAME="add_32_1_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="add_32_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="sel" SIGIS="undef" SIGNAME="or2_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="or2" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="MUX2T1_32_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX4T1_32_1" PORT="I0"/>
+            <CONNECTION INSTANCE="MUX4T1_32_1" PORT="I3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/MUX2T1_32_1" HWVERSION="1.0" INSTANCE="MUX2T1_32_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MUX2T1_32" VLNV="xilinx.com:user:MUX2T1_32:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_MUX2T1_32_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="I0" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_Rs2_data">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="regs_0" PORT="Rs2_data"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="I1" RIGHT="0" SIGIS="undef" SIGNAME="ImmGen_0_Imm_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ImmGen_0" PORT="Imm_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="sel" SIGIS="undef" SIGNAME="External_Ports_ALUSrc_B">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ALUSrc_B"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="MUX2T1_32_1_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_0" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/MUX4T1_32_0" HWVERSION="1.0" INSTANCE="MUX4T1_32_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MUX4T1_32" VLNV="xilinx.com:user:MUX4T1_32:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_MUX4T1_32_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="1" NAME="s" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_MemtoReg">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="MemtoReg"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="I0" RIGHT="0" SIGIS="undef" SIGNAME="ALU_0_res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_0" PORT="res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="I1" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_Data_in">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Data_in"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="I2" RIGHT="0" SIGIS="undef" SIGNAME="add_32_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="add_32_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="I3" RIGHT="0" SIGIS="undef" SIGNAME="ImmGen_0_Imm_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ImmGen_0" PORT="Imm_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="MUX4T1_32_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="regs_0" PORT="Wt_data"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/MUX4T1_32_1" HWVERSION="1.0" INSTANCE="MUX4T1_32_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="MUX4T1_32" VLNV="xilinx.com:user:MUX4T1_32:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_MUX4T1_32_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="1" NAME="s" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_Jump">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Jump"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="I0" RIGHT="0" SIGIS="undef" SIGNAME="MUX2T1_32_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX2T1_32_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="I1" RIGHT="0" SIGIS="undef" SIGNAME="add_32_1_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="add_32_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="I2" RIGHT="0" SIGIS="undef" SIGNAME="ALU_0_res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_0" PORT="res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="I3" RIGHT="0" SIGIS="undef" SIGNAME="MUX2T1_32_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX2T1_32_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="o" RIGHT="0" SIGIS="undef" SIGNAME="MUX4T1_32_1_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="PC" PORT="D"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/PC" HWVERSION="1.0" INSTANCE="PC" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="REG32" VLNV="xilinx.com:user:REG32:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_REG32_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="CE" SIGIS="undef" SIGNAME="VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="VCC" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="D" RIGHT="0" SIGIS="undef" SIGNAME="MUX4T1_32_1_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX4T1_32_1" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="Q" RIGHT="0" SIGIS="undef" SIGNAME="PC_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="PC_out"/>
+            <CONNECTION INSTANCE="add_32_0" PORT="b"/>
+            <CONNECTION INSTANCE="add_32_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/PC4" HWVERSION="1.1" INSTANCE="PC4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="32"/>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x00000004"/>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_xlconstant_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="31" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="PC4_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="add_32_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/Rs1" HWVERSION="1.0" INSTANCE="Rs1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="32"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="19"/>
+        <PARAMETER NAME="DIN_TO" VALUE="15"/>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_xlslice_0_0"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_inst_field">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="inst_field"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="4" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="Rs1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="regs_0" PORT="Rs1_addr"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/Rs2" HWVERSION="1.0" INSTANCE="Rs2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="32"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="24"/>
+        <PARAMETER NAME="DIN_TO" VALUE="20"/>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_Rs1_0"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_inst_field">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="inst_field"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="4" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="Rs2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="regs_0" PORT="Rs2_addr"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/Rs3" HWVERSION="1.0" INSTANCE="Rs3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="32"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="11"/>
+        <PARAMETER NAME="DIN_TO" VALUE="7"/>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_Rs1_1"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_inst_field">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="inst_field"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="4" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="Rs3_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="regs_0" PORT="Wt_addr"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/VCC" HWVERSION="1.1" INSTANCE="VCC" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_xlconstant_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="PC" PORT="CE"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/add_32_0" HWVERSION="1.0" INSTANCE="add_32_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="add_32" VLNV="xilinx.com:user:add_32:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_add_32_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="PC4_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="PC4" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="PC_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="PC" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="c" RIGHT="0" SIGIS="undef" SIGNAME="add_32_0_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX2T1_32_0" PORT="I0"/>
+            <CONNECTION INSTANCE="MUX4T1_32_0" PORT="I2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/add_32_1" HWVERSION="1.0" INSTANCE="add_32_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="add_32" VLNV="xilinx.com:user:add_32:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_add_32_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="31" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="PC_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="PC" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="ImmGen_0_Imm_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ImmGen_0" PORT="Imm_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="c" RIGHT="0" SIGIS="undef" SIGNAME="add_32_1_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX2T1_32_0" PORT="I1"/>
+            <CONNECTION INSTANCE="MUX4T1_32_1" PORT="I1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/not1" HWVERSION="2.0" INSTANCE="not1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="not"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_util_vector_logic_0_0"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_notgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="ALU_0_zero">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_0" PORT="zero"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="not1_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND2" PORT="Op1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/or2" HWVERSION="2.0" INSTANCE="or2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="util_vector_logic" VLNV="xilinx.com:ip:util_vector_logic:2.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="C_OPERATION" VALUE="or"/>
+        <PARAMETER NAME="C_SIZE" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_util_vector_logic_0_1"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="data/sym_orgate.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="Op1" RIGHT="0" SIGIS="undef" SIGNAME="AND3_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND3" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="Op2" RIGHT="0" SIGIS="undef" SIGNAME="AND2_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="AND2" PORT="Res"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Res" RIGHT="0" SIGIS="undef" SIGNAME="or2_Res">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX2T1_32_0" PORT="sel"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/regs_0" HWVERSION="1.0" INSTANCE="regs_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="regs" VLNV="xilinx.com:user:regs:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="datapath_regs_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="rst" SIGIS="rst" SIGNAME="External_Ports_rst">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="rst"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="RegWrite" SIGIS="undef" SIGNAME="External_Ports_RegWrite">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="RegWrite"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="4" NAME="Rs1_addr" RIGHT="0" SIGIS="undef" SIGNAME="Rs1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Rs1" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="4" NAME="Rs2_addr" RIGHT="0" SIGIS="undef" SIGNAME="Rs2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Rs2" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="4" NAME="Wt_addr" RIGHT="0" SIGIS="undef" SIGNAME="Rs3_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Rs3" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="31" NAME="Wt_data" RIGHT="0" SIGIS="undef" SIGNAME="MUX4T1_32_0_o">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="MUX4T1_32_0" PORT="o"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="Rs1_data" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_Rs1_data">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="ALU_0" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="Rs2_data" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_Rs2_data">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="Data_out"/>
+            <CONNECTION INSTANCE="MUX2T1_32_1" PORT="I0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="x0" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_x0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="x0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="ra" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_ra">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="ra"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="sp" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_sp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="sp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="gp" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_gp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="gp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="tp" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_tp">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="tp"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t0" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t1" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t2" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s0" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s1" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a0" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a1" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a2" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a3" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a4" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a5" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a6" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="a7" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_a7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s2" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s3" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s4" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s5" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s6" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s6"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s7" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s7">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s7"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s8" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s8">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s8"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s9" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s9">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s9"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s10" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s10">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s10"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="s11" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_s11">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="s11"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t3" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t4" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t4">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t4"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t5" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t5">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t5"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="31" NAME="t6" RIGHT="0" SIGIS="undef" SIGNAME="regs_0_t6">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="t6"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

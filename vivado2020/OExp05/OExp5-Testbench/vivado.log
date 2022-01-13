@@ -1,0 +1,581 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Jun  1 09:45:48 2021
+# Process ID: 22532
+# Current directory: D:/ISE/2020/OExp05/OExp5-Testbench
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11672 D:\ISE\2020\OExp05\OExp5-Testbench\OExp04-ExtSCPU.xpr
+# Log file: D:/ISE/2020/OExp05/OExp5-Testbench/vivado.log
+# Journal file: D:/ISE/2020/OExp05/OExp5-Testbench\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp05/OExp5-Testbench/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp05/OExp5-Testbench/Pipeline_SCPU'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:01:06 ; elapsed = 00:02:25 . Memory (MB): peak = 1411.785 ; gain = 0.000
+update_compile_order -fileset sources_1
+import_files -norecurse D:/ISE/2020/OExp05/OExp5-Testbench/h_mem.wcfg
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_cpu' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/I_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/I_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/scpu_sim_RAM_B_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/h.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/scpu_sim_dist_mem_gen_0_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/I_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/P.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_cpu_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ip/scpu_sim_dist_mem_gen_0_0/sim/scpu_sim_dist_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_dist_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ip/scpu_sim_RAM_B_0/sim/scpu_sim_RAM_B_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_RAM_B_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ip/scpu_sim_xlslice_0_0/sim/scpu_sim_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ip/scpu_sim_xlslice_0_1/sim/scpu_sim_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ip/scpu_sim_util_vector_logic_0_0/sim/scpu_sim_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Ex_reg_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ex_reg_Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/ID_reg_Ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_reg_Ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/IF_reg_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_reg_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Instruction Decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Instruction_Fetch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Mem_reg_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem_reg_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/SCPU_ctrl_more.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl_more
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/stall.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stall
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ip/scpu_sim_Pipeline_CPU_0_0/sim/scpu_sim_Pipeline_CPU_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_Pipeline_CPU_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/sim/scpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.srcs/sources_1/bd/scpu_sim/hdl/scpu_sim_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.srcs/sim_1/imports/sim/tb_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_cpu
+run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:13 . Memory (MB): peak = 1391.867 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '13' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim'
+"xelab -wto e4914600e0c248398268cf951d7b93a9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_cpu_behav xil_defaultlib.tb_cpu xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto e4914600e0c248398268cf951d7b93a9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_cpu_behav xil_defaultlib.tb_cpu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en_IDEX' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_CPU.v:133]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en_EXMem' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_CPU.v:209]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'valid_out_EXMem' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_CPU.v:241]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en_MemWB' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_CPU.v:265]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'valid_in_MemWB' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_CPU.v:269]
+WARNING: [VRFC 10-5021] port 'MIO_ready' is not connected on this instance [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Instruction Decoder.v:67]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.scpu_sim_xlslice_0_0
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.scpu_sim_util_vector_logic_0_0
+Compiling module xil_defaultlib.scpu_sim_xlslice_0_1
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.add_32
+Compiling module xil_defaultlib.Pipeline_IF
+Compiling module xil_defaultlib.IF_reg_ID
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.SCPU_ctrl_more
+Compiling module xil_defaultlib.Pipeline_ID
+Compiling module xil_defaultlib.ID_reg_Ex
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Pipeline_EX
+Compiling module xil_defaultlib.Ex_reg_Mem
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.Pipeline_Mem
+Compiling module xil_defaultlib.Mem_reg_WB
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.Pipeline_WB
+Compiling module xil_defaultlib.stall
+Compiling module xil_defaultlib.Pipeline_CPU
+Compiling module xil_defaultlib.scpu_sim_Pipeline_CPU_0_0
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.scpu_sim_dist_mem_gen_0_0
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.scpu_sim_RAM_B_0
+Compiling module xil_defaultlib.scpu_sim
+Compiling module xil_defaultlib.scpu_sim_wrapper
+Compiling module xil_defaultlib.tb_cpu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_cpu_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/xsim.dir/tb_cpu_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/xsim.dir/tb_cpu_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Jun  1 09:57:49 2021. For additional details about this file, please refer to the WebTalk help file at D:/Vivado/Vivado/2020.2/doc/webtalk_introduction.html.
+webtalk_transmit: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 99.270 ; gain = 17.613
+INFO: [Common 17-206] Exiting Webtalk at Tue Jun  1 09:57:49 2021...
+run_program: Time (s): cpu = 00:00:03 ; elapsed = 00:00:43 . Memory (MB): peak = 1391.867 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '42' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cpu_behav -key {Behavioral:sim_1:Functional:tb_cpu} -tclbatch {tb_cpu.tcl} -protoinst "protoinst_files/scpu_sim.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/scpu_sim.protoinst
+Time resolution is 1 ps
+source tb_cpu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+xsim: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1391.867 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cpu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:24 ; elapsed = 00:01:29 . Memory (MB): peak = 1391.867 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1391.867 ; gain = 0.000
+run 3600 ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1391.867 ; gain = 0.000
+run 3600 ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1391.867 ; gain = 0.000
+run 3600 ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID_REG_EX/NOP_IDEX}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID_REG_EX/valid_in_IDEX}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/Ex_REG_Mem/valid_in_EXMem}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1391.867 ; gain = 0.000
+run 3600 ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/Ex/PC_in_Ex}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1391.867 ; gain = 0.000
+run 3600 ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/Ex_REG_Mem/inst_in_EXMem}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1391.867 ; gain = 0.000
+run 3600 ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/IF_REG_ID/inst_out_IFID}} 
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/IF_REG_ID/valid_IFID}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1555.273 ; gain = 0.000
+run 3600 ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:20 . Memory (MB): peak = 1555.273 ; gain = 0.000
+close_project
+open_project D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.xpr
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp05/OExp5-Testbench/Pipeline_SCPU'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/Pipeline_SCPU'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:Pipeline_CPU:1.0'. The one found in IP location 'd:/ISE/2020/OExp05/OExp5-Testbench/Pipeline_SCPU' will take precedence over the same IP in location d:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/Pipeline_SCPU
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1555.273 ; gain = 0.000
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+[Tue Jun  1 10:43:11 2021] Launched synth_1...
+Run output will be captured here: D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/OExp5_3-Pipeline_CPU.runs/synth_1/runme.log
+ipx::package_project -root_dir D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/Pipeline_SCPU -vendor xilinx.com -library user -taxonomy /UserIP -import_files -set_current false -force
+INFO: [IP_Flow 19-5107] Inferred bus interface 'rst' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'rst'.
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+ipx::unload_core d:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/Pipeline_SCPU/component.xml
+ipx::edit_ip_in_project -upgrade true -name tmp_edit_project -directory D:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/Pipeline_SCPU d:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/Pipeline_SCPU/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2020.2/data/ip'.
+create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:28 . Memory (MB): peak = 1555.273 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp05/OExp5-Testbench/Pipeline_SCPU'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/Pipeline_SCPU'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:Pipeline_CPU:1.0'. The one found in IP location 'd:/ISE/2020/OExp05/OExp5-Testbench/Pipeline_SCPU' will take precedence over the same IP in location d:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/Pipeline_SCPU
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:38 . Memory (MB): peak = 1555.273 ; gain = 0.000
+current_project OExp5_3-Pipeline_CPU
+current_project tmp_edit_project
+ipx::add_bus_parameter ASSOCIATED_BUSIF [ipx::get_bus_interfaces clk -of_objects [ipx::current_core]]
+set_property core_revision 2 [ipx::current_core]
+ipx::update_source_project_archive -component [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::check_integrity [ipx::current_core]
+INFO: [IP_Flow 19-2181] Payment Required is not set for this core.
+INFO: [IP_Flow 19-2187] The Product Guide file is missing.
+INFO: [Ipptcl 7-1486] check_integrity: Integrity check passed.
+ipx::save_core [ipx::current_core]
+ipx::move_temp_component_back -component [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path d:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/Pipeline_SCPU
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'd:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/Pipeline_SCPU'
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:Pipeline_CPU:1.0'. The one found in IP location 'd:/ISE/2020/OExp05/OExp5-Testbench/Pipeline_SCPU' will take precedence over the same IP in location d:/ISE/2020/OExp05/OExp5_3-Pipeline_CPU/Pipeline_SCPU
+close_project
+open_project D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp05/OExp5-Testbench/IP'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/ISE/2020/OExp05/OExp5-Testbench/Pipeline_SCPU'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/Vivado/2020.2/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'scpu_sim.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+scpu_sim_Pipeline_CPU_0_0
+
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1555.273 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/Vivado/2020.2/data/xsim/xsim.ini' copied to run dir:'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_cpu' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/I_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/I_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/scpu_sim_RAM_B_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/h.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/scpu_sim_dist_mem_gen_0_0.mif'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/D_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/I_mem.coe'
+INFO: [SIM-utils-43] Exported 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim/P.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_cpu_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ip/scpu_sim_dist_mem_gen_0_0/sim/scpu_sim_dist_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_dist_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ip/scpu_sim_RAM_B_0/sim/scpu_sim_RAM_B_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_RAM_B_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ip/scpu_sim_xlslice_0_0/sim/scpu_sim_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ip/scpu_sim_xlslice_0_1/sim/scpu_sim_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ip/scpu_sim_util_vector_logic_0_0/sim/scpu_sim_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/AND.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AND
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Ex_reg_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Ex_reg_Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/ID_reg_Ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ID_reg_Ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/IF_reg_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IF_reg_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Instruction Decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Instruction_Fetch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_IF
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Mem_reg_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem_reg_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/OR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OR
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_Mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_Mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/SCPU_ctrl_more.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SCPU_ctrl_more
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/stall.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module stall
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Pipeline_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ip/scpu_sim_Pipeline_CPU_0_0/sim/scpu_sim_Pipeline_CPU_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_Pipeline_CPU_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/sim/scpu_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.srcs/sources_1/bd/scpu_sim/hdl/scpu_sim_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module scpu_sim_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.srcs/sim_1/imports/sim/tb_cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_cpu
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1555.273 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '8' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim'
+"xelab -wto e4914600e0c248398268cf951d7b93a9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_cpu_behav xil_defaultlib.tb_cpu xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto e4914600e0c248398268cf951d7b93a9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L dist_mem_gen_v8_0_13 -L xlslice_v1_0_2 -L util_vector_logic_v2_0_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_cpu_behav xil_defaultlib.tb_cpu xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en_IDEX' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_CPU.v:133]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en_EXMem' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_CPU.v:209]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'valid_out_EXMem' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_CPU.v:241]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en_MemWB' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_CPU.v:265]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'valid_in_MemWB' [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Pipeline_CPU.v:269]
+WARNING: [VRFC 10-5021] port 'MIO_ready' is not connected on this instance [D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.ip_user_files/bd/scpu_sim/ipshared/043a/src/Instruction Decoder.v:67]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xlslice_v1_0_2.xlslice_v1_0_2_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.scpu_sim_xlslice_0_0
+Compiling module util_vector_logic_v2_0_1.util_vector_logic_v2_0_1_util_ve...
+Compiling module xil_defaultlib.scpu_sim_util_vector_logic_0_0
+Compiling module xil_defaultlib.scpu_sim_xlslice_0_1
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.add_32
+Compiling module xil_defaultlib.Pipeline_IF
+Compiling module xil_defaultlib.IF_reg_ID
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.SCPU_ctrl_more
+Compiling module xil_defaultlib.Pipeline_ID
+Compiling module xil_defaultlib.ID_reg_Ex
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Pipeline_EX
+Compiling module xil_defaultlib.Ex_reg_Mem
+Compiling module xil_defaultlib.AND
+Compiling module xil_defaultlib.OR
+Compiling module xil_defaultlib.Pipeline_Mem
+Compiling module xil_defaultlib.Mem_reg_WB
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.Pipeline_WB
+Compiling module xil_defaultlib.stall
+Compiling module xil_defaultlib.Pipeline_CPU
+Compiling module xil_defaultlib.scpu_sim_Pipeline_CPU_0_0
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.scpu_sim_dist_mem_gen_0_0
+Compiling module dist_mem_gen_v8_0_13.dist_mem_gen_v8_0_13(C_FAMILY="k...
+Compiling module xil_defaultlib.scpu_sim_RAM_B_0
+Compiling module xil_defaultlib.scpu_sim
+Compiling module xil_defaultlib.scpu_sim_wrapper
+Compiling module xil_defaultlib.tb_cpu
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_cpu_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 1555.273 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '18' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/ISE/2020/OExp05/OExp5-Testbench/OExp04-ExtSCPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_cpu_behav -key {Behavioral:sim_1:Functional:tb_cpu} -tclbatch {tb_cpu.tcl} -protoinst "protoinst_files/scpu_sim.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/scpu_sim.protoinst
+Time resolution is 1 ps
+source tb_cpu.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_cpu_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:36 . Memory (MB): peak = 1555.273 ; gain = 0.000
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0}} 
+run 3600 ns
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1555.273 ; gain = 0.000
+run 3600 ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Rs1_out_ID}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Rs2_out_ID}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID_REG_EX/valid_out_IDEX}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID_REG_EX/inst_out_IDEX}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/IF_REG_ID/valid_IFID}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/IF_REG_ID/inst_out_IFID}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/Ex_REG_Mem/valid_out_EXMem}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/Ex_REG_Mem/inst_out_EXMem}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/Mem_REG_WB/valid_in_MemWB}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/Mem_REG_WB/inst_in_MemWB}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1555.273 ; gain = 0.000
+run 3600 ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/Mem_REG_WB/valid_out_MemWB}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/Mem_REG_WB/inst_out_MemWB}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1555.273 ; gain = 0.000
+run 3600 ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/stall_0/NOP_IFID}} 
+current_wave_config {Untitled 2}
+Untitled 2
+add_wave {{/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/stall_0/NOP_IDEX}} 
+restart
+INFO: [Simtcl 6-17] Simulation restarted
+restart: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1925.828 ; gain = 0.000
+run 3600 ns
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  1 11:26:30 2021...

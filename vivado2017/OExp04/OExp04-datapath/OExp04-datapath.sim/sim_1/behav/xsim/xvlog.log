@@ -1,0 +1,98 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ip/DataPath_xlconstant_0_0/sim/DataPath_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/2732/src/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ip/DataPath_ImmGen_0_0/sim/DataPath_ImmGen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_ImmGen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ip/DataPath_util_vector_logic_0_0/sim/DataPath_util_vector_logic_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_util_vector_logic_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/59fa/src/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ip/DataPath_add_32_0_0/sim/DataPath_add_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_add_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ip/DataPath_add_32_0_1/sim/DataPath_add_32_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_add_32_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ip/DataPath_xlslice_0_0/sim/DataPath_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ip/DataPath_xlslice_0_1/sim/DataPath_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ip/DataPath_xlslice_0_2/sim/DataPath_xlslice_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_xlslice_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/99ce/src/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ip/DataPath_regs_0_0/sim/DataPath_regs_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_regs_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ip/DataPath_xlconstant_0_1/sim/DataPath_xlconstant_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_xlconstant_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/9980/src/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ip/DataPath_REG32_0_0/sim/DataPath_REG32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_REG32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/src/and32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module and32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_and32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_and32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/ipstatic/xlslice_v1_0_1/xlslice_v1_0_vl_rfs.v" into library xlslice_v1_0_1
+INFO: [VRFC 10-311] analyzing module xlslice_v1_0_1_xlslice
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/src/xor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_xor32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xor32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/src/nor32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_nor32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_nor32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/src/MUX8T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_MUX8T1_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_MUX8T1_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/src/or_bit_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or_bit_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_or_bit_32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_or_bit_32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/ipstatic/xlconcat_v2_1_1/xlconcat_v2_1_vl_rfs.v" into library xlconcat_v2_1_1
+INFO: [VRFC 10-311] analyzing module xlconcat_v2_1_1_xlconcat
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_xor32_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xor32_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_xlslice_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlslice_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/ipstatic/xlconstant_v1_1_3/xlconstant_v1_1_vl_rfs.v" into library xlconstant_v1_1_3
+INFO: [VRFC 10-311] analyzing module xlconstant_v1_1_3_xlconstant
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_xlslice_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_xlslice_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/src/srl32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module srl32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_srl32_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_srl32_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/src/or32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module or32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_or32_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_or32_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/src/SignalExt_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SignalExt_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_SignalExt_32_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_SignalExt_32_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/src/ADC32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADC32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/sim/ALU_ADC32_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_ADC32_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ipshared/258b/src/ALU_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/ip/DataPath_ALU_wrapper_0_0/sim/DataPath_ALU_wrapper_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_ALU_wrapper_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.ip_user_files/bd/DataPath/sim/DataPath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.srcs/sources_1/bd/DataPath/hdl/DataPath_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataPath_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.srcs/sim_1/new/datapath_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/ISE/vivado/OExp04/OExp04-datapath/OExp04-datapath.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

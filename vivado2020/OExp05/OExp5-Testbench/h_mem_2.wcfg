@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_cpu_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_cpu" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="193254fs"></ZoomStartTime>
+      <ZoomEndTime time="299255fs"></ZoomEndTime>
+      <Cursor1Time time="265000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="177"></NameColumnWidth>
+      <ValueColumnWidth column_width="88"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="54" />
+   <wvobject fp_name="/tb_cpu/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/Data_in" type="array">
+      <obj_property name="ElementShortName">Data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst_IF" type="array">
+      <obj_property name="ElementShortName">inst_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/PC_out_EX" type="array">
+      <obj_property name="ElementShortName">PC_out_EX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out_EX[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/PC_out_ID" type="array">
+      <obj_property name="ElementShortName">PC_out_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst_ID" type="array">
+      <obj_property name="ElementShortName">inst_ID[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_ID[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/PC_out_IF" type="array">
+      <obj_property name="ElementShortName">PC_out_IF[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out_IF[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/Addr_out" type="array">
+      <obj_property name="ElementShortName">Addr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/Data_out" type="array">
+      <obj_property name="ElementShortName">Data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/Data_out_WB" type="array">
+      <obj_property name="ElementShortName">Data_out_WB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Data_out_WB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/MemRW_Mem" type="logic">
+      <obj_property name="ElementShortName">MemRW_Mem</obj_property>
+      <obj_property name="ObjectShortName">MemRW_Mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/MemRW_EX" type="logic">
+      <obj_property name="ElementShortName">MemRW_EX</obj_property>
+      <obj_property name="ObjectShortName">MemRW_EX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/Rs1_addr" type="array">
+      <obj_property name="ElementShortName">Rs1_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/Rs2_addr" type="array">
+      <obj_property name="ElementShortName">Rs2_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs2_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/Wt_addr" type="array">
+      <obj_property name="ElementShortName">Wt_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Wt_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/Wt_data" type="array">
+      <obj_property name="ElementShortName">Wt_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Wt_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/Rs1_data" type="array">
+      <obj_property name="ElementShortName">Rs1_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/Rs2_data" type="array">
+      <obj_property name="ElementShortName">Rs2_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs2_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/x0" type="array">
+      <obj_property name="ElementShortName">x0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">x0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/ra" type="array">
+      <obj_property name="ElementShortName">ra[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ra[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/sp" type="array">
+      <obj_property name="ElementShortName">sp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">sp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/gp" type="array">
+      <obj_property name="ElementShortName">gp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">gp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/tp" type="array">
+      <obj_property name="ElementShortName">tp[31:0]</obj_property>
+      <obj_property name="ObjectShortName">tp[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/t0" type="array">
+      <obj_property name="ElementShortName">t0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/t1" type="array">
+      <obj_property name="ElementShortName">t1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/t2" type="array">
+      <obj_property name="ElementShortName">t2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/s0" type="array">
+      <obj_property name="ElementShortName">s0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/s1" type="array">
+      <obj_property name="ElementShortName">s1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/a0" type="array">
+      <obj_property name="ElementShortName">a0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/a1" type="array">
+      <obj_property name="ElementShortName">a1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/a2" type="array">
+      <obj_property name="ElementShortName">a2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/a3" type="array">
+      <obj_property name="ElementShortName">a3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/a4" type="array">
+      <obj_property name="ElementShortName">a4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/a5" type="array">
+      <obj_property name="ElementShortName">a5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/a6" type="array">
+      <obj_property name="ElementShortName">a6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/a7" type="array">
+      <obj_property name="ElementShortName">a7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a7[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/s2" type="array">
+      <obj_property name="ElementShortName">s2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/s3" type="array">
+      <obj_property name="ElementShortName">s3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/s4" type="array">
+      <obj_property name="ElementShortName">s4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/s5" type="array">
+      <obj_property name="ElementShortName">s5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/s6" type="array">
+      <obj_property name="ElementShortName">s6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/s7" type="array">
+      <obj_property name="ElementShortName">s7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s7[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/s8" type="array">
+      <obj_property name="ElementShortName">s8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s8[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/s9" type="array">
+      <obj_property name="ElementShortName">s9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s9[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/s10" type="array">
+      <obj_property name="ElementShortName">s10[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s10[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/s11" type="array">
+      <obj_property name="ElementShortName">s11[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s11[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/t3" type="array">
+      <obj_property name="ElementShortName">t3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/t4" type="array">
+      <obj_property name="ElementShortName">t4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/t5" type="array">
+      <obj_property name="ElementShortName">t5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/t6" type="array">
+      <obj_property name="ElementShortName">t6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/register" type="array">
+      <obj_property name="ElementShortName">register[1:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[1:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_cpu/u/scpu_sim_i/Pipeline_CPU_0/inst/ID/Regs_0/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>
